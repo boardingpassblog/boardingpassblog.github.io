@@ -20,5 +20,5 @@ layout: soon
 </style>
 
 <div class="container">
-<img src="assets/images/comingsoon.jpg">
+<img src="assets/images/LOGO-BP.jpg">
 </div>
