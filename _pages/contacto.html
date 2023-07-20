@@ -1,0 +1,30 @@
+---
+layout: page
+title: Contacto
+permalink: /contacto/
+image: /assets/images/contact.jpg
+---
+
+<p class="mb-5">
+Desde <span class="font-weight-bold">BoardingPass.Network</span> creemos que las comunicaciones son la forma más efectiva 
+de unir a las personas, y cuando tenemos las mismas inquietudes resulta mucho más fácil.
+<br><br>
+Así que estamos muy contentos de tener tu mensaje, para darte una respuesta. 
+<br><br>
+Gracias por confiar en <span class="font-weight-bold">BoardingPass.Network</span>.
+</p>
+
+<form action="https://formspree.io/{{ site.contact-form }}" method="POST" class="row">
+  <div class="col-lg-6">
+    <input type="text" class="form-control mb-4" name="name" id="name" placeholder="Nombre">
+  </div>
+  <div class="col-lg-6">
+    <input type="email" class="form-control mb-4" name="_replyto" id="email" placeholder="Email">
+  </div>
+  <div class="col-12">
+    <textarea name="message" id="message" class="form-control mb-4" placeholder="Mensaje..."></textarea>
+  </div>
+  <div class="col-12">
+    <button class="btn btn-primary" type="submit">Enviar</button>
+  </div>
+</form>

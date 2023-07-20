@@ -1,0 +1,115 @@
+---
+layout: default
+---
+
+<!-- featured post -->
+<section>
+  <div class="container-fluid p-sm-0">
+    <div class="row featured-post-slider">
+      {% for post in site.posts %}
+      {% if post.featured == true %}
+      <div class="col-lg-3 col-sm-6 mb-2 mb-lg-0 px-1">
+        <article class="card bg-dark text-center text-white border-0 rounded-0">
+          <img class="card-img rounded-0 img-fluid w-100" src="{{post.image | relative_url}}" alt="{{post.title}}">
+          <div class="card-img-overlay">
+            <div class="card-content">
+              {% if post %}
+              {% assign categories = post.categories %}
+              {% else %}
+              {% assign categories = page.categories %}
+              {% endif %}
+              {% for category in categories %}
+              {% if forloop.last %}
+              <a class="mb-3 text-white text-uppercase"
+                href="{{ 'category/' | relative_url }}{{ category | slugify }}">{{ category }}</a>
+              {% else %}
+              <a class="mb-3 text-white text-uppercase"
+                href="{{ 'category/' | relative_url }}{{ category | slugify }}">{{ category }} /</a>
+              {% endif %}
+              {% endfor %}
+              <h4 class="card-title mb-4"><a class="text-white" href="{{ post.url | relative_url }}">{{post.title}}</a>
+              </h4>
+              <a class="btn btn-outline-light" href="{{ post.url | relative_url }}">Ver más...</a>
+            </div>
+          </div>
+        </article>
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<!-- /featured post -->
+
+{% 
+  include ads/banner.html 
+  content=site.data.ads.home  
+%}
+
+<div class="container maxw">
+  <div class="row">
+    <div class="col-lg-9">
+
+      <!-- Entérate -->
+      {% 
+        include index/section-posts.html 
+        content=site.data.sections.enterate 
+      %}
+      <!-- /Entérate -->
+
+{% 
+  include ads/banner.html 
+  content=site.data.ads.after-enterate  
+%}
+
+      <!-- Opinión -->
+      {% 
+        include index/section-posts.html 
+        content=site.data.sections.opinion 
+      %}
+      <!-- /Opinión -->
+
+{% 
+  include ads/banner.html 
+  content=site.data.ads.after-opinion  
+%}
+
+      <!-- Rutas -->
+      {% 
+        include index/section-posts.html 
+        content=site.data.sections.rutas 
+      %}
+      <!-- /Rutas -->
+
+{% 
+  include ads/banner.html 
+  content=site.data.ads.after-rutas  
+%}
+
+      <!-- Destinos -->
+      {% 
+        include index/section-posts.html 
+        content=site.data.sections.destinos 
+      %}
+      <!-- /Destinos -->
+    </div>
+
+    <div class="col-lg-3">
+      {% 
+        include ads/banner.html 
+        content=site.data.ads.sidebar-1  
+      %}
+      {% include recientes.html %}
+      {% 
+        include ads/banner.html 
+        content=site.data.ads.sidebar-2
+      %}
+      {% include secciones.html %}
+      {% 
+        include ads/banner.html 
+        content=site.data.ads.sidebar-3
+      %}
+    </div>
+  </div>
+</div>
+    

@@ -1,0 +1,19 @@
+enterate:
+  title: "Entérate"
+  category: "entérate"
+
+opinion:
+  title: "Opinión"
+  category: "opinión"
+
+rutas:
+  title: "Rutas"
+  category: "rutas"
+
+destinos:
+  title: "Destinos"
+  category: "destinos"
+
+directorio:
+  title: "Directorio"
+  category: "directorio"
