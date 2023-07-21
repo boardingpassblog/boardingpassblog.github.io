@@ -5,7 +5,7 @@ baseurl: "" # The subpath of your site, e.g. /blog
 url: "" # The base hostname & protocol for your site, e.g. http://example.com
 
 title: Boarding Pass
-logo: /assets/images/logo-bp.jpg
+logo: /assets/images/logo.jpg
 logo-small: /assets/images/boton-bp.jpg
 description: # Add your awesome description
 copyright: "Copyright © 2023 Boarding Pass."
