@@ -5,7 +5,9 @@
 
 <body>
   {% if site.google-analytics %}
-    {% include google-analytics.html %}
+  {% if jekyll.environment == 'production' %}
+  {% include google-analytics.html %}
+  {% endif %}
   {% endif %}
 
   {% if site.preloader == true %}
