@@ -6,8 +6,7 @@ author: Edgar Rincón
 published: true
 title: 'CTENE: 38 años en pro del acontecer turístico de la región neoespartana'
 description: 'CTENE: 38 años en pro del acontecer turístico de la región neoespartana'
-image: >-
-  https://raw.githubusercontent.com/boardingpassblog/page/main/assets/images/CTENE.jpg
+image: /assets/images/CTENE.jpg
 categories:
   - entérate
   - opinión

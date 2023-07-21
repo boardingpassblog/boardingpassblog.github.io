@@ -7,8 +7,7 @@ categories:
 author: Edgar Rincón
 published: true
 title: Laser Airlines informa su política de traslado de mascotas
-image: >-
-  https://raw.githubusercontent.com/boardingpassblog/page/main/assets/images/Pets.jpg
+image: /assets/images/Pets.jpg
 description: Laser Airlines informa su política de traslado de mascotas
 ---
 

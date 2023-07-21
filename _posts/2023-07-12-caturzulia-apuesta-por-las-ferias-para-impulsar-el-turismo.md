@@ -5,8 +5,7 @@ featured: false
 author: Edgar Rincón
 published: true
 title: CATURZULIA apuesta por las ferias para impulsar el turismo
-image: >-
-  https://raw.githubusercontent.com/boardingpassblog/page/main/assets/images/Maracaibo.jpg
+image: /main/assets/images/Maracaibo.jpg
 categories:
   - destinos
 description: CATURZULIA apuesta por las ferias para impulsar el turismo

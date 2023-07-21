@@ -5,8 +5,7 @@ featured: false
 author: Edgar Rincón
 published: true
 title: El pico Espejo en Mérida y su primera nevada de la temporada
-image: >-
-  https://raw.githubusercontent.com/boardingpassblog/page/main/assets/images/Merida-Nevada.jpg
+image: /assets/images/Merida-Nevada.jpg
 description: El pico Espejo en Mérida y su primera nevada de la temporada
 categories:
   - destinos

@@ -5,8 +5,7 @@ featured: false
 author: Edgar Rincón
 published: true
 title: El pasaporte venezolano aceptado sin visa en 69 países en el mundo
-image: >-
-  https://raw.githubusercontent.com/boardingpassblog/page/main/assets/images/pasaporte-Venezolano.jpg
+image: /assets/images/pasaporte-Venezolano.jpg
 description: El pasaporte venezolano acpetado sin visa en 69 países en el mundo
 categories:
   - opinión

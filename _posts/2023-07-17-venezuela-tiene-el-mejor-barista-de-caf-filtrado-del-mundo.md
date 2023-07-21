@@ -8,8 +8,7 @@ title: Venezuela tiene el mejor barista de café filtrado del mundo
 description: Venezuela tiene el mejor barista de café filtrado del mundo
 categories:
   - entérate
-image: >-
-  https://raw.githubusercontent.com/boardingpassblog/page/main/assets/images/Carlos-Medina.jpg
+image: /assets/images/Carlos-Medina.jpg
 ---
 
 Carlos Horacio Medina Isamit nació en Mérida, es ingeniero egresado la UCV y emigró a Chile, país al que representó en el World Brewers Cup Champion el pasado 3 de julio

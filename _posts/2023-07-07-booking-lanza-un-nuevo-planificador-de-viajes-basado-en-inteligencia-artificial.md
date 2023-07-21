@@ -10,8 +10,7 @@ title: Booking lanza planificador de viajes basado en I.A.
 description: >-
   Booking lanza un nuevo planificador de viajes basado en inteligencia
   artificial
-image: >-
-  https://raw.githubusercontent.com/boardingpassblog/page/main/assets/images/Mundo-Mano.jpg
+image: /assets/images/Mundo-Mano.jpg
 ---
 
 Booking.com ha anunciado el lanzamiento, en versión beta, de su nuevo Planificador de Viajes con IA. A partir del 28 de junio estará disponible en la aplicación de un grupo de viajeros estadounidenses Genius que han sido específicamente seleccionados.

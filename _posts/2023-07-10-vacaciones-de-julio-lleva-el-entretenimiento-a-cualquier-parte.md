@@ -5,8 +5,7 @@ featured: false
 author: Edgar Rincón
 published: true
 title: 'Vacaciones de julio: Lleva el entretenimiento a cualquier parte '
-image: >-
-  https://raw.githubusercontent.com/boardingpassblog/page/main/assets/images/Freestyle.jpg
+image: /assets/images/Freestyle.jpg
 description: 'Vacaciones de julio: Lleva el entretenimiento a cualquier parte '
 categories:
   - entérate

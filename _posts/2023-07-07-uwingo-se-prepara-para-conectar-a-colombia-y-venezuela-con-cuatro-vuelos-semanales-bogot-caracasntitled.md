@@ -11,8 +11,7 @@ author: Edgar Rincón
 published: true
 title: Wingo reactiva las  ventas de su ruta entre Bogotá y Caracas
 description: Wingo reactiva las  ventas de su ruta entre Bogotá y Caracas
-image: >-
-  https://raw.githubusercontent.com/boardingpassblog/page/main/assets/images/Eduardo-Lombana.jpg
+image: /assets/images/Eduardo-Lombana.jpg
 ---
 
 **Foto: Eduardo Lombana, CEO de Wingo**.

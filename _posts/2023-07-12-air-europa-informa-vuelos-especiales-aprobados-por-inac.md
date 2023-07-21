@@ -7,8 +7,7 @@ published: true
 title: Air Europa informa vuelos especiales aprobados por INAC
 categories:
   - entérate
-image: >-
-  https://raw.githubusercontent.com/boardingpassblog/page/main/assets/images/Air-Europa.jpg
+image: /assets/images/Air-Europa.jpg
 description: Air Europa informa vuelos especiales aprobados por INAC
 ---
 

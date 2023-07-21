@@ -5,8 +5,7 @@ featured: false
 author: Edgar Rincón
 published: true
 title: Copa Airlines inauguró rutas a Ecuador y Estados Unidos
-image: >-
-  https://raw.githubusercontent.com/boardingpassblog/page/main/assets/images/Copa-Manta.jpg
+image: /assets/images/Copa-Manta.jpg
 description: Copa Airlines inauguró rutas a Ecuador y Estados Unidos
 categories:
   - destinos

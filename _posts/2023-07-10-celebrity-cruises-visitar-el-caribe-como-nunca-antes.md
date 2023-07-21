@@ -5,8 +5,7 @@ featured: false
 author: Edgar Rincón
 published: true
 title: Celebrity Cruises® Visitará el Caribe como nunca antes
-image: >-
-  https://raw.githubusercontent.com/boardingpassblog/page/main/assets/images/celebrity-reflection.jpg
+image: /assets/images/celebrity-reflection.jpg
 description: Celebrity Cruises® Visitará el Caribe como nunca antes
 categories:
   - destinos

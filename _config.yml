@@ -148,7 +148,6 @@ prose:
   ignore: [
     '_layouts',
     '_includes',
-    '_data',
     '_site',
     '_pages',
     '.sass-cache',
@@ -160,7 +159,9 @@ prose:
     'CNAME',
     'robots.txt',
     'LICENSE',
-    'readme.md'
+    'readme.md',
+    'Gemfile',
+    'Gemfile.lock'
   ]
   siteurl: "https://boardingpass.network/page/"
   media: 'assets/images/contenido'

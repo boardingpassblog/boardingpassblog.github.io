@@ -8,8 +8,7 @@ categories:
 author: Edgar Rincón
 published: true
 title: Copa Airlines inaugura nueva ruta a Estados Unidos
-image: >-
-  https://raw.githubusercontent.com/boardingpassblog/page/main/assets/images/Austin.jpg
+image: /assets/images/Austin.jpg
 description: 'COPA AIRLINES INAUGURA NUEVA RUTA HACIA AUSTIN, TEXAS, ESTADOS UNIDOS'
 ---
 
