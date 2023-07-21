@@ -1,34 +1,34 @@
 home:
-  image: https://placehold.co/1400x150
+  image: https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/BP-1400x150.jpg
   alt: "Ad en el home"
   url: ""
 
 after-enterate:
-  image: https://placehold.co/900x100
+  image: https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/BP-900x100.jpg
   alt: "Ad después de entérate"
   url: ""
 
 after-opinion:
-  image: https://placehold.co/900x100
+  image: https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/BP-900x100.jpg
   alt: "Ad después de opinión"
   url: ""
 
 after-rutas:
-  image: https://placehold.co/900x100
+  image: https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/BP-900x100.jpg
   alt: "Ad después de rutas"
   url: ""
 
 sidebar-1:
-  image: https://placehold.co/300x300
+  image: https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/BP-300x300.jpg
   alt: "Ad sidebar 1"
   url: ""
 
 sidebar-2:
-  image: https://placehold.co/300x300
+  image: https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/BP-300x300.jpg
   alt: "Ad sidebar 2"
   url: ""
 
 sidebar-3:
-  image: https://placehold.co/300x300
+  image: https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/BP-300x300.jpg
   alt: "Ad sidebar 2"
   url: ""
