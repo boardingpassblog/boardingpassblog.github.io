@@ -5,12 +5,14 @@ permalink: /acerca/
 image: /assets/images/acerca.jpg
 ---
 
-<h3 class="font-weight-light">Hello, I’m <span class="font-weight-bold">{{site.author.name}}</span></h3>
+<h3 class="font-weight-light">Hola, somos <span class="font-weight-bold">{{site.author.name}}</span></h3>
 
-Creative UI/UX desingerr how loves to craft beautiful that satisfy users needs the product. A best idea generate for the agency complay smart and elegant design When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream; and, as I lie close to the earth, a thousand unknown plants are noticed by me.
+Nuestro principal objetivo es brindar una fuente confiable y segura de información a todos aquellos quienes deseen aventurarse a conocer el país, relacionarse con nuestra cultura, o simplemente traspasar nuestras fronteras para conocer nuevos horizontes.
 
-I hear the buzz of the little world among the stalks, and grow familiar with the countless indescribable forms of the insects and flies, then I feel the presence of the Almighty, who formed us in his own image, and the breath of that universal love which bears and sustains.
+Queremos abrir un canal de comunicación con los principales protagonistas del sector para que nuestra audiencia pueda obtener de primera mano las buenas nuevas y alternativas para hacer turismo.
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem deserunt tempora doloribus non, voluptas dolor? Consequuntur et ad officiis iste, vero natus possimus labore veritatis a eius doloremque. Optio amet quis harum nulla vitae repellat officiis veniam accusamus error hic deleniti in, quas est illum cum natus neque possimus delectus dolore ipsam. Pariatur, ad molestias alias voluptas iusto quam debitis beatae sint similique velit, dicta eos dolorum cumque mollitia officia iure labore voluptatibus. Non at sequi, natus dolores, cum accusamus repudiandae hic blanditiis ipsum possimus qui assumenda quaerat optio ab molestias ipsa iste molestiae dignissimos. Reprehenderit quod totam nostrum nihil.
+Queremos compartir experiencias valiosas que se conviertan en inspiración y motivos de viajes para otros.
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem deserunt tempora doloribus non, voluptas dolor? Consequuntur et ad officiis iste, vero natus possimus labore veritatis a eius doloremque. Optio amet quis harum nulla vitae repellat officiis veniam accusamus error hic deleniti in, quas est illum cum natus neque possimus delectus dolore ipsam. Pariatur, ad molestias alias voluptas iusto quam debitis beatae sint similique velit, dicta eos dolorum cumque mollitia officia iure labore voluptatibus. Non at sequi, natus dolores, cum accusamus repudiandae hic blanditiis ipsum possimus qui assumenda quaerat optio ab molestias ipsa iste molestiae dignissimos. Reprehenderit quod totam nostrum nihil.
+Finalmente, queremos reseñar lugares, actividades, ideas e interesantes productos autóctonos al viajero nacional y extranjero, que les sirva de referencia y conocimiento.
+ 
+Para esto, además de reseñar artículos, noticias y notas más relevantes, estamos elaborando un directorio completo que aglutine a todos los actores del área: Líneas Aéreas, Operadores, Mayoristas, Agencias de Viajes, Hospedaje y demás empresas de servicios para viajeros que permita a los cibernautas acceder a la información de forma más expedita.
