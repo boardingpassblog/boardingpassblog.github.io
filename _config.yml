@@ -205,17 +205,9 @@ prose:
           value: ""
       - name: author
         field:
-          element: select
-          label: Selecciona el autor
-          help: Puedes seleccionar sólo un autor
-          options:
-            - name: 'Edgar Rincón'
-              value: 'Edgar Rincón'
-            - name: 'Ana Iriza'
-              value: 'Ana Iriza'
-            - name: 'Alexandra Castillo'
-              value: 'Alexandra Castillo'
-          alterable: false      
+          element: text
+          label: Nombre del autor
+          value: ""
       - name: categories
         field:
           element: multiselect
