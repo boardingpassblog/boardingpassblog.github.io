@@ -100,7 +100,7 @@ accessToken: 4044026246.1677ed0.8896752506ed4402a0519d23b8f50a17
 
 #-------------------------------
 # Google Analytics
-google-analytics: # Add your identifier. For example UA-99631805-1.
+google-analytics: G-3PLT3KJYNC
 
 #-------------------------------
 # Build settings
