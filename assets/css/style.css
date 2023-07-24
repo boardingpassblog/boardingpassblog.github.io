@@ -26,7 +26,7 @@ body {
 
 p, .paragraph {
   font-weight: 400;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 1.5;
   font-family: "Open Sans", sans-serif;
 }
@@ -875,10 +875,20 @@ blockquote {
   padding-right: 30px;
 }
 
+.section {
+  padding-top: 45px;
+  padding-bottom: 45px;
+} 
+
 .astyle {
   color: #00ccb9;
   font-size: 50px;
   font-family: "hanskendrick";
   font-weight: 600;
   line-height: 1.2;
+}
+
+.pad-title {
+  padding-top: 40px;
+  padding-bottom: 20px;
 }

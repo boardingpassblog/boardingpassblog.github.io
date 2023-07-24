@@ -22,7 +22,7 @@ También indica que todo pasajero que viaje con mascota de apoyo emocional en ca
 
 El cobro de estos montos se realizará directamente en aeropuerto una vez verificada la documentación requerida para el traslado de la mascota en cabina. 
 
-- No aplica para pasajeros que viajen con lazarillos (queda exonerado el pago del servicio de traslado de mascota).
+No aplica para pasajeros que viajen con lazarillos (queda exonerado el pago del servicio de traslado de mascota).
 
 Todo pasajero que viaje con un canino en la ruta de La Romana con conexión posterior, debe cumplir con los requisitos del Centro para el Control y Prevención de Enfermedades (CDC).
 
