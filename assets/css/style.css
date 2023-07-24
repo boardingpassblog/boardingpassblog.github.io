@@ -874,4 +874,11 @@ blockquote {
   padding-left: 30px;
   padding-right: 30px;
 }
-/*# sourceMappingURL=maps/style.css.map */
+
+.astyle {
+  color: #00ccb9;
+  font-size: 50px;
+  font-family: "hanskendrick";
+  font-weight: 600;
+  line-height: 1.2;
+}
