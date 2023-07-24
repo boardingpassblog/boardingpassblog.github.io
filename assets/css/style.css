@@ -866,6 +866,10 @@ blockquote {
     max-width: 100%;
 }
 
+.w90 {
+  max-width: 90%;
+}
+
 .container {
   padding-left: 30px;
   padding-right: 30px;
