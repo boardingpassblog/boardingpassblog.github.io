@@ -16,3 +16,9 @@ Queremos compartir experiencias valiosas que se conviertan en inspiración y mot
 Finalmente, queremos reseñar lugares, actividades, ideas e interesantes productos autóctonos al viajero nacional y extranjero, que les sirva de referencia y conocimiento.
 
 Para esto, además de reseñar artículos, noticias y notas más relevantes, estamos elaborando un directorio completo que aglutine a todos los actores del área: Líneas Aéreas, Operadores, Mayoristas, Agencias de Viajes, Hospedaje y demás empresas de servicios para viajeros que permita a los cibernautas acceder a la información de forma más expedita.
+
+<h3 class="font-weight-light pt-3">Presentación corporativa</h3>
+
+{%
+ include carousel.html
+%}
