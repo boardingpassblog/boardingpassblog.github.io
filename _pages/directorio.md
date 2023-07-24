@@ -4,6 +4,13 @@ title: Directorio
 permalink: /directorio/
 ---
 
+{% 
+  include ads/banner.html 
+  content=site.data.ads.section-directorio
+%}
+
+{% include pages/title.html %}
+
 <!-- blog post -->
 <section class="section">
   <div class="container">

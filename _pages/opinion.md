@@ -4,6 +4,13 @@ title: Opinión
 permalink: /opinión/
 ---
 
+{% 
+  include ads/banner.html 
+  content=site.data.ads.section-opinion 
+%}
+
+{% include pages/title.html %}
+
 <!-- blog post -->
 <section class="section">
   <div class="container">

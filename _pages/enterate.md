@@ -4,6 +4,13 @@ title: Entérate
 permalink: /entérate/
 ---
 
+{% 
+  include ads/banner.html 
+  content=site.data.ads.section-enterate  
+%}
+
+{% include pages/title.html %}
+
 <!-- blog post -->
 <section class="section">
   <div class="container">
@@ -37,3 +44,4 @@ permalink: /entérate/
   </div>
 </section>
 <!-- /blog post -->
+

@@ -4,6 +4,13 @@ title: Rutas - Terrestre
 permalink: /rutas/terrestre/
 ---
 
+{% 
+  include ads/banner.html 
+  content=site.data.ads.section-terrestre  
+%}
+
+{% include pages/title.html %}
+
 <!-- blog post -->
 <section class="section">
   <div class="container">

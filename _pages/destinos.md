@@ -4,6 +4,13 @@ title: Destinos
 permalink: /destinos/
 ---
 
+{% 
+  include ads/banner.html 
+  content=site.data.ads.section-destinos 
+%}
+
+{% include pages/title.html %}
+
 <!-- blog post -->
 <section class="section">
   <div class="container">

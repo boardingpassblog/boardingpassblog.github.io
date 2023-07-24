@@ -4,6 +4,13 @@ title: Rutas - Marítima
 permalink: /rutas/maritima/
 ---
 
+{% 
+  include ads/banner.html 
+  content=site.data.ads.section-maritima  
+%}
+
+{% include pages/title.html %}
+
 <!-- blog post -->
 <section class="section">
   <div class="container">

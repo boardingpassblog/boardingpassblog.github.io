@@ -1,34 +1,74 @@
 home:
-  image: https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/BP-1400x150.jpg
+  image: /assets/images/BP-1400x150.jpg
   alt: "Ad en el home"
   url: ""
 
+section-enterate:
+  image: /assets/images/BP-1400x150.jpg
+  alt: "Ad en la sección de Entérate"
+  url: ""
+
+section-destinos:
+  image: /assets/images/BP-1400x150.jpg
+  alt: "Ad en la sección de Destinos"
+  url: ""
+
+section-opinion:
+  image: /assets/images/BP-1400x150.jpg
+  alt: "Ad en la sección de Opinión"
+  url: ""
+
+section-directorio:
+  image: /assets/images/BP-1400x150.jpg
+  alt: "Ad en la sección de Directorio"
+  url: ""
+
+section-vips:
+  image: /assets/images/BP-1400x150.jpg
+  alt: "Ad en la sección de VIPs"
+  url: ""
+
+section-aerea:
+  image: /assets/images/BP-1400x150.jpg
+  alt: "Ad en la sección de Aerea"
+  url: ""
+
+section-maritima:
+  image: /assets/images/BP-1400x150.jpg
+  alt: "Ad en la sección de Marítica"
+  url: ""
+
+section-terrestre:
+  image: /assets/images/BP-1400x150.jpg
+  alt: "Ad en la sección de Terrestre"
+  url: ""
+
 after-enterate:
-  image: https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/BP-900x100.jpg
+  image: /assets/images/BP-900x100.jpg
   alt: "Ad después de entérate"
   url: ""
 
 after-opinion:
-  image: https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/BP-900x100.jpg
+  image: /assets/images/BP-900x100.jpg
   alt: "Ad después de opinión"
   url: ""
 
 after-rutas:
-  image: https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/BP-900x100.jpg
+  image: /assets/images/BP-900x100.jpg
   alt: "Ad después de rutas"
   url: ""
 
 sidebar-1:
-  image: https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/BP-300x300.jpg
+  image: /assets/images/BP-300x300.jpg
   alt: "Ad sidebar 1"
   url: ""
 
 sidebar-2:
-  image: https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/BP-300x300.jpg
+  image: /assets/images/BP-300x300.jpg
   alt: "Ad sidebar 2"
   url: ""
 
 sidebar-3:
-  image: https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/BP-300x300.jpg
+  image: /assets/images/BP-300x300.jpg
   alt: "Ad sidebar 2"
   url: ""

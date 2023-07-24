@@ -4,6 +4,13 @@ title: Rutas - Aérea
 permalink: /rutas/aerea/
 ---
 
+{% 
+  include ads/banner.html 
+  content=site.data.ads.section-aerea  
+%}
+
+{% include pages/title.html %}
+
 <!-- blog post -->
 <section class="section">
   <div class="container">
