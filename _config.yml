@@ -203,6 +203,21 @@ prose:
           element: text
           label: Indica la ruta de la imagen de la publicación
           value: ""
+      - name: banner-image
+        field: 
+          element: text
+          label: Indica la ruta del banner
+          value: ""
+      - name: banner-alt
+        field: 
+          element: text
+          label: Indica el texto alternativo del banner
+          value: ""
+      - name: banner-url
+        field: 
+          element: text
+          label: Indica el link del banner
+          value: ""
       - name: author
         field:
           element: text
