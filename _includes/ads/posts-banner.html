@@ -1,8 +1,13 @@
 <div class="container maxw">
  <div class="row">
   <div class="col-md-12 col-sm-12 my-4">
-   <a href="{{include.content.url}}/"><img src="{{include.content.image | relative_url}}" alt="{{include.content.alt}}"
+  {% if page.banner-image %}
+   <a href="{{page.banner-url}}/"><img src="{{page.banner-image | relative_url}}" alt="{{page.banner-alt}}"
      class="img-fluid center"></a>
+  {% else %}
+  <a href="{{site.data.ads.default-posts-banner.url}}/"><img src="{{site.data.ads.default-posts-banner.image | relative_url}}" alt="{{site.data.ads.default-posts-banner.alt}}"
+    class="img-fluid center"></a>
+  {% endif %}
   </div>
  </div>
 </div>

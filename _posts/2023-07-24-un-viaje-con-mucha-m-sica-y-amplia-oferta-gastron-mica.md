@@ -5,8 +5,7 @@ featured: false
 published: true
 ruta: vips
 title: Un viaje con mucha música y amplia oferta gastronómica
-image: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Orlando.jpg
+image: /assets/images/Orlando.jpg
 description: Un viaje con mucha música y amplia oferta gastronómica
 author: 'Edelman Colombia '
 categories:

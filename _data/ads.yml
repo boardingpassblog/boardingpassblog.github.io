@@ -3,6 +3,11 @@ home:
   alt: "Ad en el home"
   url: ""
 
+default-posts-banner:
+  image: /assets/images/BP-1400x150.jpg
+  alt: "Banner por omisión para publicaciones"
+  url: ""
+
 section-enterate:
   image: /assets/images/BP-1400x150.jpg
   alt: "Ad en la sección de Entérate"

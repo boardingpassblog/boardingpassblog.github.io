@@ -5,8 +5,7 @@ featured: false
 published: true
 ruta: maritima
 title: La oferta de embarcaciones en Venezuela
-image: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Yates.jpg
+image: /assets/images/Yates.jpg
 author: Náutica Sales
 description: La oferta de embarcaciones en Venezuela
 categories:

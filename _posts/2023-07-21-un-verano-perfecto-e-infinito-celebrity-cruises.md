@@ -5,8 +5,7 @@ featured: false
 published: true
 ruta: maritima
 title: 'Un verano perfecto e infinito: CELEBRITY CRUISES'
-image: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Celebrity-Cruices.jpg
+image: /assets/images/Celebrity-Cruices.jpg
 description: 'Un verano perfecto e infinito: CELEBRITY CRUISES'
 author: Celebrity Cruises Press Center
 categories:
