@@ -5,6 +5,8 @@ permalink: /acerca/
 image: /assets/images/acerca.jpg
 ---
 
+{% include pages/title.html %}
+
 <h3 class="font-weight-light">Hola, somos <span class="font-weight-bold">{{site.author.name}}</span></h3>
 
 Nuestro principal objetivo es brindar una fuente confiable y segura de información a todos aquellos quienes deseen aventurarse a conocer el país, relacionarse con nuestra cultura, o simplemente traspasar nuestras fronteras para conocer nuevos horizontes.

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: section
 title: Rutas - Marítima
 permalink: /rutas/maritima/
 ---

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: section
 title: Entérate
 permalink: /entérate/
 ---

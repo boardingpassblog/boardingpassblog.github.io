@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: section
 title: Rutas - VIP's
 permalink: /rutas/vips/
 ---

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: section
 title: Rutas - Terrestre
 permalink: /rutas/terrestre/
 ---
