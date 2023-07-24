@@ -14,5 +14,5 @@ Queremos abrir un canal de comunicación con los principales protagonistas del s
 Queremos compartir experiencias valiosas que se conviertan en inspiración y motivos de viajes para otros.
 
 Finalmente, queremos reseñar lugares, actividades, ideas e interesantes productos autóctonos al viajero nacional y extranjero, que les sirva de referencia y conocimiento.
- 
+
 Para esto, además de reseñar artículos, noticias y notas más relevantes, estamos elaborando un directorio completo que aglutine a todos los actores del área: Líneas Aéreas, Operadores, Mayoristas, Agencias de Viajes, Hospedaje y demás empresas de servicios para viajeros que permita a los cibernautas acceder a la información de forma más expedita.
