@@ -961,8 +961,7 @@ blockquote {
 
 .wrap {
   float: left; 
-  margin-right: 15px;
-  margin-bottom: 1px;
+  margin: 15px;
  }
 
  .w-60 {
@@ -986,6 +985,9 @@ blockquote {
  }
 
 .image-holder {
+  float: left; 
+  margin-right: 15px;
+  margin-bottom: 1px;
 }
 
 .image-holder .img-caption {
