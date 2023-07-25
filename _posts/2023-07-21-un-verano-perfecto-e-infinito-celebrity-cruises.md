@@ -11,6 +11,7 @@ author: Celebrity Cruises Press Center
 categories:
   - rutas
 ---
+
 Celebrity Cruises , la galardonada línea de cruceros premium con una flota global de 16 resorts en el mar que lleva a los huéspedes a más de 300 destinos en todo el mundo en los siete continentes, se complace en anunciar un programa caribeño renovado para la temporada de verano de 2024. A partir del próximo abril, los amantes del sol, la playa y la relajación podrán disfrutar del Caribe como nunca antes a bordo de dos barcos galardonados, Celebrity Beyond SM y Celebrity Reflection ®, a medida que comienzan a llamar hogar a los trópicos. El nuevo programa no solo duplica el número de viajes al Caribe durante todo el año de la marca e introduce los primeros itinerarios de fin de semana, sino que ambos barcos ahora ofrecerán a los huéspedes la emocionante oportunidad de experimentar Perfect Day en CocoCay por primera vez en la historia .
 
 “Nuestros clientes constantemente piden más oportunidades para visitar esta impresionante región durante todo el año, tienen más opciones de fin de semana para que puedan escaparse más fácilmente y han expresado su deseo de un destino en una isla privada. Al presentar este nuevo programa, podemos satisfacer esta demanda y ofrecer algo nuevo e histórico a todos nuestros huéspedes”, dice Laura Hodges Bethge, presidenta de Celebrity Cruises. “Perfect Day es un destino como ningún otro, y nos sentimos honrados de agregarlo a nuestra cartera”.   

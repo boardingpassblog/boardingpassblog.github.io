@@ -12,16 +12,19 @@ published: true
 title: Wingo reactiva las  ventas de su ruta entre Bogotá y Caracas
 description: Wingo reactiva las  ventas de su ruta entre Bogotá y Caracas
 image: /assets/images/Eduardo-Lombana.jpg
+image-text: "Foto: Eduardo Lombana, CEO de Wingo"
 ---
 
-**Foto: Eduardo Lombana, CEO de Wingo**.
- 
-- La ruta será operada tres veces por semana y tendrá su primer despegue el próximo 25 de julio.
-- Wingo se convierte en la segunda aerolínea colombiana en ofrecer vuelos hacia el vecino  país.
-- La aerolínea ofrecerá un producto competitivo con sus aeronaves Boeing 737 – 800 NG, con capacidad para 186 viajeros.
-- Las tarifas inician en los USD 199 por trayecto e incluye un artículo personal y una maleta de  23 kilos.
+La ruta será operada tres veces por semana y tendrá su primer despegue el próximo 25 de julio.
 
-Wingo ha retomado la venta de sus vuelos entre Bogotá y Caracas. Los itinerarios ya están disponibles para su compra a través de Wingo.com. La reactivación en las ventas de esta ruta se produce tras la obtención de los permisos finales de comercialización por parte del INAC de Venezuela y la Aerocivil de Colombia.
+Wingo se convierte en la segunda aerolínea colombiana en ofrecer vuelos hacia el vecino  país.
+La aerolínea ofrecerá un producto competitivo con sus aeronaves Boeing 737 – 800 NG, con capacidad para 186 viajeros.
+
+Las tarifas inician en los USD 199 por trayecto e incluye un artículo personal y una maleta de  23 kilos.
+
+Wingo ha retomado la venta de sus vuelos entre Bogotá y Caracas. Los itinerarios ya están disponibles para su compra a través de Wingo.com. 
+
+La reactivación en las ventas de esta ruta se produce tras la obtención de los permisos finales de comercialización por parte del INAC de Venezuela y la Aerocivil de Colombia.
 
 La aerolínea celebra esta decisión institucional de ambos Gobiernos que permite avanzar en el restablecimiento de la conectividad aérea entre ambos territorios, lo cual redunda en más alternativas de movilidad para los ciudadanos. Wingo reitera su compromiso en ser un actor relevante que contribuya con la reactivación de la actividad comercial y turística entre estas dos naciones hermanas.
 

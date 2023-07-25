@@ -11,6 +11,7 @@ description: La oferta de embarcaciones en Venezuela
 categories:
   - rutas
 ---
+
 En BoardingPass.Network queremos ofrecer más alternativas para los amantes de la libertad y el disfrute al aire libre.
 
 En Venezuela existe una compañia que ofrece venta y alquiler de botes y yates en diferentes puertos de país, en adición, tambien las personas que poseen embarcaciones pueden ser ofrecidas en su portal, y como ellos definen que "la venta de cualquier embarcación exige el conocimiento práctico, técnico y legal que desde [Nautica Sales](https://nauticasales.com/) te ofrecemos".

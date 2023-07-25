@@ -195,6 +195,11 @@ prose:
           element: text
           label: Indica la ruta de la imagen de la publicación
           value: ""
+      - name: image-text
+        field: 
+          element: text
+          label: Indica el texto que describe la foto
+          value: ""
       - name: banner-image
         field: 
           element: text
