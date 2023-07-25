@@ -9,6 +9,8 @@ image: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Conviasa-Aviones.jpg
 description: Los paquetes “full day” a Los Roques de Conviasa
 author: viajesboletin.com
+categories:
+  - destinos
 ---
 Conviasa tiene tres tipos de paquetes «full day» para el archipiélago Los Roques, que se adaptan al gusto de cada persona.
 
