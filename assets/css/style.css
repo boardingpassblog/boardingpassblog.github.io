@@ -935,3 +935,15 @@ blockquote {
  .w-40 {
   width: 40%;
  }
+
+ .carousel-control-prev {
+  opacity: 1;
+  width: 0%;
+  left: -10px;
+ }
+
+ .carousel-control-next {
+  opacity: 1;
+  width: 0%;
+  right: -10px;
+ }
