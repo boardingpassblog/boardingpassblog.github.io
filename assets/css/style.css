@@ -46,6 +46,18 @@ h1, .h1 {
   h1, .h1 {
     font-size: 55px;
   }
+  .card-text {
+    line-height: 1;
+    font-size: 18px;
+  }
+  .card-content {
+    bottom: 10px !important;
+    padding: 15px !important;
+  } 
+  .card-title {
+    font-size: 5px;
+    margin-bottom: 10px !important;
+  }
 }
 
 h2, .h2 {

@@ -27,7 +27,7 @@ layout: default
                 href="{{ 'category/' | relative_url }}{{ category | slugify }}">{{ category }} /</a>
               {% endif %}
               {% endfor %}
-              <h4 class="card-title mb-4"><a class="text-white" href="{{ post.url | relative_url }}">{{post.title}}</a>
+              <h4 class="card-title mb-4"><a class="text-white card-text" href="{{ post.url | relative_url }}">{{post.title}}</a>
               </h4>
               <a class="btn btn-outline-light" href="{{ post.url | relative_url }}">Ver más...</a>
             </div>
