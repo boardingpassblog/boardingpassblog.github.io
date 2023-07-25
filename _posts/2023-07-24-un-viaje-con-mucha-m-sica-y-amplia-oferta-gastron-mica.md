@@ -22,6 +22,8 @@ Durante los próximos meses, la ciudad contará con una diversidad de shows de g
 
 Este tipo de opciones prueban que el destino va mucho más allá de los parques temáticos y refuerza el excelente repertorio de actividades enfocadas en el arte y el enriquecimiento cultural. ¡Consulta la agenda!
 
+<br>
+
 **Festivales en Orlando**
 
 **Glo Summer Nights at Grande Lakes Orlando**
@@ -35,7 +37,7 @@ Además de las diversas atracciones del parque, incluyendo la primera montaña r
 **Come Out With Pride Orlando**
 
 Pioneros en el turismo LGTBQIA+ desde las primeras ediciones de “Gay Days”, creado en 1991, y siendo uno de los destinos vencedores de “Gay Travel Awards” de 2022, Orlando promueve la inclusión a través de sus eventos, vida nocturna y actividades que acogen a toda la comunidad. Por la misma razón, ¿qué tal ser parte de las celebraciones del festival Come Out With Pride que se conmemora el 21 de octubre? Esta es una fecha festiva que cuenta con una la agenda que incluye presentaciones de varios artistas en tres escenarios instalados alrededor de la ciudad, además de un desfile lleno de colores que finaliza con un espectáculo de fuegos artificiales.
- 
+
 Para los apasionados por la música, a continuación, encuentran la lista de shows de artistas nacionales (EEUU) e internacionales para los próximos meses en Orlando: 
 
 - Sam Smith (26 de julio)
