@@ -80,14 +80,6 @@ contact:
 # Contact Form
 contact-form: contacto@boardingpass.network
 
-# Social links
-social:
-  - { icon: "ti-instagram", link: "https://instagram.com/tuboarding" }
-  - { icon: "ti-twitter-alt", link: "https://twitter.com/tuboarding" }
-  - { icon: "ti-facebook", link: "https://www.facebook.com/tuboarding" }
-#  - { icon: "ti-linkedin", link: "#" }
-  - { icon: "ti-github", link: "https://github.com/boardingpassblog" }
-
 #-------------------------------
 # Comment Section (Disqus)
 disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
