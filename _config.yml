@@ -10,7 +10,7 @@ logo-small: /assets/images/boton-bp.jpg
 description: # Add your awesome description
 copyright: "Copyright © 2023 Boarding Pass."
 # Preloader
-preloader: true # To disable preloader change value to false
+preloader: false # To disable preloader change value to false
 
 locale: "es-ES"
 timezone: America/Caracas
