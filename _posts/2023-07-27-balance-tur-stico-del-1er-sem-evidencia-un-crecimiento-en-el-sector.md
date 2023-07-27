@@ -4,7 +4,7 @@ date: '2023-07-27 14:00 -0400'
 featured: true
 published: true
 ruta: vips
-title: Balance turístico del 1er sem evidencia un crecimiento en el sector
+title: Balance turístico del 1er semestre evidencia un crecimiento en el sector
 image: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Turista-en-Playa.jpg
 description: Balance turístico del 1er sem evidencia un crecimiento en el sector
