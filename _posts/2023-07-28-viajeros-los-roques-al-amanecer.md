@@ -30,7 +30,7 @@ Antes de irnos nos despedimos de quienes se tomaron la responsabilidad de hacer 
 
 > Un buen libro o un buen viaje, se comienza con inquietud y se termina con melancolía… **José Vasconcelos**
 
-Twitter:	@kapuiwan
-			@vickyhddiaz
-Instagram: @viajeskapuiwan
-Facebook:   kapui.wan
+- **Twitter**:	@kapuiwan
+- 			@vickyhddiaz
+- **Instagram**: @viajeskapuiwan
+- **Facebook**:   kapui.wan
