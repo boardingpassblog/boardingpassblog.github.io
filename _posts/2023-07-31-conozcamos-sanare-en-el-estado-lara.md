@@ -11,6 +11,7 @@ image-text: 'Pueblo de Sanare, Lara, Venezuela'
 description: Conozcamos Sanare en el estado Lara
 categories:
   - destinos
+author: Edgar Rincón
 ---
 La población de Sanare, estado Lara, Venezuela, esta ubicada en las estribaciones montañosas de la Cordillera de los Andes con aproximadamente 57.462 habitantes. La ciudad está ubicada en el valle del río Yacambú, a unos 80 kilómetros al sur de Barquisimeto, capital del estado Lara. 
 
