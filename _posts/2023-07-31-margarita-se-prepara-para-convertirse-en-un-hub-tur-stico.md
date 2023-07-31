@@ -8,7 +8,7 @@ title: 'Margarita se prepara para convertirse en un hub turístico '
 image: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Centro-Sambil-Margarita.jpg
 description: Margarita se prepara para convertirse en un hub turístico
-author: www.viajesboletin.com
+author: viajesboletin.com
 categories:
   - entérate
 ---
