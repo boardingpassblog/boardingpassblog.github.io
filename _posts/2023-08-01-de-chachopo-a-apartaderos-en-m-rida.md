@@ -17,7 +17,9 @@ De Chachopo a Apartaderos, Caminas Luz Caraballo, como lo contó Andrés Eloy Bl
 
 Apartaderos es una hermosa aldea en los Andes venezolanos a 3.505 metros. Es un popular destino turístico, y ofrece una variedad de actividades al aire libre, como senderismo, ciclismo y pesca. El clima en Apartaderos es frío y húmedo su temperatura promedio anual es de 10 grados Celsius. Pero los meses más fríos son diciembre a febrero, con temperaturas promedio de 5 grados Celsius mientras que los meses más cálidos son junio a agosto, con temperaturas promedio de 15 grados Celsius. 
 
-Por ser un lugar ideal para actividades al aire libre, como senderismo, ciclismo y pesca. Apartaderos está rodeada por montañas y bosques, que ofrecen una variedad de paisajes para explorar, posadas y albergues ideales para desconectarse del agitado mundo. Allí se puede visitar:
+Por ser un lugar ideal para actividades al aire libre, como senderismo, ciclismo y pesca. Apartaderos está rodeada por montañas y bosques, que ofrecen una variedad de paisajes para explorar, posadas y albergues ideales para desconectarse del agitado mundo. 
+
+Allí se puede visitar:
 
 - Cascada Velo de la Novia
 - Laguna La Victoria
