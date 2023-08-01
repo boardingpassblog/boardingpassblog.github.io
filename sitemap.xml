@@ -1,0 +1,39 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {% for post in site.posts %}
+    <url>
+      <loc>https://boardingpass.network{{ post.url }}</loc>
+      {% if post.lastmod == null %}
+        <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+      {% else %}
+        <lastmod>{{ '2023-08-01' | date_to_xmlschema }}</lastmod>
+      {% endif %}
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  {% endfor %}
+  {% for menu-item in site.menu %}
+  {% if menu-item.submenu %}
+  {% for submenu-item in menu-item.submenu %}
+  <url>
+   <loc>https://boardingpass.network{{ submenu-item.url }}</loc>
+   <lastmod>{{ '2023-08-01' | date_to_xmlschema }}</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>1.0</priority>
+  </url>
+  {% endfor %}
+  {% else %}
+  <url>
+   <loc>https://boardingpass.network{{ menu-item.url }}</loc>
+   <lastmod>{{ '2023-08-01' | date_to_xmlschema }}</lastmod>
+   <changefreq>monthly</changefreq>
+   <priority>1.0</priority>
+  </url>
+  {% endif %}
+  {% endfor %}
+</urlset>
+
+
