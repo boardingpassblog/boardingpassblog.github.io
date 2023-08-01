@@ -5,8 +5,7 @@ featured: false
 published: true
 ruta: vips
 title: Conozcamos Sanare en el estado Lara
-image: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Sanare.jpg
+image: /assets/images/Sanare.jpg
 image-text: 'Pueblo de Sanare, Lara, Venezuela'
 description: Conozcamos Sanare en el estado Lara
 categories:

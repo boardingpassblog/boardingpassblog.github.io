@@ -6,8 +6,7 @@ published: true
 ruta: vips
 title: De Chachopo a Apartaderos en Mérida
 description: De Chachopo a Apartaderos en Mérida
-image: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Apartaderos.jpg
+image: /assets/images/Apartaderos.jpg
 image-text: 'Vista de Apartaderos, Estado Mérida'
 author: Edgar Rincón
 categories:

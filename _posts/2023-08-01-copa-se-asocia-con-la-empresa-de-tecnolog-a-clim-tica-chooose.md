@@ -6,8 +6,7 @@ published: true
 ruta: vips
 title: Copa se asocia con la empresa de tecnología climática CHOOOSE
 description: Copa se asocia con la empresa de tecnología climática CHOOOSE
-image: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Avion-Copa.jpg
+image: /assets/images/Avion-Copa.jpg
 image-text: Reduciendo la huella CO2
 author: Copa Airlines
 categories:

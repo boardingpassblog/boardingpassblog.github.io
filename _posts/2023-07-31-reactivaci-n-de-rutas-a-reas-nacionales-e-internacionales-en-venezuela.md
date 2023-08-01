@@ -5,8 +5,7 @@ featured: false
 published: true
 ruta: vips
 title: Reactivación de rutas aéreas nacionales e internacionales en Venezuela
-image: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Humberto-Figuera.jpg
+image: /assets/images/Humberto-Figuera.jpg
 image-text: 'Humberto Figuera, Presidente de ALAV'
 author: viajesboletin.com
 categories:

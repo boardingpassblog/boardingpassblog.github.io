@@ -5,8 +5,7 @@ featured: false
 published: true
 ruta: vips
 title: AIRBNB Aplica Medidas para Fomentar los Viajes Responsables
-image: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Habitacion-AIRBNB.jpg
+image: /assets/images/Habitacion-AIRBNB.jpg
 description: AIRBNB Aplica Medidas para Fomentar los Viajes Responsables
 author: AIRBNB
 categories:

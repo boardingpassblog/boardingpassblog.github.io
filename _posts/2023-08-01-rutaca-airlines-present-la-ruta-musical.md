@@ -5,8 +5,7 @@ featured: true
 published: true
 ruta: vips
 title: Rutaca Airlines presentó "La Ruta Musical"
-image: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Cancion-Rutaca.jpg
+image: /assets/images/Cancion-Rutaca.jpg
 description: Rutaca Airlines presentó "La Ruta Musical"
 image-text: Juan Miguel compositor y cantante del tema.
 author: RUTACA AIRLINES
