@@ -5,8 +5,7 @@ featured: false
 published: true
 ruta: vips
 title: Los paquetes “full day” a Los Roques de Conviasa
-image: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Conviasa-Aviones.jpg
+image: /assets/images/Conviasa-Aviones.jpg
 description: Los paquetes “full day” a Los Roques de Conviasa
 author: viajesboletin.com
 categories:

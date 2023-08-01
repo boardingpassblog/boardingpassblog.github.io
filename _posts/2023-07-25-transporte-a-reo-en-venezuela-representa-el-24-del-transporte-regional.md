@@ -5,8 +5,7 @@ featured: true
 published: true
 ruta: vips
 title: Transporte aéreo en Venezuela representa el 24% del transporte regional
-image: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Aviones-Maiquetia.jpg
+image: /assets/images/Aviones-Maiquetia.jpg
 description: Transporte aéreo en Venezuela representa el 24% del transporte regional
 author: viajesboletin.com
 categories:

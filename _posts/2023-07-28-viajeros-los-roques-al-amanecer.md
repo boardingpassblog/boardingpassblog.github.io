@@ -7,8 +7,7 @@ ruta: vips
 title: 'Viajeros: LOS ROQUES Al Amanecer…'
 author: Vicky Herrera de Díaz
 description: 'Viajeros: LOS ROQUES Al Amanecer…'
-image: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Los-roques-aerea.jpg
+image: /assets/images/Los-roques-aerea.jpg
 categories:
   - opinión
 ---

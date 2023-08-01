@@ -6,8 +6,7 @@ published: true
 ruta: vips
 title: 'Casi 15% de anfitriones Airbnb en Colombia son retirados o jubilados '
 description: Casi 15% de anfitriones Airbnb en Colombia son retirados o jubilados
-image: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/AIRBNB-Mayores.jpg
+image: /assets/images/AIRBNB-Mayores.jpg
 author: Airbnb
 categories:
   - entérate

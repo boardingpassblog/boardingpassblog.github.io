@@ -5,8 +5,7 @@ featured: false
 published: true
 ruta: vips
 title: Copa Airlines incrementa la conectividad desde y hacia Venezuela
-image: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Avion-Copa.jpg
+image: /assets/images/Avion-Copa.jpg
 description: Copa Airlines incrementa la conectividad desde y hacia Venezuela
 author: Copa Airlines
 categories:
