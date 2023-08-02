@@ -115,6 +115,9 @@ defaults:
     values:
       permalink: /:basename:output_ext
 
+include:
+  - _pages
+
 # Tags
 tag_page_dir: tag
 tag_page_layout: tag_page
@@ -127,8 +130,6 @@ jekyll-archives:
   permalinks:
     category: "/category/:name/"
 
-pages:
-  - /
 # Exclude from processing.
 exclude:
   - Gemfile
