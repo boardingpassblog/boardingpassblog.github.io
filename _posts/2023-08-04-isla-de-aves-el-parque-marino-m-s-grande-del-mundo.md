@@ -8,7 +8,7 @@ title: 'Isla de Aves, el parque marino más grande del mundo.'
 image: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Isla-de-Aves.jpg
 image-text: 'Isla de Aves, Venezuela'
-author: 'Boarding Pass '
+author: Ana Iriza
 categories:
   - destinos
 description: >-
