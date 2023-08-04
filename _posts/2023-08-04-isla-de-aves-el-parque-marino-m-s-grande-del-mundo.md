@@ -21,7 +21,7 @@ Isla de Aves está compuesta de arena y alguna vegetación, rodeada por un arrec
 Su punto máximo es de cuatro metros sobre el nivel del mar (m.s.n.m) en un día calmo. En ocasiones, durante fuertes tormetas, puede quedar sumergida completamente. 
 
 En ella, la Armada Nacional de Venezuela instaló la "Base Científico Naval Simón Bolívar" sobre fuerte pilotes para protegerla de la marea. 
-El 6 de enero de 1999 queda decretada bajo el control de la Dirección de Hidrografía y Navegación. En diciembre del mismo año queda incluida en el artículo II de la Constitución de la República como espacio insular de las Dependencias Federales. 
+El 6 de enero de 1999 quedó decretada bajo el control de la Dirección de Hidrografía y Navegación. En diciembre del mismo año queda incluida en el artículo II de la Constitución de la República como espacio insular de las Dependencias Federales. 
 
 Para resaltar su importancia, el 22 de octubre de 2000, se realiza la primera transmición de radio y televisión desde la isla mediante el uso de señal satelital. 
 
