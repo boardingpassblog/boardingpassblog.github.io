@@ -17,7 +17,7 @@ description: >-
 Isla de Aves un pequeño y remoto pedacito de tierra venezolana de origen volcánico de tan sólo 3,72 hectarias 375 mts de longitud y 50 mts de anchura, es un atalón hermoso, único y frágil digno de visitar, disfrutar y proteger.
 Es lugar de descanso y reproducción de aves marinas, más de 300 especies registradas, y anidación de la tortuga verde.
 
-Es considerada un popular destino turísto para quienes practican snorkel, buseo y pesca, aún cuando está deshabitado. Se ubica en el mar Caribe, al oeste de las Islas de Sotavento, a 110 kilómetros al oeste de Guadalupe y Dominica.
+Es considerada un popular destino turísto para quienes practican snorkel, buceo y pesca, aún cuando está deshabitado. Se ubica en el mar Caribe, al oeste de las Islas de Sotavento, a 110 kilómetros al oeste de Guadalupe y Dominica.
 
 Isla de Aves está compuesta de arena y alguna vegetación, rodeada por un arrecife de coral por lo que es un área peligrosa para la navegación. 
 Su punto máximo es de cuatro metros sobre el nivel del mar (m.s.n.m) en un día calmo. En ocasiones, durante fuertes tormetas, puede quedar sumergida completamente. 
