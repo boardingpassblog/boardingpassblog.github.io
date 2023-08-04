@@ -25,4 +25,4 @@ Durante este encuentro con amigos cercanos, medios de comunicación y personalid
 
 Un evento que busca conectar, a través de la música, con la fibra del venezolano para que conozca la valiosa labor que hacen miles de médicos profesionales en los pueblos más necesitados de nuestro país. Todos los fondos que se recauden de este evento serán destinados en su totalidad para la operatividad del Centro La Milagrosa en el Municipio Cedeño, sede principal de la Fundación. 
 
-Para más información visita su cuenta de Instagram @fpmaniapure o su página web maniapure.org 
+Para más información visita su cuenta de Instagram @fpmaniapure o su página web [maniapure.org](https://www.maniapure.org/) 
