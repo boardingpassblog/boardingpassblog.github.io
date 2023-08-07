@@ -20,7 +20,7 @@ body {
   line-height: 1.5;
   font-family: "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
-  font-size: 15px;
+  font-size: 17px;
   color: #001c27;
 }
 
@@ -302,6 +302,17 @@ ol,
 ul {
   list-style-type: none;
   margin: 0px;
+}
+
+#id ul li::before {
+  content: "\2022"; /* Código Unicode para el símbolo de viñeta */
+  color: #00ffc7;; /* Cambia el color a rojo o cualquier otro valor hexadecimal, nombre de color o RGB */
+  font-weight: bold; /* Hace que la viñeta sea más gruesa */
+  border-radius: 50%; /* Hace que la viñeta tenga forma circular */
+  display: inline-block;
+  width: 20px; /* Ajusta el ancho de la viñeta según tus preferencias */
+  
+  font-size: larger; /* Aumenta el tamaño de la fuente para hacerla más grande */ 
 }
 
 img {
