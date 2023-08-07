@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 gem "bundler"
 gem "jekyll"
+gem 'tzinfo'
+gem 'tzinfo-data'
 gem "jekyll-paginate"
 gem 'jekyll-tagging'
 gem "jekyll-sitemap"

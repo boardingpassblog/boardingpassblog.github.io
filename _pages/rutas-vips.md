@@ -13,21 +13,39 @@ permalink: /rutas/vips/
 
 <!-- blog post -->
 <section class="section">
-  <div class="container">
+  <div class="container maxw">
     <div class="row">
-      {% for post in site.posts %}
-      {% if post.categories contains 'rutas' %}
-      {% if post.ruta contains 'vips' %}
-      {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-      {% if thecycle == 'odd' %}
-      {% assign class = '' %}
-      {% else %}
-      {% assign class = 'article-right' %}
-      {% endif %}
-        {% include pages/article.html %}
-      {% endif %}
-      {% endif %}
-      {% endfor %}
+      <div class="col-lg-9">
+        {% for post in site.posts %}
+        {% if post.categories contains 'rutas' %}
+        {% if post.ruta contains 'vips' %}
+        {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+        {% if thecycle == 'odd' %}
+        {% assign class = '' %}
+        {% else %}
+        {% assign class = 'article-right' %}
+        {% endif %}
+          {% include pages/article.html %}
+        {% endif %}
+        {% endif %}
+        {% endfor %}
+      </div> 
+      <div class="col-lg-3">
+        {% 
+          include ads/banner.html 
+          content=site.data.ads.sidebar_vips-1  
+        %}
+        {% include recientes.html %}
+        {% 
+          include ads/banner.html 
+          content=site.data.ads.sidebar_vips-2
+        %}
+        {% include secciones.html %}
+        {% 
+          include ads/banner.html 
+          content=site.data.ads.sidebar_vips-3
+        %}
+      </div> 
     </div>
   </div>
 </section>
