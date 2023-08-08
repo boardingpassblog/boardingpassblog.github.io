@@ -48,6 +48,11 @@ section-terrestre:
   alt: "Ad en la sección de Terrestre"
   url: ""
 
+section-salte-del-radar:
+  image: /assets/images/BP-1400x150.jpg
+  alt: "Ad en la sección de Salte del radar"
+  url: ""
+
 after-enterate:
   image: /assets/images/BP-900x100.jpg
   alt: "Ad después de entérate"
@@ -59,6 +64,11 @@ after-opinion:
   url: ""
 
 after-rutas:
+  image: /assets/images/BP-900x100.jpg
+  alt: "Ad después de rutas"
+  url: ""
+
+after-salte-del-radar:
   image: /assets/images/BP-900x100.jpg
   alt: "Ad después de rutas"
   url: ""

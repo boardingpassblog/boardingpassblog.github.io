@@ -17,3 +17,7 @@ destinos:
 directorio:
   title: "Directorio"
   category: "directorio"
+
+salte-del-radar:
+  title: "Salte del radar"
+  category: "salte-del-radar"

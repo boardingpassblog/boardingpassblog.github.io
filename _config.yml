@@ -33,6 +33,8 @@ menu:
        url: /rutas/maritima/
      - name: Terrestre
        url: /rutas/terrestre/
+  - name: Salte del radar
+    url: /salte-del-radar/
   - name: Destinos
     url: /destinos/
   - name: Directorio
@@ -237,6 +239,8 @@ prose:
               value: 'opinión'
             - name: 'Rutas'
               value: 'rutas'
+            - name: 'Salte del radar'
+              value: 'salte-del-radar'
           alterable: false
       - name: ruta
         field:

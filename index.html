@@ -92,6 +92,17 @@ layout: default
         content=site.data.sections.destinos 
       %}
       <!-- /Destinos -->
+{% 
+  include ads/banner.html 
+  content=site.data.ads.after-salte-del-radar
+%}
+      
+            <!-- Salte del radar -->
+            {% 
+              include index/section-posts.html 
+              content=site.data.sections.salte-del-radar
+            %}
+            <!-- /Salte del radar -->
     </div>
 
     <div class="col-lg-3">
