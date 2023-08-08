@@ -306,7 +306,7 @@ ul {
 
 #id ul li::before {
   content: "\2022"; /* Código Unicode para el símbolo de viñeta */
-  color: #00ffc7;; /* Cambia el color a rojo o cualquier otro valor hexadecimal, nombre de color o RGB */
+  color: #000;; /* Cambia el color a rojo o cualquier otro valor hexadecimal, nombre de color o RGB */
   font-weight: bold; /* Hace que la viñeta sea más gruesa */
   border-radius: 50%; /* Hace que la viñeta tenga forma circular */
   display: inline-block;
@@ -1006,4 +1006,13 @@ blockquote {
   font-weight: bold;
   width: 100%;
   left: 0px;
+}
+
+.custom-card-overlay {
+  position: absolute;
+  left: 0;
+}
+
+.custom-card-overlay .card-content {
+   background-color: rgba(0,0,0,0.35);
 }

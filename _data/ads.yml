@@ -193,6 +193,21 @@ sidebar_aerea-3:
   alt: "Ad sidebar aerea 3"
   url: ""
 
+sidebar_salte-del-radar-1:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar salte-del-radar 1"
+  url: ""
+
+sidebar_salte-del-radar-2:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar salte-del-radar 2"
+  url: ""
+
+sidebar_salte-del-radar-3:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar salte-del-radar 3"
+  url: ""
+
 sidebar_directorio-1:
   image: /assets/images/BP-300x300.jpg
   alt: "Ad sidebar directorio 1"

@@ -31,17 +31,17 @@ permalink: /salte-del-radar/
       <div class="col-lg-3">
         {% 
           include ads/banner.html 
-          content=site.data.ads.sidebar_destino-1  
+          content=site.data.ads.sidebar_salte-del-radar-1  
         %}
         {% include recientes.html %}
         {% 
           include ads/banner.html 
-          content=site.data.ads.sidebar_destino-2
+          content=site.data.ads.sidebar_salte-del-radar-2
         %}
         {% include secciones.html %}
         {% 
           include ads/banner.html 
-          content=site.data.ads.sidebar_destino-3
+          content=site.data.ads.sidebar_salte-del-radar-3
         %}
       </div> 
     </div>
