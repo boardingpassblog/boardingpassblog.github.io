@@ -19,9 +19,9 @@ menu:
   - name: Home
     url: /
   - name: Entérate
-    url: /entérate/
+    url: /enterate/
   - name: Opinión
-    url: /opinión/
+    url: /opinion/
   - name: Rutas
     url: /rutas/
     submenu:
@@ -234,9 +234,9 @@ prose:
             - name: 'Directorio'
               value: 'directorio'
             - name: 'Entérate'
-              value: 'entérate'
+              value: 'enterate'
             - name: 'Opinión'
-              value: 'opinión'
+              value: 'opinion'
             - name: 'Rutas'
               value: 'rutas'
             - name: 'Salte del radar'

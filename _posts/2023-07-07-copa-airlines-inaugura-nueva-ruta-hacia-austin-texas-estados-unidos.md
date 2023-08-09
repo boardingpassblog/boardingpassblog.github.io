@@ -4,7 +4,7 @@ date: '2023-07-07 11:29 -0400'
 featured: true
 categories:
   - destinos
-  - entérate
+  - enterate
 author: Edgar Rincón
 published: true
 title: Copa Airlines inaugura nueva ruta a Estados Unidos

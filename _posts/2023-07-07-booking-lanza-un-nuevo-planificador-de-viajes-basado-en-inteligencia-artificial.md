@@ -3,7 +3,7 @@ layout: post
 date: '2023-07-07 11:54 -0400'
 featured: true
 categories:
-  - entérate
+  - enterate
 author: Edgar Rincón
 published: true
 title: Booking lanza planificador de viajes basado en I.A.

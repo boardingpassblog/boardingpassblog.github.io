@@ -7,7 +7,7 @@ published: true
 title: Venezuela tiene el mejor barista de café filtrado del mundo
 description: Venezuela tiene el mejor barista de café filtrado del mundo
 categories:
-  - entérate
+  - enterate
 image: /assets/images/Carlos-Medina.jpg
 ---
 

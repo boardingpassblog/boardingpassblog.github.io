@@ -8,7 +8,7 @@ title: 'Vacaciones de julio: Lleva el entretenimiento a cualquier parte '
 image: /assets/images/Freestyle.jpg
 description: 'Vacaciones de julio: Lleva el entretenimiento a cualquier parte '
 categories:
-  - entérate
+  - enterate
 ---
 
 - Con las funciones de Smart TV, The Freestyle se puede transportar fácilmente y proyecta una pantalla de hasta 100 pulgadas

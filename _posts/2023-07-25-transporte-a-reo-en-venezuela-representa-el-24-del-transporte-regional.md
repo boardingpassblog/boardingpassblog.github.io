@@ -9,7 +9,7 @@ image: /assets/images/Aviones-Maiquetia.jpg
 description: Transporte aéreo en Venezuela representa el 24% del transporte regional
 author: viajesboletin.com
 categories:
-  - entérate
+  - enterate
 ---
 El transporte aéreo en Venezuela ha tenido un crecimiento sostenido desde el inicio de la pandemia, impulsando la economía del país. El ministro para el Transporte, Ramón Velásquez Araguayán, informó el pasado viernes, que actualmente Venezuela representa el 24% del transporte aéreo regional, lo que es una excelente noticia para el país.
 

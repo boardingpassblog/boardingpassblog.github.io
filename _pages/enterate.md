@@ -1,7 +1,7 @@
 ---
 layout: section
 title: Entérate
-permalink: /entérate/
+permalink: /enterate/
 ---
 
 {% 
@@ -17,7 +17,7 @@ permalink: /entérate/
     <div class="row">
       <div class="col-lg-9">
         {% for post in site.posts %}
-        {% if post.categories contains 'entérate' %}
+        {% if post.categories contains 'enterate' %}
         {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
         {% if thecycle == 'odd' %}
         {% assign class = '' %}

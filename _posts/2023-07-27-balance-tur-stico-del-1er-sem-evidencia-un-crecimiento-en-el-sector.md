@@ -9,7 +9,7 @@ image: /assets/images/Turista-en-Playa.jpg
 description: Balance turístico del 1er sem evidencia un crecimiento en el sector
 author: Prensa Mintur
 categories:
-  - opinión
+  - opinion
 ---
 Más de 363 mil turistas han visitado Venezuela y los diferentes destinos priorizados que son de referencia mundial, durante este  primer semestre del año 2023. Así lo informó el ministro del Poder Popular para el Turismo Alí Padrón en su acostumbrado programa, de los martes, por Radio Miraflores. Añadió que para estos próximos cinco meses se prevé la reactivación de más vuelos desde otras ciudades internacionales.
 

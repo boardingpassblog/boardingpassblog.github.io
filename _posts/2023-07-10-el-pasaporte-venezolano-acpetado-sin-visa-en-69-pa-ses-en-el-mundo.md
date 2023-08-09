@@ -8,7 +8,7 @@ title: El pasaporte venezolano aceptado sin visa en 69 países en el mundo
 image: /assets/images/pasaporte-Venezolano.jpg
 description: El pasaporte venezolano acpetado sin visa en 69 países en el mundo
 categories:
-  - opinión
+  - opinion
 ---
 
 El pasaporte venezolano brinda acceso a 126 destinos en el mundo, según informó recientemente la agencia Bloomberg. En 69 de esos países no se exige visado, en otros 53 se solicita visa a la llegada y solo en 4 países se requiere una autorización electrónica de viaje.

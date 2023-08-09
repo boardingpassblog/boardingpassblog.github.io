@@ -6,7 +6,7 @@ author: Edgar Rincón
 published: true
 title: Air Europa informa vuelos especiales aprobados por INAC
 categories:
-  - entérate
+  - enterate
 image: /assets/images/Air-Europa.jpg
 description: Air Europa informa vuelos especiales aprobados por INAC
 ---

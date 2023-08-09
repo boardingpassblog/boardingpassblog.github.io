@@ -9,7 +9,7 @@ description: Casi 15% de anfitriones Airbnb en Colombia son retirados o jubilado
 image: /assets/images/AIRBNB-Mayores.jpg
 author: Airbnb
 categories:
-  - entérate
+  - enterate
 ---
 - En Bogotá el porcentaje de Anfitriones en Airbnb que dijeron ser retirados asciende al 18%.
 - Convertirse en Anfitrión en Airbnb es una opción para que adultos mayores obtengan ingresos extra y continúen su vida productiva.

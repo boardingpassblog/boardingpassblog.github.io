@@ -12,7 +12,7 @@ image: >-
 image-text: Griselda Contreras Corporación de Turismo de Nueva Esparta
 author: Dexcy Guédez
 categories:
-  - entérate
+  - enterate
 ---
 El flujo de visitantes hacia la isla de Margarita creció más del 32% en el primer semestre de este año, en comparación con el mismo lapso del año pasado.
 

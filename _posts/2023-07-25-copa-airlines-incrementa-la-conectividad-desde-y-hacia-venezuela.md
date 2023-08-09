@@ -10,7 +10,7 @@ description: Copa Airlines incrementa la conectividad desde y hacia Venezuela
 author: Copa Airlines
 categories:
   - destinos
-  - entérate
+  - enterate
 ---
 La línea aérea ratifica su compromiso con el país con el inicio de operación en Barquisimeto como un nuevo destino a partir de octubre y el incremento de frecuencias desde las ciudades de Caracas, Valencia y Maracaibo.
  

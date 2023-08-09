@@ -12,7 +12,7 @@ image: >-
 image-text: Dr. Tomás Sanabria
 author: Fundación Proyecto Maniapure
 categories:
-  - entérate
+  - enterate
 ---
 Este miércoles 2 de agosto, la Fundación Proyecto Maniapure se reunió en un espacio íntimo y cercano en Sukha Haus para dar a conocer los próximos pasos que se vienen para la fundación. 
 

@@ -9,7 +9,7 @@ image: /assets/images/Habitacion-AIRBNB.jpg
 description: AIRBNB Aplica Medidas para Fomentar los Viajes Responsables
 author: AIRBNB
 categories:
-  - entérate
+  - enterate
 ---
 - El sistema de calidad para Anfitriones identifica los espacios que puedan no haber cumplido las expectativas de la comunidad. Como parte de esta medida, se han eliminado más de 12,000 espacios en todo el mundo desde abril, antes de los viajes de verano, incluyendo más de 1,000 en Latinoamérica.
 - Desde finales de junio de 2023, todos los huéspedes que reserven y los Anfitriones principales que reciban reservas, deberán completar el proceso de verificación de identidad.

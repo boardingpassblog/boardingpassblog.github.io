@@ -11,7 +11,7 @@ image: >-
 image-text: Visita de expertos OACI
 author: Edgar Rincón
 categories:
-  - entérate
+  - enterate
 ---
 La seguridad de la aviación civil es un tema de suma importancia en todo el mundo. Por esta razón, Venezuela ha recibido la visita de expertos de la Organización de Aviación Civil Internacional (OACI), con el objetivo de evaluar los estándares de seguridad en el país.
 

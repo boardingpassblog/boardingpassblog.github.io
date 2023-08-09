@@ -3,7 +3,7 @@ layout: post
 date: '2023-07-08 09:41 -0400'
 featured: true
 categories:
-  - entérate
+  - enterate
 author: Edgar Rincón
 published: true
 title: Laser Airlines informa su política de traslado de mascotas

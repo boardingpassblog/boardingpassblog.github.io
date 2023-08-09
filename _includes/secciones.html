@@ -2,8 +2,9 @@
  <h6 class="mb-4">SECCIONES</h6>
  <ul class="list-inline tag-list">
   {% for category in site.categories %}
+  {% assign section = site.data.sections[category.first] %}
   <li class="list-inline-item m-1"><a
-    href="{{ '/' | relative_url }}{{ category | first | slugify }}/">{{ category | first | capitalize }}</a>
+    href="{{ '/' | relative_url }}{{ category | first | slugify }}/">{{section.title}}</a>
   </li>
   {% unless forloop.last %}&nbsp;{% endunless %}
   {% endfor %}

@@ -12,7 +12,7 @@ image: >-
 image-text: Orquesta Regional Juvenil “Juan Bautista Plaza
 author: Edgar Rincón
 categories:
-  - entérate
+  - enterate
 ---
 El pasado 25 de julio la sala Simón Bolívar del Centro Nacional de Acción Social por la Música fue el espacio para un encuentro solemne en el que cerca de 600 asistentes se dieron cita para disfrutar de “Vuelos de Esperanza”, un espectáculo ofrecido por el Coro Nacional de Niños Dominicanos y los Niños Cantores de Venezuela, acompañados por la Orquesta Regional Juvenil “JUAN Bautista Plaza, perteneciente al Sistema Nacional de Orquestas y Coros Juveniles e Infantiles de Venezuela. 
 
