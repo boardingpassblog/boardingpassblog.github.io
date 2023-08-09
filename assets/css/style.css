@@ -46,6 +46,10 @@ h1, .h1 {
   h1, .h1 {
     font-size: 55px;
   }
+  .text-change {
+    line-height: 1;
+    font-size: 15px;
+  }
   .card-text {
     line-height: 1;
     font-size: 35px;
@@ -55,14 +59,18 @@ h1, .h1 {
     padding: 40px !important;
   } 
   .card-title {
-    font-size: 35px;
-    margin-bottom: 30px !important;
+    font-size: 25px;
+    margin-bottom: 20px !important;
   }
 }
 
 @media (max-width: 1200px) {
   h1, .h1 {
     font-size: 55px;
+  }
+  .text-change {
+    line-height: 1;
+    font-size: 15px;
   }
   .card-text {
     line-height: 1;
@@ -82,6 +90,10 @@ h1, .h1 {
   h1, .h1 {
     font-size: 55px;
   }
+  .text-change {
+    line-height: 1;
+    font-size: 10px;
+  }
   .card-text {
     line-height: 1;
     font-size: 18px;
@@ -99,6 +111,10 @@ h1, .h1 {
 @media (max-width: 767px) {
   h1, .h1 {
     font-size: 55px;
+  }
+  .text-change {
+    line-height: 1;
+    font-size: 10px;
   }
   .card-text {
     line-height: 1;
