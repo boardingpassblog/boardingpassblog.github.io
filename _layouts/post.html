@@ -37,7 +37,7 @@ layout: default
 					</div>
 				</div>
 			 {% endif %}
-				<div class="content">
+				<div class="content" id="id">
 					{{ content }}
 				</div>
 				{% if site.disqus-identifier %}
@@ -45,8 +45,21 @@ layout: default
 				{% endif %}
 			</div>
 			<div class="col-lg-3">
-				{% include sidebar.html %}
-			</div>
+				{% 
+				  include ads/banner.html 
+				  content=site.data.ads.post-1  
+				%}
+				{% include recientes.html %}
+				{% 
+				  include ads/banner.html 
+				  content=site.data.ads.post-2
+				%}
+				{% include secciones.html %}
+				{% 
+				  include ads/banner.html 
+				  content=site.data.ads.post-3
+				%}
+			  </div> 
 		</div>
 	</div>
 </section>

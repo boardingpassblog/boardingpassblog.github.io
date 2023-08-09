@@ -1,12 +1,12 @@
 ---
 layout: section
-title: Rutas - Aérea
-permalink: /rutas/aerea/
+title: Salte del radar
+permalink: /salte-del-radar/
 ---
 
 {% 
   include ads/banner.html 
-  content=site.data.ads.section-aerea  
+  content=site.data.ads.section-salte-del-radar 
 %}
 
 {% include pages/title.html %}
@@ -17,8 +17,7 @@ permalink: /rutas/aerea/
     <div class="row">
       <div class="col-lg-9">
         {% for post in site.posts %}
-        {% if post.categories contains 'rutas' %}
-        {% if post.ruta contains 'aerea' %}
+        {% if post.categories contains 'salte-del-radar' %}
         {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
         {% if thecycle == 'odd' %}
         {% assign class = '' %}
@@ -27,23 +26,22 @@ permalink: /rutas/aerea/
         {% endif %}
           {% include pages/article.html %}
         {% endif %}
-        {% endif %}
         {% endfor %}
-      </div> 
+      </div>
       <div class="col-lg-3">
         {% 
           include ads/banner.html 
-          content=site.data.ads.sidebar_aerea-1  
+          content=site.data.ads.sidebar_salte-del-radar-1  
         %}
         {% include recientes.html %}
         {% 
           include ads/banner.html 
-          content=site.data.ads.sidebar_aerea-2
+          content=site.data.ads.sidebar_salte-del-radar-2
         %}
         {% include secciones.html %}
         {% 
           include ads/banner.html 
-          content=site.data.ads.sidebar_aerea-3
+          content=site.data.ads.sidebar_salte-del-radar-3
         %}
       </div> 
     </div>

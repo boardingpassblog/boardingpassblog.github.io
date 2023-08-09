@@ -11,7 +11,7 @@ layout: default
       <div class="col-lg-3 col-sm-6 mb-2 mb-lg-0 px-1">
         <article class="card bg-dark text-center text-white border-0 rounded-0">
           <img class="card-img rounded-0 img-fluid w-100" src="{{post.image | relative_url}}" alt="{{post.title}}">
-          <div class="card-img-overlay">
+          <div class="card-img-overlay custom-card-overlay">
             <div class="card-content">
               {% if post %}
               {% assign categories = post.categories %}
@@ -20,10 +20,10 @@ layout: default
               {% endif %}
               {% for category in categories %}
               {% if forloop.last %}
-              <a class="mb-3 text-white text-uppercase"
+              <a class="mb-3 text-white text-uppercase text-change"
                 href="{{ 'category/' | relative_url }}{{ category | slugify }}">{{ category }}</a>
               {% else %}
-              <a class="mb-3 text-white text-uppercase"
+              <a class="mb-3 text-white text-uppercase text-change"
                 href="{{ 'category/' | relative_url }}{{ category | slugify }}">{{ category }} /</a>
               {% endif %}
               {% endfor %}
@@ -92,6 +92,17 @@ layout: default
         content=site.data.sections.destinos 
       %}
       <!-- /Destinos -->
+{% 
+  include ads/banner.html 
+  content=site.data.ads.after-salte-del-radar
+%}
+      
+            <!-- Salte del radar -->
+            {% 
+              include index/section-posts.html 
+              content=site.data.sections.salte-del-radar
+            %}
+            <!-- /Salte del radar -->
     </div>
 
     <div class="col-lg-3">

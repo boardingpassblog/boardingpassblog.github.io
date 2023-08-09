@@ -6,7 +6,7 @@ layout: default
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
-        <h4>{{ page.title }}</h4>
+        <h2 class="mb-4">{{ page.title | capitalize | escape }}</h2>
       </div>
     </div>
   </div>
@@ -15,12 +15,12 @@ layout: default
 
 <!-- category post -->
 <section>
-  <div class="container">
+  <div class="container maxw mb-4">
     <div class="row">
-      <div class="col-lg-8">
-        <div class="row masonry-container pt-5">
+      <div class="col-lg-9">
+        <div class="row">
           {% for post in page.posts %}
-          <div class="col-sm-6 mb-5">
+          <div class="col-lg-4 col-sm-6">
             <article class="text-center">
               <img class="img-fluid mb-4" src="{{post.image | relative_url }}" alt="{{post.title}}">
               {% for category in post.categories %}
@@ -35,8 +35,22 @@ layout: default
         </div>
       </div>
       <!-- /blog post -->
-      {% include sidebar.html %}
-      </div>
+      <div class="col-lg-3">
+        {% 
+          include ads/banner.html 
+          content=site.data.ads.category-1  
+        %}
+        {% include recientes.html %}
+        {% 
+          include ads/banner.html 
+          content=site.data.ads.category-2
+        %}
+        {% include secciones.html %}
+        {% 
+          include ads/banner.html 
+          content=site.data.ads.category-3
+        %}
+      </div> 
     </div>
   </div>
 </section>
