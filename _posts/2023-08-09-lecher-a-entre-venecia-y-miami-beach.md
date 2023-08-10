@@ -8,6 +8,9 @@ title: 'Lechería: entre Venecia y Miami Beach'
 description: assets/images/BP_fotoweb_lecherìas.jpg
 image: assets/images/BP_fotoweb_lecherìas.jpg
 image-text: 'Atardecer en Lechería - Anzoátegui '
+categories:
+  - destinos
+author: Alexandra Castillo
 ---
 
 
@@ -32,5 +35,4 @@ En este municipio confluyen sedes de diferentes universidades por lo cual se res
 
 **Complejo Turístico El Morro:** la actividad principal está relacionada con balneario de sol y playa. En su periferia se ubican grandes hoteles y centros comerciales. Se concibió para parecerse a Venecia, aunque más bien recuerda a las islas privadas de Miami Beach. Sus urbanizaciones son una colección de enormes y vistosas casas, y lujosas embarcaciones de recreo alineadas a lo largo de una sinuosa red de canales.
 
-Fuente: bbc.com/ Wikipedia 
-
+Fuente: bbc.com/ Wikipedia
