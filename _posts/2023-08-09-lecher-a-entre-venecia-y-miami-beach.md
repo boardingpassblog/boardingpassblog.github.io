@@ -10,6 +10,7 @@ image: assets/images/BP_fotoweb_lecherìas.jpg
 image-text: 'Atardecer en Lechería - Anzoátegui '
 categories:
   - destinos
+author: Alexandra Castillo
 ---
 
 
