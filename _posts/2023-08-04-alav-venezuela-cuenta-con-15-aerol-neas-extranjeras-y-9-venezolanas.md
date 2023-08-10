@@ -11,7 +11,7 @@ image: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Aviones-Maiquetia.jpg
 author: ' Nurelyn Contreras - Hispanopost'
 categories:
-  - entérate
+  - enterate
 image-text: Situación actual en Maiquetia
 ---
 El presidente ejecutivo de la Asociación de Líneas Aéreas en Venezuela (ALAV), Humberto Figuera, aseguró que el sector aerocomercial se está fortaleciendo en medio de la reactivación de rutas nacionales e internacionales.

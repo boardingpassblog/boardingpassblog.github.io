@@ -9,7 +9,7 @@ image: /assets/images/Humberto-Figuera.jpg
 image-text: 'Humberto Figuera, Presidente de ALAV'
 author: viajesboletin.com
 categories:
-  - entérate
+  - enterate
 ---
 De acuerdo con el presidente ejecutivo de la Asociación de Líneas Aéreas en Venezuela (ALAV), Humberto Figuera, en la actualidad existen alrededor de 15 líneas aéreas internacionales que operan desde y hacia Venezuela.
 

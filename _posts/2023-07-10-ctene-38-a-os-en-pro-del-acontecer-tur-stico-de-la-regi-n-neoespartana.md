@@ -8,8 +8,8 @@ title: 'CTENE: 38 años en pro del acontecer turístico de la región neoesparta
 description: 'CTENE: 38 años en pro del acontecer turístico de la región neoespartana'
 image: /assets/images/CTENE.jpg
 categories:
-  - entérate
-  - opinión
+  - enterate
+  - opinion
 ---
 
 Con la misión de “consolidar y reimpulsar cada día a Margarita como destino nacional e internacional” la directiva de la Cámara de Turismo del Estado Nueva Esparta, CTENE, celebró con afiliados e invitados especiales el 38 aniversario de actividades, informó Viviana Vethencourt, presidenta de esta organización empresarial, quien tuvo a su cargo la intervención central en acto realizado en las instalaciones de @Kardumenbeachclub, en Playa Guacuco, municipio Arismendi, el pasado viernes 30 de junio.

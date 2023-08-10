@@ -9,7 +9,7 @@ author: Vicky Herrera de Díaz
 description: 'Viajeros: LOS ROQUES Al Amanecer…'
 image: /assets/images/Los-roques-aerea.jpg
 categories:
-  - opinión
+  - opinion
 ---
 Nos comentaron que la mejor vista del Gran Roque la ofrecían lo alrededores del Faro, su privilegiada ubicación en el punto mas alto de la isla permite divisar una panorámica completamente hermosa e inolvidable, según nos lo describieron varios conocedores de la zona. Pensando en no desperdiciar ni un solo minuto de este viaje, planeamos nuestra salida desde la noche anterior para salir bien temprano, el Faro queda a 30 minutos de la posada, el pueblo es súper seguro a toda hora, sin embargo temíamos no encontrar el camino y perdernos el amanecer, así que preguntamos en la posada si alguien podía acompañarnos, y sin pensarlo Carlos el gerente de la posada se ofreció a llevarnos, a las 5 de la mañana estábamos en la recepción y ya nos esperaba un delicioso café recién colado  listo para terminar de despertarnos antes de salir.
 

@@ -12,7 +12,7 @@ image: >-
 image-text: Isla de Plata
 author: Mintur
 categories:
-  - entérate
+  - enterate
 ---
 Dos nuevas rutas turísticas serán validadas por el Ministerio del Poder Popular para el Turismo (Mintur) en el estado Delta Amacuro, que muestran la exuberante naturaleza propia de la entidad, con sus múltiples atractivos. Así lo anunció el ministro Alí Padrón, durante la transmisión del programa “Venezuela Abierta al Futuro” por Radio Miraflores junto a la gobernadora de la entidad oriental, Lizeta Hernández.
 

@@ -9,7 +9,7 @@ image: /assets/images/Centro-Sambil-Margarita.jpg
 description: Margarita se prepara para convertirse en un hub turístico
 author: viajesboletin.com
 categories:
-  - entérate
+  - enterate
 ---
 El Salón de Convenciones del Sambil Margarita será el epicentro de la Bolsa Turística de Margarita, que se llevará a cabo del 28 al 30 de septiembre del 2023. El evento reunirá a todas las empresas operadoras y prestadoras de servicios turísticos en Nueva Esparta, con el objetivo de promover el intercambio de información, experiencias y oportunidades entre los diferentes actores del sector turístico.
 

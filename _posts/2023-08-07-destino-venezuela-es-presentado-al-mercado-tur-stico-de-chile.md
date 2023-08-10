@@ -12,7 +12,7 @@ image: >-
 image-text: Venezuela Presente
 author: Prensa Mintur
 categories:
-  - entérate
+  - enterate
 ---
 De acuerdo a las políticas de promoción que impulsa el ministro del Poder Popular para el Turismo Alí Padrón, a través del plan estratégico para el posicionamiento internacional del país como destino, una delegación, presidida  por la viceministra de Turismo Internacional Leticia Gómez Hernández, realiza una visita comercial a la República de Chile, para presentar el destino Venezuela en el país sureño.  
 

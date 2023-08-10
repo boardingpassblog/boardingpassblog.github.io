@@ -1,7 +1,7 @@
 ---
 layout: section
 title: Opinión
-permalink: /opinión/
+permalink: /opinion/
 ---
 
 {% 
@@ -17,7 +17,7 @@ permalink: /opinión/
     <div class="row">
       <div class="col-lg-9">
         {% for post in site.posts %}
-        {% if post.categories contains 'opinión' %}
+        {% if post.categories contains 'opinion' %}
         {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
         {% if thecycle == 'odd' %}
         {% assign class = '' %}

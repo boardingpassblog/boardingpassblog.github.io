@@ -12,7 +12,7 @@ image: >-
 image-text: 'Vicky Herrera, presidenta de Avavit'
 author: Avavit
 categories:
-  - entérate
+  - enterate
 ---
 **No pongas en riesgo tu seguridad con la compra de «boletos aéreos con fines migratorios» o «retorno anulable». Estas modalidades son prácticas irregulares.**
 

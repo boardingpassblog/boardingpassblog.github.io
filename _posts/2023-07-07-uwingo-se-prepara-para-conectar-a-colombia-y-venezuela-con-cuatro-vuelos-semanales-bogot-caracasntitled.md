@@ -4,7 +4,7 @@ date: '2023-07-07 12:07 -0400'
 featured: true
 categories:
   - destinos
-  - entérate
+  - enterate
   - rutas
 ruta: aerea
 author: Edgar Rincón

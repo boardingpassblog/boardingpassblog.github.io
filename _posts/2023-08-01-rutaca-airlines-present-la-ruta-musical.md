@@ -10,7 +10,7 @@ description: Rutaca Airlines presentó 'La Ruta Musical'
 image-text: Juan Miguel compositor y cantante del tema.
 author: RUTACA AIRLINES
 categories:
-  - entérate
+  - enterate
 ---
 El pasado 29 de julio, Rutaca Airlines presentó el jingle que dejó a todos los asistentes bailando y cantando al ritmo de “Rutaca conectando por el mundo”. Destacando que es la primera aerolínea venezolana que tiene su propio tema musical.
 

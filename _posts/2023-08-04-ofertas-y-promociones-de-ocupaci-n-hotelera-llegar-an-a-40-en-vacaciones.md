@@ -12,7 +12,7 @@ image: >-
 image-text: 'Leudo González, presidente de Conseturismo'
 author: Gisell Quintana bancaynegocios.com
 categories:
-  - entérate
+  - enterate
 ---
 **El presidente de Conseturismo, Leudo González, dijo que, en destinos con más demanda, la ocupación podría llegar a 50%, si hay combustible.**
 

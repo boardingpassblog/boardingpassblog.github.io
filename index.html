@@ -19,12 +19,13 @@ layout: default
               {% assign categories = page.categories %}
               {% endif %}
               {% for category in categories %}
+              {% assign section = site.data.sections[category] %}
               {% if forloop.last %}
-              <a class="mb-3 text-white text-uppercase text-change"
-                href="{{ 'category/' | relative_url }}{{ category | slugify }}">{{ category }}</a>
+              <a class="mb-3 text-white text-uppercase"
+                href="{{ 'category/' | relative_url }}{{ category | slugify }}">{{ section.title }}</a>
               {% else %}
-              <a class="mb-3 text-white text-uppercase text-change"
-                href="{{ 'category/' | relative_url }}{{ category | slugify }}">{{ category }} /</a>
+              <a class="mb-3 text-white text-uppercase"
+                href="{{ 'category/' | relative_url }}{{ category | slugify }}">{{ section.title }} /</a>
               {% endif %}
               {% endfor %}
               <h4 class="card-title mb-4"><a class="text-white card-text" href="{{ post.url | relative_url }}">{{post.title}}</a>

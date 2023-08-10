@@ -10,7 +10,7 @@ image: /assets/images/Avion-Copa.jpg
 image-text: Reduciendo la huella CO2
 author: Copa Airlines
 categories:
-  - entérate
+  - enterate
 ---
 Copa Airlines anunció que siguen comprometidos en tener una operación Carbono Neutro para 2050, reduciendo nuestro impacto en el medio ambiente. Por tal motivo, han anunciado una iniciativa que los acerca aún más a al objetivo, y anuncian una asociación estratégica con CHOOOSE, una destacada empresa de tecnología climática.
  
