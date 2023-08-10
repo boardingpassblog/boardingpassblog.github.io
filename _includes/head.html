@@ -16,6 +16,28 @@
   <!-- Main Stylesheet -->
   <link href="{{ site.baseurl }}/assets/css/style.css" rel="stylesheet">
   
+  <!--HTML Meta Tags-->
+  <meta property="og:title" content="{% if page.course-title %}{{ page.course-title }}{% elsif page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}" />
+  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% elsif page.abstract %}{{ page.abstract }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
+  <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+  <meta property="og:image" content="{% if page.image %}{{ page.image | prepend: site.images_url | prepend: site.baseurl | prepend: site.url }}{% else %}{{ site.logostrdata | prepend: site.images_url | prepend: site.baseurl | prepend: site.url }}{% endif %}" />
+  <meta property="og:site_name" content="{{ site.title }}" />
+
+  <!--Twitter Meta Tags-->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{% if page.course-title %}{{ page.course-title }}{% elsif page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% elsif page.abstract %}{{ page.abstract }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="twitter:image" content="{% if page.image %}{{ page.image | prepend: site.images_url | prepend: site.baseurl | prepend: site.url }}{% else %}{{ site.logostrdata | prepend: site.images_url | prepend: site.baseurl | prepend: site.url }}{% endif %}">
+  <meta name="twitter:site_name" content="{{ site.title }}" />
+
+  <!--Google+ Meta Tags-->
+  <meta itemprop="name" content="{% if page.course-title %}{{ page.course-title }}{% elsif page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta itemprop="description" content="{% if page.description %}{{ page.description }}{% elsif page.abstract %}{{ page.abstract }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta itemprop="image" content="{% if page.image %}{{ page.image | prepend: site.images_url | prepend: site.baseurl | prepend: site.url }}{% else %}{{ site.logostrdata | prepend: site.images_url | prepend: site.baseurl | prepend: site.url }}{% endif %}">
+  <meta itemprop="headline" content="{% if page.course-title %}{{ page.course-title }}{% elsif page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}">
+  <link itemprop="mainEntityOfPage" href="{{ page.url | prepend: site.baseurl | prepend: site.url }}"/>
+  <link itemprop="image" src="{{ page.image | prepend: site.images_url | prepend: site.baseurl | prepend:site.url }}" alt="">
+
   <!--Favicon-->
   <link rel="shortcut icon" href="{{ site.baseurl }}/assets/images/favicons/favicon.ico" type="image/x-icon">
   <link rel="icon" href="{{ site.baseurl }}/assets/images/favicons/favicon.ico" type="image/x-icon">
