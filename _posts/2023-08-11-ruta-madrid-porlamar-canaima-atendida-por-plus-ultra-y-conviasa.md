@@ -6,9 +6,9 @@ published: true
 ruta: vips
 title: Ruta Madrid-Porlamar-Canaima atendida por Plus Ultra y Conviasa
 description: >-
-  https://github.com/boardingpassblog/boardingpassblog.github.io/blob/main/assets/images/BP_FotoWEBCanaima.jpg?raw=true
+  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/BP_FotoWEBCanaima.jpg
 image: >-
-  https://github.com/boardingpassblog/boardingpassblog.github.io/blob/main/assets/images/BP_FotoWEBCanaima.jpg?raw=true
+  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/BP_FotoWEBCanaima.jpg
 image-text: Canaima
 categories:
   - enterate
@@ -25,7 +25,3 @@ Sostuvo que la aerolínea que prestará el servicio de conexión entre España y
 
 
 Agregó: “Para aquellas personas que quieran venir de España y no quieran adquirir el paquete para Canaima, habrá un cupo limitado en la ruta Madrid-Porlamar".
-
-
-
-
