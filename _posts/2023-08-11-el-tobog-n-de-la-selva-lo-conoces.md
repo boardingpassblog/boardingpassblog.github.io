@@ -5,10 +5,8 @@ featured: false
 published: true
 ruta: vips
 title: 'El Tobogán de la Selva, ¿lo conoces?'
-description: >-
-  https://github.com/boardingpassblog/boardingpassblog.github.io/blob/main/assets/images/Tobogandelaselva-bp.jpg
-image: >-
-  https://github.com/boardingpassblog/boardingpassblog.github.io/blob/main/assets/images/Tobogandelaselva-bp.jpg
+description: assets/images/Tobogandelaselva-bp.jpg
+image: assets/images/Tobogandelaselva-bp.jpg
 image-text: Tobogan de la Selva - Amazonas
 author: Alexandra Castillo
 categories:
