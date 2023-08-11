@@ -15,7 +15,7 @@ categories:
   - destinos
 ---
 
-## En el místico estado Amazonas, cerca de Puerto Ayacucho en la ruta hacia Samariapo, se encuentra una maravilla: el “tobogán de la selva”, una increíble creación natural, descubierta en 1950 por el misionero salesiano Luis Rotmayer.
+En el místico estado Amazonas, cerca de Puerto Ayacucho en la ruta hacia Samariapo, se encuentra una maravilla: el “tobogán de la selva”, una increíble creación natural, descubierta en 1950 por el misionero salesiano Luis Rotmayer.
 
 
 Deslizarse por esta magnífica laja de piedra se convierte en una extraordinaria aventura llena de adrenalina. Descenderás velozmente hasta llegar a una refrescante piscina natural, similar a un jacuzzi, en donde podrás disfrutar de un agradable chapuzón, enmarcado en los espectaculares paisajes amazónicos venezolanos.
