@@ -30,4 +30,4 @@ Al llegar a este increíble lugar, encontrarás el estacionamiento de este escen
 En el punto más elevado del tobogán, donde comienza la diversión, existen churuatas y espacios para hacer deporte, además de mesas para jugar dominó. Cabe destacar que existen rutas o senderos que comunican un lado con otro, si acaso no quieres lanzarte y tan sólo buscas refrescarte al final del camino. 
 
 
-Nota hecha con información tomada de temporadistas.com 
+Nota hecha con información tomada de temporadistas.com
