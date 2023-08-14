@@ -223,6 +223,11 @@ sidebar_directorio-3:
   alt: "Ad sidebar directorio 3"
   url: ""
 
+after-directorio-destacadas:
+  image: /assets/images/BP-900x100.jpg
+  alt: "Ad después de las publicaciones destacadas en la sección directorio"
+  url: ""
+
 category-1:
   image: /assets/images/BP-300x300.jpg
   alt: "Ad category 1"

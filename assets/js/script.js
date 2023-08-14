@@ -109,5 +109,229 @@
     });
   });
 
+  // directorio
+  // Obtener los elementos li por sus IDs
+  const opcionTodas = document.getElementById('opcionTodas');
+  const opcionDestacados = document.getElementById('opcionDestacados');
+  const opcionNoDestacados = document.getElementById('opcionNoDestacados');
+  const opcionNombre = document.getElementById('opcionNombre');
+  const opcionRegion = document.getElementById('opcionRegion');
+  const opcionEstado = document.getElementById('opcionEstado');
 
+  // Obtener las secciones por sus IDs
+  const seccionDestacados = document.getElementById('seccionDestacados');
+  const seccionNoDestacados = document.getElementById('seccionNoDestacados');
+  const seccionEntradas = document.getElementById('seccionEntradas');
+
+  const seccionDestacadosRegion = document.getElementById('seccionDestacadosRegion');
+  const seccionNoDestacadosRegion = document.getElementById('seccionNoDestacadosRegion');
+  const seccionEntradasRegion = document.getElementById('seccionEntradasRegion');
+
+  const seccionDestacadosEstado = document.getElementById('seccionDestacadosEstados');
+  const seccionNoDestacadosEstado = document.getElementById('seccionNoDestacadosEstados');
+  const seccionEntradasEstados = document.getElementById('seccionEntradasEstados');
+
+  opcionTodas.addEventListener('click', function() {
+    if (seccionEntradas.style.display === 'block') {
+      seccionEntradas.style.display = 'block';
+      seccionDestacados.style.display = 'none';
+      seccionNoDestacados.style.display = 'none';
+      seccionDestacadosEstado.style.display = 'none';
+      seccionDestacadosRegion.style.display = 'none';
+      seccionNoDestacadosRegion.style.display = 'none';
+      seccionNoDestacadosEstado.style.display = 'none';
+      seccionEntradasRegion.style.display = 'none';
+      seccionEntradasEstados.style.display = 'none';
+    } else if (seccionEntradasEstados.style.display === 'block') {
+      seccionDestacadosEstado.style.display = 'none';
+      seccionNoDestacadosEstado.style.display = 'none';
+      seccionEntradas.style.display = 'none';
+      seccionNoDestacadosRegion.style.display = 'none';
+      seccionEntradasRegion.style.display = 'none';
+      seccionEntradasEstados.style.display = 'block';
+    } else if (seccionEntradasRegion.style.display === 'block') {
+      seccionEntradasRegion.style.display = 'block';
+      seccionDestacadosRegion.style.display = 'none';
+      seccionEntradasEstados.style.display = 'none';
+      seccionDestacadosEstado.style.display = 'none';
+      seccionNoDestacadosEstado.style.display = 'none';
+      seccionNoDestacadosRegion.style.display = 'none';
+      seccionEntradas.style.display = 'none';
+    } else if (seccionNoDestacadosRegion.style.display === 'block') {
+      seccionDestacadosRegion.style.display = 'none';
+      seccionEntradasEstados.style.display = 'none';
+      seccionDestacadosEstado.style.display = 'none';
+      seccionNoDestacadosEstado.style.display = 'none';
+      seccionNoDestacadosRegion.style.display = 'none';
+      seccionEntradas.style.display = 'none';
+      seccionEntradasRegion.style.display = 'block';
+    } else if (seccionDestacadosRegion.style.display === 'block') {
+      seccionDestacadosRegion.style.display = 'none';
+      seccionEntradasEstados.style.display = 'none';
+      seccionDestacadosEstado.style.display = 'none';
+      seccionNoDestacadosEstado.style.display = 'none';
+      seccionNoDestacadosRegion.style.display = 'none';
+      seccionEntradas.style.display = 'none';
+      seccionEntradasRegion.style.display = 'block';
+    } else if (seccionNoDestacadosEstado.style.display === 'block') {
+      seccionEntradasEstados.style.display = 'block';
+      seccionDestacadosEstado.style.display = 'none';
+      seccionNoDestacadosEstado.style.display = 'none';
+      seccionEntradas.style.display = 'none';
+      seccionNoDestacadosRegion.style.display = 'none';
+      seccionEntradasRegion.style.display = 'none';
+    } else if (seccionDestacadosEstado.style.display === 'block') {
+      seccionEntradasEstados.style.display = 'block';
+      seccionDestacadosEstado.style.display = 'none';
+      seccionNoDestacadosEstado.style.display = 'none';
+      seccionEntradas.style.display = 'none';
+      seccionNoDestacadosRegion.style.display = 'none';
+      seccionEntradasRegion.style.display = 'none';
+    } else {
+      seccionEntradas.style.display = 'block';
+      seccionDestacados.style.display = 'none';
+      seccionNoDestacados.style.display = 'none';
+      seccionDestacadosEstado.style.display = 'none';
+      seccionNoDestacadosEstado.style.display = 'none';
+      seccionEntradasEstados.style.display = 'none';
+      seccionEntradasRegion.style.display = 'none';
+      seccionNoDestacadosRegion.style.display = 'none';
+    }
+  });
+
+  opcionDestacados.addEventListener('click', function() {
+    if (seccionEntradas.style.display === 'block') {
+      seccionNoDestacados.style.display = 'none';
+      seccionEntradasRegion.style.display = 'none';
+      seccionEntradasEstados.style.display = 'none';
+      seccionEntradas.style.display = 'none';
+      seccionNoDestacadosRegion.style.display = 'none';
+      seccionDestacados.style.display = 'block';
+    } else if (seccionEntradasEstados.style.display === 'block') {
+      seccionEntradasEstados.style.display = 'none';
+      seccionDestacadosEstado.style.display = 'block';
+      seccionNoDestacadosEstado.style.display = 'none';
+      seccionEntradas.style.display = 'none';
+      seccionNoDestacadosRegion.style.display = 'none';
+      seccionEntradasRegion.style.display = 'none';
+    } else if (seccionEntradasRegion.style.display === 'block') {
+      seccionEntradasRegion.style.display = 'none';
+      seccionDestacadosRegion.style.display = 'block';
+      seccionEntradasEstados.style.display = 'none';
+      seccionDestacadosEstado.style.display = 'none';
+      seccionNoDestacadosEstado.style.display = 'none';
+      seccionNoDestacadosRegion.style.display = 'none';
+      seccionEntradas.style.display = 'none';
+    } else if (seccionNoDestacadosRegion.style.display === 'block') {
+      seccionEntradasRegion.style.display = 'none';
+      seccionDestacadosRegion.style.display = 'block';
+      seccionEntradasEstados.style.display = 'none';
+      seccionDestacadosEstado.style.display = 'none';
+      seccionNoDestacadosEstado.style.display = 'none';
+      seccionNoDestacadosRegion.style.display = 'none';
+      seccionEntradas.style.display = 'none';
+    } else if (seccionNoDestacadosEstado.style.display === 'block') {
+      seccionEntradasEstados.style.display = 'none';
+      seccionDestacadosEstado.style.display = 'block';
+      seccionNoDestacadosEstado.style.display = 'none';
+      seccionEntradas.style.display = 'none';
+      seccionNoDestacadosRegion.style.display = 'none';
+      seccionEntradasRegion.style.display = 'none';
+    } else {
+      seccionEntradas.style.display = 'none';
+      seccionDestacados.style.display = 'block';
+      seccionNoDestacados.style.display = 'none';
+      seccionDestacadosEstado.style.display = 'none';
+      seccionNoDestacadosEstado.style.display = 'none';
+      seccionEntradasEstados.style.display = 'none';
+      seccionEntradasRegion.style.display = 'none';
+      seccionNoDestacadosRegion.style.display = 'none';
+    }
+  });
+
+  opcionNoDestacados.addEventListener('click', function() {
+    if (seccionEntradas.style.display === 'block') {
+      seccionNoDestacados.style.display = 'block';
+      seccionEntradasRegion.style.display = 'none';
+      seccionEntradasEstados.style.display = 'none';
+      seccionEntradas.style.display = 'none';
+      seccionNoDestacadosRegion.style.display = 'none';
+      seccionDestacados.style.display = 'none';
+    } else if (seccionEntradasEstados.style.display === 'block') {
+      seccionNoDestacadosEstado.style.display = 'block';
+      seccionEntradasEstados.style.display = 'none';
+      seccionDestacadosEstado.style.display = 'none';
+      seccionEntradas.style.display = 'none';
+      seccionNoDestacadosRegion.style.display = 'none';
+      seccionEntradasRegion.style.display = 'none';
+    } else if (seccionEntradasRegion.style.display === 'block') {
+      seccionNoDestacadosRegion.style.display = 'block';
+      seccionEntradasRegion.style.display = 'none';
+      seccionDestacadosRegion.style.display = 'none';
+      seccionEntradasEstados.style.display = 'none';
+      seccionDestacadosEstado.style.display = 'none';
+      seccionNoDestacadosEstado.style.display = 'none';
+      seccionEntradas.style.display = 'none';
+    } else if (seccionDestacadosRegion.style.display === 'block') {
+      seccionNoDestacadosRegion.style.display = 'block';
+      seccionEntradasRegion.style.display = 'none';
+      seccionDestacadosRegion.style.display = 'none';
+      seccionEntradasEstados.style.display = 'none';
+      seccionDestacadosEstado.style.display = 'none';
+      seccionNoDestacadosEstado.style.display = 'none';
+      seccionEntradas.style.display = 'none';
+    } else if (seccionDestacadosEstado.style.display === 'block') {
+      seccionNoDestacadosEstado.style.display = 'block';
+      seccionEntradasEstados.style.display = 'none';
+      seccionDestacadosEstado.style.display = 'none';
+      seccionEntradas.style.display = 'none';
+      seccionNoDestacadosRegion.style.display = 'none';
+      seccionEntradasRegion.style.display = 'none';
+    } else {
+      seccionNoDestacadosRegion.style.display = 'none';
+      seccionEntradas.style.display = 'none';
+      seccionDestacados.style.display = 'none';
+      seccionNoDestacados.style.display = 'block';
+      seccionDestacadosEstado.style.display = 'none';
+      seccionNoDestacadosEstado.style.display = 'none';
+      seccionEntradasEstados.style.display = 'none';
+      seccionEntradasRegion.style.display = 'none';
+      
+    }
+  });
+
+  opcionNombre.addEventListener('click', function() {
+    seccionDestacados.style.display = 'none';
+    seccionNoDestacados.style.display = 'none';
+    seccionEntradas.style.display = 'block';
+    seccionEntradasRegion.style.display = 'none';
+    seccionEntradasEstados.style.display = 'none';
+    seccionNoDestacadosRegion.style.display = 'none';
+    seccionNoDestacadosEstado.style.display = 'none';
+    seccionDestacadosEstado.style.display = 'none';
+    seccionDestacadosRegion.style.display = 'none';
+  });
+
+  opcionRegion.addEventListener('click', function() {
+    seccionEntradasEstados.style.display = 'none';
+    seccionDestacados.style.display = 'none';
+    seccionNoDestacados.style.display = 'none';
+    seccionEntradas.style.display = 'none';
+    seccionNoDestacadosRegion.style.display = 'none';
+    seccionNoDestacadosEstado.style.display = 'none';
+    seccionEntradasRegion.style.display = 'block';
+  });
+
+  opcionEstado.addEventListener('click', function() {
+    seccionDestacadosRegion.style.display = 'none';
+    seccionDestacados.style.display = 'none';
+    seccionNoDestacados.style.display = 'none';
+    seccionEntradas.style.display = 'none';
+    seccionEntradasRegion.style.display = 'none';
+    seccionNoDestacadosRegion.style.display = 'none';
+    seccionNoDestacadosEstado.style.display = 'none';
+    seccionEntradasEstados.style.display = 'block';
+  });
+  seccionEntradasEstados.style.display = 'none'; // Ocultar la sección por defecto
+  //Fin de directorio
 })(jQuery);

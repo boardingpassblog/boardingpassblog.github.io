@@ -1032,3 +1032,69 @@ blockquote {
 .custom-card-overlay .card-content {
    background-color: rgba(0,0,0,0.35);
 }
+
+.card-separation {
+  margin-bottom: 20px; 
+  border: 0.5px solid #cfcfcf;
+}
+
+.letter-title {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+#seccionDestacados {
+  display: none;
+}
+
+#seccionNoDestacados {
+  display: none;
+}
+
+#seccionDestacadosEstados {
+  display: none;
+}
+
+#seccionNoDestacadosEstados {
+  display: none;
+}
+
+#seccionNoDestacadosRegion {
+  display: none;
+}
+
+#seccionDestacadosRegion {
+  display: none;
+}
+
+#seccionEntradasRegion {
+  display: none;
+}
+
+.custom-form {
+  left: 800px;
+}
+
+.position-card {
+  position: relative;
+}
+
+.tab-card{
+  display: flex;
+}
+
+.tab-card-1{
+  flex-grow: 1;
+}
+
+.tab-pane-card{
+  margin-left: 20px; margin-right: 20px;
+}
+
+.img-card{
+  width: 100px; height: auto;
+}
+
+.margin-img-card{
+  width: 100px; height: auto;
+}

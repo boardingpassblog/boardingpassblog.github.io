@@ -132,6 +132,11 @@ jekyll-archives:
   permalinks:
     category: "/category/:name/"
 
+#Collections
+collections:
+  directorio:
+    output: true
+
 # Exclude from processing.
 exclude:
   - Gemfile
@@ -185,7 +190,7 @@ prose:
         field:
           element: checkbox
           label: Publicación resaltada
-          help: Puedes destacar la pubblicación en la página principal
+          help: Puedes destacar la publicación en la página principal
           value: false
       - name: published
         field:
@@ -256,4 +261,93 @@ prose:
               value: 'maritima'
             - name: 'Terrestre'
               value: 'terrestre'
+          alterable: false
+    _directorio:
+      - name: name
+        field:
+          element: text
+          label: Ingresa el nombre 
+          type: text
+      - name: date
+        field:
+          element: text
+          label: Fecha de creación
+          value: CURRENT_DATETIME
+      - name: region
+        field:
+          element: text
+          label: Ingresa la Región
+          type: text
+      - name: state
+        field:
+          element: text
+          label: Ingresa el Estado
+          type: text
+      - name: sector
+        field:
+          element: text
+          label: Ingresa el Sector
+          type: text
+      - name: phone_number
+        field:
+          element: text
+          label: Ingrese el número de teléfono
+          type: text
+      - name: address
+        field:
+          element: text
+          label: Ingresa la dirección
+          type: text
+      - name: web_page
+        field:
+          element: text
+          label: Ingresa la página web
+          type: text
+      - name: facebook_page
+        field:
+          element: text
+          label: Ingresa la página de Facebook
+          type: text
+      - name: twitter_page
+        field:
+          element: text
+          label: Ingresa la página de Twitter
+          type: text
+      - name: instagram_page
+        field:
+          element: text
+          label: Ingresa la página de Instagram
+          type: text
+      - name: services
+        field:
+          element: text
+          label: Ingresa los servicios
+          type: text
+      - name: featured
+        field:
+          element: checkbox
+          label: Publicación destacada
+          help: Puedes destacar la publicación en la sección de Directorio
+          value: true
+      - name: image
+        field: 
+          element: text
+          label: Indica la ruta de la imagen de la publicación
+          value: ""
+      - name: types
+        field:
+          element: multiselect
+          label: Selecciona el tipo 
+          help: Puedes seleccionar varios tipos
+          options:
+            - name: 'Operadores'
+              value: 'operadores'
+            - name: 'Mayoristas'
+              value: 'mayoristas'
+            - name: 'Agencias'
+              value: 'agencias'
+            - name: 'Hospedaje'
+              value: 'hospedaje'
+            - name: 'Alquiler'
+              value: 'alquiler'
           alterable: false
