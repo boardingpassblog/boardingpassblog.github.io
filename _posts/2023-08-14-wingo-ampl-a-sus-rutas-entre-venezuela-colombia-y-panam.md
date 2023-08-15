@@ -17,6 +17,7 @@ categories:
 Wingo, la aerolínea colombiana de bajo costo, anunció que reforzará los vuelos entre Venezuela y Colombia tras reanudar la conexión a Caracas el pasado 25 de julio. 
 
 La compañía, que ofrece tres frecuencias semanales entre Bogotá y la capital venezolana, espera ampliar su oferta a otras ciudades de ese país próximamente. 
+
 La decisión de Wingo se da en el marco del restablecimiento de las relaciones entre Colombia y Venezuela, que se habían roto en febrero de 2019 por la crisis política y humanitaria que vive el país vecino. 
 Desde entonces, ambos países han trabajado para normalizar sus vínculos y fomentar el intercambio comercial, la integración, la inversión y el desarrollo transfronterizo. 
 
