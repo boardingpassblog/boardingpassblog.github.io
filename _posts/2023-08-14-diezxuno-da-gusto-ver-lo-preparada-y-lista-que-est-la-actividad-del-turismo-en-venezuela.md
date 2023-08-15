@@ -24,7 +24,7 @@ Se encuentra lista para atender los requerimientos y necesidades del visitante a
 
 También se está viviendo un momento inédito en cuanto a la representación gremial, de cámaras y asociaciones en el interior del país. Es algo no visto antes. Los estados cada vez más se suman al movimiento gremial del turismo venezolano, y eso va justamente relacionado a lo que les digo en el punto anterior. Demuestra que cada vez más, se está organizando y estructurando el sector privado del turismo. Eso es vital y medular para poder defender los intereses de las regiones y sobre todo de sus comunidades.
 
-3) ¿Cuáles regiones están activas en el turismo venezolano?:
+3) **¿Cuáles regiones están activas en el turismo venezolano?**:
 
 Me voy a permitir enumerarles las cámaras de turismo regional, que hacen vida en las filas de Conseturismo, para que así tengamos todos una idea del alcance de este robusto movimiento gremial privado:
 
