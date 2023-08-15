@@ -24,6 +24,4 @@ Mastercard prevé que, en los próximos dos o tres años, la IA generativa provo
 
 Mastercard está rastreando los cambios radicales que definirán el desarrollo de la IA generativa en el comercio durante los próximos cinco a siete años con la convergencia de cinco tendencias clave: integración generalizada, IA a medida, diferenciadores de datos, interacciones de IA-IA y su capacidad de permanencia. 
 
-Para más detalles consulte el informe Signals de Mastercard para obtener un panorama a profundidad del comercio en la era de la IA generativa: cómo llegamos aquí y los últimos avances, además de sopesar las oportunidades frente a los desafíos y poniendo el acento en la manera que esto afectará a sectores específicos, como las finanzas, las pequeñas empresas, el comercio minorista y el sector turismo.
-
-https://www.mastercard.com/news/latin-america/es/reportes-de-investigacion/reports-es/2023/agosto/el-comercio-en-la-era-de-la-ia-generativa/
+Para más detalles consulte el [informe Signals de Mastercard](https://www.mastercard.com/news/latin-america/es/reportes-de-investigacion/reports-es/2023/agosto/el-comercio-en-la-era-de-la-ia-generativa/) para obtener un panorama a profundidad del comercio en la era de la IA generativa: cómo llegamos aquí y los últimos avances, además de sopesar las oportunidades frente a los desafíos y poniendo el acento en la manera que esto afectará a sectores específicos, como las finanzas, las pequeñas empresas, el comercio minorista y el sector turismo.
