@@ -1,7 +1,11 @@
 <head>
   <meta charset="utf-8">
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-
+  {% if site.google-analytics %}
+  {% if jekyll.environment == 'production' %}
+  {% include ads/head-tag-manager.html %}
+  {% endif %}
+  {% endif %}
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
