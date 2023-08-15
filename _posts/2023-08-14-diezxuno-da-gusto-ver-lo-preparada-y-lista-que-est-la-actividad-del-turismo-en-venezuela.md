@@ -79,6 +79,6 @@ Tuve el honor de participar junto a mi colega Leudo González, en calidad de rep
 Converse con la periodista Graciela Beltrán Carias acerca del alcance del sistema de pagos ruso MIR, en la Isla de Margarita. Acá la pueden oír: 
 
 **Reinaldo Pulido**
-- TW: https://twitter.com/reinaldopulido?lang=es
-- IG: https://www.instagram.com/realpp/?hl=es-la
-- Más información: http://linktr.ee/ReinaldoPulido
+- TW: [https://twitter.com/reinaldopulido?lang=es](https://twitter.com/reinaldopulido?lang=es)
+- IG: [https://www.instagram.com/realpp/?hl=es-la](https://www.instagram.com/realpp/?hl=es-la)
+- Más información: [http://linktr.ee/ReinaldoPulido](http://linktr.ee/ReinaldoPulido)
