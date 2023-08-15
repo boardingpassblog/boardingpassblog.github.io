@@ -56,7 +56,7 @@ section-salte-del-radar:
 after-enterate:
   image: /assets/images/Avior Banner.gif
   alt: "Ad después de entérate"
-  url: "https://www.aviorplus.com/"
+  url: "https://www.aviorplus.com"
 
 after-opinion:
   image: /assets/images/BP-900x100.jpg
