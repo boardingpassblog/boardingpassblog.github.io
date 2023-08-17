@@ -1,0 +1,68 @@
+---
+layout: default
+title: Resultados de la búsqueda del directorio
+---
+
+
+<!-- page-title -->
+<section class="section bg-secondary">
+  <div class="row">
+    <div class="col-lg-12 text-title-left" id="search-directorio-box">
+      <h4 class="mb-4">{{ page.title | escape }}</h4>
+    </div>
+  </div>
+</section>
+<!-- /page-title -->
+
+<!-- search directorio -->
+<section class="section">
+  <div class="container maxw mb-4">
+    <div class="row">
+      <div class="col-lg-9">
+        <div class="col-lg-12" id="search-results-directorio"></div>
+      </div>
+      <div class="col-lg-3">
+        {% 
+          include ads/banner.html 
+          content=site.data.ads.sidebar_search-directorio-1  
+        %}
+        {% include recientes.html %}
+        {% 
+          include ads/banner.html 
+          content=site.data.ads.sidebar_search-directorio-2
+        %}
+        {% include secciones.html %}
+        {% 
+          include ads/banner.html 
+          content=site.data.ads.sidebar_search-directorio-3
+        %}
+      </div> 
+    </div>
+  </div>
+</section>
+<!-- /search directorio -->
+
+<script>
+    window.store_directorio = {
+      {% for archivo in site.directorio %}
+        "{{ archivo.url | slugify }}": {
+          "date": "{{ archivo.date | date: '%d %b, %Y'}}",
+          "name": "{{ archivo.name | xml_escape }}",
+          "region": "{{ archivo.region | xml_escape }}",
+          "state": "{{ archivo.state | xml_escape }}",
+          "sector": "{{ archivo.sector | xml_escape }}",
+          "services": "{{ archivo.services | xml_escape }}",
+          "address": "{{ archivo.address | xml_escape }}",
+          "types": "{{ archivo.types | xml_escape }}",
+          "featured": "{{ archivo.featured | xml_escape }}",
+          "image": "{{ archivo.image | xml_escape }}",
+          "phone_number": "{{ archivo.phone_number | xml_escape }}",
+          "website": "{{ archivo.website | xml_escape }}",
+          "facebook_user": "{{ archivo.facebook_user | xml_escape }}",
+          "twitter_user": "{{ archivo.twitter_user | xml_escape }}",
+          "instagram_user": "{{ archivo.instagram_user | xml_escape }}"
+        }
+        {% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    };
+  </script>

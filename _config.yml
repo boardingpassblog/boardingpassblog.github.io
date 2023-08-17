@@ -298,22 +298,22 @@ prose:
           element: text
           label: Ingresa la dirección
           type: text
-      - name: web_page
+      - name: website
         field:
           element: text
           label: Ingresa la página web
           type: text
-      - name: facebook_page
+      - name: facebook_user
         field:
           element: text
           label: Ingresa la página de Facebook
           type: text
-      - name: twitter_page
+      - name: twitter_user
         field:
           element: text
           label: Ingresa la página de Twitter
           type: text
-      - name: instagram_page
+      - name: instagram_user
         field:
           element: text
           label: Ingresa la página de Instagram

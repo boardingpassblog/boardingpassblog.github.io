@@ -223,11 +223,6 @@ sidebar_directorio-3:
   alt: "Ad sidebar directorio 3"
   url: ""
 
-after-directorio-destacadas:
-  image: /assets/images/BP-900x100.jpg
-  alt: "Ad después de las publicaciones destacadas en la sección directorio"
-  url: ""
-
 category-1:
   image: /assets/images/BP-300x300.jpg
   alt: "Ad category 1"
@@ -271,4 +266,19 @@ post-2:
 post-3:
   image: /assets/images/BP-300x300.jpg
   alt: "Ad post 2"
+  url: ""
+
+sidebar_search-directorio-1:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar search directorio 1"
+  url: ""
+
+sidebar_search-directorio-2:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar search directorio 2"
+  url: ""
+
+sidebar_search-directorio-3:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar search directorio 3"
   url: ""

@@ -42,6 +42,14 @@ h1, .h1 {
   font-size: 80px;
 }
 
+.custom-form {
+  left: 500px;
+}
+
+.custom-width-form {
+  width: 15%; 
+}
+
 @media (max-width: 1680px) {
   h1, .h1 {
     font-size: 55px;
@@ -61,6 +69,12 @@ h1, .h1 {
   .card-title {
     font-size: 25px;
     margin-bottom: 20px !important;
+  }
+  .custom-form {
+    left: 500px;
+  }
+  .custom-width-form {
+    width: 20%; 
   }
 }
 
@@ -84,6 +98,12 @@ h1, .h1 {
     font-size: 20px;
     margin-bottom: 20px !important;
   }
+  .custom-form {
+    left: 100px;
+  }
+  .custom-width-form {
+    width: 80%; 
+  }
 }
 
 @media (max-width: 900px) {
@@ -106,6 +126,12 @@ h1, .h1 {
     font-size: 5px;
     margin-bottom: 5px !important;
   }
+  .custom-width-form {
+    width: 80%; 
+  }
+  .custom-form {
+    left: 80px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -127,6 +153,12 @@ h1, .h1 {
   .card-title {
     font-size: 5px;
     margin-bottom: 5px !important;
+  }
+  .custom-width-form {
+    width: 100%; 
+  }
+  .custom-form {
+    left: 0px;
   }
 }
 
@@ -1071,8 +1103,8 @@ blockquote {
   display: none;
 }
 
-.custom-form {
-  left: 800px;
+#seccionEntradasEstados {
+  display: none;
 }
 
 .position-card {
@@ -1097,4 +1129,19 @@ blockquote {
 
 .margin-img-card{
   width: 100px; height: auto;
+}
+
+.line-break {
+  content: "";
+  display: block;
+  margin-top: 1em;
+}
+
+.tab-card-1 div:first-child {
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.text-title-left{
+  margin-left: 35px;
 }
