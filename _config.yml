@@ -26,13 +26,13 @@ menu:
     url: /rutas/
     submenu:
      - name: VIP's
-       url: /rutas/vips/
+       url: /rutas-vips/
      - name: Aérea
-       url: /rutas/aerea/
+       url: /rutas-aereas/
      - name: Marítima
-       url: /rutas/maritima/
+       url: /rutas-maritimas/
      - name: Terrestre
-       url: /rutas/terrestre/
+       url: /rutas-terrestres/
   - name: Salte del radar
     url: /salte-del-radar/
   - name: Destinos
@@ -242,25 +242,16 @@ prose:
               value: 'enterate'
             - name: 'Opinión'
               value: 'opinion'
-            - name: 'Rutas'
-              value: 'rutas'
+            - name: "Rutas-VIP's"
+              value: 'rutas-vips'
+            - name: 'Rutas-Aéreas'
+              value: 'rutas-aereas'
+            - name: 'Rutas-Marítimas'
+              value: 'rutas-maritimas'
+            - name: 'Rutas-Terrestres'
+              value: 'rutas-terrestres'
             - name: 'Salte del radar'
               value: 'salte-del-radar'
-          alterable: false
-      - name: ruta
-        field:
-          element: select
-          label: Si es una ruta selecciona el tipo de ruta
-          help: Puedes seleccionar un solo tipo
-          options:
-            - name: "VIP's"
-              value: 'vips'
-            - name: 'Aérea'
-              value: 'aerea'
-            - name: 'Marítima'
-              value: 'maritima'
-            - name: 'Terrestre'
-              value: 'terrestre'
           alterable: false
     _directorio:
       - name: name

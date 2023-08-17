@@ -1,7 +1,7 @@
 ---
 layout: section
 title: Rutas - VIP's
-permalink: /rutas/vips/
+permalink: /rutas-vips/
 ---
 
 {% 
@@ -17,8 +17,7 @@ permalink: /rutas/vips/
     <div class="row">
       <div class="col-lg-9">
         {% for post in site.posts %}
-        {% if post.categories contains 'rutas' %}
-        {% if post.ruta contains 'vips' %}
+        {% if post.categories contains 'rutas-vips' %}
         {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
         {% if thecycle == 'odd' %}
         {% assign class = '' %}
@@ -26,7 +25,6 @@ permalink: /rutas/vips/
         {% assign class = 'article-right' %}
         {% endif %}
           {% include pages/article.html %}
-        {% endif %}
         {% endif %}
         {% endfor %}
       </div> 

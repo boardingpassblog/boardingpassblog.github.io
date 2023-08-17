@@ -3,7 +3,6 @@ layout: post
 date: '2023-07-25 16:25 -0400'
 featured: false
 published: true
-ruta: vips
 title: Los paquetes “full day” a Los Roques de Conviasa
 image: /assets/images/Conviasa-Aviones.jpg
 description: Los paquetes “full day” a Los Roques de Conviasa

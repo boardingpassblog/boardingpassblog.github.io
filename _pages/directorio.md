@@ -22,9 +22,9 @@ permalink: /directorio/
       <li class="nav-item">
       </li>
       <li class="nav-item">
-        <a class="nav-link text-uppercase text-dark" id="verLabel">
+        <div class="nav-link text-uppercase text-dark" id="verLabel">
           Ver
-        </a>
+        </div>
       </li>
       <li id="dropdownEntradas" class="nav-item dropdown">
         <a class="nav-link text-uppercase text-dark dropdown-toggle" id="navbarDropdownEntradas" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -41,9 +41,9 @@ permalink: /directorio/
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-uppercase text-dark" id="verLabel">
+        <div class="nav-link text-uppercase text-dark" id="verLabel">
           Clasificar por:
-        </a>
+        </div>
       </li>
       <li id="dropdownOrdenar" class="nav-item dropdown">
         <a class="nav-link text-uppercase text-dark dropdown-toggle" id="navbarDropdownOrdenar" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

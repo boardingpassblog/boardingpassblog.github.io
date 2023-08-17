@@ -3,7 +3,6 @@ layout: post
 date: '2023-08-01 09:46 -0400'
 featured: true
 published: true
-ruta: vips
 title: Rutaca Airlines presentó 'La Ruta Musical'
 image: /assets/images/Cancion-Rutaca.jpg
 description: Rutaca Airlines presentó 'La Ruta Musical'

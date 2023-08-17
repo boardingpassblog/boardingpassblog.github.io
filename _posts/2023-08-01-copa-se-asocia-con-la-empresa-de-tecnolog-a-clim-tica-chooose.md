@@ -3,7 +3,6 @@ layout: post
 date: '2023-08-01 18:26 -0400'
 featured: false
 published: true
-ruta: vips
 title: Copa se asocia con la empresa de tecnología climática CHOOOSE
 description: Copa se asocia con la empresa de tecnología climática CHOOOSE
 image: /assets/images/Avion-Copa.jpg

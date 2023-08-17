@@ -5,8 +5,7 @@ featured: true
 categories:
   - destinos
   - enterate
-  - rutas
-ruta: aerea
+  - rutas-aereas
 author: Edgar Rincón
 published: true
 title: Wingo reactiva las  ventas de su ruta entre Bogotá y Caracas

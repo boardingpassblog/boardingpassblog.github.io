@@ -3,7 +3,6 @@ layout: post
 date: '2023-08-07 16:06 -0400'
 featured: false
 published: true
-ruta: vips
 title: Destino Venezuela es presentado al mercado turístico de Chile
 description: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Vzla-Paisajes.jpg

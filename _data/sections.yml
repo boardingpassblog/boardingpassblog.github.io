@@ -10,6 +10,22 @@ rutas:
   title: "Rutas"
   category: "rutas"
 
+rutas-vips:
+  title: "Rutas-VIP's"
+  category: "rutas-vips"
+
+rutas-aereas:
+  title: "Rutas-Aéreas"
+  category: "rutas-aereas"
+
+rutas-maritimas:
+  title: "Rutas-Marítimas"
+  category: "rutas-maritimas"
+
+rutas-terrestres:
+  title: "Rutas-Terrestres"
+  category: "rutas-terrestres"
+
 destinos:
   title: "Destinos"
   category: "destinos"

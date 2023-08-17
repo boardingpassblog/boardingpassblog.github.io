@@ -3,7 +3,6 @@ layout: post
 date: '2023-08-11 16:40 -0400'
 featured: true
 published: true
-ruta: vips
 title: Ruta Madrid-Porlamar-Canaima atendida por Plus Ultra y Conviasa
 description: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/BP_FotoWEBCanaima.jpg

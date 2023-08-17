@@ -3,7 +3,6 @@ layout: post
 date: '2023-07-31 17:36 -0400'
 featured: false
 published: true
-ruta: vips
 title: Conozcamos Sanare en el estado Lara
 image: /assets/images/Sanare.jpg
 image-text: 'Pueblo de Sanare, Lara, Venezuela'

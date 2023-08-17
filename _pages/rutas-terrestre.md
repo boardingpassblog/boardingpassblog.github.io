@@ -1,7 +1,7 @@
 ---
 layout: section
 title: Rutas - Terrestre
-permalink: /rutas/terrestre/
+permalink: /rutas-terrestres/
 ---
 
 {% 
@@ -17,8 +17,7 @@ permalink: /rutas/terrestre/
     <div class="row">
       <div class="col-lg-9">
         {% for post in site.posts %}
-        {% if post.categories contains 'rutas' %}
-        {% if post.ruta contains 'terrestre' %}
+        {% if post.categories contains 'rutas-terrestres' %}
         {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
         {% if thecycle == 'odd' %}
         {% assign class = '' %}
@@ -26,7 +25,6 @@ permalink: /rutas/terrestre/
         {% assign class = 'article-right' %}
         {% endif %}
           {% include pages/article.html %}
-        {% endif %}
         {% endif %}
         {% endfor %}
       </div> 

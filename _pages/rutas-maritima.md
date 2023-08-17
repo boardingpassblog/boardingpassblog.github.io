@@ -1,7 +1,7 @@
 ---
 layout: section
 title: Rutas - Marítima
-permalink: /rutas/maritima/
+permalink: /rutas-maritimas/
 ---
 
 {% 
@@ -17,8 +17,7 @@ permalink: /rutas/maritima/
     <div class="row">
       <div class="col-lg-9">
         {% for post in site.posts %}
-        {% if post.categories contains 'rutas' %}
-        {% if post.ruta contains 'maritima' %}
+        {% if post.categories contains 'rutas-maritimas' %}
         {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
         {% if thecycle == 'odd' %}
         {% assign class = '' %}
@@ -26,7 +25,6 @@ permalink: /rutas/maritima/
         {% assign class = 'article-right' %}
         {% endif %}
           {% include pages/article.html %}
-        {% endif %}
         {% endif %}
         {% endfor %}
       </div> 

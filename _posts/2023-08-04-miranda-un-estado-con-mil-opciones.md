@@ -3,7 +3,6 @@ layout: post
 date: '2023-08-04 17:05 -0400'
 featured: false
 published: true
-ruta: vips
 title: 'Miranda, un estado con mil opciones '
 description: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Monumento-al-Cacao.jpg

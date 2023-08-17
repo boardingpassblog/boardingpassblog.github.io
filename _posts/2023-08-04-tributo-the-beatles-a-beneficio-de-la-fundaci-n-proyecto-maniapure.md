@@ -3,7 +3,6 @@ layout: post
 date: '2023-08-04 15:14 -0400'
 featured: false
 published: true
-ruta: vips
 title: Tributo The Beatles a beneficio de la Fundación Proyecto Maniapure
 description: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Tomas-Sanabria.jpg

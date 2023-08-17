@@ -3,7 +3,6 @@ layout: post
 date: '2023-08-02 17:03 -0400'
 featured: false
 published: true
-ruta: vips
 title: Próximamente serán validadas dos rutas turísticas en Delta Amacuro
 description: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Delta-amacuro.jpg

@@ -3,7 +3,6 @@ layout: post
 date: '2023-07-25 09:36 -0400'
 featured: false
 published: true
-ruta: vips
 title: Copa Airlines incrementa la conectividad desde y hacia Venezuela
 image: /assets/images/Avion-Copa.jpg
 description: Copa Airlines incrementa la conectividad desde y hacia Venezuela

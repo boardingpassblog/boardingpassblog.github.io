@@ -3,7 +3,6 @@ layout: post
 date: '2023-08-04 19:22 -0400'
 featured: false
 published: true
-ruta: vips
 title: Ofertas y promociones de ocupación hotelera llegarían a 40% en vacaciones
 description: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Leudo-Gonzalez.jpg

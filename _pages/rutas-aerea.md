@@ -1,7 +1,7 @@
 ---
 layout: section
 title: Rutas - Aérea
-permalink: /rutas/aerea/
+permalink: /rutas-aereas/
 ---
 
 {% 
@@ -17,8 +17,7 @@ permalink: /rutas/aerea/
     <div class="row">
       <div class="col-lg-9">
         {% for post in site.posts %}
-        {% if post.categories contains 'rutas' %}
-        {% if post.ruta contains 'aerea' %}
+        {% if post.categories contains 'rutas-aereas' %}
         {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
         {% if thecycle == 'odd' %}
         {% assign class = '' %}
@@ -26,7 +25,6 @@ permalink: /rutas/aerea/
         {% assign class = 'article-right' %}
         {% endif %}
           {% include pages/article.html %}
-        {% endif %}
         {% endif %}
         {% endfor %}
       </div> 

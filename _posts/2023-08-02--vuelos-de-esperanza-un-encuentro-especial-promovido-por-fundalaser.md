@@ -3,7 +3,6 @@ layout: post
 date: '2023-08-02 16:35 -0400'
 featured: true
 published: true
-ruta: vips
 title: '“Vuelos de Esperanza”, un encuentro especial promovido por FundaLASER'
 description: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Fundalaser.jpg

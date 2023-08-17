@@ -3,7 +3,6 @@ layout: post
 date: '2023-07-31 16:50 -0400'
 featured: false
 published: true
-ruta: vips
 title: Reactivación de rutas aéreas nacionales e internacionales en Venezuela
 image: /assets/images/Humberto-Figuera.jpg
 image-text: 'Humberto Figuera, Presidente de ALAV'
