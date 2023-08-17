@@ -1,7 +1,7 @@
 ---
 layout: post
 date: '2023-08-17 15:18 -0400'
-featured: false
+featured: true
 published: true
 ruta: vips
 title: Vuelo venezolano tripulado por mujeres llega a Cancún
@@ -20,5 +20,3 @@ El primer vuelo internacional del Consorcio Venezolano de Industrias Aeronáutic
 
 Andrea Palacios, su capitana, manifestó: “Lo que hace maravillosa esta experiencia es que estuvo dirigida por mujeres. Estamos muy contentas de atender a nuestros pasajeros".
 Las féminas que conformaron la tripulación fueron: La Cap. Andrea Palacios; P/O. Jasmín Acosta; jefe de cabina, Maybella Domínguez; despachadora de vuelo, Xayira Ramírez; TMA, Magaly Vegas y las tripulantes de cabina, Fabiola Lugo e Indira Carrero.
-
-
