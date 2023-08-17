@@ -1,7 +1,7 @@
 ---
 layout: post
 date: '2023-08-17 15:34 -0400'
-featured: false
+featured: true
 published: true
 ruta: vips
 title: ¿Qué sabes del Turismo Gastronómico?
@@ -31,5 +31,3 @@ Sin salir de Venezuela, el turista  o el local puede probar desde las mejores �
 Todo esto sin contar las rutas gastronómicas en las distintas localidades de nuestra geografía, como Mérida, una idea que surge por parte de los dueños de restaurantes para promover las diferentes propuestas de la zona, o Anzoátegui, con la “Ruta Gastronómica del Queso, Cachapa y Cochino” realizada en junio en el marco de las Ferias de Clarines en honor a San Antonio de Padua. 
 
 ¿Haces turismo gastronómico? ¡Déjanos tus comentarios!
-
-
