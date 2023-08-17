@@ -1,7 +1,7 @@
 ---
 layout: post
 date: '2023-08-17 15:40 -0400'
-featured: false
+featured: true
 published: true
 ruta: maritima
 title: Llega el ícono de los mares
@@ -37,7 +37,3 @@ Una de sus particularidades más llamativas del crucero, cuya construcción inic
 
 
 La industria de los cruceros se dirige hacia una gran recuperación, tras el duro golpe que recibió a propósito de la pandemia por el covid-19.
-
-
-
-
