@@ -3,7 +3,6 @@ layout: post
 date: '2023-08-18 14:39 -0400'
 featured: false
 published: true
-ruta: vips
 title: 'Entre palmeras y arena, se esconde Playa Medina'
 description: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Playa-Medina.jpg

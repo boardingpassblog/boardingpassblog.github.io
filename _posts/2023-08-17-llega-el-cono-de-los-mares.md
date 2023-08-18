@@ -3,10 +3,9 @@ layout: post
 date: '2023-08-17 15:40 -0400'
 featured: true
 published: true
-ruta: maritima
 title: Llega el ícono de los mares
 categories:
-  - rutas
+  - rutas-maritimas
 image-text: Crucero Icons of the Sea
 image: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/d266b023bb3b0d9676e62ec227fb9426558ed890/assets/images/iconofthesea-bp.jpg

@@ -962,6 +962,27 @@ blockquote {
   overflow: hidden;
 }
 
+.post-thumb-sm-destacados {
+  max-width: 100px;
+  max-height: 100px;
+  overflow: hidden;
+}
+
+.post-thumb-sm-destacados {
+  width: 150px; /* Cambia el valor según el ancho deseado */
+}
+
+.post-thumb-sm-destacados img {
+  width: 100%;
+  height: auto;
+}
+
+.post-thumb-sm-directorio {
+  max-width: 100px;
+  max-height: 100px;
+  overflow: hidden;
+}
+
 .tag-list li a {
   display: block;
   background: #f4f4f4;
@@ -1127,6 +1148,14 @@ blockquote {
   width: 100px; height: auto;
 }
 
+.img-card-no-destacadas{
+  width: 110px; height: auto;
+}
+
+.smaller-font {
+  font-size: 16px; 
+}
+
 .margin-img-card{
   width: 100px; height: auto;
 }
@@ -1144,4 +1173,41 @@ blockquote {
 
 .text-title-left{
   margin-left: 35px;
+}
+
+.font-phone-number {
+  font-weight: normal;
+  font-size: 17px;
+}
+
+.fas.fa-map-marker-alt {
+  color: #03b6a4;
+}
+
+.fas.fa-bullhorn {
+  color: #03b6a4;
+}
+
+.fas.fa-industry {
+  color: #03b6a4;
+}
+
+.fas.fa-phone {
+  color: #03b6a4;
+}
+
+.fas.fa-globe {
+  color: #03b6a4;
+}
+
+.fab.fa-facebook-square {
+  color: #03b6a4;
+}
+
+.fab.fa-instagram {
+  color: #03b6a4;
+}
+
+.fab.fa-twitter {
+  color: #03b6a4;
 }

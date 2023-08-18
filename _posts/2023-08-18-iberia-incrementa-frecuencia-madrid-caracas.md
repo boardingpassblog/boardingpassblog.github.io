@@ -3,7 +3,6 @@ layout: post
 date: '2023-08-18 14:56 -0400'
 featured: true
 published: true
-ruta: aerea
 title: Iberia incrementa frecuencia Madrid-Caracas
 author: ' Aviacionline.'
 description: >-
@@ -12,7 +11,7 @@ image: >-
   https://github.com/boardingpassblog/boardingpassblog.github.io/blob/main/assets/images/iberia-bp.jpg?raw=true
 image-text: 'Iberia Airbus A330-200 '
 categories:
-  - rutas
+  - rutas-aereas
 ---
 
 Iberia incrementará sus frecuencias entre Madrid y Caracas, pasará de tres a cinco vuelos semanales desde septiembre, por lo que se convertirá en la principal aerolínea para la temporada de invierno boreal en asientos por kilómetro (ASK), de acuerdo con datos de Cirium, compitiendo con Air Europa y Plus Ultra.

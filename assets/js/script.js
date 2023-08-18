@@ -110,7 +110,7 @@
   });
   
   document.addEventListener('DOMContentLoaded', function() {
-    const opcionTodas = document.getElementById('opcionTodas');
+    const opcionTodos = document.getElementById('opcionTodos');
     const opcionDestacados = document.getElementById('opcionDestacados');
     const opcionNoDestacados = document.getElementById('opcionNoDestacados');
     const opcionNombre = document.getElementById('opcionNombre');
@@ -146,7 +146,7 @@
       seccionDestacadosRegion.style.display = 'none';
     }
 
-    opcionTodas.addEventListener('click', function() {
+    opcionTodos.addEventListener('click', function() {
       if (seccionDestacados.style.display === 'block') {
         cambiarSecciones(seccionEntradas, seccionDestacados);
       } else if (seccionNoDestacados.style.display === 'block') {

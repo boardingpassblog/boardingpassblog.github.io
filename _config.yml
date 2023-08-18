@@ -266,14 +266,82 @@ prose:
           value: CURRENT_DATETIME
       - name: region
         field:
-          element: text
-          label: Ingresa la Región
-          type: text
+          element: select
+          label: Selecciona el Estado 
+          help: Puedes seleccionar un solo Estado
+          options:
+            - name: 'Los Andes'
+              value: 'Los Andes'
+            - name: 'Lago de Maracaibo'
+              value: 'Lago de Maracaibo'
+            - name: 'Guayana'
+              value: 'Guayana'
+            - name: 'Centro-Norte'
+              value: 'Centro-Norte'
+            - name: 'Centro-Occidental'
+              value: 'Centro Occidental'
+            - name: 'Nor-Oriental'
+              value: 'Nor-Oriental'
+            - name: 'Los Llanos'
+              value: 'Los Llanos'
+            - name: 'Llanura Deltaica'
+              value: 'Llanura Deltaica'
+          alterable: false
       - name: state
         field:
-          element: text
-          label: Ingresa el Estado
-          type: text
+          element: select
+          label: Selecciona el Estado 
+          help: Puedes seleccionar un solo Estado
+          options:
+            - name: 'Amazonas'
+              value: 'Amazonas'
+            - name: 'Anzoátegui'
+              value: 'Anzoátegui'
+            - name: 'Apure'
+              value: 'Apure'
+            - name: 'Aragua'
+              value: 'Aragua'
+            - name: 'Barinas'
+              value: 'Barinas'
+            - name: 'Bolívar'
+              value: 'Bolívar'
+            - name: 'Carabobo'
+              value: 'Carabobo'
+            - name: 'Cojedes'
+              value: 'Cojedes'
+            - name: 'Delta Amacuro'
+              value: 'Delta Amacuro'
+            - name: 'Distrito Capital'
+              value: 'Distrito Capital'
+            - name: 'Falcón'
+              value: 'Falcón'
+            - name: 'Guárico'
+              value: 'Guárico'
+            - name: 'Lara'
+              value: 'Lara'
+            - name: 'Mérida'
+              value: 'Mérida'
+            - name: 'Miranda'
+              value: 'Miranda'
+            - name: 'Monagas'
+              value: 'Monagas'
+            - name: 'Nueva Esparta'
+              value: 'Nueva Esparta'
+            - name: 'Portuguesa'
+              value: 'Portuguesa'
+            - name: 'Sucre'
+              value: 'Sucre'
+            - name: 'Táchira'
+              value: 'Táchira'
+            - name: 'Trujillo'
+              value: 'Trujillo'
+            - name: 'Vargas'
+              value: 'Vargas'
+            - name: 'Yaracuy'
+              value: 'Yaracuy'
+            - name: 'Zulia'
+              value: 'Zulia'
+          alterable: false
       - name: sector
         field:
           element: text
@@ -314,6 +382,11 @@ prose:
           element: text
           label: Ingresa los servicios
           type: text
+      - name: services_extra
+        field:
+          element: text
+          label: Ingresa otros servicios
+          type: text
       - name: featured
         field:
           element: checkbox
@@ -332,13 +405,13 @@ prose:
           help: Puedes seleccionar varios tipos
           options:
             - name: 'Operadores'
-              value: 'operadores'
+              value: 'Operadores'
             - name: 'Mayoristas'
-              value: 'mayoristas'
+              value: 'Mayoristas'
             - name: 'Agencias'
-              value: 'agencias'
+              value: 'Agencias'
             - name: 'Hospedaje'
-              value: 'hospedaje'
+              value: 'Hospedaje'
             - name: 'Alquiler'
-              value: 'alquiler'
+              value: 'Alquiler'
           alterable: false

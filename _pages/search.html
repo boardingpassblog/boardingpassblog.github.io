@@ -18,9 +18,16 @@ title: Resultados de la búsqueda
   <div class="container maxw">
     <div class="row">
       <div class="col-lg-9 mx-auto">
+        <div class="col-lg-12" id="search-results-destacadas"></div>
+        <div class="line-break">   </div>
         <ul class="list-unstyled" id="search-results"></ul>
       </div>
       <div class="col-lg-3">
+        {% 
+          include ads/banner.html 
+          content=site.data.ads.sidebar_search-0  
+        %}
+        {% include destacado.html %}
         {% 
           include ads/banner.html 
           content=site.data.ads.sidebar_search-1  
@@ -55,4 +62,37 @@ title: Resultados de la búsqueda
       {% unless forloop.last %},{% endunless %}
     {% endfor %}
   };
+  window.store_directorio = {
+      {% for archivo in site.directorio %}
+        "{{ archivo.url | slugify }}": {
+          "date": "{{ archivo.date | date: '%d %b, %Y'}}",
+          "name": "{{ archivo.name | xml_escape }}",
+          "region": "{{ archivo.region | xml_escape }}",
+          "state": "{{ archivo.state | xml_escape }}",
+          "sector": "{{ archivo.sector | xml_escape }}",
+          "services": "{{ archivo.services | xml_escape }}",
+          "address": "{{ archivo.address | xml_escape }}",
+          "types": "{{ archivo.types | xml_escape }}",
+          "featured": "{{ archivo.featured | xml_escape }}",
+          "image": "{{ archivo.image | xml_escape }}",
+          "phone_number": "{{ archivo.phone_number | xml_escape }}",
+          "website": "{{ archivo.website | xml_escape }}",
+          "facebook_user": "{{ archivo.facebook_user | xml_escape }}",
+          "twitter_user": "{{ archivo.twitter_user | xml_escape }}",
+          "instagram_user": "{{ archivo.instagram_user | xml_escape }}"
+        }
+        {% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    };
+
+    document.addEventListener('DOMContentLoaded', function() {
+    // Verificar si el contenido de search-results está vacío
+    var searchResultsElement = document.getElementById('search-results');
+    var searchResultsDestacadasElement = document.getElementById('search-results-destacadas');
+    if (searchResultsElement.innerHTML.trim() === '' && searchResultsDestacadasElement.innerHTML.trim() === '') {
+      // El contenido de search-results está vacío
+      searchResultsElement.innerHTML = '<div>No hay resultados de la búsqueda...</div>';
+    } 
+  });
 </script>
+

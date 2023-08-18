@@ -28,10 +28,10 @@ permalink: /directorio/
       </li>
       <li id="dropdownEntradas" class="nav-item dropdown">
         <a class="nav-link text-uppercase text-dark dropdown-toggle" id="navbarDropdownEntradas" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Todas
+          Todos
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownEntradas">
-          <a class="dropdown-item text-dark" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onclick="changeDropdownOption('dropdownEntradas', 'Todas')" id="opcionTodas">Todas</a>
+          <a class="dropdown-item text-dark" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onclick="changeDropdownOption('dropdownEntradas', 'Todos')" id="opcionTodos">Todos</a>
           <a class="dropdown-item text-dark" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onclick="changeDropdownOption('dropdownEntradas', 'Destacados')" id="opcionDestacados">Destacados</a>
           <a class="dropdown-item text-dark" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onclick="changeDropdownOption('dropdownEntradas', 'No destacados')" id="opcionNoDestacados">No destacados</a>
         </div>
@@ -57,7 +57,7 @@ permalink: /directorio/
       </li>
     </ul>
     <form class="form-inline position-relative ml-lg-4 custom-form custom-width-form" action="/search-directorio.html" method="get">
-      <input class="form-control px-0 w-100" type="search" id="search-directorio-box" name="query-directorio" placeholder="Búsqueda en directorio ...">
+      <input class="form-control px-0 w-100" type="search" id="search-directorio-box" name="query-directorio" placeholder="Búsqueda en el directorio ...">
       <button class="search-icon" type="submit"><i class="ti-search text-dark"></i></button>
     </form>
   </div>
@@ -96,14 +96,14 @@ permalink: /directorio/
                   <div class="tab-content line-break">
                     <div class="tab-pane fade show active" id="tab1-{{iterator}}">
                       <div class="tab-card">
-                        <div class="tab-pane-card">
+                        <div class="tab-pane-card post-thumb-sm-directorio">
                           <img src="{{post.image | relative_url}}" alt="{{post.name}}" class="img-card">
                         </div>
                         <div class="tab-card-1">
-                          <div><i class="fas fa-building"></i> {{post.name | capitalize}}</div>
-                          <div><i class="fas fa-map-marker-alt"></i> {{post.address}}</div>
-                          <div><i class="fas fa-bullhorn"></i> {{post.services}}</div>
-                          <div><i class="fas fa-industry"></i> {{post.sector}}</div>
+                          <div> <h5 class="text-dark">{{post.name }}</h5></div>
+                          <div class="smaller-font"><i class="fas fa-map-marker-alt"></i> {{post.address}}</div>
+                          <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
+                          <div class="smaller-font"><i class="fas fa-industry"></i> {{post.sector}}</div>
                         </div>
                       </div>
                     </div>
@@ -112,27 +112,27 @@ permalink: /directorio/
                         <div class="tab-card-1">
                           <div>
                             <i class="fas fa-phone"></i> 
-                            <a href="tel:{{post.phone_number}}"> {{post.phone_number}}</a>
+                            <a href="tel:{{post.phone_number}}" class="font-phone-number"> {{post.phone_number}}</a>
                           </div>
-                          <div>
+                          <div class="smaller-font">
                             <i class="fas fa-globe"></i> 
                             <a href="https://{{post.website}}"> {{post.website}}</a>
                           </div>
-                          <div>
+                          <div class="smaller-font">
                             <i class="fab fa-facebook-square"></i> 
                             <a href="https://www.facebook.com/{{post.facebook_user}}"> {{post.facebook_user}}</a>
                           </div>
-                          <div>
+                          <div class="smaller-font">
                             <i class="fab fa-instagram"></i> 
                             <a href="https://instagram.com/{{post.instagram_user}}"> {{post.instagram_user}}</a>
                           </div>
-                          <div>
+                          <div class="smaller-font">
                             <i class="fab fa-twitter"></i> 
                             <a href="https://twitter.com/{{post.twitter_user}}"> {{post.twitter_user}}</a>
                           </div>
                         </div>
-                        <div class="margin-img-card">
-                          <img src="{{post.image | relative_url}}" alt="{{post.name}}" class="img-card">
+                        <div>
+                          <img src="{{post.image | relative_url}}" alt="{{post.name}}" class="img-card-no-destacadas">
                         </div>
                       </div>
                     </div>
@@ -164,10 +164,10 @@ permalink: /directorio/
                 <div class="card-body position-card">
                   <div class="tab-card">
                     <div class="tab-card-1">
-                      <div><i class="fas fa-building"></i> {{post.name | capitalize}}</div>
-                      <div><i class="fas fa-map-marker-alt"></i> {{post.address}}</div>
-                      <div><i class="fas fa-bullhorn"></i> {{post.services}}</div>
-                      <div><i class="fas fa-industry"></i> {{post.sector}}</div>
+                      <div> <h5 class="text-dark">{{post.name }}</h5></div>
+                      <div class="smaller-font"><i class="fas fa-map-marker-alt"></i> {{post.address}}</div>
+                      <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
+                      <div class="smaller-font"><i class="fas fa-industry"></i> {{post.sector}}</div>
                     </div>
                   </div>
                 </div>
@@ -197,10 +197,10 @@ permalink: /directorio/
                 <div class="card-body position-card">
                   <div class="tab-card">
                     <div class="tab-card-1">
-                      <div><i class="fas fa-building"></i> {{post.name | capitalize}}</div>
-                      <div><i class="fas fa-map-marker-alt"></i> {{post.address}}</div>
-                      <div><i class="fas fa-bullhorn"></i> {{post.services}}</div>
-                      <div><i class="fas fa-industry"></i> {{post.sector}}</div>
+                      <div> <h5 class="text-dark">{{post.name }}</h5></div>
+                      <div class="smaller-font"><i class="fas fa-map-marker-alt"></i> {{post.address}}</div>
+                      <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
+                      <div class="smaller-font"><i class="fas fa-industry"></i> {{post.sector}}</div>
                     </div>
                   </div>
                 </div>
@@ -239,14 +239,14 @@ permalink: /directorio/
                   <div class="tab-content line-break">
                     <div class="tab-pane fade show active" id="tab9-{{iterator}}">
                       <div class="tab-card">
-                        <div class="tab-pane-card">
+                        <div class="tab-pane-card post-thumb-sm-directorio">
                           <img src="{{post.image | relative_url}}" alt="{{post.name}}" class="img-card">
                         </div>
                         <div class="tab-card-1">
-                          <div><i class="fas fa-building"></i> {{post.name | capitalize}}</div>
-                          <div><i class="fas fa-map-marker-alt"></i> {{post.address}}</div>
-                          <div><i class="fas fa-bullhorn"></i> {{post.services}}</div>
-                          <div><i class="fas fa-industry"></i> {{post.sector}}</div>
+                          <div> <h5 class="text-dark">{{post.name }}</h5></div>
+                          <div class="smaller-font"><i class="fas fa-map-marker-alt"></i> {{post.address}}</div>
+                          <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
+                          <div class="smaller-font"><i class="fas fa-industry"></i> {{post.sector}}</div>
                         </div>
                       </div>
                     </div>
@@ -255,27 +255,27 @@ permalink: /directorio/
                         <div class="tab-card-1">
                           <div>
                             <i class="fas fa-phone"></i> 
-                            <a href="tel:{{post.phone_number}}"> {{post.phone_number}}</a>
+                            <a href="tel:{{post.phone_number}}" class="font-phone-number"> {{post.phone_number}}</a>
                           </div>
-                          <div>
+                          <div class="smaller-font">
                             <i class="fas fa-globe"></i> 
                             <a href="https://{{post.website}}"> {{post.website}}</a>
                           </div>
-                          <div>
+                          <div class="smaller-font">
                             <i class="fab fa-facebook-square"></i> 
                             <a href="https://www.facebook.com/{{post.facebook_user}}"> {{post.facebook_user}}</a>
                           </div>
-                          <div>
+                          <div class="smaller-font">
                             <i class="fab fa-instagram"></i> 
                             <a href="https://instagram.com/{{post.instagram_user}}"> {{post.instagram_user}}</a>
                           </div>
-                          <div>
+                          <div class="smaller-font">
                             <i class="fab fa-twitter"></i> 
                             <a href="https://twitter.com/{{post.twitter_user}}"> {{post.twitter_user}}</a>
                           </div>
                         </div>
-                        <div class="margin-img-card">
-                          <img src="{{post.image | relative_url}}" alt="{{post.name}}" class="img-card">
+                        <div>
+                          <img src="{{post.image | relative_url}}" alt="{{post.name}}">
                         </div>
                       </div>
                     </div>
@@ -285,10 +285,10 @@ permalink: /directorio/
                 <div class="card-body position-card">
                   <div class="tab-card">
                     <div class="tab-card-1">
-                      <div><i class="fas fa-building"></i> {{post.name | capitalize}}</div>
-                      <div><i class="fas fa-map-marker-alt"></i> {{post.address}}</div>
-                      <div><i class="fas fa-bullhorn"></i> {{post.services}}</div>
-                      <div><i class="fas fa-industry"></i> {{post.sector}}</div>
+                      <div> <h5 class="text-dark">{{post.name }}</h5></div>
+                      <div class="smaller-font"><i class="fas fa-map-marker-alt"></i> {{post.address}}</div>
+                      <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
+                      <div class="smaller-font"><i class="fas fa-industry"></i> {{post.sector}}</div>
                     </div>
                   </div>
                 </div>
@@ -327,14 +327,14 @@ permalink: /directorio/
                   <div class="tab-content line-break">
                     <div class="tab-pane fade show active" id="tab3-{{iterator}}">
                       <div class="tab-card">
-                        <div class="tab-pane-card">
+                        <div class="tab-pane-card post-thumb-sm-directorio">
                           <img src="{{post.image | relative_url}}" alt="{{post.name}}" class="img-card">
                         </div>
                         <div class="tab-card-1">
-                          <div><i class="fas fa-building"></i> {{post.name | capitalize}}</div>
-                          <div><i class="fas fa-map-marker-alt"></i> {{post.address}}</div>
-                          <div><i class="fas fa-bullhorn"></i> {{post.services}}</div>
-                          <div><i class="fas fa-industry"></i> {{post.sector}}</div>
+                          <div> <h5 class="text-dark">{{post.name }}</h5></div>
+                          <div class="smaller-font"><i class="fas fa-map-marker-alt"></i> {{post.address}}</div>
+                          <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
+                          <div class="smaller-font"><i class="fas fa-industry"></i> {{post.sector}}</div>
                         </div>
                       </div>
                     </div>
@@ -343,27 +343,27 @@ permalink: /directorio/
                         <div class="tab-card-1">
                           <div>
                             <i class="fas fa-phone"></i> 
-                            <a href="tel:{{post.phone_number}}"> {{post.phone_number}}</a>
+                            <a href="tel:{{post.phone_number}}" class="font-phone-number"> {{post.phone_number}}</a>
                           </div>
-                          <div>
+                          <div class="smaller-font">
                             <i class="fas fa-globe"></i> 
                             <a href="https://{{post.website}}"> {{post.website}}</a>
                           </div>
-                          <div>
+                          <div class="smaller-font">
                             <i class="fab fa-facebook-square"></i> 
                             <a href="https://www.facebook.com/{{post.facebook_user}}"> {{post.facebook_user}}</a>
                           </div>
-                          <div>
+                          <div class="smaller-font">
                             <i class="fab fa-instagram"></i> 
                             <a href="https://instagram.com/{{post.instagram_user}}"> {{post.instagram_user}}</a>
                           </div>
-                          <div>
+                          <div class="smaller-font">
                             <i class="fab fa-twitter"></i> 
                             <a href="https://twitter.com/{{post.twitter_user}}"> {{post.twitter_user}}</a>
                           </div>
                         </div>
-                        <div class="margin-img-card">
-                          <img src="{{post.image | relative_url}}" alt="{{post.name}}" class="img-card">
+                        <div>
+                          <img src="{{post.image | relative_url}}" alt="{{post.name}}" class="img-card-no-destacadas">
                         </div>
                       </div>
                     </div>
@@ -373,10 +373,10 @@ permalink: /directorio/
                 <div class="card-body position-card">
                   <div class="tab-card">
                     <div class="tab-card-1">
-                      <div><i class="fas fa-building"></i> {{post.name | capitalize}}</div>
-                      <div><i class="fas fa-map-marker-alt"></i> {{post.address}}</div>
-                      <div><i class="fas fa-bullhorn"></i> {{post.services}}</div>
-                      <div><i class="fas fa-industry"></i> {{post.sector}}</div>
+                      <div> <h5 class="text-dark">{{post.name }}</h5></div>
+                      <div class="smaller-font"><i class="fas fa-map-marker-alt"></i> {{post.address}}</div>
+                      <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
+                      <div class="smaller-font"><i class="fas fa-industry"></i> {{post.sector}}</div>
                     </div>
                   </div>
                 </div>
@@ -406,10 +406,10 @@ permalink: /directorio/
                 <div class="card-body position-card">
                   <div class="tab-card">
                     <div class="tab-card-1">
-                      <div><i class="fas fa-building"></i> {{post.name | capitalize}}</div>
-                      <div><i class="fas fa-map-marker-alt"></i> {{post.address}}</div>
-                      <div><i class="fas fa-bullhorn"></i> {{post.services}}</div>
-                      <div><i class="fas fa-industry"></i> {{post.sector}}</div>
+                      <div> <h5 class="text-dark">{{post.name }}</h5></div>
+                      <div class="smaller-font"><i class="fas fa-map-marker-alt"></i> {{post.address}}</div>
+                      <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
+                      <div class="smaller-font"><i class="fas fa-industry"></i> {{post.sector}}</div>
                     </div>
                   </div>
                 </div>
@@ -448,14 +448,14 @@ permalink: /directorio/
                   <div class="tab-content line-break">
                     <div class="tab-pane fade show active" id="tab11-{{iterator}}">
                       <div class="tab-card">
-                        <div class="tab-pane-card">
+                        <div class="tab-pane-card post-thumb-sm-directorio">
                           <img src="{{post.image | relative_url}}" alt="{{post.name}}" class="img-card">
                         </div>
                         <div class="tab-card-1">
-                          <div><i class="fas fa-building"></i> {{post.name | capitalize}}</div>
-                          <div><i class="fas fa-map-marker-alt"></i> {{post.address}}</div>
-                          <div><i class="fas fa-bullhorn"></i> {{post.services}}</div>
-                          <div><i class="fas fa-industry"></i> {{post.sector}}</div>
+                          <div> <h5 class="text-dark">{{post.name }}</h5></div>
+                          <div class="smaller-font"><i class="fas fa-map-marker-alt"></i> {{post.address}}</div>
+                          <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
+                          <div class="smaller-font"><i class="fas fa-industry"></i> {{post.sector}}</div>
                         </div>
                       </div>
                     </div>
@@ -464,27 +464,27 @@ permalink: /directorio/
                         <div class="tab-card-1">
                           <div>
                             <i class="fas fa-phone"></i> 
-                            <a href="tel:{{post.phone_number}}"> {{post.phone_number}}</a>
+                            <a href="tel:{{post.phone_number}}" class="font-phone-number"> {{post.phone_number}}</a>
                           </div>
-                          <div>
+                          <div class="smaller-font">
                             <i class="fas fa-globe"></i> 
                             <a href="https://{{post.website}}"> {{post.website}}</a>
                           </div>
-                          <div>
+                          <div class="smaller-font">
                             <i class="fab fa-facebook-square"></i> 
                             <a href="https://www.facebook.com/{{post.facebook_user}}"> {{post.facebook_user}}</a>
                           </div>
-                          <div>
+                          <div class="smaller-font">
                             <i class="fab fa-instagram"></i> 
                             <a href="https://instagram.com/{{post.instagram_user}}"> {{post.instagram_user}}</a>
                           </div>
-                          <div>
+                          <div class="smaller-font">
                             <i class="fab fa-twitter"></i> 
                             <a href="https://twitter.com/{{post.twitter_user}}"> {{post.twitter_user}}</a>
                           </div>
                         </div>
-                        <div class="margin-img-card">
-                          <img src="{{post.image | relative_url}}" alt="{{post.name}}" class="img-card">
+                        <div>
+                          <img src="{{post.image | relative_url}}" alt="{{post.name}}" class="img-card-no-destacadas">
                         </div>
                       </div>
                     </div>
@@ -494,10 +494,10 @@ permalink: /directorio/
                 <div class="card-body position-card">
                   <div class="tab-card">
                     <div class="tab-card-1">
-                      <div><i class="fas fa-building"></i> {{post.name | capitalize}}</div>
-                      <div><i class="fas fa-map-marker-alt"></i> {{post.address}}</div>
-                      <div><i class="fas fa-bullhorn"></i> {{post.services}}</div>
-                      <div><i class="fas fa-industry"></i> {{post.sector}}</div>
+                      <div> <h5 class="text-dark">{{post.name }}</h5></div>
+                      <div class="smaller-font"><i class="fas fa-map-marker-alt"></i> {{post.address}}</div>
+                      <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
+                      <div class="smaller-font"><i class="fas fa-industry"></i> {{post.sector}}</div>
                     </div>
                   </div>
                 </div>
@@ -536,14 +536,14 @@ permalink: /directorio/
                   <div class="tab-content line-break">
                     <div class="tab-pane fade show active" id="tab5-{{iterator}}">
                       <div class="tab-card">
-                        <div class="tab-pane-card">
+                        <div class="tab-pane-card post-thumb-sm-directorio">
                           <img src="{{post.image | relative_url}}" alt="{{post.name}}" class="img-card">
                         </div>
                         <div class="tab-card-1">
-                          <div><i class="fas fa-building"></i> {{post.name | capitalize}}</div>
-                          <div><i class="fas fa-map-marker-alt"></i> {{post.address}}</div>
-                          <div><i class="fas fa-bullhorn"></i> {{post.services}}</div>
-                          <div><i class="fas fa-industry"></i> {{post.sector}}</div>
+                          <div> <h5 class="text-dark">{{post.name }}</h5></div>
+                          <div class="smaller-font"><i class="fas fa-map-marker-alt"></i> {{post.address}}</div>
+                          <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
+                          <div class="smaller-font"><i class="fas fa-industry"></i> {{post.sector}}</div>
                         </div>
                       </div>
                     </div>
@@ -552,27 +552,27 @@ permalink: /directorio/
                         <div class="tab-card-1">
                           <div>
                             <i class="fas fa-phone"></i> 
-                            <a href="tel:{{post.phone_number}}"> {{post.phone_number}}</a>
+                            <a href="tel:{{post.phone_number}}" class="font-phone-number"> {{post.phone_number}}</a>
                           </div>
-                          <div>
+                          <div class="smaller-font">
                             <i class="fas fa-globe"></i> 
                             <a href="https://{{post.website}}"> {{post.website}}</a>
                           </div>
-                          <div>
+                          <div class="smaller-font">
                             <i class="fab fa-facebook-square"></i> 
                             <a href="https://www.facebook.com/{{post.facebook_user}}"> {{post.facebook_user}}</a>
                           </div>
-                          <div>
+                          <div class="smaller-font">
                             <i class="fab fa-instagram"></i> 
                             <a href="https://instagram.com/{{post.instagram_user}}"> {{post.instagram_user}}</a>
                           </div>
-                          <div>
+                          <div class="smaller-font">
                             <i class="fab fa-twitter"></i> 
                             <a href="https://twitter.com/{{post.twitter_user}}"> {{post.twitter_user}}</a>
                           </div>
                         </div>
-                        <div class="margin-img-card">
-                          <img src="{{post.image | relative_url}}" alt="{{post.name}}" class="img-card">
+                        <div>
+                          <img src="{{post.image | relative_url}}" alt="{{post.name}}" class="img-card-no-destacadas">
                         </div>
                       </div>
                     </div>
@@ -582,10 +582,10 @@ permalink: /directorio/
                 <div class="card-body position-card">
                   <div class="tab-card">
                     <div class="tab-card-1">
-                      <div><i class="fas fa-building"></i> {{post.name | capitalize}}</div>
-                      <div><i class="fas fa-map-marker-alt"></i> {{post.address}}</div>
-                      <div><i class="fas fa-bullhorn"></i> {{post.services}}</div>
-                      <div><i class="fas fa-industry"></i> {{post.sector}}</div>
+                      <div> <h5 class="text-dark">{{post.name }}</h5></div>
+                      <div class="smaller-font"><i class="fas fa-map-marker-alt"></i> {{post.address}}</div>
+                      <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
+                      <div class="smaller-font"><i class="fas fa-industry"></i> {{post.sector}}</div>
                     </div>
                   </div>
                 </div>
@@ -624,14 +624,14 @@ permalink: /directorio/
                   <div class="tab-content line-break">
                     <div class="tab-pane fade show active" id="tab7-{{iterator}}">
                       <div class="tab-card">
-                        <div class="tab-pane-card">
+                        <div class="tab-pane-card post-thumb-sm-directorio">
                           <img src="{{post.image | relative_url}}" alt="{{post.name}}" class="img-card">
                         </div>
                         <div class="tab-card-1">
-                          <div><i class="fas fa-building"></i> {{post.name | capitalize}}</div>
-                          <div><i class="fas fa-map-marker-alt"></i> {{post.address}}</div>
-                          <div><i class="fas fa-bullhorn"></i> {{post.services}}</div>
-                          <div><i class="fas fa-industry"></i> {{post.sector}}</div>
+                          <div> <h5 class="text-dark">{{post.name }}</h5></div>
+                          <div class="smaller-font"><i class="fas fa-map-marker-alt"></i> {{post.address}}</div>
+                          <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
+                          <div class="smaller-font"><i class="fas fa-industry"></i> {{post.sector}}</div>
                         </div>
                       </div>
                     </div>
@@ -640,27 +640,27 @@ permalink: /directorio/
                         <div class="tab-card-1">
                           <div>
                             <i class="fas fa-phone"></i> 
-                            <a href="tel:{{post.phone_number}}"> {{post.phone_number}}</a>
+                            <a href="tel:{{post.phone_number}}" class="font-phone-number">{{post.phone_number}}</a>
                           </div>
-                          <div>
+                          <div class="smaller-font">
                             <i class="fas fa-globe"></i> 
                             <a href="https://{{post.website}}"> {{post.website}}</a>
                           </div>
-                          <div>
+                          <div class="smaller-font">
                             <i class="fab fa-facebook-square"></i> 
                             <a href="https://www.facebook.com/{{post.facebook_user}}"> {{post.facebook_user}}</a>
                           </div>
-                          <div>
+                          <div class="smaller-font">
                             <i class="fab fa-instagram"></i> 
                             <a href="https://instagram.com/{{post.instagram_user}}"> {{post.instagram_user}}</a>
                           </div>
-                          <div>
+                          <div class="smaller-font">
                             <i class="fab fa-twitter"></i> 
                             <a href="https://twitter.com/{{post.twitter_user}}"> {{post.twitter_user}}</a>
                           </div>
                         </div>
-                        <div class="margin-img-card">
-                          <img src="{{post.image | relative_url}}" alt="{{post.name}}" class="img-card">
+                        <div>
+                          <img src="{{post.image | relative_url}}" alt="{{post.name}}" class="img-card-no-destacadas">
                         </div>
                       </div>
                     </div>
@@ -670,10 +670,10 @@ permalink: /directorio/
                 <div class="card-body position-card">
                   <div class="tab-card">
                     <div class="tab-card-1">
-                      <div><i class="fas fa-building"></i> {{post.name | capitalize}}</div>
-                      <div><i class="fas fa-map-marker-alt"></i> {{post.address}}</div>
-                      <div><i class="fas fa-bullhorn"></i> {{post.services}}</div>
-                      <div><i class="fas fa-industry"></i> {{post.sector}}</div>
+                      <div> <h5 class="text-dark">{{post.name }}</h5></div>
+                      <div class="smaller-font"><i class="fas fa-map-marker-alt"></i> {{post.address}}</div>
+                      <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
+                      <div class="smaller-font"><i class="fas fa-industry"></i> {{post.sector}}</div>
                     </div>
                   </div>
                 </div>
@@ -684,6 +684,11 @@ permalink: /directorio/
         </div>  
       </div> 
       <div class="col-lg-3">
+        {% 
+          include ads/banner.html 
+          content=site.data.ads.sidebar_directorio-0
+        %}
+        {% include destacado.html %}
         {% 
           include ads/banner.html 
           content=site.data.ads.sidebar_directorio-1

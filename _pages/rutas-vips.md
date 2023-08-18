@@ -31,6 +31,11 @@ permalink: /rutas-vips/
       <div class="col-lg-3">
         {% 
           include ads/banner.html 
+          content=site.data.ads.sidebar_vips-0  
+        %}
+        {% include destacado.html %}
+        {% 
+          include ads/banner.html 
           content=site.data.ads.sidebar_vips-1  
         %}
         {% include recientes.html %}

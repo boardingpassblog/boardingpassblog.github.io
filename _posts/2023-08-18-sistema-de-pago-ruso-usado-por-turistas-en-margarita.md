@@ -2,9 +2,8 @@
 layout: post
 date: '2023-08-18 14:47 -0400'
 featured: true
-published: true
-ruta: vips
-title: Sistema de pago Ruso usado por turistas en Margarita
+published: true 
+title: Sistema de pago Ruso usado por turistas en Margarita 
 description: >-
   https://github.com/boardingpassblog/boardingpassblog.github.io/blob/main/assets/images/mir-bp.jpg?raw=true
 image: >-

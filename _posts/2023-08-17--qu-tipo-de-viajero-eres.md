@@ -3,7 +3,6 @@ layout: post
 date: '2023-08-17 16:00 -0400'
 featured: true
 published: true
-ruta: vips
 title: ¿Qué tipo de viajero eres?
 author: www.skyairline.com
 categories:

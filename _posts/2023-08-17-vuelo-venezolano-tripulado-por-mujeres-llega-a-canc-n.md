@@ -3,7 +3,6 @@ layout: post
 date: '2023-08-17 15:18 -0400'
 featured: true
 published: true
-ruta: vips
 title: Vuelo venezolano tripulado por mujeres llega a Cancún
 author: Autor Zaraith Mavares - Globovisión
 categories:

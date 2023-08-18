@@ -31,6 +31,11 @@ permalink: /rutas-aereas/
       <div class="col-lg-3">
         {% 
           include ads/banner.html 
+          content=site.data.ads.sidebar_aerea-0  
+        %}
+        {% include destacado.html %}
+        {% 
+          include ads/banner.html 
           content=site.data.ads.sidebar_aerea-1  
         %}
         {% include recientes.html %}

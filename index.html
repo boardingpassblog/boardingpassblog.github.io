@@ -113,6 +113,11 @@ layout: default
     <div class="col-lg-3">
       {% 
         include ads/banner.html 
+        content=site.data.ads.sidebar-0 
+      %}
+      {% include destacado.html %}
+      {% 
+        include ads/banner.html 
         content=site.data.ads.sidebar-1  
       %}
       {% include recientes.html %}
