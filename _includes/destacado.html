@@ -19,7 +19,7 @@
             <img class="img-fluid" src="${archivoAleatorio.image}" alt="${archivoAleatorio.name}">
         </div>
         <div class="media-body">
-            <h5 class="text-dark">${archivoAleatorio.name}</h5>
+            <a href="{{ 'directorio' | relative_url }}#${archivoAleatorio.name}-${archivoAleatorio.address}"><h5 class="text-dark">${archivoAleatorio.name}</h5></a>
             <ul class="list-inline justify-content-between mb-2">
             <div class="smaller-font"><i class="fas fa-map-marker-alt"></i>  ${archivoAleatorio.address}</div>
             <div class="smaller-font"><i class="fas fa-bullhorn"></i> ${archivoAleatorio.services}</div>

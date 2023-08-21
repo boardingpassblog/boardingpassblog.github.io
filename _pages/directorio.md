@@ -612,7 +612,7 @@ permalink: /directorio/
               {% assign iterator = iterator | plus: 1 %}
               <div class="card card-separation">
                 {% if post.featured == true %}
-                <div class="card-body position-card">
+                <div class="card-body position-card" id="{{post.name}}-{{post.address}}">
                   <ul class="nav nav-tabs">
                     <li class="nav-item">
                       <a class="nav-link active" data-toggle="tab" href="#tab7-{{iterator}}">General</a>
@@ -718,4 +718,20 @@ permalink: /directorio/
 
   changeDropdownOption('dropdownEntradas', document.getElementById('navbarDropdownEntradas').innerHTML.trim());
   changeDropdownOption('dropdownOrdenar', document.getElementById('navbarDropdownOrdenar').innerHTML.trim());
+
+  document.querySelectorAll('.card-link').forEach(function(link) {
+    link.addEventListener('click', function(e) {
+      e.preventDefault(); 
+      var target = this.getAttribute('href');
+      var element = document.querySelector(target); 
+      if (element) {
+        window.scrollTo({
+          top: element.offsetTop,
+          behavior: 'smooth'
+        });
+      }
+    });
+  });
 </script>
+
+
