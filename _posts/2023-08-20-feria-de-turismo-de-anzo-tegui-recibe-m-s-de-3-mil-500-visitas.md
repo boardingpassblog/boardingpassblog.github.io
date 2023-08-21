@@ -3,7 +3,6 @@ layout: post
 date: '2023-08-20 08:51 -0400'
 featured: false
 published: true
-ruta: vips
 title: Feria de Turismo de Anzoátegui recibe más de 3 mil 500 visitas
 description: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Feria-Anzoategui.jpg

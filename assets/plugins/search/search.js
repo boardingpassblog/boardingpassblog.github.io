@@ -49,9 +49,9 @@
           appendString +='</div>';
           appendString +='<div class="tab-card-1">';
           appendString +='<div> <h5 class="text-dark">'+item.name+'</h5></div>';
-          appendString +='<div class="smaller-font><i class="fas fa-map-marker-alt"></i> '+item.address+'</div>';
-          appendString +='<div class="smaller-font><i class="fas fa-bullhorn"></i> '+item.services+'</div>';
-          appendString +='<div class="smaller-font><i class="fas fa-industry"></i> '+item.sector+'</div>';
+          appendString +='<div class="smaller-font"><i class="fas fa-map-marker-alt"></i> '+item.address+'</div>';
+          appendString +='<div class="smaller-font"><i class="fas fa-bullhorn"></i> '+item.services+'</div>';
+          appendString +='<div class="smaller-font"><i class="fas fa-industry"></i>'+item.sector+'</div>';
           appendString +='</div>';
           appendString +='</div>';
           appendString +='</div>';
