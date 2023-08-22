@@ -33,7 +33,8 @@ permalink: /rutas-aereas/
           include ads/banner.html 
           content=site.data.ads.sidebar_aerea-0  
         %}
-        {% include destacado.html %}
+        {% assign contendorId = "destacados-container-1"%}
+        {% include destacado.html contendorId=contendorId %}
         {% 
           include ads/banner.html 
           content=site.data.ads.sidebar_aerea-1  
@@ -43,10 +44,22 @@ permalink: /rutas-aereas/
           include ads/banner.html 
           content=site.data.ads.sidebar_aerea-2
         %}
-        {% include secciones.html %}
+        {% assign contendorId = "destacados-container-2"%}
+        {% include destacado.html contendorId=contendorId %}
         {% 
           include ads/banner.html 
           content=site.data.ads.sidebar_aerea-3
+        %}
+        {% include secciones.html %}
+        {% 
+          include ads/banner.html 
+          content=site.data.ads.sidebar_aerea-4
+        %}
+        {% assign contendorId = "destacados-container-3"%}
+        {% include destacado.html contendorId=contendorId %}
+        {% 
+          include ads/banner.html 
+          content=site.data.ads.sidebar_aerea-5
         %}
       </div> 
     </div>

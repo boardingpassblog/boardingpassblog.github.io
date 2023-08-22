@@ -50,6 +50,19 @@ h1, .h1 {
   width: 15%; 
 }
 
+/* Button card style */
+.btn-card {
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  padding: 8px 20px;
+  border-radius: 0;
+  font-weight: 600;
+  border: 1px solid;
+  position: relative;
+  z-index: 1;
+  transition: .2s ease;
+}
+
 @media (max-width: 1680px) {
   h1, .h1 {
     font-size: 55px;
@@ -68,13 +81,25 @@ h1, .h1 {
   } 
   .card-title {
     font-size: 25px;
-    margin-bottom: 20px !important;
+    margin-bottom: 25px !important;
   }
   .custom-form {
     left: 500px;
   }
   .custom-width-form {
     width: 20%; 
+  }
+  /* Button card style */
+  .btn-card {
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    padding: 8px 20px;
+    border-radius: 0;
+    font-weight: 600;
+    border: 1px solid;
+    position: relative;
+    z-index: 1;
+    transition: .2s ease;
   }
 }
 
@@ -104,6 +129,18 @@ h1, .h1 {
   .custom-width-form {
     width: 80%; 
   }
+  /* Button card style */
+  .btn-card {
+    font-size: 13px;
+    font-family: "Open Sans", sans-serif;
+    padding: 8px 18px;
+    border-radius: 0;
+    font-weight: 600;
+    border: 1px solid;
+    position: relative;
+    z-index: 1;
+    transition: .2s ease;
+  }
 }
 
 @media (max-width: 900px) {
@@ -123,14 +160,26 @@ h1, .h1 {
     padding: 10px !important;
   } 
   .card-title {
-    font-size: 5px;
-    margin-bottom: 5px !important;
+    font-size: 15px;
+    margin-bottom: 15px !important;
   }
   .custom-width-form {
     width: 80%; 
   }
   .custom-form {
     left: 80px;
+  }
+  /* Button card style */
+  .btn-card {
+    font-size: 11px;
+    font-family: "Open Sans", sans-serif;
+    padding: 8px 16px;
+    border-radius: 0;
+    font-weight: 600;
+    border: 1px solid;
+    position: relative;
+    z-index: 1;
+    transition: .2s ease;
   }
 }
 
@@ -151,14 +200,26 @@ h1, .h1 {
     padding: 10px !important;
   } 
   .card-title {
-    font-size: 5px;
-    margin-bottom: 5px !important;
+    font-size: 10px;
+    margin-bottom: 10px !important;
   }
   .custom-width-form {
     width: 100%; 
   }
   .custom-form {
     left: 0px;
+  }
+  /* Button card style */
+  .btn-card {
+    font-size: 10px;
+    font-family: "Open Sans", sans-serif;
+    padding: 8px 14px;
+    border-radius: 0;
+    font-weight: 600;
+    border: 1px solid;
+    position: relative;
+    z-index: 1;
+    transition: .2s ease;
   }
 }
 
@@ -199,6 +260,15 @@ h6, .h6 {
   position: relative;
   z-index: 1;
   transition: .2s ease;
+}
+
+.btn-card:focus {
+  outline: 0;
+  box-shadow: none !important;
+}
+
+.btn-card:active {
+  box-shadow: none;
 }
 
 .btn:focus {

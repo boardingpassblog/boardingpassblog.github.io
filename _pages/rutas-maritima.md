@@ -33,7 +33,8 @@ permalink: /rutas-maritimas/
           include ads/banner.html 
           content=site.data.ads.sidebar_maritima-0  
         %}
-        {% include destacado.html %}
+        {% assign contendorId = "destacados-container-1"%}
+        {% include destacado.html contendorId=contendorId %}
         {% 
           include ads/banner.html 
           content=site.data.ads.sidebar_maritima-1  
@@ -43,10 +44,22 @@ permalink: /rutas-maritimas/
           include ads/banner.html 
           content=site.data.ads.sidebar_maritima-2
         %}
-        {% include secciones.html %}
+        {% assign contendorId = "destacados-container-2"%}
+        {% include destacado.html contendorId=contendorId %}
         {% 
           include ads/banner.html 
           content=site.data.ads.sidebar_maritima-3
+        %}
+        {% include secciones.html %}
+        {% 
+          include ads/banner.html 
+          content=site.data.ads.sidebar_maritima-4
+        %}
+        {% assign contendorId = "destacados-container-3"%}
+        {% include destacado.html contendorId=contendorId %}
+        {% 
+          include ads/banner.html 
+          content=site.data.ads.sidebar_maritima-5
         %}
       </div> 
     </div>

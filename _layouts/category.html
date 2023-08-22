@@ -40,7 +40,8 @@ layout: default
           include ads/banner.html 
           content=site.data.ads.category-0 
         %}
-        {% include destacado.html %}
+        {% assign contendorId = "destacados-container-1"%}
+        {% include destacado.html contendorId=contendorId %}
         {% 
           include ads/banner.html 
           content=site.data.ads.category-1  
@@ -50,10 +51,22 @@ layout: default
           include ads/banner.html 
           content=site.data.ads.category-2
         %}
-        {% include secciones.html %}
+        {% assign contendorId = "destacados-container-2"%}
+        {% include destacado.html contendorId=contendorId %}
         {% 
           include ads/banner.html 
           content=site.data.ads.category-3
+        %}
+        {% include secciones.html %}
+        {% 
+          include ads/banner.html 
+          content=site.data.ads.category-4
+        %}
+        {% assign contendorId = "destacados-container-3"%}
+        {% include destacado.html contendorId=contendorId %}
+        {% 
+          include ads/banner.html 
+          content=site.data.ads.category-5
         %}
       </div> 
     </div>

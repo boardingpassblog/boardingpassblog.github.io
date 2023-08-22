@@ -1,38 +1,59 @@
+{% if contendorId == "destacados-container-1" or contendorId == "destacados-container-2" or contendorId == "destacados-container-3" %}
 <div class="widget">
-    <h6 class="mb-4">DESTACADOS</h6>
-    <div id="destacados-container">
+    <div id="{{ contendorId }}">
     </div>
 </div>
-  
+{% endif %}
+
 <script>
     var archivosDestacados = {{ site.directorio | jsonify }};
-    var seleccionados = []; 
-    for (var i = 0; i < 3; i++) {
-        var indiceAleatorio = Math.floor(Math.random() * (archivosDestacados.length - i));
-        var archivoAleatorio = archivosDestacados.splice(indiceAleatorio, 1)[0];
-        seleccionados.push(archivoAleatorio);
-        if (archivoAleatorio.featured == true){
+    var totalDestacados = 1;
+
+    function crearElementoDestacado(archivo) {
         var elementoDestacado = document.createElement("div");
         elementoDestacado.classList.add("media", "mb-4");
         elementoDestacado.innerHTML = `
-        <div class="post-thumb-sm-destacados mr-3">
-            <img class="img-fluid" src="${archivoAleatorio.image}" alt="${archivoAleatorio.name}">
-        </div>
-        <div class="media-body">
-            <a href="{{ 'directorio' | relative_url }}#${archivoAleatorio.name}-${archivoAleatorio.address}"><h5 class="text-dark">${archivoAleatorio.name}</h5></a>
-            <ul class="list-inline justify-content-between mb-2">
-            <div class="smaller-font"><i class="fas fa-map-marker-alt"></i>  ${archivoAleatorio.address}</div>
-            <div class="smaller-font"><i class="fas fa-bullhorn"></i> ${archivoAleatorio.services}</div>
-            <div class="smaller-font"><i class="fas fa-industry"></i> ${archivoAleatorio.sector}</div>
-            </ul>
-        </div>
+            <div class="post-thumb-sm-destacados mr-3">
+                <img class="img-fluid" src="${archivo.image}" alt="${archivo.name}">
+            </div>
+            <div class="media-body">
+                <a href="{{ 'directorio' | relative_url }}#${archivo.name}-${archivo.address}"><h5 class="text-dark">${archivo.name}</h5></a>
+                <ul class="list-inline justify-content-between mb-2">
+                    <div class="smaller-font"><i class="fas fa-map-marker-alt"></i>  ${archivo.address}</div>
+                    <div class="smaller-font"><i class="fas fa-bullhorn"></i> ${archivo.services}</div>
+                    <div class="smaller-font"><i class="fas fa-industry"></i> ${archivo.sector}</div>
+                </ul>
+            </div>
         `;
-        var destacadosContainer = document.getElementById("destacados-container");
-        destacadosContainer.appendChild(elementoDestacado);
+
+        return elementoDestacado;
+    }
+
+    function shuffleArray(array) {
+        var currentIndex = array.length,
+            temporaryValue, randomIndex;
+
+        while (currentIndex !== 0) {
+            randomIndex = Math.floor(Math.random() * currentIndex);
+            currentIndex -= 1;
+            temporaryValue = array[currentIndex];
+            array[currentIndex] = array[randomIndex];
+            array[randomIndex] = temporaryValue;
         }
-        else {
-            i = i - 1;
+
+        return array;
+    }
+
+    var archivosDestacadosBarajados = shuffleArray(archivosDestacados);
+    var elementosDestacados = archivosDestacadosBarajados.slice(0, totalDestacados * 3);
+    var contenedores = document.querySelectorAll(".widget > div[id^='destacados-container-']");
+
+    for (var i = 0; i < contenedores.length; i++) {
+        var contenedor = contenedores[i];
+        var elementoDestacado = crearElementoDestacado(elementosDestacados[i]);
+        while (contenedor.firstChild) {
+            contenedor.removeChild(contenedor.firstChild);
         }
+        contenedor.appendChild(elementoDestacado); 
     }
 </script>
-
