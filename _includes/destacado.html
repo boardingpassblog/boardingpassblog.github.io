@@ -6,6 +6,7 @@
 {% endif %}
 
 <script>
+    {% if site.directorio and site.directorio.size > 0 %}
     var archivosDestacados = {{ site.directorio | where: 'featured', true | jsonify }};
     var totalDestacados = 1;
 
@@ -48,7 +49,7 @@
     var elementosDestacados = archivosDestacadosBarajados.slice(0, totalDestacados * 3);
     var contenedores = document.querySelectorAll(".widget > div[id^='destacados-container-']");
 
-    for (var i = 0; i < contenedores.length; i++) {
+    for (var i = 0; i < contenedores.length && i < elementosDestacados.length; i++) {
         var contenedor = contenedores[i];
         var elementoDestacado = crearElementoDestacado(elementosDestacados[i]);
         while (contenedor.firstChild) {
@@ -56,4 +57,5 @@
         }
         contenedor.appendChild(elementoDestacado); 
     }
+    {% endif %}
 </script>

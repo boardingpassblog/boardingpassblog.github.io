@@ -111,7 +111,6 @@
     var searchTermDirectorio = getQueryVariableDirectorio('query-directorio');
 
     if (searchTermDirectorio) {
-      console.log(searchTermDirectorio);
       document.getElementById('search-directorio-box').setAttribute("value", searchTermDirectorio);
   
       // Initalize lunr with the fields it will be searching on. I've given title
@@ -161,7 +160,6 @@
         delete data.instagram_user; 
         idx_d.add(data);
         var results = idx_d.search(searchTermDirectorio); // Get lunr to perform a search
-        console.log(window.store_directorio);
         displaySearchDirectorio(results, window.store_directorio); // We'll write this in the next section
       }
     }
