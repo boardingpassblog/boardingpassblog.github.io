@@ -11,7 +11,7 @@
             {% assign posts-aereas = site.posts | where: "categories", "rutas-aereas" %}
             {% assign posts-maritimas = site.posts | where: "categories", "rutas-maritimas" %}
             {% assign posts-rutas = posts-vips | concat: posts-terrestres | concat: posts-aereas | concat: posts-maritimas %}
-            {% assign posts = posts-rutas | shuffle %}
+            {% assign posts = posts-rutas | sort: 'date' | reverse %}
          {% else %}
           {% assign posts = site.posts | where:"categories",include.content.category %}
          {% endif %}
