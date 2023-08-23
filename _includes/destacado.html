@@ -6,7 +6,7 @@
 {% endif %}
 
 <script>
-    var archivosDestacados = {{ site.directorio | jsonify }};
+    var archivosDestacados = {{ site.directorio | where: 'featured', true | jsonify }};
     var totalDestacados = 1;
 
     function crearElementoDestacado(archivo) {

@@ -1007,11 +1007,12 @@ blockquote {
 }
 
 .widget {
-  padding: 15px 0;
+  padding-top: 30px;
+  padding-bottom: 0px;
 }
 
 .widget:not(:last-child) {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   /*border-bottom: 1px solid #f4f4f4;*/
 }
 
@@ -1280,4 +1281,9 @@ blockquote {
 
 .fab.fa-twitter {
   color: #03b6a4;
+}
+
+.no-margin {
+  margin-top: 0;
+  margin-bottom: 0;
 }
