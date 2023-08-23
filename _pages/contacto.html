@@ -30,3 +30,11 @@ Gracias por confiar en <span class="font-weight-bold">BoardingPass.Network</span
     <button class="btn btn-primary" type="submit">Enviar</button>
   </div>
 </form>
+
+<script>
+  window.onbeforeunload = () => {
+    for(const form of document.getElementsByTagName('form')) {
+      form.reset();
+    }
+  }
+</script>

@@ -31,6 +31,12 @@ permalink: /enterate/
       <div class="col-lg-3">
         {% 
           include ads/banner.html 
+          content=site.data.ads.sidebar_enterate-0 
+        %}
+        {% assign contendorId = "destacados-container-1"%}
+        {% include destacado.html contendorId=contendorId %}
+        {% 
+          include ads/banner.html 
           content=site.data.ads.sidebar_enterate-1  
         %}
         {% include recientes.html %}
@@ -38,10 +44,22 @@ permalink: /enterate/
           include ads/banner.html 
           content=site.data.ads.sidebar_enterate-2
         %}
-        {% include secciones.html %}
+        {% assign contendorId = "destacados-container-2"%}
+        {% include destacado.html contendorId=contendorId %}
         {% 
           include ads/banner.html 
           content=site.data.ads.sidebar_enterate-3
+        %}
+        {% include secciones.html %}
+        {% 
+          include ads/banner.html 
+          content=site.data.ads.sidebar_enterate-4
+        %}
+        {% assign contendorId = "destacados-container-3"%}
+        {% include destacado.html contendorId=contendorId %}
+        {% 
+          include ads/banner.html 
+          content=site.data.ads.sidebar_enterate-5
         %}
       </div> 
     </div>

@@ -3,7 +3,6 @@ layout: post
 date: '2023-08-01 08:11 -0400'
 featured: false
 published: true
-ruta: vips
 title: De Chachopo a Apartaderos en Mérida
 description: De Chachopo a Apartaderos en Mérida
 image: /assets/images/Apartaderos.jpg

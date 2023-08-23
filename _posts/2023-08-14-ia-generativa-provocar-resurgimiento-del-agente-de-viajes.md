@@ -3,7 +3,6 @@ layout: post
 date: '2023-08-14 23:06 -0400'
 featured: false
 published: true
-ruta: vips
 title: IA generativa provocará resurgimiento del agente de viajes
 description: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/27335cc92987b516798b3a6babd2517514c3e548/assets/images/mastercardia.jpg

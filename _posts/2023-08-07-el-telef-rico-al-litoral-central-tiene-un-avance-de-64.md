@@ -3,7 +3,6 @@ layout: post
 date: '2023-08-07 15:55 -0400'
 featured: false
 published: true
-ruta: vips
 title: El teleférico al litoral central tiene un avance de 64%
 description: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Teleferico.jpg

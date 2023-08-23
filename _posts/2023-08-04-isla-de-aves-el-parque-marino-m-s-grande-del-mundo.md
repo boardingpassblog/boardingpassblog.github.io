@@ -3,7 +3,6 @@ layout: post
 date: '2023-08-04 16:27 -0400'
 featured: false
 published: true
-ruta: vips
 title: 'Isla de Aves, el parque marino más grande del mundo.'
 image: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Isla-de-Aves.jpg

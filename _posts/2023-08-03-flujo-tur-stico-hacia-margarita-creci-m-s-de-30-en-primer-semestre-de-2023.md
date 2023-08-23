@@ -3,7 +3,6 @@ layout: post
 date: '2023-08-03 21:18 -0400'
 featured: false
 published: true
-ruta: vips
 title: Flujo turístico hacia Margarita creció más de 30% en primer semestre de 2023
 description: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Griselda-Contreras.jpg

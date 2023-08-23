@@ -3,7 +3,6 @@ layout: post
 date: '2023-08-02 16:11 -0400'
 featured: false
 published: true
-ruta: vips
 title: 'Portuguesa, El Granero de Venezuela'
 description: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Guanare.jpg

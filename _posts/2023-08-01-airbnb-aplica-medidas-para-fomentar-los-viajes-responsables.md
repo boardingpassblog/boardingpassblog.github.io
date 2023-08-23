@@ -3,7 +3,6 @@ layout: post
 date: '2023-08-01 18:03 -0400'
 featured: false
 published: true
-ruta: vips
 title: AIRBNB Aplica Medidas para Fomentar los Viajes Responsables
 image: /assets/images/Habitacion-AIRBNB.jpg
 description: AIRBNB Aplica Medidas para Fomentar los Viajes Responsables

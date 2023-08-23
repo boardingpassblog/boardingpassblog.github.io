@@ -3,7 +3,6 @@ layout: post
 date: '2023-08-01 18:44 -0400'
 featured: false
 published: true
-ruta: vips
 title: Evaluan estándares de seguridad de la aviación civil en Venezuela
 description: Evaluan estándares de seguridad de la aviación civil en Venezuela
 image: >-

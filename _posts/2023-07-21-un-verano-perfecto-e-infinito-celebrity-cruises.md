@@ -3,13 +3,12 @@ layout: post
 date: '2023-07-21 12:09 -0400'
 featured: false
 published: true
-ruta: maritima
 title: 'Un verano perfecto e infinito: CELEBRITY CRUISES'
 image: /assets/images/Celebrity-Cruices.jpg
 description: 'Un verano perfecto e infinito: CELEBRITY CRUISES'
 author: Celebrity Cruises Press Center
 categories:
-  - rutas
+  - rutas-maritimas
 ---
 
 Celebrity Cruises , la galardonada línea de cruceros premium con una flota global de 16 resorts en el mar que lleva a los huéspedes a más de 300 destinos en todo el mundo en los siete continentes, se complace en anunciar un programa caribeño renovado para la temporada de verano de 2024. A partir del próximo abril, los amantes del sol, la playa y la relajación podrán disfrutar del Caribe como nunca antes a bordo de dos barcos galardonados, Celebrity Beyond SM y Celebrity Reflection ®, a medida que comienzan a llamar hogar a los trópicos. El nuevo programa no solo duplica el número de viajes al Caribe durante todo el año de la marca e introduce los primeros itinerarios de fin de semana, sino que ambos barcos ahora ofrecerán a los huéspedes la emocionante oportunidad de experimentar Perfect Day en CocoCay por primera vez en la historia .

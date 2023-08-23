@@ -3,7 +3,6 @@ layout: post
 date: '2023-08-17 15:34 -0400'
 featured: true
 published: true
-ruta: vips
 title: ¿Qué sabes del Turismo Gastronómico?
 author: agenciadeviajestravelling.com
 categories:

@@ -3,7 +3,6 @@ layout: post
 date: '2023-07-31 16:41 -0400'
 featured: true
 published: true
-ruta: vips
 title: 'Margarita se prepara para convertirse en un hub turístico '
 image: /assets/images/Centro-Sambil-Margarita.jpg
 description: Margarita se prepara para convertirse en un hub turístico

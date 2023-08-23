@@ -3,7 +3,6 @@ layout: post
 date: '2023-08-09 17:02 -0400'
 featured: false
 published: true
-ruta: vips
 title: 'Lechería: entre Venecia y Miami Beach'
 description: assets/images/BP_fotoweb_lecherìas.jpg
 image: assets/images/BP_fotoweb_lecherìas.jpg

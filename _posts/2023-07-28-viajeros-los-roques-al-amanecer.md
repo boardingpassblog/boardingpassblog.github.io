@@ -3,7 +3,6 @@ layout: post
 date: '2023-07-28 12:23 -0400'
 featured: false
 published: true
-ruta: vips
 title: 'Viajeros: LOS ROQUES Al Amanecer…'
 author: Vicky Herrera de Díaz
 description: 'Viajeros: LOS ROQUES Al Amanecer…'

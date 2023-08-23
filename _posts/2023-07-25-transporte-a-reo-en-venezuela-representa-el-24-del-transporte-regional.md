@@ -3,7 +3,6 @@ layout: post
 date: '2023-07-25 16:16 -0400'
 featured: true
 published: true
-ruta: vips
 title: Transporte aéreo en Venezuela representa el 24% del transporte regional
 image: /assets/images/Aviones-Maiquetia.jpg
 description: Transporte aéreo en Venezuela representa el 24% del transporte regional

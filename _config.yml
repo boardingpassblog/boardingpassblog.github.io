@@ -26,13 +26,13 @@ menu:
     url: /rutas/
     submenu:
      - name: VIP's
-       url: /rutas/vips/
+       url: /rutas-vips/
      - name: Aérea
-       url: /rutas/aerea/
+       url: /rutas-aereas/
      - name: Marítima
-       url: /rutas/maritima/
+       url: /rutas-maritimas/
      - name: Terrestre
-       url: /rutas/terrestre/
+       url: /rutas-terrestres/
   - name: Salte del radar
     url: /salte-del-radar/
   - name: Destinos
@@ -81,7 +81,7 @@ contact:
     street: 
 
 # Contact Form
-contact-form: contacto@boardingpass.network
+contact-form: f/xwkdoldl
 
 #-------------------------------
 # Comment Section (Disqus)
@@ -131,6 +131,11 @@ jekyll-archives:
   layout: category
   permalinks:
     category: "/category/:name/"
+
+#Collections
+collections:
+  directorio:
+    output: true
 
 # Exclude from processing.
 exclude:
@@ -185,7 +190,7 @@ prose:
         field:
           element: checkbox
           label: Publicación resaltada
-          help: Puedes destacar la pubblicación en la página principal
+          help: Puedes destacar la publicación en la página principal
           value: false
       - name: published
         field:
@@ -237,23 +242,176 @@ prose:
               value: 'enterate'
             - name: 'Opinión'
               value: 'opinion'
-            - name: 'Rutas'
-              value: 'rutas'
+            - name: "Rutas-VIP's"
+              value: 'rutas-vips'
+            - name: 'Rutas-Aéreas'
+              value: 'rutas-aereas'
+            - name: 'Rutas-Marítimas'
+              value: 'rutas-maritimas'
+            - name: 'Rutas-Terrestres'
+              value: 'rutas-terrestres'
             - name: 'Salte del radar'
               value: 'salte-del-radar'
           alterable: false
-      - name: ruta
+    _directorio:
+      - name: name
+        field:
+          element: text
+          label: Ingresa el nombre 
+          type: text
+      - name: date
+        field:
+          element: text
+          label: Fecha de creación
+          value: CURRENT_DATETIME
+      - name: region
         field:
           element: select
-          label: Si es una ruta selecciona el tipo de ruta
-          help: Puedes seleccionar un solo tipo
+          label: Selecciona el Estado 
+          help: Puedes seleccionar un solo Estado
           options:
-            - name: "VIP's"
-              value: 'vips'
-            - name: 'Aérea'
-              value: 'aerea'
-            - name: 'Marítima'
-              value: 'maritima'
-            - name: 'Terrestre'
-              value: 'terrestre'
+            - name: 'Los Andes'
+              value: 'Los Andes'
+            - name: 'Lago de Maracaibo'
+              value: 'Lago de Maracaibo'
+            - name: 'Guayana'
+              value: 'Guayana'
+            - name: 'Centro-Norte'
+              value: 'Centro-Norte'
+            - name: 'Centro-Occidental'
+              value: 'Centro Occidental'
+            - name: 'Nor-Oriental'
+              value: 'Nor-Oriental'
+            - name: 'Los Llanos'
+              value: 'Los Llanos'
+            - name: 'Llanura Deltaica'
+              value: 'Llanura Deltaica'
+          alterable: false
+      - name: state
+        field:
+          element: select
+          label: Selecciona el Estado 
+          help: Puedes seleccionar un solo Estado
+          options:
+            - name: 'Amazonas'
+              value: 'Amazonas'
+            - name: 'Anzoátegui'
+              value: 'Anzoátegui'
+            - name: 'Apure'
+              value: 'Apure'
+            - name: 'Aragua'
+              value: 'Aragua'
+            - name: 'Barinas'
+              value: 'Barinas'
+            - name: 'Bolívar'
+              value: 'Bolívar'
+            - name: 'Carabobo'
+              value: 'Carabobo'
+            - name: 'Cojedes'
+              value: 'Cojedes'
+            - name: 'Delta Amacuro'
+              value: 'Delta Amacuro'
+            - name: 'Distrito Capital'
+              value: 'Distrito Capital'
+            - name: 'Falcón'
+              value: 'Falcón'
+            - name: 'Guárico'
+              value: 'Guárico'
+            - name: 'Lara'
+              value: 'Lara'
+            - name: 'Mérida'
+              value: 'Mérida'
+            - name: 'Miranda'
+              value: 'Miranda'
+            - name: 'Monagas'
+              value: 'Monagas'
+            - name: 'Nueva Esparta'
+              value: 'Nueva Esparta'
+            - name: 'Portuguesa'
+              value: 'Portuguesa'
+            - name: 'Sucre'
+              value: 'Sucre'
+            - name: 'Táchira'
+              value: 'Táchira'
+            - name: 'Trujillo'
+              value: 'Trujillo'
+            - name: 'Vargas'
+              value: 'Vargas'
+            - name: 'Yaracuy'
+              value: 'Yaracuy'
+            - name: 'Zulia'
+              value: 'Zulia'
+          alterable: false
+      - name: sector
+        field:
+          element: text
+          label: Ingresa el Sector
+          type: text
+      - name: phone_number
+        field:
+          element: text
+          label: Ingrese el número de teléfono
+          type: text
+      - name: address
+        field:
+          element: text
+          label: Ingresa la dirección
+          type: text
+      - name: website
+        field:
+          element: text
+          label: Ingresa la página web
+          type: text
+      - name: facebook_user
+        field:
+          element: text
+          label: Ingresa la página de Facebook
+          type: text
+      - name: twitter_user
+        field:
+          element: text
+          label: Ingresa la página de Twitter
+          type: text
+      - name: instagram_user
+        field:
+          element: text
+          label: Ingresa la página de Instagram
+          type: text
+      - name: services
+        field:
+          element: text
+          label: Ingresa los servicios
+          type: text
+      - name: services_extra
+        field:
+          element: text
+          label: Ingresa otros servicios
+          type: text
+      - name: featured
+        field:
+          element: checkbox
+          label: Publicación destacada
+          help: Puedes destacar la publicación en la sección de Directorio
+          value: true
+      - name: image
+        field: 
+          element: text
+          label: Indica la ruta de la imagen de la publicación
+          value: ""
+      - name: types
+        field:
+          element: multiselect
+          label: Selecciona el tipo 
+          help: Puedes seleccionar varios tipos
+          options:
+            - name: 'Operadores'
+              value: 'Operadores'
+            - name: 'Mayoristas'
+              value: 'Mayoristas'
+            - name: 'Agencias'
+              value: 'Agencias'
+            - name: 'Hospedaje'
+              value: 'Hospedaje'
+            - name: 'Alquiler'
+              value: 'Alquiler'
           alterable: false

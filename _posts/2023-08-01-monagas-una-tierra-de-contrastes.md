@@ -3,7 +3,6 @@ layout: post
 date: '2023-08-01 20:07 -0400'
 featured: false
 published: true
-ruta: vips
 title: Monagas una tierra de contrastes
 image-text: 'Cueva del Guacharo, Caripe, edo. Monagas'
 description: Monagas una tierra de contrastes

@@ -1,7 +1,7 @@
 ---
 layout: section
 title: Rutas - Marítima
-permalink: /rutas/maritima/
+permalink: /rutas-maritimas/
 ---
 
 {% 
@@ -17,8 +17,7 @@ permalink: /rutas/maritima/
     <div class="row">
       <div class="col-lg-9">
         {% for post in site.posts %}
-        {% if post.categories contains 'rutas' %}
-        {% if post.ruta contains 'maritima' %}
+        {% if post.categories contains 'rutas-maritimas' %}
         {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
         {% if thecycle == 'odd' %}
         {% assign class = '' %}
@@ -27,10 +26,15 @@ permalink: /rutas/maritima/
         {% endif %}
           {% include pages/article.html %}
         {% endif %}
-        {% endif %}
         {% endfor %}
       </div> 
       <div class="col-lg-3">
+        {% 
+          include ads/banner.html 
+          content=site.data.ads.sidebar_maritima-0  
+        %}
+        {% assign contendorId = "destacados-container-1"%}
+        {% include destacado.html contendorId=contendorId %}
         {% 
           include ads/banner.html 
           content=site.data.ads.sidebar_maritima-1  
@@ -40,10 +44,22 @@ permalink: /rutas/maritima/
           include ads/banner.html 
           content=site.data.ads.sidebar_maritima-2
         %}
-        {% include secciones.html %}
+        {% assign contendorId = "destacados-container-2"%}
+        {% include destacado.html contendorId=contendorId %}
         {% 
           include ads/banner.html 
           content=site.data.ads.sidebar_maritima-3
+        %}
+        {% include secciones.html %}
+        {% 
+          include ads/banner.html 
+          content=site.data.ads.sidebar_maritima-4
+        %}
+        {% assign contendorId = "destacados-container-3"%}
+        {% include destacado.html contendorId=contendorId %}
+        {% 
+          include ads/banner.html 
+          content=site.data.ads.sidebar_maritima-5
         %}
       </div> 
     </div>

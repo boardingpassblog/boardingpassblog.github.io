@@ -3,7 +3,6 @@ layout: post
 date: '2023-08-14 19:54 -0400'
 featured: false
 published: true
-ruta: vips
 title: >-
   DiezXUno: Da gusto ver lo preparada y lista que está la actividad del turismo
   en Venezuela.

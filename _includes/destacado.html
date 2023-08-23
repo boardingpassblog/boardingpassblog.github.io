@@ -1,0 +1,61 @@
+{% if contendorId == "destacados-container-1" or contendorId == "destacados-container-2" or contendorId == "destacados-container-3" %}
+<div class="widget">
+    <div id="{{ contendorId }}">
+    </div>
+</div>
+{% endif %}
+
+<script>
+    {% if site.directorio and site.directorio.size > 0 %}
+    var archivosDestacados = {{ site.directorio | where: 'featured', true | jsonify }};
+    var totalDestacados = 1;
+
+    function crearElementoDestacado(archivo) {
+        var elementoDestacado = document.createElement("div");
+        elementoDestacado.classList.add("media", "mb-4");
+        elementoDestacado.innerHTML = `
+            <div class="post-thumb-sm-destacados mr-3">
+                <img class="img-fluid" src="${archivo.image}" alt="${archivo.name}">
+            </div>
+            <div class="media-body">
+                <a href="{{ 'directorio' | relative_url }}#${archivo.name}-${archivo.address}"><h5 class="text-dark">${archivo.name}</h5></a>
+                <ul class="list-inline justify-content-between mb-2">
+                    <div class="smaller-font"><i class="fas fa-map-marker-alt"></i>  ${archivo.address}</div>
+                    <div class="smaller-font"><i class="fas fa-bullhorn"></i> ${archivo.services}</div>
+                    <div class="smaller-font"><i class="fas fa-industry"></i> ${archivo.sector}</div>
+                </ul>
+            </div>
+        `;
+
+        return elementoDestacado;
+    }
+
+    function shuffleArray(array) {
+        var currentIndex = array.length,
+            temporaryValue, randomIndex;
+
+        while (currentIndex !== 0) {
+            randomIndex = Math.floor(Math.random() * currentIndex);
+            currentIndex -= 1;
+            temporaryValue = array[currentIndex];
+            array[currentIndex] = array[randomIndex];
+            array[randomIndex] = temporaryValue;
+        }
+
+        return array;
+    }
+
+    var archivosDestacadosBarajados = shuffleArray(archivosDestacados);
+    var elementosDestacados = archivosDestacadosBarajados.slice(0, totalDestacados * 3);
+    var contenedores = document.querySelectorAll(".widget > div[id^='destacados-container-']");
+
+    for (var i = 0; i < contenedores.length && i < elementosDestacados.length; i++) {
+        var contenedor = contenedores[i];
+        var elementoDestacado = crearElementoDestacado(elementosDestacados[i]);
+        while (contenedor.firstChild) {
+            contenedor.removeChild(contenedor.firstChild);
+        }
+        contenedor.appendChild(elementoDestacado); 
+    }
+    {% endif %}
+</script>

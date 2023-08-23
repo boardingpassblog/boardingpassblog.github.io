@@ -1,81 +1,67 @@
 ---
 layout: default
-title: Resultados de la búsqueda
+title: Resultados de la búsqueda en el directorio
 ---
+
 
 <!-- page-title -->
 <section class="section bg-secondary">
   <div class="row">
-    <div class="col-lg-12 text-title-left">
+    <div class="col-lg-12 text-title-left" id="search-directorio-box">
       <h4 class="mb-4">{{ page.title | escape }}</h4>
     </div>
   </div>
 </section>
 <!-- /page-title -->
 
-<!-- search result -->
+<!-- search directorio -->
 <section class="section">
-  <div class="container maxw">
+  <div class="container maxw mb-4">
     <div class="row">
-      <div class="col-lg-9 mx-auto">
-        <div class="col-lg-12" id="search-results-destacadas"></div>
-        <div class="line-break">   </div>
-        <ul class="list-unstyled" id="search-results"></ul>
+      <div class="col-lg-9">
+        <div class="col-lg-12" id="search-results-directorio"></div>
       </div>
       <div class="col-lg-3">
         {% 
           include ads/banner.html 
-          content=site.data.ads.sidebar_search-0  
+          content=site.data.ads.sidebar_search-directorio-0
         %}
         {% assign contendorId = "destacados-container-1"%}
         {% include destacado.html contendorId=contendorId %}
         {% 
           include ads/banner.html 
-          content=site.data.ads.sidebar_search-1  
+          content=site.data.ads.sidebar_search-directorio-1  
         %}
         {% include recientes.html %}
         {% 
           include ads/banner.html 
-          content=site.data.ads.sidebar_search-2
+          content=site.data.ads.sidebar_search-directorio-2
         %}
         {% assign contendorId = "destacados-container-2"%}
         {% include destacado.html contendorId=contendorId %}
         {% 
           include ads/banner.html 
-          content=site.data.ads.sidebar_search-3
+          content=site.data.ads.sidebar_search-directorio-3
         %}
         {% include secciones.html %}
         {% 
           include ads/banner.html 
-          content=site.data.ads.sidebar_search-4
+          content=site.data.ads.sidebar_search-directorio-4
         %}
         {% assign contendorId = "destacados-container-3"%}
         {% include destacado.html contendorId=contendorId %}
         {% 
           include ads/banner.html 
-          content=site.data.ads.sidebar_search-5
+          content=site.data.ads.sidebar_search-directorio-5
         %}
       </div> 
     </div>
   </div>
 </section>
-<!-- /search result -->
+<!-- /search directorio -->
 
 <script>
-  window.store = {
-    {% for post in site.posts %}
-      "{{ post.url | slugify }}": {
-        "title": "{{ post.title | xml_escape }}",
-        "author": "{{ post.author | xml_escape }}",
-        "category": "{{ post.category | xml_escape }}",
-        "content": {{ post.content | strip_html | strip_newlines | jsonify }},
-        "url": "{{ post.url | relative_url | xml_escape }}",
-        "date": "{{ post.date | date: '%d %b, %Y'}}"
-      }
-      {% unless forloop.last %},{% endunless %}
-    {% endfor %}
-  };
-  window.store_directorio = {
+    window.store_directorio = {
       {% for archivo in site.directorio %}
         "{{ archivo.url | slugify }}": {
           "date": "{{ archivo.date | date: '%d %b, %Y'}}",
@@ -97,15 +83,4 @@ title: Resultados de la búsqueda
         {% unless forloop.last %},{% endunless %}
       {% endfor %}
     };
-
-    document.addEventListener('DOMContentLoaded', function() {
-    // Verificar si el contenido de search-results está vacío
-    var searchResultsElement = document.getElementById('search-results');
-    var searchResultsDestacadasElement = document.getElementById('search-results-destacadas');
-    if (searchResultsElement.innerHTML.trim() === '' && searchResultsDestacadasElement.innerHTML.trim() === '') {
-      // El contenido de search-results está vacío
-      searchResultsElement.innerHTML = '<div>No hay resultados de la búsqueda...</div>';
-    } 
-  });
-</script>
-
+  </script>

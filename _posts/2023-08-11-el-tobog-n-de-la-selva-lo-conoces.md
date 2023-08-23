@@ -3,7 +3,6 @@ layout: post
 date: '2023-08-11 15:44 -0400'
 featured: false
 published: true
-ruta: vips
 title: 'El Tobogán de la Selva, ¿lo conoces?'
 image: >-
   https://github.com/boardingpassblog/boardingpassblog.github.io/blob/main/assets/images/Tobogandelaselva-bp.jpg?raw=true

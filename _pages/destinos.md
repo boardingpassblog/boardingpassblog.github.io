@@ -31,6 +31,12 @@ permalink: /destinos/
       <div class="col-lg-3">
         {% 
           include ads/banner.html 
+          content=site.data.ads.sidebar_destino-0  
+        %}
+        {% assign contendorId = "destacados-container-1"%}
+        {% include destacado.html contendorId=contendorId %}
+        {% 
+          include ads/banner.html 
           content=site.data.ads.sidebar_destino-1  
         %}
         {% include recientes.html %}
@@ -38,10 +44,22 @@ permalink: /destinos/
           include ads/banner.html 
           content=site.data.ads.sidebar_destino-2
         %}
-        {% include secciones.html %}
+        {% assign contendorId = "destacados-container-2"%}
+        {% include destacado.html contendorId=contendorId %}
         {% 
           include ads/banner.html 
           content=site.data.ads.sidebar_destino-3
+        %}
+        {% include secciones.html %}
+        {% 
+          include ads/banner.html 
+          content=site.data.ads.sidebar_destino-4
+        %}
+        {% assign contendorId = "destacados-container-3"%}
+        {% include destacado.html contendorId=contendorId %}
+        {% 
+          include ads/banner.html 
+          content=site.data.ads.sidebar_destino-5
         %}
       </div> 
     </div>

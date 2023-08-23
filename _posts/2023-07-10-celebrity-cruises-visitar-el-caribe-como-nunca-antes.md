@@ -9,9 +9,7 @@ image: /assets/images/celebrity-reflection.jpg
 description: Celebrity Cruises® Visitará el Caribe como nunca antes
 categories:
   - destinos
-  - rutas
-ruta:
-  - maritima
+  - rutas-maritimas
 ---
 
 - Por primera vez, los huéspedes podrán visitar Perfect Day en CocoCay

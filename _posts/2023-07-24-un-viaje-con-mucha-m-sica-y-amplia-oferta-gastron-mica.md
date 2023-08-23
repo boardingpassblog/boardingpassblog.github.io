@@ -3,7 +3,6 @@ layout: post
 date: '2023-07-24 13:37 -0400'
 featured: false
 published: true
-ruta: vips
 title: Un viaje con mucha música y amplia oferta gastronómica
 image: /assets/images/Orlando.jpg
 description: Un viaje con mucha música y amplia oferta gastronómica

@@ -2,12 +2,11 @@
 layout: default
 ---
 
+<!-- page-title -->
 <section class="section bg-secondary">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12">
-        <h2 class="mb-4">{{ site.data.sections[page.title].title  }}</h2>
-      </div>
+  <div class="row">
+    <div class="col-lg-12 text-title-left">
+      <h2 class="mb-4">{{ site.data.sections[page.title].title  | escape }}</h2>
     </div>
   </div>
 </section>
@@ -39,6 +38,12 @@ layout: default
       <div class="col-lg-3">
         {% 
           include ads/banner.html 
+          content=site.data.ads.category-0 
+        %}
+        {% assign contendorId = "destacados-container-1"%}
+        {% include destacado.html contendorId=contendorId %}
+        {% 
+          include ads/banner.html 
           content=site.data.ads.category-1  
         %}
         {% include recientes.html %}
@@ -46,10 +51,22 @@ layout: default
           include ads/banner.html 
           content=site.data.ads.category-2
         %}
-        {% include secciones.html %}
+        {% assign contendorId = "destacados-container-2"%}
+        {% include destacado.html contendorId=contendorId %}
         {% 
           include ads/banner.html 
           content=site.data.ads.category-3
+        %}
+        {% include secciones.html %}
+        {% 
+          include ads/banner.html 
+          content=site.data.ads.category-4
+        %}
+        {% assign contendorId = "destacados-container-3"%}
+        {% include destacado.html contendorId=contendorId %}
+        {% 
+          include ads/banner.html 
+          content=site.data.ads.category-5
         %}
       </div> 
     </div>

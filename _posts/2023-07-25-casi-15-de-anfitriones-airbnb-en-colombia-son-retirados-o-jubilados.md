@@ -3,7 +3,6 @@ layout: post
 date: '2023-07-25 15:53 -0400'
 featured: true
 published: true
-ruta: vips
 title: 'Casi 15% de anfitriones Airbnb en Colombia son retirados o jubilados '
 description: Casi 15% de anfitriones Airbnb en Colombia son retirados o jubilados
 image: /assets/images/AIRBNB-Mayores.jpg

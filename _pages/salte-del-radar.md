@@ -31,6 +31,12 @@ permalink: /salte-del-radar/
       <div class="col-lg-3">
         {% 
           include ads/banner.html 
+          content=site.data.ads.sidebar_salte-del-radar-0  
+        %}
+        {% assign contendorId = "destacados-container-1"%}
+        {% include destacado.html contendorId=contendorId %}
+        {% 
+          include ads/banner.html 
           content=site.data.ads.sidebar_salte-del-radar-1  
         %}
         {% include recientes.html %}
@@ -38,10 +44,22 @@ permalink: /salte-del-radar/
           include ads/banner.html 
           content=site.data.ads.sidebar_salte-del-radar-2
         %}
-        {% include secciones.html %}
+        {% assign contendorId = "destacados-container-2"%}
+        {% include destacado.html contendorId=contendorId %}
         {% 
           include ads/banner.html 
           content=site.data.ads.sidebar_salte-del-radar-3
+        %}
+        {% include secciones.html %}
+        {% 
+          include ads/banner.html 
+          content=site.data.ads.sidebar_salte-del-radar-4
+        %}
+        {% assign contendorId = "destacados-container-3"%}
+        {% include destacado.html contendorId=contendorId %}
+        {% 
+          include ads/banner.html 
+          content=site.data.ads.sidebar_salte-del-radar-5
         %}
       </div> 
     </div>

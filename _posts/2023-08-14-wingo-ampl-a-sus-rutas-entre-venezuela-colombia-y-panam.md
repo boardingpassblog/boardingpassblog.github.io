@@ -3,7 +3,6 @@ layout: post
 date: '2023-08-14 23:37 -0400'
 featured: false
 published: true
-ruta: aerea
 title: 'Wingo amplía sus rutas entre Venezuela, Colombia y Panamá'
 description: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/wingopanama.jpg
@@ -12,7 +11,7 @@ image: >-
 author: ViajesBoletin.com
 categories:
   - enterate
-  - rutas
+  - rutas-aereas
 ---
 Wingo, la aerolínea colombiana de bajo costo, anunció que reforzará los vuelos entre Venezuela y Colombia tras reanudar la conexión a Caracas el pasado 25 de julio. 
 

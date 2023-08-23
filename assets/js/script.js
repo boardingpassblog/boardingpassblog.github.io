@@ -108,6 +108,4 @@
       remoteTarget: _this.attr('data-target')
     });
   });
-
-
 })(jQuery);

@@ -73,6 +73,11 @@ after-salte-del-radar:
   alt: "Ad después de rutas"
   url: ""
 
+sidebar-0:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar 0"
+  url: ""
+
 sidebar-1:
   image: /assets/images/BP-300x300.jpg
   alt: "Ad sidebar 1"
@@ -86,6 +91,21 @@ sidebar-2:
 sidebar-3:
   image: /assets/images/BP-300x300.jpg
   alt: "Ad sidebar 3"
+  url: ""
+
+sidebar-4:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar 4"
+  url: ""
+
+sidebar-5:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar 5"
+  url: ""
+
+sidebar_enterate-0:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar enterate 0"
   url: ""
 
 sidebar_enterate-1:
@@ -103,6 +123,21 @@ sidebar_enterate-3:
   alt: "Ad sidebar enterate 3"
   url: ""
 
+sidebar_enterate-4:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar enterate 4"
+  url: ""
+
+sidebar_enterate-5:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar enterate 5"
+  url: ""
+
+sidebar_opinion-0:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar opinion 0"
+  url: ""
+
 sidebar_opinion-1:
   image: /assets/images/BP-300x300.jpg
   alt: "Ad sidebar opinion 1"
@@ -117,6 +152,21 @@ sidebar_opinion-3:
   image: /assets/images/BP-300x300.jpg
   alt: "Ad sidebar opinion 3"
   url: ""
+
+sidebar_opinion-4:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar opinion 4"
+  url: ""
+
+sidebar_opinion-5:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar opinion 6"
+  url: ""
+
+sidebar_destino-0:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar destino 0"
+  url: "" 
 
 sidebar_destino-1:
   image: /assets/images/BP-300x300.jpg
@@ -133,19 +183,49 @@ sidebar_destino-3:
   alt: "Ad sidebar destino 3"
   url: ""
 
+sidebar_destino-4:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar destino 4"
+  url: ""
+
+sidebar_destino-5:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar destino 5"
+  url: ""
+
+sidebar_vips-0:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar vips 0"
+  url: ""
+
 sidebar_vips-1:
   image: /assets/images/BP-300x300.jpg
-  alt: "Ad sidebar destino 1"
+  alt: "Ad sidebar vips 1"
   url: ""
 
 sidebar_vips-2:
   image: /assets/images/BP-300x300.jpg
-  alt: "Ad sidebar destino 2"
+  alt: "Ad sidebar vips 2"
   url: ""
 
 sidebar_vips-3:
   image: /assets/images/BP-300x300.jpg
-  alt: "Ad sidebar destino 3"
+  alt: "Ad sidebar vips 3"
+  url: ""
+
+sidebar_vips-4:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar vips 4"
+  url: ""
+
+sidebar_vips-5:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar vips 5"
+  url: ""
+
+sidebar_maritima-0:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar maritima 0"
   url: ""
 
 sidebar_maritima-1:
@@ -163,6 +243,21 @@ sidebar_maritima-3:
   alt: "Ad sidebar maritima 3"
   url: ""
 
+sidebar_maritima-4:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar maritima 4"
+  url: ""
+
+sidebar_maritima-5:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar maritima 5"
+  url: ""
+
+sidebar_terrestre-0:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar terrestre 0"
+  url: ""
+
 sidebar_terrestre-1:
   image: /assets/images/BP-300x300.jpg
   alt: "Ad sidebar terrestre 1"
@@ -176,6 +271,21 @@ sidebar_terrestre-2:
 sidebar_terrestre-3:
   image: /assets/images/BP-300x300.jpg
   alt: "Ad sidebar terrestre 3"
+  url: ""
+
+sidebar_terrestre-4:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar terrestre 4"
+  url: ""
+
+sidebar_terrestre-5:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar terrestre 5"
+  url: ""
+
+sidebar_aerea-0:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar aerea 0"
   url: ""
 
 sidebar_aerea-1:
@@ -193,6 +303,21 @@ sidebar_aerea-3:
   alt: "Ad sidebar aerea 3"
   url: ""
 
+sidebar_aerea-4:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar aerea 4"
+  url: ""
+
+sidebar_aerea-5:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar aerea 5"
+  url: ""
+
+sidebar_salte-del-radar-0:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar salte-del-radar 0"
+  url: ""
+
 sidebar_salte-del-radar-1:
   image: /assets/images/BP-300x300.jpg
   alt: "Ad sidebar salte-del-radar 1"
@@ -206,6 +331,21 @@ sidebar_salte-del-radar-2:
 sidebar_salte-del-radar-3:
   image: /assets/images/BP-300x300.jpg
   alt: "Ad sidebar salte-del-radar 3"
+  url: ""
+
+sidebar_salte-del-radar-4:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar salte-del-radar 4"
+  url: ""
+
+sidebar_salte-del-radar-5:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar salte-del-radar 5"
+  url: ""
+
+sidebar_directorio-0:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar directorio 0"
   url: ""
 
 sidebar_directorio-1:
@@ -223,6 +363,21 @@ sidebar_directorio-3:
   alt: "Ad sidebar directorio 3"
   url: ""
 
+sidebar_directorio-4:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar directorio 4"
+  url: ""
+
+sidebar_directorio-5:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar directorio 5"
+  url: ""
+
+category-0:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad category 0"
+  url: ""
+
 category-1:
   image: /assets/images/BP-300x300.jpg
   alt: "Ad category 1"
@@ -236,6 +391,21 @@ category-2:
 category-3:
   image: /assets/images/BP-300x300.jpg
   alt: "Ad category 2"
+  url: ""
+
+category-4:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad category 4"
+  url: ""
+
+category-5:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad category 5"
+  url: ""
+
+sidebar_search-0:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar search 0"
   url: ""
 
 sidebar_search-1:
@@ -253,6 +423,16 @@ sidebar_search-3:
   alt: "Ad sidebar search 3"
   url: ""
 
+sidebar_search-4:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar search 4"
+  url: ""
+
+sidebar_search-5:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar search 5"
+  url: ""
+
 post-1:
   image: /assets/images/BP-300x300.jpg
   alt: "Ad post 1"
@@ -266,4 +446,34 @@ post-2:
 post-3:
   image: /assets/images/BP-300x300.jpg
   alt: "Ad post 2"
+  url: ""
+
+sidebar_search-directorio-0:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar search directorio 0"
+  url: ""
+
+sidebar_search-directorio-1:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar search directorio 1"
+  url: ""
+
+sidebar_search-directorio-2:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar search directorio 2"
+  url: ""
+
+sidebar_search-directorio-3:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar search directorio 3"
+  url: ""
+
+sidebar_search-directorio-4:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar search directorio 4"
+  url: ""
+
+sidebar_search-directorio-5:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar search directorio 5"
   url: ""

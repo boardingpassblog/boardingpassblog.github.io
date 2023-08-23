@@ -3,7 +3,6 @@ layout: post
 date: '2023-08-07 14:37 -0400'
 featured: true
 published: true
-ruta: vips
 title: AVAVIT rechaza las prácticas indebidas
 description: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Vicky.jpg

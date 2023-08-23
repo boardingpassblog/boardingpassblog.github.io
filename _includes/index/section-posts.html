@@ -3,29 +3,39 @@
    <div class="col-lg-12">
      <h2 class="mb-4">{{ include.content.title | escape }}</h2>
      <div class="container maxw">
-       <div class="row">
-         {% assign posts = site.posts | where:"categories",include.content.category %}
+       <div class="row">         
+         {% assign posts = "" %}
+         {% if include.content.title == 'Rutas' %}
+            {% assign posts-vips = site.posts | where: "categories", "rutas-vips" %}
+            {% assign posts-terrestres = site.posts | where: "categories", "rutas-terrestres" %}
+            {% assign posts-aereas = site.posts | where: "categories", "rutas-aereas" %}
+            {% assign posts-maritimas = site.posts | where: "categories", "rutas-maritimas" %}
+            {% assign posts-rutas = posts-vips | concat: posts-terrestres | concat: posts-aereas | concat: posts-maritimas %}
+            {% assign posts = posts-rutas | sort: 'date' | reverse %}
+         {% else %}
+          {% assign posts = site.posts | where:"categories",include.content.category %}
+         {% endif %}
          {% for post in posts limit: 3 %}
-         <div class="col-lg-4 col-sm-6">
-           <article class="text-center">
-             <img class="img-fluid mb-4" src="{{post.image | relative_url}}" alt="{{post.title}}">
-             {% for category in post.categories %}
-             {% assign section = site.data.sections[category] %}
-             {% if forloop.last %}
-             <a class="mb-3 text-dark text-uppercase"
-               href="{{ 'category/' | relative_url }}{{ category | slugify }}">{{ section.title }}</a>
-             {% else %}
-             <a class="mb-3 text-dark text-uppercase"
-               href="{{ 'category/' | relative_url }}{{ category | slugify }}">{{ section.title }} /</a>
-             {% endif %}
-             {% endfor %}
-             <h4 class="title-border"><a class="text-dark"
-                 href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a></h4>
-             <p>{{ post.content | strip_html | truncatewords: 35 }}</p>
-             <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-transparent">Ver más...</a>
-           </article>
-         </div>
-         {% endfor %}
+          <div class="col-lg-4 col-sm-6">
+            <article class="text-center">
+              <img class="img-fluid mb-4" src="{{post.image | relative_url}}" alt="{{post.title}}">
+              {% for category in post.categories %}
+              {% assign section = site.data.sections[category] %}
+              {% if forloop.last %}
+              <a class="mb-3 text-dark text-uppercase"
+                href="{{ 'category/' | relative_url }}{{ category | slugify }}">{{ section.title }}</a>
+              {% else %}
+              <a class="mb-3 text-dark text-uppercase"
+                href="{{ 'category/' | relative_url }}{{ category | slugify }}">{{ section.title }} /</a>
+              {% endif %}
+              {% endfor %}
+              <h4 class="title-border"><a class="text-dark"
+                  href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a></h4>
+              <p>{{ post.content | strip_html | truncatewords: 35 }}</p>
+              <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-transparent">Ver más...</a>
+            </article>
+          </div>
+          {% endfor %}
        </div>
      </div>
    </div>
