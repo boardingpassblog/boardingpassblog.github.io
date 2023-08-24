@@ -3,17 +3,17 @@ date: '2023-07-18 11:54 -0400'
 featured: false
 types:
   - operadores
-name: E1 BoardingPass
+name: Vuelos BoardingPass
 region: Nor-Oriental
 state: Sucre
-sector: Hotelero
+sector: Viajes
 phone_number: +58 426 5203724
 address: Caracas
 website: boardingpass.network
 facebook_user: tuboarding
 twitter_user: tuboarding
 instagram_user: tuboarding
-services: Hospedaje - Estacionamiento
-services_extra: Hospedaje - Estacionamiento
+services: Viajes
+services_extra: Turismo
 image: /assets/images/BP-300x300.jpg
 ---

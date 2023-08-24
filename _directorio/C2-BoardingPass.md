@@ -3,7 +3,7 @@ date: '2023-07-15 11:54 -0400'
 featured: true
 types:
   - operadores
-name: C2 BoardingPass
+name: Posada BoardingPass
 region: Centro-Norte
 state: Miranda
 sector: Hotelero
@@ -13,7 +13,7 @@ website: boardingpass.network
 facebook_user: tuboarding
 twitter_user: tuboarding
 instagram_user: tuboarding
-services: Hospedaje - Estacionamiento
-services_extra: Hospedaje - Estacionamiento
+services: Posada - Estacionamiento
+services_extra: Posada - Estacionamiento
 image: /assets/images/BP-300x300.jpg
 ---

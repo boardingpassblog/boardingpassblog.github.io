@@ -3,17 +3,17 @@ date: '2023-07-16 11:54 -0400'
 featured: true
 types:
   - operadores
-name: D1 BoardingPass
+name: Agencia BoardingPass
 region: Centro-Occidental
 state: Lara
-sector: Hotelero
+sector: Agencia de viaje
 phone_number: +58 426 5203724
 address: Caracas
 website: boardingpass.network
 facebook_user: tuboarding
 twitter_user: tuboarding
 instagram_user: tuboarding
-services: Hospedaje - Estacionamiento
-services_extra: Hospedaje - Estacionamiento
+services: Agencia - Estacionamiento
+services_extra: Agencia - Estacionamiento
 image: /assets/images/BP-300x300.jpg
 ---

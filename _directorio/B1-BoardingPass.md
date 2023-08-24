@@ -3,7 +3,7 @@ date: '2023-07-12 11:54 -0400'
 featured: false
 types:
   - operadores
-name: B1 BoardingPass
+name: Hotel BoardingPass
 region: Los Andes
 state: Táchira
 sector: Hotelero

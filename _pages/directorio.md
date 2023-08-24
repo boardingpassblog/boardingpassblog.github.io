@@ -69,7 +69,7 @@ permalink: /directorio/
     <div class="row ">
       <div class="col-lg-9" id="seccionDestacados">
         <div class="row">
-          {% assign sorted_posts = site.directorio | sort: 'title' | where: 'featured', true %}
+          {% assign sorted_posts = site.directorio | sort_natural: 'name' | where: 'featured', true %}
           {% assign current_letter = '' %}
           {% assign iterator = 0 %}
           {% for post in sorted_posts %}
@@ -146,7 +146,7 @@ permalink: /directorio/
       </div> 
       <div class="col-lg-9" id="seccionNoDestacados">
         <div class="row">
-          {% assign sorted_posts = site.directorio | sort: 'title' | where: 'featured', false %}
+          {% assign sorted_posts = site.directorio | sort_natural: 'name' | where: 'featured', false %}
           {% assign current_letter = '' %}
           {% assign iterator = 0 %}
           {% for post in sorted_posts %}
@@ -597,7 +597,7 @@ permalink: /directorio/
       </div> 
       <div class="col-lg-9" id="seccionEntradas">
         <div class="row">
-          {% assign sorted_posts = site.directorio | sort: 'title' %}
+          {% assign sorted_posts = site.directorio | sort_natural: 'name' %}
           {% assign current_letter = '' %}
           {% assign iterator = 0 %}
           {% for post in sorted_posts %}

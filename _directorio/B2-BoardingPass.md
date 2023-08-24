@@ -3,7 +3,7 @@ date: '2023-07-13 11:54 -0400'
 featured: false
 types:
   - operadores
-name: B2 BoardingPass
+name: Resort BoardingPass
 region: Lago de Maracaibo
 state: Zulia
 sector: Hotelero

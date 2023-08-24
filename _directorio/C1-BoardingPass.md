@@ -3,10 +3,10 @@ date: '2023-07-14 11:54 -0400'
 featured: true
 types:
   - operadores
-name: C1 BoardingPass
+name: Centro BoardingPass
 region: Centro-Norte
 state: Aragua
-sector: Hotelero
+sector: Centro Hotelero
 phone_number: +58 426 5203724
 address: Caracas
 website: boardingpass.network

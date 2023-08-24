@@ -350,7 +350,7 @@ prose:
       - name: phone_number
         field:
           element: text
-          label: Ingrese el número de teléfono
+          label: Ingresa el número de teléfono
           type: text
       - name: address
         field:
