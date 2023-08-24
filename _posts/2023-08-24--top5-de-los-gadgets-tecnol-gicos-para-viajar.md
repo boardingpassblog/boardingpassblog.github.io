@@ -5,9 +5,9 @@ featured: false
 published: true
 title: Top5 de los gadgets tecnológicos para viajar
 description: >-
-  https://github.com/boardingpassblog/boardingpassblog.github.io/blob/main/assets/images/maleta_bp.jpg?raw=true
+  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/maleta_bp.jpg
 image: >-
-  https://github.com/boardingpassblog/boardingpassblog.github.io/blob/main/assets/images/maleta_bp.jpg?raw=true
+  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/maleta_bp.jpg
 image-text: Recomendaciones para viajar
 author: Alexandra Castillo
 categories:
