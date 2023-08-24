@@ -1,11 +1,12 @@
 ---
 layout: post
 date: '2023-08-24 17:11 -0400'
-featured: true
+featured: false
 published: true
 title: Viajar produce más felicidad que casarse o tener hijos
-description: ' https://github.com/boardingpassblog/boardingpassblog.github.io/blob/main/assets/images/viajar-es-mejor-que_bp.jpg?raw=true'
-image: ' https://github.com/boardingpassblog/boardingpassblog.github.io/blob/main/assets/images/viajar-es-mejor-que_bp.jpg?raw=true'
+description: ' https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/viajar-es-mejor-que_bp.jpg'
+image: >-
+  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/viajar-es-mejor-que_bp.jpg
 image-text: ¿Prefieres viajar?
 author: elmundo.es
 categories:
@@ -25,12 +26,3 @@ En cifras, un 55% de los entrevistados ponen por delante viajar a casarse porque
 De ahí que la mayor parte también afirmara que el dinero mejor invertido para ellos es el que emplean en echarse la mochila al hombro (o apostar por un todo incluido), mucho mejor que gastar el sueldo en cosas materiales. Da igual lo que sea: joyas carísimas, carros de lujo o un teléfono de última generación. 
 
 ¿Qué opinas? ¡Déjanos tus comentarios?
-
-
-
-
-
-
-
-
-
