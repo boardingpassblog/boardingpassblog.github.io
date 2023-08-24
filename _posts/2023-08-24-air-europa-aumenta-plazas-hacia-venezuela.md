@@ -8,9 +8,9 @@ author: viajesboletin.com
 categories:
   - rutas-aereas
 description: >-
-  https://github.com/boardingpassblog/boardingpassblog.github.io/blob/main/assets/images/air_europa_bp.jpg?raw=true
+  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/air_europa_bp.jpg
 image: >-
-  https://github.com/boardingpassblog/boardingpassblog.github.io/blob/main/assets/images/air_europa_bp.jpg?raw=true
+  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/air_europa_bp.jpg
 image-text: Air Europa
 ---
 La aerolínea ampliará este año su oferta de plazas en América hasta alcanzar los cerca de 3 millones de asientos, lo que representa un 13,3% más que en 2022. Este importante crecimiento viene acompañado de un mayor número de frecuencias a algunos de sus destinos en el continente, así como de un destacado refuerzo para afrontar con garantías la próxima campaña de Navidad.
