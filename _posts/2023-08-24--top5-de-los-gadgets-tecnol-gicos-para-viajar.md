@@ -3,7 +3,7 @@ layout: post
 date: '2023-08-24 17:34 -0400'
 featured: false
 published: true
-title: '#Top5 de los gadgets tecnológicos para viajar'
+title: Top5 de los gadgets tecnológicos para viajar
 description: >-
   https://github.com/boardingpassblog/boardingpassblog.github.io/blob/main/assets/images/maleta_bp.jpg?raw=true
 image: >-
