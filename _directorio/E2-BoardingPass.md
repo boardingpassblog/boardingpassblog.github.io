@@ -3,7 +3,7 @@ date: '2023-07-19 11:54 -0400'
 featured: true
 types:
   - operadores
-name: Centro Turístico BoardingPass
+title: Centro Turístico BoardingPass
 region: Los Llanos
 state: Apure
 sector: Turismo

@@ -3,7 +3,7 @@ date: '2023-07-11 11:54 -0400'
 featured: true
 types:
   - operadores
-name: Posada BoardingPass
+title: Posada BoardingPass
 region: Los Andes
 state: Mérida
 sector: Posada

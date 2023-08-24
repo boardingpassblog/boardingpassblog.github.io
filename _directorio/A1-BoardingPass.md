@@ -3,7 +3,7 @@ date: '2023-07-13 11:54 -0400'
 featured: true
 types:
   - operadores
-name: Restaurante BoardingPass
+title: Restaurante BoardingPass
 region: Los Andes
 state: Mérida
 sector: Restaurante

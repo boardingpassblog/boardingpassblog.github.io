@@ -3,7 +3,7 @@ date: '2023-07-18 11:54 -0400'
 featured: false
 types:
   - operadores
-name: Vuelos BoardingPass
+title: Vuelos BoardingPass
 region: Nor-Oriental
 state: Sucre
 sector: Viajes

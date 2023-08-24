@@ -3,7 +3,7 @@ date: '2023-07-14 11:54 -0400'
 featured: true
 types:
   - operadores
-name: Centro BoardingPass
+title: Centro BoardingPass
 region: Centro-Norte
 state: Aragua
 sector: Centro Hotelero

@@ -254,7 +254,7 @@ prose:
               value: 'salte-del-radar'
           alterable: false
     _directorio:
-      - name: name
+      - name: title
         field:
           element: text
           label: Ingresa el nombre 

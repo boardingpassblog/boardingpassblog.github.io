@@ -79,7 +79,7 @@ title: Resultados de la búsqueda
       {% for archivo in site.directorio %}
         "{{ archivo.url | slugify }}": {
           "date": "{{ archivo.date | date: '%d %b, %Y'}}",
-          "name": "{{ archivo.name | xml_escape }}",
+          "title": "{{ archivo.title | xml_escape }}",
           "region": "{{ archivo.region | xml_escape }}",
           "state": "{{ archivo.state | xml_escape }}",
           "sector": "{{ archivo.sector | xml_escape }}",

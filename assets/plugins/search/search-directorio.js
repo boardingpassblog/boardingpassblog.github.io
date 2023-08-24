@@ -27,10 +27,10 @@
             appendString +='<div class="tab-pane fade show active" id="tab1-directorio-'+iterador+'">';
             appendString +='<div class="tab-card">';
             appendString +='<div class="tab-pane-card post-thumb-sm-directorio">';
-            appendString +='<img src="'+item.image+'" alt="'+item.name+'" class="img-card">';
+            appendString +='<img src="'+item.image+'" alt="'+item.title+'" class="img-card">';
             appendString +='</div>';
             appendString +='<div class="tab-card-1">';
-            appendString +='<div> <h5 class="text-dark">'+item.name+'</h5></div>';
+            appendString +='<div> <h5 class="text-dark">'+item.title+'</h5></div>';
             appendString +='<div class="smaller-font"><i class="fas fa-map-marker-alt"></i> '+item.address+'</div>';
             appendString +='<div class="smaller-font"><i class="fas fa-bullhorn"></i> '+item.services+'</div>';
             appendString +='<div class="smaller-font"><i class="fas fa-industry"></i> '+item.sector+'</div>';
@@ -62,7 +62,7 @@
             appendString +='</div>';
             appendString +='</div>';
             appendString +='<div class="margin-img-card">';
-            appendString +='<img src="'+item.image+'" alt="'+item.name+'" class="img-card-no-destacadas">';
+            appendString +='<img src="'+item.image+'" alt="'+item.title+'" class="img-card-no-destacadas">';
             appendString +='</div>';
             appendString +='</div>';
             appendString +='</div>';
@@ -73,7 +73,7 @@
             appendString +='<div class="card-body position-card">';
             appendString +='<div class="tab-card">';
             appendString +='<div class="tab-card-1">';
-            appendString +='<div> <h5 class="text-dark">'+item.name+'</h5></div>';
+            appendString +='<div> <h5 class="text-dark">'+item.title+'</h5></div>';
             appendString +='<div class="smaller-font"><i class="fas fa-map-marker-alt"></i> '+item.address+'</div>';
             appendString +='<div class="smaller-font"><i class="fas fa-bullhorn"></i> '+item.services+'</div>';
             appendString +='<div class="smaller-font"><i class="fas fa-industry"></i> '+item.sector+'</div>';
@@ -117,7 +117,7 @@
       // a boost of 10 to indicate matches on this field are more important.
       var idx_d = lunr(function () {
         this.field('id');
-        this.field('name', { boost: 10 });
+        this.field('title', { boost: 10 });
         this.field('region');
         this.field('state');
         this.field('sector');
@@ -136,7 +136,7 @@
       for (var key in window.store_directorio) { // Add the data to lunr
         var data = {
           'id': key,
-          'name': window.store_directorio[key].name,
+          'title': window.store_directorio[key].title,
           'region': window.store_directorio[key].region,
           'state': window.store_directorio[key].state,
           'sector': window.store_directorio[key].sector,

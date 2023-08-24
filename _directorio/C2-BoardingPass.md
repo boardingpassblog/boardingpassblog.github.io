@@ -3,7 +3,7 @@ date: '2023-07-15 11:54 -0400'
 featured: true
 types:
   - operadores
-name: Posada BoardingPass
+title: Posada Turística BoardingPass
 region: Centro-Norte
 state: Miranda
 sector: Hotelero

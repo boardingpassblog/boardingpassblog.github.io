@@ -3,7 +3,7 @@ date: '2023-07-16 11:54 -0400'
 featured: true
 types:
   - operadores
-name: Agencia BoardingPass
+title: Agencia BoardingPass
 region: Centro-Occidental
 state: Lara
 sector: Agencia de viaje

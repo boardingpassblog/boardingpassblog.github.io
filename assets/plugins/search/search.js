@@ -45,10 +45,10 @@
           appendString +='<div class="tab-pane fade show active" id="tab1-directorio-'+iterador+'">';
           appendString +='<div class="tab-card">';
           appendString +='<div class="tab-pane-card post-thumb-sm-directorio">';
-          appendString +='<img src="'+item.image+'" alt="'+item.name+'" class="img-card">';
+          appendString +='<img src="'+item.image+'" alt="'+item.title+'" class="img-card">';
           appendString +='</div>';
           appendString +='<div class="tab-card-1">';
-          appendString +='<div> <h5 class="text-dark">'+item.name+'</h5></div>';
+          appendString +='<div> <h5 class="text-dark">'+item.title+'</h5></div>';
           appendString +='<div class="smaller-font"><i class="fas fa-map-marker-alt"></i> '+item.address+'</div>';
           appendString +='<div class="smaller-font"><i class="fas fa-bullhorn"></i> '+item.services+'</div>';
           appendString +='<div class="smaller-font"><i class="fas fa-industry"></i>'+item.sector+'</div>';
@@ -80,7 +80,7 @@
           appendString +='</div>';
           appendString +='</div>';
           appendString +='<div class="margin-img-card">';
-          appendString +='<img src="'+item.image+'" alt="'+item.name+'" class="img-card-no-destacadas">';
+          appendString +='<img src="'+item.image+'" alt="'+item.title+'" class="img-card-no-destacadas">';
           appendString +='</div>';
           appendString +='</div>';
           appendString +='</div>';
@@ -129,7 +129,7 @@
 
     var idx_dir = lunr(function () {
       this.field('id');
-      this.field('name', { boost: 10 });
+      this.field('title', { boost: 10 });
       this.field('region');
       this.field('state');
       this.field('sector');
@@ -161,7 +161,7 @@
     for (var key2 in window.store_directorio) { // Add the data to lunr
       var data = {
         'id': key2,
-        'name': window.store_directorio[key2].name,
+        'title': window.store_directorio[key2].title,
         'region': window.store_directorio[key2].region,
         'state': window.store_directorio[key2].state,
         'sector': window.store_directorio[key2].sector,
