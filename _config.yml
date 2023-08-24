@@ -267,8 +267,8 @@ prose:
       - name: region
         field:
           element: select
-          label: Selecciona el Estado 
-          help: Puedes seleccionar un solo Estado
+          label: Selecciona la Región 
+          help: Puedes seleccionar una sola Región
           options:
             - name: 'Los Andes'
               value: 'Los Andes'
@@ -279,7 +279,7 @@ prose:
             - name: 'Centro-Norte'
               value: 'Centro-Norte'
             - name: 'Centro-Occidental'
-              value: 'Centro Occidental'
+              value: 'Centro-Occidental'
             - name: 'Nor-Oriental'
               value: 'Nor-Oriental'
             - name: 'Los Llanos'
@@ -360,22 +360,22 @@ prose:
       - name: website
         field:
           element: text
-          label: Ingresa la página web
+          label: Ingresa la dirección del sitio web
           type: text
       - name: facebook_user
         field:
           element: text
-          label: Ingresa la página de Facebook
+          label: Ingresa el usuario de Facebook
           type: text
       - name: twitter_user
         field:
           element: text
-          label: Ingresa la página de Twitter
+          label: Ingresa el usuario de Twitter
           type: text
       - name: instagram_user
         field:
           element: text
-          label: Ingresa la página de Instagram
+          label: Ingresa el usuario de Instagram
           type: text
       - name: services
         field:
