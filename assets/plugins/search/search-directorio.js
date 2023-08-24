@@ -7,6 +7,13 @@
         var iterador = 0;
         for (var i = 0; i < results.length; i++) {  // Iterate over the results
           var item = store[results[i].ref]; 
+          var types_clean = item.types.replace(/&quot;/g, '"'); 
+          var types_array = types_clean.slice(1, -1).split(',').map(function(item) {
+            return item.trim();
+          });
+          var types = types_array.map(function(item) {
+            return item.replace(/"/g, ''); 
+          }).join(' - ');
           iterador += 1;
           if (i % 2 === 0) {
             appendString += '<div class="row">';
@@ -31,9 +38,15 @@
             appendString +='</div>';
             appendString +='<div class="tab-card-1">';
             appendString +='<div> <h5 class="text-dark">'+item.title+'</h5></div>';
-            appendString +='<div class="smaller-font"><i class="fas fa-map-marker-alt"></i> '+item.address+'</div>';
-            appendString +='<div class="smaller-font"><i class="fas fa-bullhorn"></i> '+item.services+'</div>';
+            appendString +='<div class="smaller-font margin-icon"><i class="fas fa-map-marker-alt"></i> ';
+            appendString +='<span class="margin-icon">'+item.address+'</span>';
+            appendString +='</div>';
+            appendString +='<div class="smaller-font margin-icon"><i class="fas fa-building"></i>';
+            appendString +='<span class="margin-icon-search">'+types+' </span>';
+            appendString +='</div>';
             appendString +='<div class="smaller-font"><i class="fas fa-industry"></i> '+item.sector+'</div>';
+            appendString +='<div class="smaller-font"><i class="fas fa-bullhorn"></i> '+item.services+'</div>';
+            appendString +='<div class="smaller-font"><i class="fas fa-list"></i> '+item.services_extra+'</div>';
             appendString +='</div>';
             appendString +='</div>';
             appendString +='</div>';
@@ -61,7 +74,7 @@
             appendString +='<a href="https://twitter.com/'+item.twitter_user+'"> '+item.twitter_user+'</a>';
             appendString +='</div>';
             appendString +='</div>';
-            appendString +='<div class="margin-img-card">';
+            appendString +='<div>';
             appendString +='<img src="'+item.image+'" alt="'+item.title+'" class="img-card-no-destacadas">';
             appendString +='</div>';
             appendString +='</div>';
@@ -74,9 +87,15 @@
             appendString +='<div class="tab-card">';
             appendString +='<div class="tab-card-1">';
             appendString +='<div> <h5 class="text-dark">'+item.title+'</h5></div>';
-            appendString +='<div class="smaller-font"><i class="fas fa-map-marker-alt"></i> '+item.address+'</div>';
-            appendString +='<div class="smaller-font"><i class="fas fa-bullhorn"></i> '+item.services+'</div>';
+            appendString +='<div class="smaller-font margin-icon"><i class="fas fa-map-marker-alt"></i> ';
+            appendString +='<span class="margin-icon">'+item.address+'</span>';
+            appendString +='</div>';
+            appendString +='<div class="smaller-font margin-icon"><i class="fas fa-building custom-icon"></i>';
+            appendString +='<span class="margin-icon-search">'+types+' </span>';
+            appendString +='</div>';
             appendString +='<div class="smaller-font"><i class="fas fa-industry"></i> '+item.sector+'</div>';
+            appendString +='<div class="smaller-font"><i class="fas fa-bullhorn"></i> '+item.services+'</div>';
+            appendString +='<div class="smaller-font"><i class="fas fa-list"></i> '+item.services_extra+'</div>';
             appendString +='</div>';
             appendString +='</div>';
             appendString +='</div>';
@@ -124,6 +143,7 @@
         this.field('address');
         this.field('types');
         this.field('services');
+        this.field('services_extra');
         this.field('featured');
         this.field('image');
         this.field('phone_number');
@@ -143,6 +163,7 @@
           'address': window.store_directorio[key].address,
           'types': window.store_directorio[key].types,
           'services': window.store_directorio[key].services,
+          'services_extra': window.store_directorio[key].services_extra,
           'featured': window.store_directorio[key].featured,
           'image': window.store_directorio[key].image,
           'phone_number': window.store_directorio[key].phone_number,

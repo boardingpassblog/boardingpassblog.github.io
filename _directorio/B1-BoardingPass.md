@@ -2,7 +2,8 @@
 date: '2023-07-12 11:54 -0400'
 featured: false
 types:
-  - operadores
+  - Operadores
+  - Hospedaje
 title: Hotel BoardingPass
 region: Los Andes
 state: Táchira
@@ -13,7 +14,7 @@ website: boardingpass.network
 facebook_user: tuboarding
 twitter_user: tuboarding
 instagram_user: tuboarding
-services: Hospedaje - Estacionamiento
-services_extra: Hospedaje - Estacionamiento
+services: Hospedaje
+services_extra: Estacionamiento
 image: /assets/images/BP-300x300.jpg
 ---

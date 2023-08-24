@@ -2,7 +2,8 @@
 date: '2023-07-15 11:54 -0400'
 featured: true
 types:
-  - operadores
+  - Hospedaje
+  - Alquiler
 title: Posada Turística BoardingPass
 region: Centro-Norte
 state: Miranda
@@ -14,6 +15,6 @@ facebook_user: tuboarding
 twitter_user: tuboarding
 instagram_user: tuboarding
 services: Posada - Estacionamiento
-services_extra: Posada - Estacionamiento
+services_extra: WiFi
 image: /assets/images/BP-300x300.jpg
 ---

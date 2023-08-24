@@ -2,7 +2,7 @@
 date: '2023-07-18 11:54 -0400'
 featured: false
 types:
-  - operadores
+  - Operadores
 title: Vuelos BoardingPass
 region: Nor-Oriental
 state: Sucre
@@ -14,6 +14,6 @@ facebook_user: tuboarding
 twitter_user: tuboarding
 instagram_user: tuboarding
 services: Viajes
-services_extra: Turismo
+services_extra: Comida
 image: /assets/images/BP-300x300.jpg
 ---

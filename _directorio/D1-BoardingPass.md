@@ -2,7 +2,7 @@
 date: '2023-07-16 11:54 -0400'
 featured: true
 types:
-  - operadores
+  - Operadores
 title: Agencia BoardingPass
 region: Centro-Occidental
 state: Lara
@@ -13,7 +13,7 @@ website: boardingpass.network
 facebook_user: tuboarding
 twitter_user: tuboarding
 instagram_user: tuboarding
-services: Agencia - Estacionamiento
-services_extra: Agencia - Estacionamiento
+services: Viajes - Estacionamiento
+services_extra: Turismo
 image: /assets/images/BP-300x300.jpg
 ---

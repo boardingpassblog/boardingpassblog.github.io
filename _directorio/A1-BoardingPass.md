@@ -2,7 +2,7 @@
 date: '2023-07-13 11:54 -0400'
 featured: true
 types:
-  - operadores
+  - Operadores
 title: Restaurante BoardingPass
 region: Los Andes
 state: Mérida
@@ -13,7 +13,7 @@ website: boardingpass.network
 facebook_user: tuboarding
 twitter_user: tuboarding
 instagram_user: tuboarding
-services: Restaurante - Estacionamiento
-services_extra: Hospedaje - Estacionamiento
+services: Comida - Estacionamiento
+services_extra: WiFi
 image: /assets/images/BP-300x300.jpg
 ---

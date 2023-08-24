@@ -2,7 +2,8 @@
 date: '2023-07-13 11:54 -0400'
 featured: false
 types:
-  - operadores
+  - Operadores
+  - Hospedaje
 title: Resort BoardingPass
 region: Lago de Maracaibo
 state: Zulia
@@ -13,7 +14,7 @@ website: boardingpass.network
 facebook_user: tuboarding
 twitter_user: tuboarding
 instagram_user: tuboarding
-services: Hospedaje - Estacionamiento
-services_extra: Hospedaje - Estacionamiento
+services: Comida - Estacionamiento
+services_extra: Wi-Fi
 image: /assets/images/BP-300x300.jpg
 ---

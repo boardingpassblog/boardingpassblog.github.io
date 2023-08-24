@@ -2,7 +2,7 @@
 date: '2023-07-19 11:54 -0400'
 featured: true
 types:
-  - operadores
+  - Operadores
 title: Centro Turístico BoardingPass
 region: Los Llanos
 state: Apure
@@ -13,7 +13,7 @@ website: boardingpass.network
 facebook_user: tuboarding
 twitter_user: tuboarding
 instagram_user: tuboarding
-services: Turismo 
-services_extra: Turismo 
+services: Hospedaje 
+services_extra: Comida 
 image: /assets/images/BP-300x300.jpg
 ---

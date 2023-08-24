@@ -2,7 +2,7 @@
 date: '2023-07-17 11:54 -0400'
 featured: false
 types:
-  - operadores
+  - Operadores
 title: Viajes y Turismo BoardingPass
 region: Centro-Occidental
 state: Portuguesa

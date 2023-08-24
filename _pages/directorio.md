@@ -101,9 +101,18 @@ permalink: /directorio/
                         </div>
                         <div class="tab-card-1">
                           <div> <h5 class="text-dark">{{post.title }}</h5></div>
-                          <div class="smaller-font"><i class="fas fa-map-marker-alt"></i> {{post.address}}</div>
-                          <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
+                          <div class="smaller-font margin-icon"><i class="fas fa-map-marker-alt"></i> 
+                            <span class="margin-icon">{{post.address}}</span>
+                          </div>
+                          <div class="smaller-font margin-icon"><i class="fas fa-building"></i>
+                            {% for type in post.types %}
+                              {% assign capitalized = type | capitalize %}
+                              <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
+                            {% endfor %}
+                          </div>
                           <div class="smaller-font"><i class="fas fa-industry"></i> {{post.sector}}</div>
+                          <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
+                          <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
                         </div>
                       </div>
                     </div>
@@ -165,9 +174,18 @@ permalink: /directorio/
                   <div class="tab-card">
                     <div class="tab-card-1">
                       <div> <h5 class="text-dark">{{post.title }}</h5></div>
-                      <div class="smaller-font"><i class="fas fa-map-marker-alt"></i> {{post.address}}</div>
-                      <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
-                      <div class="smaller-font"><i class="fas fa-industry"></i> {{post.sector}}</div>
+                      <div class="smaller-font margin-icon"><i class="fas fa-map-marker-alt"></i> 
+                            <span class="margin-icon">{{post.address}}</span>
+                          </div>
+                          <div class="smaller-font margin-icon"><i class="fas fa-building"></i>
+                            {% for type in post.types %}
+                              {% assign capitalized = type | capitalize %}
+                              <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
+                            {% endfor %}
+                          </div>
+                          <div class="smaller-font"><i class="fas fa-industry"></i> {{post.sector}}</div>
+                          <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
+                          <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
                     </div>
                   </div>
                 </div>
@@ -198,9 +216,18 @@ permalink: /directorio/
                   <div class="tab-card">
                     <div class="tab-card-1">
                       <div> <h5 class="text-dark">{{post.title }}</h5></div>
-                      <div class="smaller-font"><i class="fas fa-map-marker-alt"></i> {{post.address}}</div>
-                      <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
+                      <div class="smaller-font margin-icon"><i class="fas fa-map-marker-alt"></i> 
+                        <span class="margin-icon">{{post.address}}</span>
+                      </div>
+                      <div class="smaller-font margin-icon"><i class="fas fa-building"></i>
+                        {% for type in post.types %}
+                          {% assign capitalized = type | capitalize %}
+                          <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
+                        {% endfor %}
+                      </div>
                       <div class="smaller-font"><i class="fas fa-industry"></i> {{post.sector}}</div>
+                      <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
+                      <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
                     </div>
                   </div>
                 </div>
@@ -244,9 +271,18 @@ permalink: /directorio/
                         </div>
                         <div class="tab-card-1">
                           <div> <h5 class="text-dark">{{post.title }}</h5></div>
-                          <div class="smaller-font"><i class="fas fa-map-marker-alt"></i> {{post.address}}</div>
-                          <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
+                          <div class="smaller-font margin-icon"><i class="fas fa-map-marker-alt"></i> 
+                            <span class="margin-icon">{{post.address}}</span>
+                          </div>
+                          <div class="smaller-font margin-icon"><i class="fas fa-building"></i>
+                            {% for type in post.types %}
+                              {% assign capitalized = type | capitalize %}
+                              <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
+                            {% endfor %}
+                          </div>
                           <div class="smaller-font"><i class="fas fa-industry"></i> {{post.sector}}</div>
+                          <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
+                          <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
                         </div>
                       </div>
                     </div>
@@ -286,9 +322,18 @@ permalink: /directorio/
                   <div class="tab-card">
                     <div class="tab-card-1">
                       <div> <h5 class="text-dark">{{post.title }}</h5></div>
-                      <div class="smaller-font"><i class="fas fa-map-marker-alt"></i> {{post.address}}</div>
-                      <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
+                      <div class="smaller-font margin-icon"><i class="fas fa-map-marker-alt"></i> 
+                        <span class="margin-icon">{{post.address}}</span>
+                      </div>
+                      <div class="smaller-font margin-icon"><i class="fas fa-building"></i>
+                        {% for type in post.types %}
+                          {% assign capitalized = type | capitalize %}
+                          <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
+                        {% endfor %}
+                      </div>
                       <div class="smaller-font"><i class="fas fa-industry"></i> {{post.sector}}</div>
+                      <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
+                      <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
                     </div>
                   </div>
                 </div>
@@ -332,9 +377,18 @@ permalink: /directorio/
                         </div>
                         <div class="tab-card-1">
                           <div> <h5 class="text-dark">{{post.title }}</h5></div>
-                          <div class="smaller-font"><i class="fas fa-map-marker-alt"></i> {{post.address}}</div>
-                          <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
+                          <div class="smaller-font margin-icon"><i class="fas fa-map-marker-alt"></i> 
+                            <span class="margin-icon">{{post.address}}</span>
+                          </div>
+                          <div class="smaller-font margin-icon"><i class="fas fa-building"></i>
+                            {% for type in post.types %}
+                              {% assign capitalized = type | capitalize %}
+                              <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
+                            {% endfor %}
+                          </div>
                           <div class="smaller-font"><i class="fas fa-industry"></i> {{post.sector}}</div>
+                          <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
+                          <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
                         </div>
                       </div>
                     </div>
@@ -374,9 +428,18 @@ permalink: /directorio/
                   <div class="tab-card">
                     <div class="tab-card-1">
                       <div> <h5 class="text-dark">{{post.title }}</h5></div>
-                      <div class="smaller-font"><i class="fas fa-map-marker-alt"></i> {{post.address}}</div>
-                      <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
+                      <div class="smaller-font margin-icon"><i class="fas fa-map-marker-alt"></i> 
+                        <span class="margin-icon">{{post.address}}</span>
+                      </div>
+                      <div class="smaller-font margin-icon"><i class="fas fa-building"></i>
+                        {% for type in post.types %}
+                          {% assign capitalized = type | capitalize %}
+                          <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
+                        {% endfor %}
+                      </div>
                       <div class="smaller-font"><i class="fas fa-industry"></i> {{post.sector}}</div>
+                      <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
+                      <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
                     </div>
                   </div>
                 </div>
@@ -407,9 +470,18 @@ permalink: /directorio/
                   <div class="tab-card">
                     <div class="tab-card-1">
                       <div> <h5 class="text-dark">{{post.title }}</h5></div>
-                      <div class="smaller-font"><i class="fas fa-map-marker-alt"></i> {{post.address}}</div>
-                      <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
+                      <div class="smaller-font margin-icon"><i class="fas fa-map-marker-alt"></i> 
+                        <span class="margin-icon">{{post.address}}</span>
+                      </div>
+                      <div class="smaller-font margin-icon"><i class="fas fa-building"></i>
+                        {% for type in post.types %}
+                          {% assign capitalized = type | capitalize %}
+                          <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
+                        {% endfor %}
+                      </div>
                       <div class="smaller-font"><i class="fas fa-industry"></i> {{post.sector}}</div>
+                      <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
+                      <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
                     </div>
                   </div>
                 </div>
@@ -453,9 +525,18 @@ permalink: /directorio/
                         </div>
                         <div class="tab-card-1">
                           <div> <h5 class="text-dark">{{post.title }}</h5></div>
-                          <div class="smaller-font"><i class="fas fa-map-marker-alt"></i> {{post.address}}</div>
-                          <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
+                          <div class="smaller-font margin-icon"><i class="fas fa-map-marker-alt"></i> 
+                            <span class="margin-icon">{{post.address}}</span>
+                          </div>
+                          <div class="smaller-font margin-icon"><i class="fas fa-building"></i>
+                            {% for type in post.types %}
+                              {% assign capitalized = type | capitalize %}
+                              <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
+                            {% endfor %}
+                          </div>
                           <div class="smaller-font"><i class="fas fa-industry"></i> {{post.sector}}</div>
+                          <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
+                          <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
                         </div>
                       </div>
                     </div>
@@ -495,9 +576,18 @@ permalink: /directorio/
                   <div class="tab-card">
                     <div class="tab-card-1">
                       <div> <h5 class="text-dark">{{post.title }}</h5></div>
-                      <div class="smaller-font"><i class="fas fa-map-marker-alt"></i> {{post.address}}</div>
-                      <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
+                      <div class="smaller-font margin-icon"><i class="fas fa-map-marker-alt"></i> 
+                        <span class="margin-icon">{{post.address}}</span>
+                      </div>
+                      <div class="smaller-font margin-icon"><i class="fas fa-building"></i>
+                        {% for type in post.types %}
+                          {% assign capitalized = type | capitalize %}
+                          <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
+                        {% endfor %}
+                      </div>
                       <div class="smaller-font"><i class="fas fa-industry"></i> {{post.sector}}</div>
+                      <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
+                      <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
                     </div>
                   </div>
                 </div>
@@ -541,9 +631,18 @@ permalink: /directorio/
                         </div>
                         <div class="tab-card-1">
                           <div> <h5 class="text-dark">{{post.title }}</h5></div>
-                          <div class="smaller-font"><i class="fas fa-map-marker-alt"></i> {{post.address}}</div>
-                          <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
+                          <div class="smaller-font margin-icon"><i class="fas fa-map-marker-alt"></i> 
+                            <span class="margin-icon">{{post.address}}</span>
+                          </div>
+                          <div class="smaller-font margin-icon"><i class="fas fa-building"></i>
+                            {% for type in post.types %}
+                              {% assign capitalized = type | capitalize %}
+                              <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
+                            {% endfor %}
+                          </div>
                           <div class="smaller-font"><i class="fas fa-industry"></i> {{post.sector}}</div>
+                          <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
+                          <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
                         </div>
                       </div>
                     </div>
@@ -583,9 +682,18 @@ permalink: /directorio/
                   <div class="tab-card">
                     <div class="tab-card-1">
                       <div> <h5 class="text-dark">{{post.title }}</h5></div>
-                      <div class="smaller-font"><i class="fas fa-map-marker-alt"></i> {{post.address}}</div>
-                      <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
+                      <div class="smaller-font margin-icon"><i class="fas fa-map-marker-alt"></i> 
+                        <span class="margin-icon">{{post.address}}</span>
+                      </div>
+                      <div class="smaller-font margin-icon"><i class="fas fa-building"></i>
+                        {% for type in post.types %}
+                          {% assign capitalized = type | capitalize %}
+                          <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
+                        {% endfor %}
+                      </div>
                       <div class="smaller-font"><i class="fas fa-industry"></i> {{post.sector}}</div>
+                      <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
+                      <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
                     </div>
                   </div>
                 </div>
@@ -629,9 +737,18 @@ permalink: /directorio/
                         </div>
                         <div class="tab-card-1">
                           <div> <h5 class="text-dark">{{post.title }}</h5></div>
-                          <div class="smaller-font"><i class="fas fa-map-marker-alt"></i> {{post.address}}</div>
-                          <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
+                          <div class="smaller-font margin-icon"><i class="fas fa-map-marker-alt"></i> 
+                            <span class="margin-icon">{{post.address}}</span>
+                          </div>
+                          <div class="smaller-font margin-icon"><i class="fas fa-building"></i>
+                            {% for type in post.types %}
+                              {% assign capitalized = type | capitalize %}
+                              <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
+                            {% endfor %}
+                          </div>
                           <div class="smaller-font"><i class="fas fa-industry"></i> {{post.sector}}</div>
+                          <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
+                          <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
                         </div>
                       </div>
                     </div>
@@ -671,9 +788,17 @@ permalink: /directorio/
                   <div class="tab-card">
                     <div class="tab-card-1">
                       <div> <h5 class="text-dark">{{post.title }}</h5></div>
-                      <div class="smaller-font"><i class="fas fa-map-marker-alt"></i> {{post.address}}</div>
-                      <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
+                      <div class="smaller-font margin-icon"><i class="fas fa-map-marker-alt"></i> 
+                        <span class="margin-icon">{{post.address}}</span></div>
+                      <div class="smaller-font margin-icon"><i class="fas fa-building"></i>
+                        {% for type in post.types %}
+                          {% assign capitalized = type | capitalize %}
+                          <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
+                        {% endfor %}
+                      </div>
                       <div class="smaller-font"><i class="fas fa-industry"></i> {{post.sector}}</div>
+                      <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
+                      <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
                     </div>
                   </div>
                 </div>
