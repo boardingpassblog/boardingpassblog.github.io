@@ -23,6 +23,6 @@ Si estás preparando un viaje no podemos dejar de hacerte algunas recomendacione
 
 4.- **Tanto si el viaje es en pleno invierno como si te agarra una ola de calor**, hay gadgets que te facilitarán la vida. Desde los calentadores de manos recargables que también sirven de batería externa o parches térmicos, hasta los ventiladores portátiles recargables por USB. 
 
-5.- S**i vas a vacaciones en el mar**, no te olvides de las carcasas acuáticas para  móviles o cámaras, que te permitirán sumergirte sin poner en riesgo tus equipos.  
+5.- **Si vas a vacaciones en el mar**, no te olvides de las carcasas acuáticas para  móviles o cámaras, que te permitirán sumergirte sin poner en riesgo tus equipos.  
 
 ¿Listo? A disfrutar y ¡bienvenido a bordo!
