@@ -26,7 +26,8 @@ Gracias por confiar en <span class="font-weight-bold">BoardingPass.Network</span
   <div class="col-12">
     <textarea name="message" id="message" class="form-control mb-4" placeholder="Mensaje..."></textarea>
   </div>
-  <div class="col-12">
+  <div class="g-recaptcha" data-sitekey="6Le0AtAnAAAAAFr5iSQ3h_rIBH9nMpq3q88fd7di"></div>
+  <div class="col-12 line-break">
     <button class="btn btn-primary" type="submit">Enviar</button>
   </div>
 </form>
@@ -36,5 +37,12 @@ Gracias por confiar en <span class="font-weight-bold">BoardingPass.Network</span
     for(const form of document.getElementsByTagName('form')) {
       form.reset();
     }
+  }
+
+  window.onload = function() { 
+    var el = document.getElementById('g-recaptcha-response'); 
+    if (el) { 
+      el.setAttribute('required', 'required'); 
+    } 
   }
 </script>
