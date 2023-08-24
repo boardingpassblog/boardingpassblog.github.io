@@ -40,4 +40,3 @@ A continuación, se presentan varias de las actividades, ya bastante avanzadas y
 - 2da o 3era. semana de noviembre. Networking en Europa
 
 - 30 noviembre. Cena de Fin de Año patrocinada por Air Europa.
-
