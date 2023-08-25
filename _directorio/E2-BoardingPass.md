@@ -6,7 +6,6 @@ types:
 title: Centro Turístico BoardingPass
 region: Los Llanos
 state: Apure
-sector: Turismo
 phone_number: +58 426 5203724
 address: Caracas
 website: boardingpass.network

@@ -6,7 +6,6 @@ types:
 title: Viajes y Turismo BoardingPass
 region: Centro-Occidental
 state: Portuguesa
-sector: Viajes y Turismo
 phone_number: +58 426 5203724
 address: Caracas
 website: boardingpass.network

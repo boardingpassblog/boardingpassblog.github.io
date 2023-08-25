@@ -7,7 +7,6 @@ types:
 title: Resort BoardingPass
 region: Lago de Maracaibo
 state: Zulia
-sector: Hotelero
 phone_number: +58 426 5203724
 address: Caracas
 website: boardingpass.network

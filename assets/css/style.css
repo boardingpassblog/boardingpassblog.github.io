@@ -1034,8 +1034,8 @@ blockquote {
 }
 
 .post-thumb-sm-destacados {
-  max-width: 150px;
-  max-height: 150px;
+  max-width: 130px;
+  max-height: 130px;
   overflow: hidden;
 }
 
@@ -1212,7 +1212,7 @@ blockquote {
 }
 
 .img-card{
-  width: 145px; height: auto;
+  width: 130px; height: auto;
 }
 
 .img-card-no-destacadas{

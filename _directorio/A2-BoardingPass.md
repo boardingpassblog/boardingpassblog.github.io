@@ -7,7 +7,6 @@ types:
 title: Posada BoardingPass
 region: Los Andes
 state: Mérida
-sector: Hotelero
 phone_number: +58 426 5203724
 address: Caracas
 website: boardingpass.network

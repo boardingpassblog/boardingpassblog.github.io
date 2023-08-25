@@ -342,11 +342,6 @@ prose:
             - name: 'Zulia'
               value: 'Zulia'
           alterable: false
-      - name: sector
-        field:
-          element: text
-          label: Ingresa el Sector
-          type: text
       - name: phone_number
         field:
           element: text
@@ -379,9 +374,35 @@ prose:
           type: text
       - name: services
         field:
-          element: text
-          label: Ingresa los servicios
-          type: text
+          element: multiselect
+          label: Selecciona los servicios 
+          help: Puedes seleccionar varios tipos
+          options:
+            - name: 'Asesoría Personalizada de Viajes'
+              value: 'Asesoría Personalizada de Viajes'
+            - name: 'Excursiones Locales'
+              value: 'Excursiones Locales'
+            - name: 'Guía Turistica'
+              value: 'Guía Turistica'
+            - name: 'Organización de Viajes'
+              value: 'Organización de Viajes'
+            - name: 'Organización de Viajes de Turismo'
+              value: 'Organización de Viajes de Turismo'
+            - name: 'Resolución de Incidencias'
+              value: 'Resolución de Incidencias'
+            - name: 'Servicio de Reservación'
+              value: 'Servicio de Reservación'
+            - name: 'Traslados'
+              value: 'Traslados'
+            - name: 'Venta de Boletos Aéreos Internacionales'
+              value: 'Venta de Boletos Aéreos Internacionales'
+            - name: 'Venta de Boletos Aéreos Nacionales'
+              value: 'Venta de Boletos Aéreos Nacionales'
+            - name: 'Viajes Internacionales'
+              value: 'Viajes Internacionales'
+            - name: 'Viajes Nacionales'
+              value: 'Viajes Nacionales'
+          alterable: false
       - name: services_extra
         field:
           element: text

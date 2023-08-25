@@ -16,5 +16,4 @@ services: 'Asesoría Personalizada de Viajes '
 services_extra: Organización de Viajes de Turismo
 image: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Zumaque.jpg
-sector: Agencia de Viaje
 ---

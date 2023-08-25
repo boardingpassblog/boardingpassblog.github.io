@@ -7,7 +7,6 @@ types:
 title: Posada Turística BoardingPass
 region: Centro-Norte
 state: Miranda
-sector: Hotelero
 phone_number: +58 426 5203724
 address: Caracas
 website: boardingpass.network

@@ -7,7 +7,6 @@ types:
 title: Centro BoardingPass
 region: Centro-Norte
 state: Aragua
-sector: Hotelero
 phone_number: +58 426 5203724
 address: Caracas
 website: boardingpass.network

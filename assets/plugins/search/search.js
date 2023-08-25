@@ -51,46 +51,63 @@
           appendString +='<div class="tab-content line-break">';
           appendString +='<div class="tab-pane fade show active" id="tab1-directorio-'+iterador+'">';
           appendString +='<div class="tab-card">';
-          appendString +='<div class="tab-pane-card post-thumb-sm-directorio">';
+          appendString +='<div class="tab-pane-card">';
           appendString +='<img src="'+item.image+'" alt="'+item.title+'" class="img-card">';
           appendString +='</div>';
           appendString +='<div class="tab-card-1">';
           appendString +='<div> <h5 class="text-dark">'+item.title+'</h5></div>';
-          appendString +='<div class="smaller-font margin-icon"><i class="fas fa-map-marker-alt"></i> ';
-          appendString +='<span class="margin-icon">'+item.address+'</span>';
-          appendString +='</div>';
-          appendString +='<div class="smaller-font margin-icon"><i class="fas fa-building"></i>';
-          appendString +='<span class="margin-icon-search">'+types+' </span>';
-          appendString +='</div>';
-          appendString +='<div class="smaller-font"><i class="fas fa-industry"></i> '+item.sector+'</div>';
-          appendString +='<div class="smaller-font"><i class="fas fa-bullhorn"></i> '+item.services+'</div>';
-          appendString +='<div class="smaller-font"><i class="fas fa-list"></i> '+item.services_extra+'</div>';
+          if (item.address){
+            appendString +='<div class="smaller-font margin-icon"><i class="fas fa-map-marker-alt"></i> ';
+            appendString +='<span class="margin-icon">'+item.address+'</span>';
+            appendString +='</div>';
+          }
+          if(item.types){
+            appendString +='<div class="smaller-font margin-icon"><i class="fas fa-building"></i>';
+            appendString +='<span class="margin-icon-search">'+types+' </span>';
+            appendString +='</div>';
+          }
+          if(item.services){
+            appendString +='<div class="smaller-font"><i class="fas fa-bullhorn"></i> '+item.services+'</div>';
+          }
+          if(item.services_extra){
+            appendString +='<div class="smaller-font"><i class="fas fa-list"></i> '+item.services_extra+'</div>';
+          }
           appendString +='</div>';
           appendString +='</div>';
           appendString +='</div>';
           appendString +='<div class="tab-pane fade" id="tab2-directorio-'+iterador+'">';
           appendString +='<div class="tab-card">';
           appendString +='<div class="tab-card-1">';
-          appendString +='<div>';
-          appendString +='<i class="fas fa-phone"></i> ';
-          appendString +='<a href="tel:'+item.phone_number+'" class="font-phone-number"> '+item.phone_number+'</a>';
-          appendString +='</div>';
-          appendString +='<div class="smaller-font">';
-          appendString +='<i class="fas fa-globe"></i> ';
-          appendString +='<a href="https://'+item.website+'"> '+item.website+'</a>';
-          appendString +='</div>';
-          appendString +='<div class="smaller-font">';
-          appendString +='<i class="fab fa-facebook-square"></i> ';
-          appendString +='<a href="https://www.facebook.com/'+item.facebook_user+'"> '+item.facebook_user+'</a>';
-          appendString +='</div>';
-          appendString +='<div class="smaller-font">';
-          appendString +='<i class="fab fa-instagram"></i> ';
-          appendString +='<a href="https://instagram.com/'+item.instagram_user+'"> '+item.instagram_user+'</a>';
-          appendString +='</div>';
-          appendString +='<div class="smaller-font">';
-          appendString +='<i class="fab fa-twitter"></i> ';
-          appendString +='<a href="https://twitter.com/'+item.twitter_user+'"> '+item.twitter_user+'</a>';
-          appendString +='</div>';
+          if(item.phone_number){
+            appendString +='<div>';
+            appendString +='<i class="fas fa-phone fa-sm"></i> ';
+            appendString +='<a href="tel:'+item.phone_number+'" class="font-phone-number"> '+item.phone_number+'</a>';
+            appendString +='</div>';
+          }
+          if(item.website){
+            appendString +='<div class="smaller-font">';
+            appendString +='<i class="fas fa-globe"></i> ';
+            appendString +='<a href="https://'+item.website+'"> '+item.website+'</a>';
+            appendString +='</div>';
+          }
+          if(item.facebook_user){
+            appendString +='<div class="smaller-font">';
+            appendString +='<i class="fab fa-facebook-square"></i> ';
+            appendString +='<a href="https://www.facebook.com/'+item.facebook_user+'"> '+item.facebook_user+'</a>';
+            appendString +='</div>';
+          }
+          if(item.instagram_user){
+            appendString +='<div class="smaller-font">';
+            appendString +='<i class="fab fa-instagram"></i> ';
+            appendString +='<a href="https://instagram.com/'+item.instagram_user+'"> '+item.instagram_user+'</a>';
+            appendString +='</div>';
+          }
+          if(item.twitter_user){
+            appendString +='<div class="smaller-font">';
+            appendString +='<i class="fab fa-twitter"></i> ';
+            appendString +='<a href="https://twitter.com/'+item.twitter_user+'"> '+item.twitter_user+'</a>';
+            appendString +='</div>';
+          }
           appendString +='</div>';
           appendString +='<div>';
           appendString +='<img src="'+item.image+'" alt="'+item.title+'" class="img-card-no-destacadas">';
@@ -145,7 +162,6 @@
       this.field('title', { boost: 10 });
       this.field('region');
       this.field('state');
-      this.field('sector');
       this.field('address');
       this.field('types');
       this.field('services');
@@ -177,7 +193,6 @@
         'title': window.store_directorio[key2].title,
         'region': window.store_directorio[key2].region,
         'state': window.store_directorio[key2].state,
-        'sector': window.store_directorio[key2].sector,
         'address': window.store_directorio[key2].address,
         'types': window.store_directorio[key2].types,
         'services': window.store_directorio[key2].services,

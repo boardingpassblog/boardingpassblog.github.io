@@ -6,7 +6,6 @@ types:
 title: Restaurante BoardingPass
 region: Los Andes
 state: Mérida
-sector: Restaurante
 phone_number: +58 426 5203724
 address: Caracas
 website: boardingpass.network
