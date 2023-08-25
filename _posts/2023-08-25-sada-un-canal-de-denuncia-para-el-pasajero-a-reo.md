@@ -2,7 +2,7 @@
 layout: post
 date: '2023-08-25 01:04 -0400'
 featured: false
-published: false
+published: true
 title: SADA un canal de denuncia para el pasajero aéreo
 author: AVAVIT
 categories:
