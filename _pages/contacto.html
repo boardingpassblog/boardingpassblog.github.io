@@ -16,7 +16,7 @@ Así que estamos muy contentos de tener tu mensaje, para darte una respuesta.
 Gracias por confiar en <span class="font-weight-bold">BoardingPass.Network</span>.
 </p>
 
-<form action="https://formspree.io/{{ site.contact-form }}" method="POST" class="row">
+<form action="https://formspree.io/{{ site.contact-form }}" method="POST" class="row" id="formId">
   <div class="col-lg-6">
     <input type="text" class="form-control mb-4" name="name" id="name" placeholder="Nombre">
   </div>
@@ -26,7 +26,7 @@ Gracias por confiar en <span class="font-weight-bold">BoardingPass.Network</span
   <div class="col-12">
     <textarea name="message" id="message" class="form-control mb-4" placeholder="Mensaje..."></textarea>
   </div>
-  <div class="g-recaptcha" data-sitekey="6Le0AtAnAAAAAFr5iSQ3h_rIBH9nMpq3q88fd7di"></div>
+  <div id="recaptchaContainer" style="display:none" class="g-recaptcha" data-sitekey="6Le0AtAnAAAAAFr5iSQ3h_rIBH9nMpq3q88fd7di"></div>
   <div class="col-12 line-break">
     <button class="btn btn-primary" type="submit">Enviar</button>
   </div>
@@ -45,4 +45,21 @@ Gracias por confiar en <span class="font-weight-bold">BoardingPass.Network</span
       el.setAttribute('required', 'required'); 
     } 
   }
+
+  var nameInput = document.getElementById("name");
+  var emailInput = document.getElementById("email");
+  var messageInput = document.getElementById("message");
+  var recaptchaContainer = document.getElementById("recaptchaContainer");
+
+  function checkFormFields() {
+    if (nameInput.value === "" && emailInput.value === "" && messageInput.value === "") {
+      recaptchaContainer.style.display = "none"; // Hide the reCAPTCHA
+    } else {
+      recaptchaContainer.style.display = "block"; // Show the reCAPTCHA
+    }
+  }
+
+  nameInput.addEventListener("input", checkFormFields);
+  emailInput.addEventListener("input", checkFormFields);
+  messageInput.addEventListener("input", checkFormFields);
 </script>
