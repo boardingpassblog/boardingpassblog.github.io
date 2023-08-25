@@ -9,7 +9,7 @@ phone_number: (0212) 955.7957
 address: >-
   Av. Libertador, con Calle La Alameda, Torre Folgana, Piso 2, Ofic. B (Frente a
   la Torre EXA), La Campiña, Caracas
-instagram_user: '@zumaque_vyt'
+instagram_user: zumaque_vyt
 types:
   - Agencias
 services: 'Asesoría Personalizada de Viajes '
