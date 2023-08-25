@@ -4,7 +4,7 @@ date: '2023-08-24 17:29 -0400'
 featured: false
 published: true
 title: Gol podría reanudar vuelos al país
-author: ' https://www.viajesboletin.com/'
+author: viajesboletin.com
 categories:
   - rutas-aereas
 image: >-
