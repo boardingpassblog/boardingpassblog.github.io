@@ -20,20 +20,22 @@ El equipo de **Boarding Pass** conversó con el Vice Presidente de **Conseturism
 
 Hace unas semanas atrás el presidente de la Asociación de Líneas Aéreas de Venezuela, ALAV, comentó que las conversaciones con aerolíneas europeas estaban bastante adelantadas y que se afinan detalles con Air France, entre otras. Esta información sumada al regreso de LATAM, conectando Lima y Caracas, y a la apertura de rutas entre Venezuela y Colombia nos pinta un panorama bastante prometedor para la temporada navideña, una de las más esperada del año en el sector turístico.
 
-**"Tenemos al día de hoy 15 líneas internacionales y 9 locales. Para un total de 24 líneas aéreas operando en el país. Una recuperación importantísima."** Reinaldo Pulido explicó que el deterioro del sector aéreo en Venezuela venía sucediendo mucho antes de la pandemia. La situación política y económica, además de las remesas que quedaron atrapadas, alejaron a las compañías aérea, limitando las rutas de salida y desconectándonos del resto del mundo.
+**"Tenemos al día de hoy 15 líneas internacionales y 9 locales. Para un total de 24 líneas aéreas operando en el país. Una recuperación importantísima."** 
+
+Reinaldo Pulido explicó que el deterioro del sector aéreo en Venezuela venía sucediendo mucho antes de la pandemia. La situación política y económica, además de las remesas que quedaron atrapadas, alejaron a las compañías aérea, limitando las rutas de salida y desconectándonos del resto del mundo.
 **"La pandemia solo fue el cierre, la guinda"**. 
 
 ¿La buena noticia?
-
 Se están reanudando las operaciones. Se espera la llegada de más de 10 líneas aéreas y destinos antes de que finalice el 2023.
 
 LATAM, uno de los players más importantes de la región, al menos antes de la pandemia, ya está volando Lima - Caracas - Lima. Adicionalmente hay rutas operativas entre Venezuela y Colombia. En cualquier momento Avianca también comienza a volar.
 
-"La conexión con Perú es un de los logros más importante. El Aeropuerto Jorge Chávez de Lima es un hold reconocido en la región y además premiado por muchos años seguidos, principalmente por su eficacia y por eso mismo de ser un centro de conexión."
+"La conexión con Perú es uno de los logros más importante. 
+El Aeropuerto Jorge Chávez de Lima es un hold reconocido en la región y además premiado por muchos años seguidos, principalmente por su eficacia y por eso mismo de ser un centro de conexión."
 
-En BoardingPass nos inquietaba saber si teníamos la capacidad de recibir ese incremento de vuelos y según las cifras manejadas por ALAV, sí la hay. Sin embargo, en lo personal Reinaldo tiene sus reservas.
+En BoardingPass nos inquietaba saber si teníamos la capacidad de recibir ese incremento de vuelos y según las cifras manejadas por ALAV, sí la tenemos. Sin embargo, nos comenta Reinaldo que en lo personal, él tiene sus reservas.
 
-"Yo habría pensado que líneas aéreas, por ejemplo, como LATAM que está empezando a volar lo haría tres veces por semana y aparentemente arrancó con un vuelo diario de una vez. Eso tiene que responder a un análisis previo que han hecho, se dieron cuenta que el flujo de gente existe. 
+"Yo habría pensado que las líneas aéreas, por ejemplo, como LATAM que está empezando a volar lo haría tres veces por semana y aparentemente arrancó con un vuelo diario de una vez. Eso tiene que responder a un análisis previo que han hecho, se dieron cuenta que el flujo de gente existe. 
 Por su parte Copa Airlines tiene cualquier cantidad de vuelos a la semana: tres al día entre Caracas y Panamá, vuelos diarios a Valencia y Maracaibo. A Barcelona despega tres veces a la semana, pero creo que van a ir a diario, no estoy muy seguro. Ahora viene Barquisimeto. Suman 40 y tantos vuelos en la semana. 
 Eso también responde algo, no van hacer ese crecimiento por nada".
 
@@ -44,11 +46,11 @@ Entre los casos más resaltante Reinaldo recuerda a Ecuador, su tráfico de pasa
 
 **¿A qué se debe el interés actual de las compañías aéreas?** 
 
-"Principalmente a la diáspora. Sin duda alguna, más allá que se pueda estar reactivando la economía." Insistió.
+"Principalmente a la diáspora, sin duda alguna, más allá que se pueda estar reactivando la economía." Insistió.
 
-Luego consideró otros factores como el intercambio cultural, religioso y tantas otras cosas. A parte incluyó en su análisis al sector corporativo, el cuál según los expertos en el mundo entero es el segmento que menos rápido se ha recuperado y el más difícil medir. Hay quienes aprovechan un viaje de negocios para visitar familia, amigos e incluso hacer compras o visitas médicas.
+Luego consideró otros factores como el intercambio cultural, religioso y tantas otras cosas. A parte incluyó en su análisis al sector corporativo, el cuál según los expertos en el mundo entero es el segmento que menos rápido se ha recuperado y el más difícil medir. Hay quienes aprovechan un viaje de negocios para visitar familia, amigos e incluso hacer compras o visitar al médico.
 
-También acotó que las líneas aéreas pueden estar viendo que Venezuela está poco a poco tomando un sitio en el tema turístico con la llegada de los rusos, en octubre de los polacos y ahora de españoles, así como se espera que empiecen a llegar colombianos en cantidades importantes. 
+También acotó en un segundo plano que las líneas aéreas pueden estar viendo que Venezuela está poco a poco tomando un sitio en el tema turístico con la llegada de los rusos, en octubre de los polacos y ahora de españoles, así como se espera que empiecen a llegar colombianos en cantidades importantes. 
 
 **¿Con más ofertas de asientos veremos pasajes más económicos?** 
 
