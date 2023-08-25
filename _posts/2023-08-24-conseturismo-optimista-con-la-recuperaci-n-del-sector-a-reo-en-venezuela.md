@@ -61,7 +61,7 @@ Por ejemplo, la llegada de LATAM, de la que tanto hemos hablado, de alguna forma
 
 Sí, refiere Reinaldo Pulido.
 
-"De las europeas viene sonando Air France, también Alitalia, no obstante, hay que esperar a ver la conexión definitiva. Recordemos que la recuperación de algunas operaciones que se habían marchado antes de la pandemia es diferente. Los avances que se han logrado son importantísimos: LATAM, Avianca, TAP Air Portugal, sin duda alguna son casos muy positivos. Pero hay que tomar en cuenta que lo que quedan son cuatro meses y la ruta que no se lance ya, para que se venda en diciembre puede ser difícil. 
+"De las europeas viene sonando Air France, también Alitalia, no obstante, hay que esperar a ver la conexión definitiva. Recordemos que la recuperación de algunas operaciones que se habían marchado antes de la pandemia es diferente. Los avances que se han logrado hasta ahora son importantísimos: LATAM, Avianca, TAP Air Portugal, sin duda alguna son casos muy positivos. Pero hay que tomar en cuenta que lo que quedan son cuatro meses y la ruta que no se lance ya, para que se venda en diciembre puede ser difícil. 
 Tal vez van a intentar estar en el primer semestre del año que viene, dependiendo de las políticas de cada línea aérea. Lo que uno entiende de este negocio es que ya no deberían lanzarse porque ya casi cierra el año, pero vamos a mirar qué tal, ese ruido de Air France quiere decir que deben estar listo ya para empezar a volar y lo demás va a depender de como responda el mercado."
 
 Para terminar la entrevista Pulido insistió en la falta que hace seguir recuperando rutas con Latinoamérica y destaca el crecimiento de las rutas nacionales. 
