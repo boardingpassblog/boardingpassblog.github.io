@@ -96,7 +96,7 @@ permalink: /directorio/
                   <div class="tab-content line-break">
                     <div class="tab-pane fade show active" id="tab1-{{iterator}}">
                       <div class="tab-card">
-                        <div class="tab-pane-card post-thumb-sm-directorio">
+                        <div class="tab-pane-card">
                           <img src="{{post.image | relative_url}}" alt="{{post.title}}" class="img-card">
                         </div>
                         <div class="tab-card-1">
@@ -266,7 +266,7 @@ permalink: /directorio/
                   <div class="tab-content line-break">
                     <div class="tab-pane fade show active" id="tab9-{{iterator}}">
                       <div class="tab-card">
-                        <div class="tab-pane-card post-thumb-sm-directorio">
+                        <div class="tab-pane-card">
                           <img src="{{post.image | relative_url}}" alt="{{post.title}}" class="img-card">
                         </div>
                         <div class="tab-card-1">
@@ -372,7 +372,7 @@ permalink: /directorio/
                   <div class="tab-content line-break">
                     <div class="tab-pane fade show active" id="tab3-{{iterator}}">
                       <div class="tab-card">
-                        <div class="tab-pane-card post-thumb-sm-directorio">
+                        <div class="tab-pane-card">
                           <img src="{{post.image | relative_url}}" alt="{{post.title}}" class="img-card">
                         </div>
                         <div class="tab-card-1">
@@ -520,7 +520,7 @@ permalink: /directorio/
                   <div class="tab-content line-break">
                     <div class="tab-pane fade show active" id="tab11-{{iterator}}">
                       <div class="tab-card">
-                        <div class="tab-pane-card post-thumb-sm-directorio">
+                        <div class="tab-pane-card">
                           <img src="{{post.image | relative_url}}" alt="{{post.title}}" class="img-card">
                         </div>
                         <div class="tab-card-1">
@@ -626,7 +626,7 @@ permalink: /directorio/
                   <div class="tab-content line-break">
                     <div class="tab-pane fade show active" id="tab5-{{iterator}}">
                       <div class="tab-card">
-                        <div class="tab-pane-card post-thumb-sm-directorio">
+                        <div class="tab-pane-card">
                           <img src="{{post.image | relative_url}}" alt="{{post.title}}" class="img-card">
                         </div>
                         <div class="tab-card-1">
@@ -732,7 +732,7 @@ permalink: /directorio/
                   <div class="tab-content line-break">
                     <div class="tab-pane fade show active" id="tab7-{{iterator}}">
                       <div class="tab-card">
-                        <div class="tab-pane-card post-thumb-sm-directorio">
+                        <div class="tab-pane-card">
                           <img src="{{post.image | relative_url}}" alt="{{post.title}}" class="img-card">
                         </div>
                         <div class="tab-card-1">
