@@ -8,9 +8,11 @@ author: AVAVIT
 categories:
   - enterate
 description: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Viajero%20Molesto.png
+  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Viajero
+  Molesto.png
 image: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Viajero%20Molesto.png
+  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Viajero
+  Molesto.png
 ---
 
 SADA, presentado por el Instituto Nacional de Aeronáutica Civil de Venezuela, es una herramienta web en la que los pasajeros podrán formular denuncias en cuanto a la prestación de los servicios aéreos. 
