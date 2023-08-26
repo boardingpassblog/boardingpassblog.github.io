@@ -96,49 +96,74 @@ permalink: /directorio/
                   <div class="tab-content line-break">
                     <div class="tab-pane fade show active" id="tab1-{{iterator}}">
                       <div class="tab-card">
-                        <div class="tab-pane-card post-thumb-sm-directorio">
+                        <div class="tab-pane-card">
                           <img src="{{post.image | relative_url}}" alt="{{post.title}}" class="img-card">
                         </div>
                         <div class="tab-card-1">
                           <div> <h5 class="text-dark">{{post.title }}</h5></div>
-                          <div class="smaller-font margin-icon"><i class="fas fa-map-marker-alt"></i> 
-                            <span class="margin-icon">{{post.address}}</span>
-                          </div>
-                          <div class="smaller-font margin-icon"><i class="fas fa-building"></i>
-                            {% for type in post.types %}
-                              {% assign capitalized = type | capitalize %}
-                              <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
-                            {% endfor %}
-                          </div>
-                          <div class="smaller-font"><i class="fas fa-industry"></i> {{post.sector}}</div>
-                          <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
-                          <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
+                          {% if post.address %}
+                            <div class="smaller-font margin-icon"><i class="fas fa-map-marker-alt"></i> 
+                              <span class="margin-icon">{{post.address}}</span>
+                            </div>
+                          {% endif %}
+                          {% if post.types %}
+                            <div class="smaller-font margin-icon"><i class="fas fa-building"></i>
+                              {% for type in post.types %}
+                                {% assign capitalized = type | capitalize %}
+                                <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
+                              {% endfor %}
+                            </div>
+                          {% endif %}
+                          {% if post.services_extra %}
+                            <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
+                          {% endif %}
+                          {% if post.services %}
+                            <ul class="horizontal-list">
+                              {% for servicio in post.services %}
+                                {% if site.servicios_iconos[servicio] %}
+                                  <li>
+                                    <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
+                                  </li>
+                                {% endif %}
+                              {% endfor %}
+                            </ul>
+                          {% endif %}
                         </div>
                       </div>
                     </div>
                     <div class="tab-pane fade" id="tab2-{{iterator}}">
                       <div class="tab-card">
                         <div class="tab-card-1">
-                          <div>
-                            <i class="fas fa-phone"></i> 
-                            <a href="tel:{{post.phone_number}}" class="font-phone-number"> {{post.phone_number}}</a>
-                          </div>
-                          <div class="smaller-font">
-                            <i class="fas fa-globe"></i> 
-                            <a href="https://{{post.website}}"> {{post.website}}</a>
-                          </div>
-                          <div class="smaller-font">
-                            <i class="fab fa-facebook-square"></i> 
-                            <a href="https://www.facebook.com/{{post.facebook_user}}"> {{post.facebook_user}}</a>
-                          </div>
-                          <div class="smaller-font">
-                            <i class="fab fa-instagram"></i> 
-                            <a href="https://instagram.com/{{post.instagram_user}}"> {{post.instagram_user}}</a>
-                          </div>
-                          <div class="smaller-font">
-                            <i class="fab fa-twitter"></i> 
-                            <a href="https://twitter.com/{{post.twitter_user}}"> {{post.twitter_user}}</a>
-                          </div>
+                          {% if post.phone_number %}
+                            <div>
+                              <i class="fas fa-phone fa-sm"></i> 
+                              <a href="tel:{{post.phone_number}}" class="font-phone-number"> {{post.phone_number}}</a>
+                            </div>
+                          {% endif %}
+                          {% if post.website %}
+                            <div class="smaller-font">
+                              <i class="fas fa-globe"></i> 
+                              <a href="https://{{post.website}}"> {{post.website}}</a>
+                            </div>
+                          {% endif %}
+                          {% if post.facebook_user %}
+                            <div class="smaller-font">
+                              <i class="fab fa-facebook-square"></i> 
+                              <a href="https://www.facebook.com/{{post.facebook_user}}"> {{post.facebook_user}}</a>
+                            </div>
+                          {% endif %}
+                          {% if post.instagram_user %}
+                            <div class="smaller-font">
+                              <i class="fab fa-instagram"></i> 
+                              <a href="https://instagram.com/{{post.instagram_user}}"> {{post.instagram_user}}</a>
+                            </div>
+                          {% endif %}
+                          {% if post.twitter_user %}
+                            <div class="smaller-font">
+                              <i class="fab fa-twitter"></i> 
+                              <a href="https://twitter.com/{{post.twitter_user}}"> {{post.twitter_user}}</a>
+                            </div>
+                          {% endif %}
                         </div>
                         <div>
                           <img src="{{post.image | relative_url}}" alt="{{post.title}}" class="img-card-no-destacadas">
@@ -174,18 +199,33 @@ permalink: /directorio/
                   <div class="tab-card">
                     <div class="tab-card-1">
                       <div> <h5 class="text-dark">{{post.title }}</h5></div>
-                      <div class="smaller-font margin-icon"><i class="fas fa-map-marker-alt"></i> 
-                            <span class="margin-icon">{{post.address}}</span>
-                          </div>
-                          <div class="smaller-font margin-icon"><i class="fas fa-building"></i>
-                            {% for type in post.types %}
-                              {% assign capitalized = type | capitalize %}
-                              <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
-                            {% endfor %}
-                          </div>
-                          <div class="smaller-font"><i class="fas fa-industry"></i> {{post.sector}}</div>
-                          <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
-                          <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
+                      {% if post.address %}
+                        <div class="smaller-font margin-icon"><i class="fas fa-map-marker-alt"></i> 
+                          <span class="margin-icon">{{post.address}}</span>
+                        </div>
+                      {% endif %}
+                      {% if post.types %}
+                        <div class="smaller-font margin-icon"><i class="fas fa-building"></i>
+                          {% for type in post.types %}
+                            {% assign capitalized = type | capitalize %}
+                            <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
+                          {% endfor %}
+                        </div>
+                      {% endif %}
+                      {% if post.services_extra %}
+                        <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
+                      {% endif %}
+                      {% if post.services %}
+                        <ul class="horizontal-list">
+                          {% for servicio in post.services %}
+                            {% if site.servicios_iconos[servicio] %}
+                              <li>
+                                <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
+                              </li>
+                            {% endif %}
+                          {% endfor %}
+                        </ul>
+                      {% endif %}
                     </div>
                   </div>
                 </div>
@@ -216,18 +256,33 @@ permalink: /directorio/
                   <div class="tab-card">
                     <div class="tab-card-1">
                       <div> <h5 class="text-dark">{{post.title }}</h5></div>
-                      <div class="smaller-font margin-icon"><i class="fas fa-map-marker-alt"></i> 
-                        <span class="margin-icon">{{post.address}}</span>
-                      </div>
-                      <div class="smaller-font margin-icon"><i class="fas fa-building"></i>
-                        {% for type in post.types %}
-                          {% assign capitalized = type | capitalize %}
-                          <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
-                        {% endfor %}
-                      </div>
-                      <div class="smaller-font"><i class="fas fa-industry"></i> {{post.sector}}</div>
-                      <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
-                      <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
+                      {% if post.address %}
+                        <div class="smaller-font margin-icon"><i class="fas fa-map-marker-alt"></i> 
+                          <span class="margin-icon">{{post.address}}</span>
+                        </div>
+                      {% endif %}
+                      {% if post.types %}
+                        <div class="smaller-font margin-icon"><i class="fas fa-building"></i>
+                          {% for type in post.types %}
+                            {% assign capitalized = type | capitalize %}
+                            <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
+                          {% endfor %}
+                        </div>
+                      {% endif %}
+                      {% if post.services_extra %}
+                        <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
+                      {% endif %}
+                      {% if post.services %}
+                        <ul class="horizontal-list">
+                          {% for servicio in post.services %}
+                            {% if site.servicios_iconos[servicio] %}
+                              <li>
+                                <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
+                              </li>
+                            {% endif %}
+                          {% endfor %}
+                        </ul>
+                      {% endif %}
                     </div>
                   </div>
                 </div>
@@ -266,49 +321,74 @@ permalink: /directorio/
                   <div class="tab-content line-break">
                     <div class="tab-pane fade show active" id="tab9-{{iterator}}">
                       <div class="tab-card">
-                        <div class="tab-pane-card post-thumb-sm-directorio">
+                        <div class="tab-pane-card">
                           <img src="{{post.image | relative_url}}" alt="{{post.title}}" class="img-card">
                         </div>
                         <div class="tab-card-1">
                           <div> <h5 class="text-dark">{{post.title }}</h5></div>
-                          <div class="smaller-font margin-icon"><i class="fas fa-map-marker-alt"></i> 
-                            <span class="margin-icon">{{post.address}}</span>
-                          </div>
-                          <div class="smaller-font margin-icon"><i class="fas fa-building"></i>
-                            {% for type in post.types %}
-                              {% assign capitalized = type | capitalize %}
-                              <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
-                            {% endfor %}
-                          </div>
-                          <div class="smaller-font"><i class="fas fa-industry"></i> {{post.sector}}</div>
-                          <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
-                          <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
+                          {% if post.address %}
+                            <div class="smaller-font margin-icon"><i class="fas fa-map-marker-alt"></i> 
+                              <span class="margin-icon">{{post.address}}</span>
+                            </div>
+                          {% endif %}
+                          {% if post.types %}
+                            <div class="smaller-font margin-icon"><i class="fas fa-building"></i>
+                              {% for type in post.types %}
+                                {% assign capitalized = type | capitalize %}
+                                <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
+                              {% endfor %}
+                            </div>
+                          {% endif %}
+                          {% if post.services_extra %}
+                            <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
+                          {% endif %}
+                          {% if post.services %}
+                            <ul class="horizontal-list">
+                              {% for servicio in post.services %}
+                                {% if site.servicios_iconos[servicio] %}
+                                  <li>
+                                    <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
+                                  </li>
+                                {% endif %}
+                              {% endfor %}
+                            </ul>
+                          {% endif %}
                         </div>
                       </div>
                     </div>
                     <div class="tab-pane fade" id="tab10-{{iterator}}">
                       <div class="tab-card">
                         <div class="tab-card-1">
-                          <div>
-                            <i class="fas fa-phone"></i> 
-                            <a href="tel:{{post.phone_number}}" class="font-phone-number"> {{post.phone_number}}</a>
-                          </div>
-                          <div class="smaller-font">
-                            <i class="fas fa-globe"></i> 
-                            <a href="https://{{post.website}}"> {{post.website}}</a>
-                          </div>
-                          <div class="smaller-font">
-                            <i class="fab fa-facebook-square"></i> 
-                            <a href="https://www.facebook.com/{{post.facebook_user}}"> {{post.facebook_user}}</a>
-                          </div>
-                          <div class="smaller-font">
-                            <i class="fab fa-instagram"></i> 
-                            <a href="https://instagram.com/{{post.instagram_user}}"> {{post.instagram_user}}</a>
-                          </div>
-                          <div class="smaller-font">
-                            <i class="fab fa-twitter"></i> 
-                            <a href="https://twitter.com/{{post.twitter_user}}"> {{post.twitter_user}}</a>
-                          </div>
+                          {% if post.phone_number %}
+                            <div>
+                              <i class="fas fa-phone fa-sm"></i> 
+                              <a href="tel:{{post.phone_number}}" class="font-phone-number"> {{post.phone_number}}</a>
+                            </div>
+                          {% endif %}
+                          {% if post.website %}
+                            <div class="smaller-font">
+                              <i class="fas fa-globe"></i> 
+                              <a href="https://{{post.website}}"> {{post.website}}</a>
+                            </div>
+                          {% endif %}
+                          {% if post.facebook_user %}
+                            <div class="smaller-font">
+                              <i class="fab fa-facebook-square"></i> 
+                              <a href="https://www.facebook.com/{{post.facebook_user}}"> {{post.facebook_user}}</a>
+                            </div>
+                          {% endif %}
+                          {% if post.instagram_user %}
+                            <div class="smaller-font">
+                              <i class="fab fa-instagram"></i> 
+                              <a href="https://instagram.com/{{post.instagram_user}}"> {{post.instagram_user}}</a>
+                            </div>
+                          {% endif %}
+                          {% if post.twitter_user %}
+                            <div class="smaller-font">
+                              <i class="fab fa-twitter"></i> 
+                              <a href="https://twitter.com/{{post.twitter_user}}"> {{post.twitter_user}}</a>
+                            </div>
+                          {% endif %}
                         </div>
                         <div>
                           <img src="{{post.image | relative_url}}" alt="{{post.title}}">
@@ -322,18 +402,33 @@ permalink: /directorio/
                   <div class="tab-card">
                     <div class="tab-card-1">
                       <div> <h5 class="text-dark">{{post.title }}</h5></div>
-                      <div class="smaller-font margin-icon"><i class="fas fa-map-marker-alt"></i> 
-                        <span class="margin-icon">{{post.address}}</span>
-                      </div>
-                      <div class="smaller-font margin-icon"><i class="fas fa-building"></i>
-                        {% for type in post.types %}
-                          {% assign capitalized = type | capitalize %}
-                          <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
-                        {% endfor %}
-                      </div>
-                      <div class="smaller-font"><i class="fas fa-industry"></i> {{post.sector}}</div>
-                      <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
-                      <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
+                      {% if post.address %}
+                        <div class="smaller-font margin-icon"><i class="fas fa-map-marker-alt"></i> 
+                          <span class="margin-icon">{{post.address}}</span>
+                        </div>
+                      {% endif %}
+                      {% if post.types %}
+                        <div class="smaller-font margin-icon"><i class="fas fa-building"></i>
+                          {% for type in post.types %}
+                            {% assign capitalized = type | capitalize %}
+                            <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
+                          {% endfor %}
+                        </div>
+                      {% endif %}
+                      {% if post.services_extra %}
+                        <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
+                      {% endif %}
+                      {% if post.services %}
+                        <ul class="horizontal-list">
+                          {% for servicio in post.services %}
+                            {% if site.servicios_iconos[servicio] %}
+                              <li>
+                                <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
+                              </li>
+                            {% endif %}
+                          {% endfor %}
+                        </ul>
+                      {% endif %}
                     </div>
                   </div>
                 </div>
@@ -372,49 +467,74 @@ permalink: /directorio/
                   <div class="tab-content line-break">
                     <div class="tab-pane fade show active" id="tab3-{{iterator}}">
                       <div class="tab-card">
-                        <div class="tab-pane-card post-thumb-sm-directorio">
+                        <div class="tab-pane-card">
                           <img src="{{post.image | relative_url}}" alt="{{post.title}}" class="img-card">
                         </div>
                         <div class="tab-card-1">
                           <div> <h5 class="text-dark">{{post.title }}</h5></div>
-                          <div class="smaller-font margin-icon"><i class="fas fa-map-marker-alt"></i> 
-                            <span class="margin-icon">{{post.address}}</span>
-                          </div>
-                          <div class="smaller-font margin-icon"><i class="fas fa-building"></i>
-                            {% for type in post.types %}
-                              {% assign capitalized = type | capitalize %}
-                              <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
-                            {% endfor %}
-                          </div>
-                          <div class="smaller-font"><i class="fas fa-industry"></i> {{post.sector}}</div>
-                          <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
-                          <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
+                          {% if post.address %}
+                            <div class="smaller-font margin-icon"><i class="fas fa-map-marker-alt"></i> 
+                              <span class="margin-icon">{{post.address}}</span>
+                            </div>
+                          {% endif %}
+                          {% if post.types %}
+                            <div class="smaller-font margin-icon"><i class="fas fa-building"></i>
+                              {% for type in post.types %}
+                                {% assign capitalized = type | capitalize %}
+                                <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
+                              {% endfor %}
+                            </div>
+                          {% endif %}
+                          {% if post.services_extra %}
+                            <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
+                          {% endif %}
+                          {% if post.services %}
+                            <ul class="horizontal-list">
+                              {% for servicio in post.services %}
+                                {% if site.servicios_iconos[servicio] %}
+                                  <li>
+                                    <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
+                                  </li>
+                                {% endif %}
+                              {% endfor %}
+                            </ul>
+                          {% endif %}
                         </div>
                       </div>
                     </div>
                     <div class="tab-pane fade" id="tab4-{{iterator}}">
                       <div class="tab-card">
                         <div class="tab-card-1">
-                          <div>
-                            <i class="fas fa-phone"></i> 
-                            <a href="tel:{{post.phone_number}}" class="font-phone-number"> {{post.phone_number}}</a>
-                          </div>
-                          <div class="smaller-font">
-                            <i class="fas fa-globe"></i> 
-                            <a href="https://{{post.website}}"> {{post.website}}</a>
-                          </div>
-                          <div class="smaller-font">
-                            <i class="fab fa-facebook-square"></i> 
-                            <a href="https://www.facebook.com/{{post.facebook_user}}"> {{post.facebook_user}}</a>
-                          </div>
-                          <div class="smaller-font">
-                            <i class="fab fa-instagram"></i> 
-                            <a href="https://instagram.com/{{post.instagram_user}}"> {{post.instagram_user}}</a>
-                          </div>
-                          <div class="smaller-font">
-                            <i class="fab fa-twitter"></i> 
-                            <a href="https://twitter.com/{{post.twitter_user}}"> {{post.twitter_user}}</a>
-                          </div>
+                          {% if post.phone_number %}
+                            <div>
+                              <i class="fas fa-phone fa-sm"></i> 
+                              <a href="tel:{{post.phone_number}}" class="font-phone-number"> {{post.phone_number}}</a>
+                            </div>
+                          {% endif %}
+                          {% if post.website %}
+                            <div class="smaller-font">
+                              <i class="fas fa-globe"></i> 
+                              <a href="https://{{post.website}}"> {{post.website}}</a>
+                            </div>
+                          {% endif %}
+                          {% if post.facebook_user %}
+                            <div class="smaller-font">
+                              <i class="fab fa-facebook-square"></i> 
+                              <a href="https://www.facebook.com/{{post.facebook_user}}"> {{post.facebook_user}}</a>
+                            </div>
+                          {% endif %}
+                          {% if post.instagram_user %}
+                            <div class="smaller-font">
+                              <i class="fab fa-instagram"></i> 
+                              <a href="https://instagram.com/{{post.instagram_user}}"> {{post.instagram_user}}</a>
+                            </div>
+                          {% endif %}
+                          {% if post.twitter_user %}
+                            <div class="smaller-font">
+                              <i class="fab fa-twitter"></i> 
+                              <a href="https://twitter.com/{{post.twitter_user}}"> {{post.twitter_user}}</a>
+                            </div>
+                          {% endif %}
                         </div>
                         <div>
                           <img src="{{post.image | relative_url}}" alt="{{post.title}}" class="img-card-no-destacadas">
@@ -428,18 +548,33 @@ permalink: /directorio/
                   <div class="tab-card">
                     <div class="tab-card-1">
                       <div> <h5 class="text-dark">{{post.title }}</h5></div>
-                      <div class="smaller-font margin-icon"><i class="fas fa-map-marker-alt"></i> 
-                        <span class="margin-icon">{{post.address}}</span>
-                      </div>
-                      <div class="smaller-font margin-icon"><i class="fas fa-building"></i>
-                        {% for type in post.types %}
-                          {% assign capitalized = type | capitalize %}
-                          <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
-                        {% endfor %}
-                      </div>
-                      <div class="smaller-font"><i class="fas fa-industry"></i> {{post.sector}}</div>
-                      <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
-                      <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
+                      {% if post.address %}
+                        <div class="smaller-font margin-icon"><i class="fas fa-map-marker-alt"></i> 
+                          <span class="margin-icon">{{post.address}}</span>
+                        </div>
+                      {% endif %}
+                      {% if post.types %}
+                        <div class="smaller-font margin-icon"><i class="fas fa-building"></i>
+                          {% for type in post.types %}
+                            {% assign capitalized = type | capitalize %}
+                            <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
+                          {% endfor %}
+                        </div>
+                      {% endif %}
+                      {% if post.services_extra %}
+                        <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
+                      {% endif %}
+                      {% if post.services %}
+                        <ul class="horizontal-list">
+                          {% for servicio in post.services %}
+                            {% if site.servicios_iconos[servicio] %}
+                              <li>
+                                <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
+                              </li>
+                            {% endif %}
+                          {% endfor %}
+                        </ul>
+                      {% endif %}
                     </div>
                   </div>
                 </div>
@@ -470,18 +605,33 @@ permalink: /directorio/
                   <div class="tab-card">
                     <div class="tab-card-1">
                       <div> <h5 class="text-dark">{{post.title }}</h5></div>
-                      <div class="smaller-font margin-icon"><i class="fas fa-map-marker-alt"></i> 
-                        <span class="margin-icon">{{post.address}}</span>
-                      </div>
-                      <div class="smaller-font margin-icon"><i class="fas fa-building"></i>
-                        {% for type in post.types %}
-                          {% assign capitalized = type | capitalize %}
-                          <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
-                        {% endfor %}
-                      </div>
-                      <div class="smaller-font"><i class="fas fa-industry"></i> {{post.sector}}</div>
-                      <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
-                      <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
+                      {% if post.address %}
+                        <div class="smaller-font margin-icon"><i class="fas fa-map-marker-alt"></i> 
+                          <span class="margin-icon">{{post.address}}</span>
+                        </div>
+                      {% endif %}
+                      {% if post.types %}
+                        <div class="smaller-font margin-icon"><i class="fas fa-building"></i>
+                          {% for type in post.types %}
+                            {% assign capitalized = type | capitalize %}
+                            <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
+                          {% endfor %}
+                        </div>
+                      {% endif %}
+                      {% if post.services_extra %}
+                        <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
+                      {% endif %}
+                      {% if post.services %}
+                        <ul class="horizontal-list">
+                          {% for servicio in post.services %}
+                            {% if site.servicios_iconos[servicio] %}
+                              <li>
+                                <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
+                              </li>
+                            {% endif %}
+                          {% endfor %}
+                        </ul>
+                      {% endif %}
                     </div>
                   </div>
                 </div>
@@ -520,49 +670,74 @@ permalink: /directorio/
                   <div class="tab-content line-break">
                     <div class="tab-pane fade show active" id="tab11-{{iterator}}">
                       <div class="tab-card">
-                        <div class="tab-pane-card post-thumb-sm-directorio">
+                        <div class="tab-pane-card">
                           <img src="{{post.image | relative_url}}" alt="{{post.title}}" class="img-card">
                         </div>
                         <div class="tab-card-1">
                           <div> <h5 class="text-dark">{{post.title }}</h5></div>
-                          <div class="smaller-font margin-icon"><i class="fas fa-map-marker-alt"></i> 
-                            <span class="margin-icon">{{post.address}}</span>
-                          </div>
-                          <div class="smaller-font margin-icon"><i class="fas fa-building"></i>
-                            {% for type in post.types %}
-                              {% assign capitalized = type | capitalize %}
-                              <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
-                            {% endfor %}
-                          </div>
-                          <div class="smaller-font"><i class="fas fa-industry"></i> {{post.sector}}</div>
-                          <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
-                          <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
+                          {% if post.address %}
+                            <div class="smaller-font margin-icon"><i class="fas fa-map-marker-alt"></i> 
+                              <span class="margin-icon">{{post.address}}</span>
+                            </div>
+                          {% endif %}
+                          {% if post.types %}
+                            <div class="smaller-font margin-icon"><i class="fas fa-building"></i>
+                              {% for type in post.types %}
+                                {% assign capitalized = type | capitalize %}
+                                <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
+                              {% endfor %}
+                            </div>
+                          {% endif %}
+                          {% if post.services_extra %}
+                            <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
+                          {% endif %}
+                          {% if post.services %}
+                            <ul class="horizontal-list">
+                              {% for servicio in post.services %}
+                                {% if site.servicios_iconos[servicio] %}
+                                  <li>
+                                    <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
+                                  </li>
+                                {% endif %}
+                              {% endfor %}
+                            </ul>
+                          {% endif %}
                         </div>
                       </div>
                     </div>
                     <div class="tab-pane fade" id="tab12-{{iterator}}">
                       <div class="tab-card">
                         <div class="tab-card-1">
-                          <div>
-                            <i class="fas fa-phone"></i> 
-                            <a href="tel:{{post.phone_number}}" class="font-phone-number"> {{post.phone_number}}</a>
-                          </div>
-                          <div class="smaller-font">
-                            <i class="fas fa-globe"></i> 
-                            <a href="https://{{post.website}}"> {{post.website}}</a>
-                          </div>
-                          <div class="smaller-font">
-                            <i class="fab fa-facebook-square"></i> 
-                            <a href="https://www.facebook.com/{{post.facebook_user}}"> {{post.facebook_user}}</a>
-                          </div>
-                          <div class="smaller-font">
-                            <i class="fab fa-instagram"></i> 
-                            <a href="https://instagram.com/{{post.instagram_user}}"> {{post.instagram_user}}</a>
-                          </div>
-                          <div class="smaller-font">
-                            <i class="fab fa-twitter"></i> 
-                            <a href="https://twitter.com/{{post.twitter_user}}"> {{post.twitter_user}}</a>
-                          </div>
+                          {% if post.phone_number %}
+                            <div>
+                              <i class="fas fa-phone fa-sm"></i> 
+                              <a href="tel:{{post.phone_number}}" class="font-phone-number"> {{post.phone_number}}</a>
+                            </div>
+                          {% endif %}
+                          {% if post.website %}
+                            <div class="smaller-font">
+                              <i class="fas fa-globe"></i> 
+                              <a href="https://{{post.website}}"> {{post.website}}</a>
+                            </div>
+                          {% endif %}
+                          {% if post.facebook_user %}
+                            <div class="smaller-font">
+                              <i class="fab fa-facebook-square"></i> 
+                              <a href="https://www.facebook.com/{{post.facebook_user}}"> {{post.facebook_user}}</a>
+                            </div>
+                          {% endif %}
+                          {% if post.instagram_user %}
+                            <div class="smaller-font">
+                              <i class="fab fa-instagram"></i> 
+                              <a href="https://instagram.com/{{post.instagram_user}}"> {{post.instagram_user}}</a>
+                            </div>
+                          {% endif %}
+                          {% if post.twitter_user %}
+                            <div class="smaller-font">
+                              <i class="fab fa-twitter"></i> 
+                              <a href="https://twitter.com/{{post.twitter_user}}"> {{post.twitter_user}}</a>
+                            </div>
+                          {% endif %}
                         </div>
                         <div>
                           <img src="{{post.image | relative_url}}" alt="{{post.title}}" class="img-card-no-destacadas">
@@ -576,18 +751,33 @@ permalink: /directorio/
                   <div class="tab-card">
                     <div class="tab-card-1">
                       <div> <h5 class="text-dark">{{post.title }}</h5></div>
-                      <div class="smaller-font margin-icon"><i class="fas fa-map-marker-alt"></i> 
-                        <span class="margin-icon">{{post.address}}</span>
-                      </div>
-                      <div class="smaller-font margin-icon"><i class="fas fa-building"></i>
-                        {% for type in post.types %}
-                          {% assign capitalized = type | capitalize %}
-                          <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
-                        {% endfor %}
-                      </div>
-                      <div class="smaller-font"><i class="fas fa-industry"></i> {{post.sector}}</div>
-                      <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
-                      <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
+                      {% if post.address %}
+                        <div class="smaller-font margin-icon"><i class="fas fa-map-marker-alt"></i> 
+                          <span class="margin-icon">{{post.address}}</span>
+                        </div>
+                      {% endif %}
+                      {% if post.types %}
+                        <div class="smaller-font margin-icon"><i class="fas fa-building"></i>
+                          {% for type in post.types %}
+                            {% assign capitalized = type | capitalize %}
+                            <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
+                          {% endfor %}
+                        </div>
+                      {% endif %}
+                      {% if post.services_extra %}
+                        <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
+                      {% endif %}
+                      {% if post.services %}
+                        <ul class="horizontal-list">
+                          {% for servicio in post.services %}
+                            {% if site.servicios_iconos[servicio] %}
+                              <li>
+                                <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
+                              </li>
+                            {% endif %}
+                          {% endfor %}
+                        </ul>
+                      {% endif %}
                     </div>
                   </div>
                 </div>
@@ -626,49 +816,74 @@ permalink: /directorio/
                   <div class="tab-content line-break">
                     <div class="tab-pane fade show active" id="tab5-{{iterator}}">
                       <div class="tab-card">
-                        <div class="tab-pane-card post-thumb-sm-directorio">
+                        <div class="tab-pane-card">
                           <img src="{{post.image | relative_url}}" alt="{{post.title}}" class="img-card">
                         </div>
                         <div class="tab-card-1">
                           <div> <h5 class="text-dark">{{post.title }}</h5></div>
-                          <div class="smaller-font margin-icon"><i class="fas fa-map-marker-alt"></i> 
-                            <span class="margin-icon">{{post.address}}</span>
-                          </div>
-                          <div class="smaller-font margin-icon"><i class="fas fa-building"></i>
-                            {% for type in post.types %}
-                              {% assign capitalized = type | capitalize %}
-                              <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
-                            {% endfor %}
-                          </div>
-                          <div class="smaller-font"><i class="fas fa-industry"></i> {{post.sector}}</div>
-                          <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
-                          <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
+                          {% if post.address %}
+                            <div class="smaller-font margin-icon"><i class="fas fa-map-marker-alt"></i> 
+                              <span class="margin-icon">{{post.address}}</span>
+                            </div>
+                          {% endif %}
+                          {% if post.types %}
+                            <div class="smaller-font margin-icon"><i class="fas fa-building"></i>
+                              {% for type in post.types %}
+                                {% assign capitalized = type | capitalize %}
+                                <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
+                              {% endfor %}
+                            </div>
+                          {% endif %}
+                          {% if post.services_extra %}
+                            <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
+                          {% endif %}
+                          {% if post.services %}
+                            <ul class="horizontal-list">
+                              {% for servicio in post.services %}
+                                {% if site.servicios_iconos[servicio] %}
+                                  <li>
+                                    <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
+                                  </li>
+                                {% endif %}
+                              {% endfor %}
+                            </ul>
+                          {% endif %}
                         </div>
                       </div>
                     </div>
                     <div class="tab-pane fade" id="tab6-{{iterator}}">
                       <div class="tab-card">
                         <div class="tab-card-1">
-                          <div>
-                            <i class="fas fa-phone"></i> 
-                            <a href="tel:{{post.phone_number}}" class="font-phone-number"> {{post.phone_number}}</a>
-                          </div>
-                          <div class="smaller-font">
-                            <i class="fas fa-globe"></i> 
-                            <a href="https://{{post.website}}"> {{post.website}}</a>
-                          </div>
-                          <div class="smaller-font">
-                            <i class="fab fa-facebook-square"></i> 
-                            <a href="https://www.facebook.com/{{post.facebook_user}}"> {{post.facebook_user}}</a>
-                          </div>
-                          <div class="smaller-font">
-                            <i class="fab fa-instagram"></i> 
-                            <a href="https://instagram.com/{{post.instagram_user}}"> {{post.instagram_user}}</a>
-                          </div>
-                          <div class="smaller-font">
-                            <i class="fab fa-twitter"></i> 
-                            <a href="https://twitter.com/{{post.twitter_user}}"> {{post.twitter_user}}</a>
-                          </div>
+                          {% if post.phone_number %}
+                            <div>
+                              <i class="fas fa-phone fa-sm"></i> 
+                              <a href="tel:{{post.phone_number}}" class="font-phone-number"> {{post.phone_number}}</a>
+                            </div>
+                          {% endif %}
+                          {% if post.website %}
+                            <div class="smaller-font">
+                              <i class="fas fa-globe"></i> 
+                              <a href="https://{{post.website}}"> {{post.website}}</a>
+                            </div>
+                          {% endif %}
+                          {% if post.facebook_user %}
+                            <div class="smaller-font">
+                              <i class="fab fa-facebook-square"></i> 
+                              <a href="https://www.facebook.com/{{post.facebook_user}}"> {{post.facebook_user}}</a>
+                            </div>
+                          {% endif %}
+                          {% if post.instagram_user %}
+                            <div class="smaller-font">
+                              <i class="fab fa-instagram"></i> 
+                              <a href="https://instagram.com/{{post.instagram_user}}"> {{post.instagram_user}}</a>
+                            </div>
+                          {% endif %}
+                          {% if post.twitter_user %}
+                            <div class="smaller-font">
+                              <i class="fab fa-twitter"></i> 
+                              <a href="https://twitter.com/{{post.twitter_user}}"> {{post.twitter_user}}</a>
+                            </div>
+                          {% endif %}
                         </div>
                         <div>
                           <img src="{{post.image | relative_url}}" alt="{{post.title}}" class="img-card-no-destacadas">
@@ -682,18 +897,33 @@ permalink: /directorio/
                   <div class="tab-card">
                     <div class="tab-card-1">
                       <div> <h5 class="text-dark">{{post.title }}</h5></div>
-                      <div class="smaller-font margin-icon"><i class="fas fa-map-marker-alt"></i> 
-                        <span class="margin-icon">{{post.address}}</span>
-                      </div>
-                      <div class="smaller-font margin-icon"><i class="fas fa-building"></i>
-                        {% for type in post.types %}
-                          {% assign capitalized = type | capitalize %}
-                          <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
-                        {% endfor %}
-                      </div>
-                      <div class="smaller-font"><i class="fas fa-industry"></i> {{post.sector}}</div>
-                      <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
-                      <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
+                      {% if post.address %}
+                        <div class="smaller-font margin-icon"><i class="fas fa-map-marker-alt"></i> 
+                          <span class="margin-icon">{{post.address}}</span>
+                        </div>
+                      {% endif %}
+                      {% if post.types %}
+                        <div class="smaller-font margin-icon"><i class="fas fa-building"></i>
+                          {% for type in post.types %}
+                            {% assign capitalized = type | capitalize %}
+                            <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
+                          {% endfor %}
+                        </div>
+                      {% endif %}
+                      {% if post.services_extra %}
+                        <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
+                      {% endif %}
+                      {% if post.services %}
+                        <ul class="horizontal-list">
+                          {% for servicio in post.services %}
+                            {% if site.servicios_iconos[servicio] %}
+                              <li>
+                                <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
+                              </li>
+                            {% endif %}
+                          {% endfor %}
+                        </ul>
+                      {% endif %}
                     </div>
                   </div>
                 </div>
@@ -732,49 +962,74 @@ permalink: /directorio/
                   <div class="tab-content line-break">
                     <div class="tab-pane fade show active" id="tab7-{{iterator}}">
                       <div class="tab-card">
-                        <div class="tab-pane-card post-thumb-sm-directorio">
+                        <div class="tab-pane-card">
                           <img src="{{post.image | relative_url}}" alt="{{post.title}}" class="img-card">
                         </div>
                         <div class="tab-card-1">
                           <div> <h5 class="text-dark">{{post.title }}</h5></div>
-                          <div class="smaller-font margin-icon"><i class="fas fa-map-marker-alt"></i> 
-                            <span class="margin-icon">{{post.address}}</span>
-                          </div>
-                          <div class="smaller-font margin-icon"><i class="fas fa-building"></i>
-                            {% for type in post.types %}
-                              {% assign capitalized = type | capitalize %}
-                              <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
-                            {% endfor %}
-                          </div>
-                          <div class="smaller-font"><i class="fas fa-industry"></i> {{post.sector}}</div>
-                          <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
-                          <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
+                          {% if post.address %}
+                            <div class="smaller-font margin-icon"><i class="fas fa-map-marker-alt"></i> 
+                              <span class="margin-icon">{{post.address}}</span>
+                            </div>
+                          {% endif %}
+                          {% if post.types %}
+                            <div class="smaller-font margin-icon"><i class="fas fa-building"></i>
+                              {% for type in post.types %}
+                                {% assign capitalized = type | capitalize %}
+                                <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
+                              {% endfor %}
+                            </div>
+                          {% endif %}
+                          {% if post.services_extra %}
+                            <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
+                          {% endif %}
+                          {% if post.services %}
+                            <ul class="horizontal-list">
+                              {% for servicio in post.services %}
+                                {% if site.servicios_iconos[servicio] %}
+                                  <li>
+                                    <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
+                                  </li>
+                                {% endif %}
+                              {% endfor %}
+                            </ul>
+                          {% endif %}
                         </div>
                       </div>
                     </div>
                     <div class="tab-pane fade" id="tab8-{{iterator}}">
                       <div class="tab-card">
                         <div class="tab-card-1">
-                          <div>
-                            <i class="fas fa-phone"></i> 
-                            <a href="tel:{{post.phone_number}}" class="font-phone-number">{{post.phone_number}}</a>
-                          </div>
-                          <div class="smaller-font">
-                            <i class="fas fa-globe"></i> 
-                            <a href="https://{{post.website}}"> {{post.website}}</a>
-                          </div>
-                          <div class="smaller-font">
-                            <i class="fab fa-facebook-square"></i> 
-                            <a href="https://www.facebook.com/{{post.facebook_user}}"> {{post.facebook_user}}</a>
-                          </div>
-                          <div class="smaller-font">
-                            <i class="fab fa-instagram"></i> 
-                            <a href="https://instagram.com/{{post.instagram_user}}"> {{post.instagram_user}}</a>
-                          </div>
-                          <div class="smaller-font">
-                            <i class="fab fa-twitter"></i> 
-                            <a href="https://twitter.com/{{post.twitter_user}}"> {{post.twitter_user}}</a>
-                          </div>
+                          {% if post.phone_number %}
+                            <div>
+                              <i class="fas fa-phone fa-sm"></i> 
+                              <a href="tel:{{post.phone_number}}" class="font-phone-number"> {{post.phone_number}}</a>
+                            </div>
+                          {% endif %}
+                          {% if post.website %}
+                            <div class="smaller-font">
+                              <i class="fas fa-globe"></i> 
+                              <a href="https://{{post.website}}"> {{post.website}}</a>
+                            </div>
+                          {% endif %}
+                          {% if post.facebook_user %}
+                            <div class="smaller-font">
+                              <i class="fab fa-facebook-square"></i> 
+                              <a href="https://www.facebook.com/{{post.facebook_user}}"> {{post.facebook_user}}</a>
+                            </div>
+                          {% endif %}
+                          {% if post.instagram_user %}
+                            <div class="smaller-font">
+                              <i class="fab fa-instagram"></i> 
+                              <a href="https://instagram.com/{{post.instagram_user}}"> {{post.instagram_user}}</a>
+                            </div>
+                          {% endif %}
+                          {% if post.twitter_user %}
+                            <div class="smaller-font">
+                              <i class="fab fa-twitter"></i> 
+                              <a href="https://twitter.com/{{post.twitter_user}}"> {{post.twitter_user}}</a>
+                            </div>
+                          {% endif %}
                         </div>
                         <div>
                           <img src="{{post.image | relative_url}}" alt="{{post.title}}" class="img-card-no-destacadas">
@@ -788,17 +1043,33 @@ permalink: /directorio/
                   <div class="tab-card">
                     <div class="tab-card-1">
                       <div> <h5 class="text-dark">{{post.title }}</h5></div>
-                      <div class="smaller-font margin-icon"><i class="fas fa-map-marker-alt"></i> 
-                        <span class="margin-icon">{{post.address}}</span></div>
-                      <div class="smaller-font margin-icon"><i class="fas fa-building"></i>
-                        {% for type in post.types %}
-                          {% assign capitalized = type | capitalize %}
-                          <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
-                        {% endfor %}
-                      </div>
-                      <div class="smaller-font"><i class="fas fa-industry"></i> {{post.sector}}</div>
-                      <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
-                      <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
+                      {% if post.address %}
+                        <div class="smaller-font margin-icon"><i class="fas fa-map-marker-alt"></i> 
+                          <span class="margin-icon">{{post.address}}</span>
+                        </div>
+                      {% endif %}
+                      {% if post.types %}
+                        <div class="smaller-font margin-icon"><i class="fas fa-building"></i>
+                          {% for type in post.types %}
+                            {% assign capitalized = type | capitalize %}
+                            <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
+                          {% endfor %}
+                        </div>
+                      {% endif %}
+                      {% if post.services_extra %}
+                        <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
+                      {% endif %}
+                      {% if post.services %}
+                        <ul class="horizontal-list">
+                          {% for servicio in post.services %}
+                            {% if site.servicios_iconos[servicio] %}
+                              <li>
+                                <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
+                              </li>
+                            {% endif %}
+                          {% endfor %}
+                        </ul>
+                      {% endif %}
                     </div>
                   </div>
                 </div>

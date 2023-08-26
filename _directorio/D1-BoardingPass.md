@@ -6,14 +6,15 @@ types:
 title: Agencia BoardingPass
 region: Centro-Occidental
 state: Lara
-sector: Agencia de viaje
 phone_number: +58 426 5203724
 address: Caracas
 website: boardingpass.network
 facebook_user: tuboarding
 twitter_user: tuboarding
 instagram_user: tuboarding
-services: Viajes - Estacionamiento
+services: 
+  - Excursiones Locales
+  - Guía Turística
 services_extra: Turismo
 image: /assets/images/BP-300x300.jpg
 ---

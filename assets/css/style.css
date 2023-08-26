@@ -1034,8 +1034,8 @@ blockquote {
 }
 
 .post-thumb-sm-destacados {
-  max-width: 150px;
-  max-height: 150px;
+  max-width: 130px;
+  max-height: 130px;
   overflow: hidden;
 }
 
@@ -1212,7 +1212,7 @@ blockquote {
 }
 
 .img-card{
-  width: 145px; height: auto;
+  width: 130px; height: auto;
 }
 
 .img-card-no-destacadas{
@@ -1271,6 +1271,54 @@ blockquote {
   color: #03b6a4;
 }
 
+.fas.fa-comments {
+  color: #03b6a4;
+}
+
+.fas.fa-hiking{
+  color: #03b6a4;
+}
+
+.fas.fa-map{
+  color: #03b6a4;
+}
+
+.fas.fa-suitcase{
+  color: #03b6a4;
+}
+
+.fas.fa-globe-americas{
+  color: #03b6a4;
+}
+
+.fas.fa-exclamation-circle{
+  color: #03b6a4;
+}
+
+.fas.fa-calendar-check{
+  color: #03b6a4;
+}
+
+.fas.fa-car{
+  color: #03b6a4;
+}
+
+.fas.fa-plane-departure{
+  color: #03b6a4;
+}
+
+.fas.fa-plane{
+  color: #03b6a4;
+}
+
+.fas.fa-globe-europe{
+  color: #03b6a4;
+}
+
+.fas.fa-flag{
+  color: #03b6a4;
+}
+
 .fas.fa-globe {
   color: #03b6a4;
 }
@@ -1307,3 +1355,23 @@ blockquote {
   z-index: -999999;
   opacity: 0;
   }
+
+.horizontal-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.horizontal-list li {
+  margin-right: 20px; 
+}
+
+.tooltip-inner {
+  background-color: #00ccb9 !important;
+  opacity: 1 !important;
+}
+
+.tooltip.bs-tooltip-top .arrow::before {
+  border-top-color: #00ccb9; /* Cambia el color de la flecha a tu preferencia */
+}

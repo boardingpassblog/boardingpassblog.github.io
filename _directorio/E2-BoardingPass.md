@@ -6,14 +6,15 @@ types:
 title: Centro Turístico BoardingPass
 region: Los Llanos
 state: Apure
-sector: Turismo
 phone_number: +58 426 5203724
 address: Caracas
 website: boardingpass.network
 facebook_user: tuboarding
 twitter_user: tuboarding
 instagram_user: tuboarding
-services: Hospedaje 
+services: 
+  - Excursiones Locales
+  - Guía Turística
 services_extra: Comida 
 image: /assets/images/BP-300x300.jpg
 ---

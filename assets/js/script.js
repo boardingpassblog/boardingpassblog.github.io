@@ -108,4 +108,8 @@
       remoteTarget: _this.attr('data-target')
     });
   });
+
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip();
+  });
 })(jQuery);

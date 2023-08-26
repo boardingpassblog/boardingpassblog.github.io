@@ -6,14 +6,16 @@ types:
 title: Viajes y Turismo BoardingPass
 region: Centro-Occidental
 state: Portuguesa
-sector: Viajes y Turismo
 phone_number: +58 426 5203724
 address: Caracas
 website: boardingpass.network
 facebook_user: tuboarding
 twitter_user: tuboarding
 instagram_user: tuboarding
-services: Turismo
+services: 
+  - Asesoría Personalizada de Viajes
+  - Resolución de Incidencias
+  - Servicio de Reservación
 services_extra: Viajes 
 image: /assets/images/BP-300x300.jpg
 ---

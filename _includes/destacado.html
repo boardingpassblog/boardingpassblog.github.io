@@ -12,26 +12,57 @@
 
     function crearElementoDestacado(archivo) {
         var elementoDestacado = document.createElement("div");
+        var servicios = {{ site.servicios_iconos | jsonify }};
         elementoDestacado.classList.add("media", "mb-4");
-        elementoDestacado.innerHTML = `
+        var html = `
             <div class="post-thumb-sm-destacados mr-3">
                 <img class="img-fluid" src="${archivo.image}" alt="${archivo.title}">
             </div>
             <div class="media-body">
                 <a href="{{ 'directorio' | relative_url }}#${archivo.title}-${archivo.address}"><h5 class="text-dark">${archivo.title}</h5></a>
                 <ul class="list-inline justify-content-between mb-2">
-                    <div class="smaller-font margin-icon"><i class="fas fa-map-marker-alt"></i> 
-                        <span class="margin-icon">${archivo.address}</span></div>
-                    <div class="smaller-font margin-icon"><i class="fas fa-building"></i>
-                        <span class="margin-icon">${archivo.types.join(' - ').replace(',', ' - ')}</span>
-                    </div>
-                    <div class="smaller-font"><i class="fas fa-industry"></i> ${archivo.sector}</div>
-                    <div class="smaller-font"><i class="fas fa-bullhorn"></i> ${archivo.services}</div>
-                    <div class="smaller-font"><i class="fas fa-list"></i> ${archivo.services_extra}</div>
-                </ul>
-            </div>
         `;
-
+        if (archivo.address) {
+            html += ` 
+                <div class="smaller-font margin-icon"><i class="fas fa-map-marker-alt"></i> 
+                    <span class="margin-icon">${archivo.address}</span>
+                </div>
+            `;
+        }
+        if (archivo.types) {
+            html += ` 
+                <div class="smaller-font margin-icon"><i class="fas fa-building"></i>
+                    <span class="margin-icon">${archivo.types.join(' - ').replace(',', ' - ')}</span>
+                </div>
+            `;
+        }
+        if (archivo.services_extra) {
+            html += ` 
+                <div class="smaller-font"><i class="fas fa-list"></i> ${archivo.services_extra}</div>
+            `;
+        }
+        if (archivo.services) {
+            html += ` 
+                <ul class="horizontal-list">
+            `;
+            for (var i = 0; i < archivo.services.length; i++) {
+                if (servicios[archivo.services[i]]){
+                    html += ` 
+                        <li>
+                        <i class="${servicios[archivo.services[i]]}" data-toggle="tooltip" data-placement="top" title="${archivo.services[i]}"></i>
+                        </li>
+                    `;
+                }
+            }
+            html += ` 
+                </ul>
+            `;
+        }
+        html += ` 
+            </ul>
+            </div>
+        `;  
+        elementoDestacado.innerHTML = html;
         return elementoDestacado;
     }
 
@@ -53,7 +84,6 @@
     var archivosDestacadosBarajados = shuffleArray(archivosDestacados);
     var elementosDestacados = archivosDestacadosBarajados.slice(0, totalDestacados * 3);
     var contenedores = document.querySelectorAll(".widget > div[id^='destacados-container-']");
-
     for (var i = 0; i < contenedores.length && i < elementosDestacados.length; i++) {
         var contenedor = contenedores[i];
         var elementoDestacado = crearElementoDestacado(elementosDestacados[i]);
