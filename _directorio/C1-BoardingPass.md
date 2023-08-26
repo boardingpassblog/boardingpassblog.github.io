@@ -13,7 +13,9 @@ website: boardingpass.network
 facebook_user: tuboarding
 twitter_user: tuboarding
 instagram_user: tuboarding
-services: Hospedaje - Estacionamiento
+services: 
+  - Viajes Nacionales
+  - Traslados
 services_extra: Comida
 image: /assets/images/BP-300x300.jpg
 ---

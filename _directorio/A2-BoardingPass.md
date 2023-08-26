@@ -13,7 +13,9 @@ website: boardingpass.network
 facebook_user: tuboarding
 twitter_user: tuboarding
 instagram_user: tuboarding
-services: Posada - Estacionamiento
+services: 
+  - Organización de Viajes
+  - Organización de Viajes de Turismo
 services_extra: Hospedaje
 image: /assets/images/BP-300x300.jpg
 ---

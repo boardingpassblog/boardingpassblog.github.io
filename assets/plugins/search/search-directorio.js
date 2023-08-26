@@ -1,7 +1,20 @@
 (function() {
     function displaySearchDirectorio(results, store) {
       var searchDirectorio = document.getElementById('search-results-directorio');
-  
+      var servicios_icons = {
+        "Asesoría Personalizada de Viajes": "fas fa-comments",
+        "Excursiones Locales": "fas fa-hiking",
+        "Guía Turística": "fas fa-map",
+        "Organización de Viajes": "fas fa-suitcase",
+        "Organización de Viajes de Turismo": "fas fa-globe-americas",
+        "Resolución de Incidencias": "fas fa-exclamation-circle",
+        "Servicio de Reservación": "fas fa-calendar-check",
+        "Traslados": "fas fa-car",
+        "Venta de Boletos Aéreos Internacionales": "fas fa-plane-departure",
+        "Venta de Boletos Aéreos Nacionales": "fas fa-plane",
+        "Viajes Internacionales": "fas fa-globe",
+        "Viajes Nacionales": "fas fa-flag"
+      };
       if (results.length) { // Are there any results?
         var appendString = '';
         var iterador = 0;
@@ -50,11 +63,20 @@
               appendString +='<span class="margin-icon-search">'+types+' </span>';
               appendString +='</div>';
             }
-            if(item.services){
-              appendString +='<div class="smaller-font"><i class="fas fa-bullhorn"></i> '+item.services+'</div>';
-            }
             if(item.services_extra){
               appendString +='<div class="smaller-font"><i class="fas fa-list"></i> '+item.services_extra+'</div>';
+            }
+            if(item.services){
+              var servicios = JSON.parse(item.services.replace(/&quot;/g, '"'));
+              appendString +='<ul class="horizontal-list">';
+              for (var j = 0; j < servicios.length; j++) {
+                if (servicios_icons[servicios[j]]){
+                  appendString +='<li>';
+                  appendString +='<i class="'+servicios_icons[servicios[j]]+'" data-toggle="tooltip" data-placement="top" title="'+servicios[j]+'"></i>';
+                  appendString +='</li>';
+                }
+              }
+              appendString +='</ul>';
             }
             appendString +='</div>';
             appendString +='</div>';
@@ -116,11 +138,20 @@
               appendString +='<span class="margin-icon-search">'+types+' </span>';
               appendString +='</div>';
             }
-            if(item.services){
-              appendString +='<div class="smaller-font"><i class="fas fa-bullhorn"></i> '+item.services+'</div>';
-            }
             if(item.services_extra){
               appendString +='<div class="smaller-font"><i class="fas fa-list"></i> '+item.services_extra+'</div>';
+            }
+            if(item.services){
+              var servicios = JSON.parse(item.services.replace(/&quot;/g, '"'));
+              appendString +='<ul class="horizontal-list">';
+              for (var j = 0; j < servicios.length; j++) {
+                if (servicios_icons[servicios[j]]){
+                  appendString +='<li>';
+                  appendString +='<i class="'+servicios_icons[servicios[j]]+'" data-toggle="tooltip" data-placement="top" title="'+servicios[j]+'"></i>';
+                  appendString +='</li>';
+                }
+              }
+              appendString +='</ul>';
             }
             appendString +='</div>';
             appendString +='</div>';

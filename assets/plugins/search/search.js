@@ -19,20 +19,35 @@
 
   function displaySearchDestacadasDirectorio(results, store) {
     var searchDestacadasDirectorio = document.getElementById('search-results-destacadas');
-
+    var servicios_icons = {
+      "Asesoría Personalizada de Viajes": "fas fa-comments",
+      "Excursiones Locales": "fas fa-hiking",
+      "Guía Turística": "fas fa-map",
+      "Organización de Viajes": "fas fa-suitcase",
+      "Organización de Viajes de Turismo": "fas fa-globe-americas",
+      "Resolución de Incidencias": "fas fa-exclamation-circle",
+      "Servicio de Reservación": "fas fa-calendar-check",
+      "Traslados": "fas fa-car",
+      "Venta de Boletos Aéreos Internacionales": "fas fa-plane-departure",
+      "Venta de Boletos Aéreos Nacionales": "fas fa-plane",
+      "Viajes Internacionales": "fas fa-globe",
+      "Viajes Nacionales": "fas fa-flag"
+    };
     if (results.length) { // Are there any results?
       var appendString = '';
       var iterador = 0;
       for (var i = 0; i < results.length; i++) {  // Iterate over the results
         var item = store[results[i].ref]; 
         if (item.featured === "true"){
-          var types_clean = item.types.replace(/&quot;/g, '"'); 
-          var types_array = types_clean.slice(1, -1).split(',').map(function(item) {
-            return item.trim();
-          });
-          var types = types_array.map(function(item) {
-            return item.replace(/"/g, ''); 
-          }).join(' - ');
+          if(item.types){
+            var types_clean = item.types.replace(/&quot;/g, '"'); 
+            var types_array = types_clean.slice(1, -1).split(',').map(function(item) {
+              return item.trim();
+            });
+            var types = types_array.map(function(item) {
+              return item.replace(/"/g, ''); 
+            }).join(' - ');
+          }
           iterador += 1;
           if (iterador % 2 === 1) {
             appendString += '<div class="row">';
@@ -66,11 +81,20 @@
             appendString +='<span class="margin-icon-search">'+types+' </span>';
             appendString +='</div>';
           }
-          if(item.services){
-            appendString +='<div class="smaller-font"><i class="fas fa-bullhorn"></i> '+item.services+'</div>';
-          }
           if(item.services_extra){
             appendString +='<div class="smaller-font"><i class="fas fa-list"></i> '+item.services_extra+'</div>';
+          }
+          if(item.services){
+            var servicios = JSON.parse(item.services.replace(/&quot;/g, '"'));
+            appendString +='<ul class="horizontal-list">';
+            for (var j = 0; j < servicios.length; j++) {
+              if (servicios_icons[servicios[j]]){
+                appendString +='<li>';
+                appendString +='<i class="'+servicios_icons[servicios[j]]+'" data-toggle="tooltip" data-placement="top" title="'+servicios[j]+'"></i>';
+                appendString +='</li>';
+              }
+            }
+            appendString +='</ul>';
           }
           appendString +='</div>';
           appendString +='</div>';

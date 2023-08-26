@@ -12,7 +12,10 @@ website: boardingpass.network
 facebook_user: tuboarding
 twitter_user: tuboarding
 instagram_user: tuboarding
-services: Turismo
+services: 
+  - Asesoría Personalizada de Viajes
+  - Resolución de Incidencias
+  - Servicio de Reservación
 services_extra: Viajes 
 image: /assets/images/BP-300x300.jpg
 ---

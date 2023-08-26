@@ -13,7 +13,10 @@ website: boardingpass.network
 facebook_user: tuboarding
 twitter_user: tuboarding
 instagram_user: tuboarding
-services: Posada - Estacionamiento
+services: 
+  - Traslados
+  - Venta de Boletos Aéreos Internacionales
+  - Viajes Internacionales
 services_extra: WiFi
 image: /assets/images/BP-300x300.jpg
 ---

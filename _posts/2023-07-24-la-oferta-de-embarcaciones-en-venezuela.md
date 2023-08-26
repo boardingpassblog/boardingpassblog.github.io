@@ -8,7 +8,7 @@ image: /assets/images/Yates.jpg
 author: Náutica Sales
 description: La oferta de embarcaciones en Venezuela
 categories:
-  - rutas-maritima
+  - rutas-maritimas
 ---
 
 En BoardingPass.Network queremos ofrecer más alternativas para los amantes de la libertad y el disfrute al aire libre.

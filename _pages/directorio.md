@@ -102,23 +102,31 @@ permalink: /directorio/
                         <div class="tab-card-1">
                           <div> <h5 class="text-dark">{{post.title }}</h5></div>
                           {% if post.address %}
-                          <div class="smaller-font margin-icon"><i class="fas fa-map-marker-alt"></i> 
-                            <span class="margin-icon">{{post.address}}</span>
-                          </div>
+                            <div class="smaller-font margin-icon"><i class="fas fa-map-marker-alt"></i> 
+                              <span class="margin-icon">{{post.address}}</span>
+                            </div>
                           {% endif %}
                           {% if post.types %}
-                          <div class="smaller-font margin-icon"><i class="fas fa-building"></i>
-                            {% for type in post.types %}
-                              {% assign capitalized = type | capitalize %}
-                              <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
-                            {% endfor %}
-                          </div>
-                          {% endif %}
-                          {% if post.services %}
-                          <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
+                            <div class="smaller-font margin-icon"><i class="fas fa-building"></i>
+                              {% for type in post.types %}
+                                {% assign capitalized = type | capitalize %}
+                                <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
+                              {% endfor %}
+                            </div>
                           {% endif %}
                           {% if post.services_extra %}
-                          <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
+                            <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
+                          {% endif %}
+                          {% if post.services %}
+                            <ul class="horizontal-list">
+                              {% for servicio in post.services %}
+                                {% if site.servicios_iconos[servicio] %}
+                                  <li>
+                                    <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
+                                  </li>
+                                {% endif %}
+                              {% endfor %}
+                            </ul>
                           {% endif %}
                         </div>
                       </div>
@@ -204,11 +212,19 @@ permalink: /directorio/
                           {% endfor %}
                         </div>
                       {% endif %}
-                      {% if post.services %}
-                        <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
-                      {% endif %}
                       {% if post.services_extra %}
                         <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
+                      {% endif %}
+                      {% if post.services %}
+                        <ul class="horizontal-list">
+                          {% for servicio in post.services %}
+                            {% if site.servicios_iconos[servicio] %}
+                              <li>
+                                <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
+                              </li>
+                            {% endif %}
+                          {% endfor %}
+                        </ul>
                       {% endif %}
                     </div>
                   </div>
@@ -253,11 +269,19 @@ permalink: /directorio/
                           {% endfor %}
                         </div>
                       {% endif %}
-                      {% if post.services %}
-                        <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
-                      {% endif %}
                       {% if post.services_extra %}
                         <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
+                      {% endif %}
+                      {% if post.services %}
+                        <ul class="horizontal-list">
+                          {% for servicio in post.services %}
+                            {% if site.servicios_iconos[servicio] %}
+                              <li>
+                                <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
+                              </li>
+                            {% endif %}
+                          {% endfor %}
+                        </ul>
                       {% endif %}
                     </div>
                   </div>
@@ -315,11 +339,19 @@ permalink: /directorio/
                               {% endfor %}
                             </div>
                           {% endif %}
-                          {% if post.services %}
-                            <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
-                          {% endif %}
                           {% if post.services_extra %}
                             <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
+                          {% endif %}
+                          {% if post.services %}
+                            <ul class="horizontal-list">
+                              {% for servicio in post.services %}
+                                {% if site.servicios_iconos[servicio] %}
+                                  <li>
+                                    <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
+                                  </li>
+                                {% endif %}
+                              {% endfor %}
+                            </ul>
                           {% endif %}
                         </div>
                       </div>
@@ -383,11 +415,19 @@ permalink: /directorio/
                           {% endfor %}
                         </div>
                       {% endif %}
-                      {% if post.services %}
-                        <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
-                      {% endif %}
                       {% if post.services_extra %}
                         <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
+                      {% endif %}
+                      {% if post.services %}
+                        <ul class="horizontal-list">
+                          {% for servicio in post.services %}
+                            {% if site.servicios_iconos[servicio] %}
+                              <li>
+                                <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
+                              </li>
+                            {% endif %}
+                          {% endfor %}
+                        </ul>
                       {% endif %}
                     </div>
                   </div>
@@ -445,11 +485,19 @@ permalink: /directorio/
                               {% endfor %}
                             </div>
                           {% endif %}
-                          {% if post.services %}
-                            <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
-                          {% endif %}
                           {% if post.services_extra %}
                             <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
+                          {% endif %}
+                          {% if post.services %}
+                            <ul class="horizontal-list">
+                              {% for servicio in post.services %}
+                                {% if site.servicios_iconos[servicio] %}
+                                  <li>
+                                    <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
+                                  </li>
+                                {% endif %}
+                              {% endfor %}
+                            </ul>
                           {% endif %}
                         </div>
                       </div>
@@ -513,11 +561,19 @@ permalink: /directorio/
                           {% endfor %}
                         </div>
                       {% endif %}
-                      {% if post.services %}
-                        <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
-                      {% endif %}
                       {% if post.services_extra %}
                         <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
+                      {% endif %}
+                      {% if post.services %}
+                        <ul class="horizontal-list">
+                          {% for servicio in post.services %}
+                            {% if site.servicios_iconos[servicio] %}
+                              <li>
+                                <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
+                              </li>
+                            {% endif %}
+                          {% endfor %}
+                        </ul>
                       {% endif %}
                     </div>
                   </div>
@@ -562,11 +618,19 @@ permalink: /directorio/
                           {% endfor %}
                         </div>
                       {% endif %}
-                      {% if post.services %}
-                        <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
-                      {% endif %}
                       {% if post.services_extra %}
                         <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
+                      {% endif %}
+                      {% if post.services %}
+                        <ul class="horizontal-list">
+                          {% for servicio in post.services %}
+                            {% if site.servicios_iconos[servicio] %}
+                              <li>
+                                <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
+                              </li>
+                            {% endif %}
+                          {% endfor %}
+                        </ul>
                       {% endif %}
                     </div>
                   </div>
@@ -624,11 +688,19 @@ permalink: /directorio/
                               {% endfor %}
                             </div>
                           {% endif %}
-                          {% if post.services %}
-                            <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
-                          {% endif %}
                           {% if post.services_extra %}
                             <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
+                          {% endif %}
+                          {% if post.services %}
+                            <ul class="horizontal-list">
+                              {% for servicio in post.services %}
+                                {% if site.servicios_iconos[servicio] %}
+                                  <li>
+                                    <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
+                                  </li>
+                                {% endif %}
+                              {% endfor %}
+                            </ul>
                           {% endif %}
                         </div>
                       </div>
@@ -692,11 +764,19 @@ permalink: /directorio/
                           {% endfor %}
                         </div>
                       {% endif %}
-                      {% if post.services %}
-                        <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
-                      {% endif %}
                       {% if post.services_extra %}
                         <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
+                      {% endif %}
+                      {% if post.services %}
+                        <ul class="horizontal-list">
+                          {% for servicio in post.services %}
+                            {% if site.servicios_iconos[servicio] %}
+                              <li>
+                                <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
+                              </li>
+                            {% endif %}
+                          {% endfor %}
+                        </ul>
                       {% endif %}
                     </div>
                   </div>
@@ -754,11 +834,19 @@ permalink: /directorio/
                               {% endfor %}
                             </div>
                           {% endif %}
-                          {% if post.services %}
-                            <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
-                          {% endif %}
                           {% if post.services_extra %}
                             <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
+                          {% endif %}
+                          {% if post.services %}
+                            <ul class="horizontal-list">
+                              {% for servicio in post.services %}
+                                {% if site.servicios_iconos[servicio] %}
+                                  <li>
+                                    <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
+                                  </li>
+                                {% endif %}
+                              {% endfor %}
+                            </ul>
                           {% endif %}
                         </div>
                       </div>
@@ -822,11 +910,19 @@ permalink: /directorio/
                           {% endfor %}
                         </div>
                       {% endif %}
-                      {% if post.services %}
-                        <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
-                      {% endif %}
                       {% if post.services_extra %}
                         <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
+                      {% endif %}
+                      {% if post.services %}
+                        <ul class="horizontal-list">
+                          {% for servicio in post.services %}
+                            {% if site.servicios_iconos[servicio] %}
+                              <li>
+                                <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
+                              </li>
+                            {% endif %}
+                          {% endfor %}
+                        </ul>
                       {% endif %}
                     </div>
                   </div>
@@ -884,11 +980,19 @@ permalink: /directorio/
                               {% endfor %}
                             </div>
                           {% endif %}
-                          {% if post.services %}
-                            <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
-                          {% endif %}
                           {% if post.services_extra %}
                             <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
+                          {% endif %}
+                          {% if post.services %}
+                            <ul class="horizontal-list">
+                              {% for servicio in post.services %}
+                                {% if site.servicios_iconos[servicio] %}
+                                  <li>
+                                    <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
+                                  </li>
+                                {% endif %}
+                              {% endfor %}
+                            </ul>
                           {% endif %}
                         </div>
                       </div>
@@ -952,11 +1056,19 @@ permalink: /directorio/
                           {% endfor %}
                         </div>
                       {% endif %}
-                      {% if post.services %}
-                        <div class="smaller-font"><i class="fas fa-bullhorn"></i> {{post.services}}</div>
-                      {% endif %}
                       {% if post.services_extra %}
                         <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
+                      {% endif %}
+                      {% if post.services %}
+                        <ul class="horizontal-list">
+                          {% for servicio in post.services %}
+                            {% if site.servicios_iconos[servicio] %}
+                              <li>
+                                <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
+                              </li>
+                            {% endif %}
+                          {% endfor %}
+                        </ul>
                       {% endif %}
                     </div>
                   </div>

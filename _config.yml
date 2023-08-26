@@ -137,6 +137,21 @@ collections:
   directorio:
     output: true
 
+# iconos servicios directorio
+servicios_iconos:
+  "Asesoría Personalizada de Viajes": "fas fa-comments"
+  "Excursiones Locales": "fas fa-hiking"
+  "Guía Turística": "fas fa-map"
+  "Organización de Viajes": "fas fa-suitcase"
+  "Organización de Viajes de Turismo": "fas fa-globe-americas"
+  "Resolución de Incidencias": "fas fa-exclamation-circle"
+  "Servicio de Reservación": "fas fa-calendar-check"
+  "Traslados": "fas fa-car"
+  "Venta de Boletos Aéreos Internacionales": "fas fa-plane-departure"
+  "Venta de Boletos Aéreos Nacionales": "fas fa-plane"
+  "Viajes Internacionales": "fas fa-globe"
+  "Viajes Nacionales": "fas fa-flag"
+
 # Exclude from processing.
 exclude:
   - Gemfile
@@ -382,8 +397,8 @@ prose:
               value: 'Asesoría Personalizada de Viajes'
             - name: 'Excursiones Locales'
               value: 'Excursiones Locales'
-            - name: 'Guía Turistica'
-              value: 'Guía Turistica'
+            - name: 'Guía Turística'
+              value: 'Guía Turística'
             - name: 'Organización de Viajes'
               value: 'Organización de Viajes'
             - name: 'Organización de Viajes de Turismo'

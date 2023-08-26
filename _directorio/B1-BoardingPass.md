@@ -13,7 +13,9 @@ website: boardingpass.network
 facebook_user: tuboarding
 twitter_user: tuboarding
 instagram_user: tuboarding
-services: Hospedaje
+services: 
+  - Resolución de Incidencias
+  - Servicio de Reservación
 services_extra: Estacionamiento
 image: /assets/images/BP-300x300.jpg
 ---
