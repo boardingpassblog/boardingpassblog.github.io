@@ -31,7 +31,8 @@
       "Venta de Boletos Aéreos Internacionales": "fas fa-plane-departure",
       "Venta de Boletos Aéreos Nacionales": "fas fa-plane",
       "Viajes Internacionales": "fas fa-globe",
-      "Viajes Nacionales": "fas fa-flag"
+      "Viajes Nacionales": "fas fa-flag",
+      "Hospedaje": "fas fa-bed"
     };
     if (results.length) { // Are there any results?
       var appendString = '';
