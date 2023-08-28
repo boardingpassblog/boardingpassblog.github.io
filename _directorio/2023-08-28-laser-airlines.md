@@ -3,7 +3,7 @@ date: '2023-08-28 10:25 -0400'
 region: Nacional
 state: Amazonas
 featured: true
-published: false
+published: true
 title: 'Laser Airlines '
 image: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Laser-Airlines-Logo.jpg
@@ -21,4 +21,3 @@ address: >-
   Avenida Principal del Bosque, Edif. Torre CrediCard, Piso 6, Oficinas 67 y 68.
   Chacaito 1050 Caracas, Distrito Capital, Venezuela
 ---
-
