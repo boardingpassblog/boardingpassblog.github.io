@@ -1354,7 +1354,11 @@ blockquote {
   margin: -50px 0 0 0 !important;
   z-index: -999999;
   opacity: 0;
-  }
+}
+
+.recaptcha-none{
+  display:none;
+}
 
 .horizontal-list {
   list-style: none;

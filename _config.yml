@@ -301,6 +301,8 @@ prose:
               value: 'Los Llanos'
             - name: 'Llanura Deltaica'
               value: 'Llanura Deltaica'
+            - name: 'Nacional'
+              value: 'Nacional'
           alterable: false
       - name: state
         field:
@@ -450,4 +452,6 @@ prose:
               value: 'Hospedaje'
             - name: 'Alquiler'
               value: 'Alquiler'
+            - name: 'Líneas aéreas'
+              value: 'Líneas aéreas'
           alterable: false
