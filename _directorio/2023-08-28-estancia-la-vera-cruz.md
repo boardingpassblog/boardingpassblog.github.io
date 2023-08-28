@@ -14,7 +14,7 @@ website: www.estancialaveracruz.com
 services:
   - Servicio de Reservación
 image: >-
-  https://github.com/boardingpassblog/boardingpassblog.github.io/blob/main/assets/images/Estancia-La-VeraCruz-Logo.jpg
+  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Estancia-La-VeraCruz-Logo.jpg
 types:
   - Hospedaje
 ---
