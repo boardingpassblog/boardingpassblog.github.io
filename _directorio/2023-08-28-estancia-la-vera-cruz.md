@@ -11,5 +11,10 @@ instagram_user: estancialaveracruz
 facebook_user: estancialaveracruz
 twitter_user: est_laveracruz
 website: www.estancialaveracruz.com
+services:
+  - Servicio de Reservación
+image: >-
+  https://github.com/boardingpassblog/boardingpassblog.github.io/blob/main/assets/images/Estancia-La-VeraCruz-Logo.jpg
+types:
+  - Hospedaje
 ---
-
