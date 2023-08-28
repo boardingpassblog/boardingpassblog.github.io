@@ -15,5 +15,6 @@ services:
   - Hospedaje
 types:
   - Hospedaje
+image: >-
+  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Hotel-President-Logo.jpg
 ---
-
