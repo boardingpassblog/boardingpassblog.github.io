@@ -16,7 +16,7 @@ instagram_user: tuboarding
 services: 
   - Traslados
   - Venta de Boletos Aéreos Internacionales
-  - Viajes Internacionales
+  - Hospedaje
 services_extra: WiFi
 image: /assets/images/BP-300x300.jpg
 ---
