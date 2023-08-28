@@ -279,6 +279,12 @@ prose:
           element: text
           label: Fecha de creación
           value: CURRENT_DATETIME
+      - name: published
+        field:
+          element: checkbox
+          label: ¿Publicar?
+          help: Puedes publicar directamente o dejar como borrador
+          value: true
       - name: region
         field:
           element: select
@@ -419,6 +425,8 @@ prose:
               value: 'Viajes Internacionales'
             - name: 'Viajes Nacionales'
               value: 'Viajes Nacionales'
+            - name: 'Hospedaje'
+              value: 'Hospedaje'
           alterable: false
       - name: services_extra
         field:
