@@ -3,7 +3,7 @@ layout: post
 date: '2023-08-24 19:48 -0400'
 featured: true
 published: true
-title: Conseturismo optimista con la recuperación del sector aéreo en Venezuela
+title: Conseturismo optimista con la recuperación del sector aéreo
 description: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Maiquetia.jpg
 image: >-
@@ -67,4 +67,3 @@ Tal vez van a intentar estar en el primer semestre del año que viene, dependien
 Para terminar la entrevista Pulido insistió en la falta que hace seguir recuperando rutas con Latinoamérica y destaca el crecimiento de las rutas nacionales. 
 
 "Eso es una realidad. No creo que sea un número exageradamente amplio, pero si estamos viendo que están subiendo las rutas. Por ejemplo, la apertura de vuelo al aeropuerto de Mérida por parte de Conviasa, es una alternativa sin duda alguna. Así vas viendo que se van abriendo un poco más de posibilidades para los viajeros."
-
