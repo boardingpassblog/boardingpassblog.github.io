@@ -4,6 +4,11 @@
 {% include head.html %}
 
 <body>
+  <div class="marquee-container">
+    <div class="marquee-content" id="marqueeData">
+    </div>
+  </div>
+
   {% if site.google-analytics %}
   {% if jekyll.environment == 'production' %}
   {% include google-analytics.html %}
@@ -54,6 +59,8 @@
   <script src="{{ site.baseurl }}/assets/plugins/search/search.js"></script>
   <!-- search-directorio -->
   <script src="{{ site.baseurl }}/assets/plugins/search/search-directorio.js"></script>
+  <!-- marquess -->
+  <script src="{{ site.baseurl }}/assets/plugins/marquess/marquess.js"></script>
 
   <!-- Main Script -->
   <script src="{{ site.baseurl }}/assets/js/script.js"></script>
