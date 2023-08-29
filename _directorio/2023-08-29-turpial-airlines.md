@@ -5,7 +5,7 @@ region: Nacional
 state: Amazonas
 featured: true
 title: Turpial Airlines
-address: Aeropuerto Internacional de Maiquetía Simón Bolívar.
+address: Aeropuerto Internacional de Maiquetía Simón Bolívar
 phone_number: +58 (0424) 450.4356 (WA)
 website: 'https://turpialairlines.com/'
 services:
