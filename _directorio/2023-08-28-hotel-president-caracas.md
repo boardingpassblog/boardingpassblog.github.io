@@ -3,7 +3,7 @@ date: '2023-08-28 15:30 -0400'
 published: true
 region: Centro-Norte
 state: Distrito Capital
-featured: false
+featured: true
 title: Hotel President Caracas
 phone_number: '+584126360041'
 address: 'Av. Valparaiso. Los Caobos. Caracas - Venezuela '
