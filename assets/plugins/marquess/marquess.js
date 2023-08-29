@@ -29,7 +29,7 @@
     function loadEfemerides() {
       return new Promise(function(resolve, reject) {
         $.ajax({
-          url: "/json/efemerides.json",
+          url: "/efemerides/efemerides.json",
           dataType: "json",
           success: function(data) {
             var today = new Date();
