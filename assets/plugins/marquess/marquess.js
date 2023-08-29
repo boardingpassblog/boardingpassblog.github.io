@@ -36,10 +36,11 @@
             var day = today.getDate();
             var month = today.getMonth() + 1;
             var year = today.getFullYear();
+            var dayOfWeek = obtenerDiaSemanaActual();
             var formattedDate = day +  ' de ' + getMonthName(month);
             if (data.hasOwnProperty(formattedDate)) {
               var eventos = data[formattedDate];
-              var textoEfemerides = '    |     Efemérides del día de hoy '+formattedDate+' de '+year+'  -  ';
+              var textoEfemerides = '    |     Efemérides del día de hoy '+dayOfWeek+' '+formattedDate+' de '+year+'  -  ';
               if (Array.isArray(eventos)) {
                 for (var i = 0; i < eventos.length; i++) {
                   textoEfemerides += eventos[i];
@@ -78,6 +79,13 @@
         "diciembre"
       ];
       return months[month - 1];
+    }
+
+    function obtenerDiaSemanaActual() {
+      var diasSemana = ["domingo", "lunes", "martes", "miércoles", "jueves", "viernes", "sábado"];
+      var today = new Date();
+      var diaSemana = today.getDay();
+      return diasSemana[diaSemana];
     }
 
     function createMarquee() {
