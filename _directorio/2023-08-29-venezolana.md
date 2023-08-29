@@ -4,7 +4,7 @@ published: true
 region: Nacional
 state: Amazonas
 featured: true
-title: Venezolana
+title: Venezolana de Aviación
 phone_number: +58 212-8190600
 instagram_user: Venezolanadeaviacion
 address: >-
