@@ -55,8 +55,8 @@
             }
             resolve();
           },
-          error: function(xhr, status, error) {
-            console.error("Error al cargar el archivo JSON:", status, error);
+          error: function(error) {
+            console.error("Error al cargar el archivo JSON: ", error);
             reject(error);
           }
         });
@@ -115,7 +115,7 @@
     }
 
     function tick() {
-      left -= 3;
+      left -= 1;
       if (left < -_width) {
         left = containerwidth;
       }
