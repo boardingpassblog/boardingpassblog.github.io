@@ -2,7 +2,7 @@
 #-------------------------------
 # General Site Settings
 baseurl: "" # The subpath of your site, e.g. /blog
-url: "" # The base hostname & protocol for your site, e.g. http://example.com
+url: "https://boardingpass.network" # The base hostname & protocol for your site, e.g. http://example.com
 
 title: Boarding Pass
 logo: /assets/images/logo.jpg
