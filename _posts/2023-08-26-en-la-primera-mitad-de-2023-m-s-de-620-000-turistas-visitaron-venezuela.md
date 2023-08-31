@@ -4,10 +4,8 @@ date: '2023-08-26 12:37 -0400'
 featured: false
 published: true
 title: En la primera mitad de 2023 más de 620.000 turistas visitaron Venezuela
-description: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Turistas.jpg
-image: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Turistas.jpg
+description: /assets/images/Turistas.jpg
+image: /assets/images/Turistas.jpg
 author: Expreso. Redacción. J.R
 categories:
   - enterate

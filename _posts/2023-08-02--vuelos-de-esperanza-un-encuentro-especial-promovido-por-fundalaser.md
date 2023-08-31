@@ -4,10 +4,8 @@ date: '2023-08-02 16:35 -0400'
 featured: true
 published: true
 title: '“Vuelos de Esperanza”, un encuentro especial promovido por FundaLASER'
-description: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Fundalaser.jpg
-image: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Fundalaser.jpg
+description: /assets/images/Fundalaser.jpg
+image: /assets/images/Fundalaser.jpg
 image-text: Orquesta Regional Juvenil “Juan Bautista Plaza
 author: Edgar Rincón
 categories:

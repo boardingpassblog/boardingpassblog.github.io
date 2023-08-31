@@ -4,9 +4,8 @@ date: '2023-08-24 17:11 -0400'
 featured: false
 published: true
 title: Viajar produce más felicidad que casarse o tener hijos
-description: ' https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/viajar-es-mejor-que_bp.jpg'
-image: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/viajar-es-mejor-que_bp.jpg
+description: /assets/images/viajar-es-mejor-que_bp.jpg
+image: /assets/images/viajar-es-mejor-que_bp.jpg
 image-text: ¿Prefieres viajar?
 author: elmundo.es
 categories:

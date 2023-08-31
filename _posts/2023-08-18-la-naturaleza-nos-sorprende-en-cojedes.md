@@ -4,10 +4,8 @@ date: '2023-08-18 15:03 -0400'
 featured: true
 published: true
 title: La naturaleza nos sorprende en Cojedes
-description: >-
-  https://github.com/boardingpassblog/boardingpassblog.github.io/blob/main/assets/images/pozos-bp.jpg?raw=true
-image: >-
-  https://github.com/boardingpassblog/boardingpassblog.github.io/blob/main/assets/images/pozos-bp.jpg?raw=true
+description: /assets/images/pozos-bp.jpg?raw=true
+image: /assets/images/pozos-bp.jpg?raw=true
 image-text: Pozos de La Pica - Cojedes
 author: Alexandra Castillo
 categories:

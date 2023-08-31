@@ -4,10 +4,8 @@ date: '2023-08-29 20:18 -0400'
 featured: false
 published: true
 title: 'La Colonia Tovar: Turismo en un pueblo alemán'
-description: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Colonia-Tovar.jpg
-image: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Colonia-Tovar.jpg
+description: /assets/images/Colonia-Tovar.jpg
+image: /assets/images/Colonia-Tovar.jpg
 image-text: Aspecto de la Colonia Tovar
 author: viajesboletin.com
 categories:

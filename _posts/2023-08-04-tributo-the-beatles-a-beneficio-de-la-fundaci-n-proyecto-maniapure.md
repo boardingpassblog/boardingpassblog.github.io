@@ -4,10 +4,8 @@ date: '2023-08-04 15:14 -0400'
 featured: false
 published: true
 title: Tributo The Beatles a beneficio de la Fundación Proyecto Maniapure
-description: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Tomas-Sanabria.jpg
-image: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Tomas-Sanabria.jpg
+description: /assets/images/Tomas-Sanabria.jpg
+image: /assets/images/Tomas-Sanabria.jpg
 image-text: Dr. Tomás Sanabria
 author: Fundación Proyecto Maniapure
 categories:

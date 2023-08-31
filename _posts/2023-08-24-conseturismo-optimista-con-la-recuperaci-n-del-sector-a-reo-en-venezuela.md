@@ -4,10 +4,8 @@ date: '2023-08-24 19:48 -0400'
 featured: true
 published: true
 title: Conseturismo optimista con la recuperación del sector aéreo
-description: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Maiquetia.jpg
-image: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Maiquetia.jpg
+description: /assets/images/Maiquetia.jpg
+image: /assets/images/Maiquetia.jpg
 image-text: 'Aeropuerto Internacional Simón Bolívar. '
 author: 'Boarding Pass '
 categories:

@@ -9,10 +9,8 @@ categories:
   - enterate
   - opinion
 image-text: 'viajeros, ¿de què tipo eres?'
-image: >-
-  https://github.com/boardingpassblog/boardingpassblog.github.io/blob/main/assets/images/viajeros-bp.jpg?raw=true
-description: >-
-  https://github.com/boardingpassblog/boardingpassblog.github.io/blob/main/assets/images/viajeros-bp.jpg?raw=true
+image: /assets/images/viajeros-bp.jpg?raw=true
+description: /assets/images/viajeros-bp.jpg?raw=true
 ---
 
 Según la Organización Mundial del Turismo, en los últimos años han cambiado los motivos por los que la gente viaja. Ya no sòlo se planifica ir a un destino para recrearse, vivir nuevas aventuras y hacer algo diferente en las vacaciones, también hay quienes viajan por y para:

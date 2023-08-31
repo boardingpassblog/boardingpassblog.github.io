@@ -7,10 +7,8 @@ title: Llega el ícono de los mares
 categories:
   - rutas-maritimas
 image-text: Crucero Icons of the Sea
-image: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/d266b023bb3b0d9676e62ec227fb9426558ed890/assets/images/iconofthesea-bp.jpg
-description: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/d266b023bb3b0d9676e62ec227fb9426558ed890/assets/images/iconofthesea-bp.jpg
+image: /assets/images/iconofthesea-bp.jpg
+description: /assets/images/iconofthesea-bp.jpg
 ---
 La construcción del crucero más grande del mundo llegó a su etapa final, ultimando los detalles para su salida a principios de 2024.
 

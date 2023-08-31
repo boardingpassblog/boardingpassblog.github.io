@@ -5,8 +5,7 @@ featured: false
 published: true
 title: Evaluan estándares de seguridad de la aviación civil en Venezuela
 description: Evaluan estándares de seguridad de la aviación civil en Venezuela
-image: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/OACI.jpg
+image: /assets/images/OACI.jpg
 image-text: Visita de expertos OACI
 author: Edgar Rincón
 categories:

@@ -4,10 +4,8 @@ date: '2023-08-24 17:34 -0400'
 featured: false
 published: true
 title: Top5 de los gadgets tecnológicos para viajar
-description: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/maleta_bp.jpg
-image: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/maleta_bp.jpg
+description: /assets/images/maleta_bp.jpg
+image: /assets/images/maleta_bp.jpg
 image-text: Recomendaciones para viajar
 author: Alexandra Castillo
 categories:

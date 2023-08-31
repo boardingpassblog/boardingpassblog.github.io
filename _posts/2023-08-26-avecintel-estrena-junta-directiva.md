@@ -4,10 +4,8 @@ date: '2023-08-26 18:47 -0400'
 featured: false
 published: true
 title: Avecintel estrena junta directiva
-description: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Hotel-Humboldt.jpg
-image: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Hotel-Humboldt.jpg
+description: /assets/images/Hotel-Humboldt.jpg
+image: /assets/images/Hotel-Humboldt.jpg
 image-text: Hotel Humboldt - Caracas
 author: Mayte Navarro
 categories:

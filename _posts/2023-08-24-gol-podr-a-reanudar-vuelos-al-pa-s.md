@@ -7,10 +7,8 @@ title: Gol podría reanudar vuelos al país
 author: viajesboletin.com
 categories:
   - rutas-aereas
-image: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/gol_bp.jpg
-description: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/gol_bp.jpg
+image: /assets/images/gol_bp.jpg
+description: /assets/images/gol_bp.jpg
 image-text: 'Línea Aérea Gol '
 ---
 Gol Linha Aérea, una de las aerolíneas más importantes de Brasil, está dando pasos firmes para reanudar sus operaciones en Venezuela.

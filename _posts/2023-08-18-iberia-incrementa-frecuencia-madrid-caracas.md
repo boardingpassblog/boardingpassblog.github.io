@@ -5,10 +5,8 @@ featured: true
 published: true
 title: Iberia incrementa frecuencia Madrid-Caracas
 author: ' Aviacionline.'
-description: >-
-  https://github.com/boardingpassblog/boardingpassblog.github.io/blob/main/assets/images/iberia-bp.jpg?raw=true
-image: >-
-  https://github.com/boardingpassblog/boardingpassblog.github.io/blob/main/assets/images/iberia-bp.jpg?raw=true
+description: /assets/images/iberia-bp.jpg?raw=true
+image: /assets/images/iberia-bp.jpg?raw=true
 image-text: 'Iberia Airbus A330-200 '
 categories:
   - rutas-aereas

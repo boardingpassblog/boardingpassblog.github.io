@@ -7,10 +7,8 @@ title: Vuelo venezolano tripulado por mujeres llega a Cancún
 author: Autor Zaraith Mavares - Globovisión
 categories:
   - enterate
-description: >-
-  https://github.com/boardingpassblog/boardingpassblog.github.io/blob/main/assets/images/vuelo-mujeres-bp.jpg?raw=true
-image: >-
-  https://github.com/boardingpassblog/boardingpassblog.github.io/blob/main/assets/images/vuelo-mujeres-bp.jpg?raw=true
+description: /assets/images/vuelo-mujeres-bp.jpg?raw=true
+image: /assets/images/vuelo-mujeres-bp.jpg?raw=true
 image-text: Tripulacion
 ---
 

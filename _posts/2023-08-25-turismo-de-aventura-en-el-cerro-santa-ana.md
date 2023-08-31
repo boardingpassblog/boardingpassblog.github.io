@@ -5,10 +5,8 @@ featured: false
 published: true
 title: 'Turismo de aventura en el Cerro Santa Ana '
 image-text: Vista del Cerro Santa Ana
-description: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Cerro-Santa-Ana.jpg
-image: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Cerro-Santa-Ana.jpg
+description: /assets/images/Cerro-Santa-Ana.jpg
+image: /assets/images/Cerro-Santa-Ana.jpg
 author: Prensa Mintur
 categories:
   - destinos

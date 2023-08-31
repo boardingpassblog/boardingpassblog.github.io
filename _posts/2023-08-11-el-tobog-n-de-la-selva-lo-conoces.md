@@ -4,14 +4,12 @@ date: '2023-08-11 15:44 -0400'
 featured: false
 published: true
 title: 'El Tobogán de la Selva, ¿lo conoces?'
-image: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Tobogandelaselva-bp.jpg
+image: /assets/images/Tobogandelaselva-bp.jpg
 image-text: Tobogan de la Selva - Amazonas
 author: Alexandra Castillo
 categories:
   - destinos
-description: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Tobogandelaselva-bp.jpg
+description: /assets/images/Tobogandelaselva-bp.jpg
 ---
 
 En el místico estado Amazonas, cerca de Puerto Ayacucho en la ruta hacia Samariapo, se encuentra una maravilla: el “tobogán de la selva”, una increíble creación natural, descubierta en 1950 por el misionero salesiano Luis Rotmayer.

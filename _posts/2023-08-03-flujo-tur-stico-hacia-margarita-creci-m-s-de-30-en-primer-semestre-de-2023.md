@@ -4,10 +4,8 @@ date: '2023-08-03 21:18 -0400'
 featured: false
 published: true
 title: Flujo turístico hacia Margarita creció más de 30% en primer semestre de 2023
-description: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Griselda-Contreras.jpg
-image: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Griselda-Contreras.jpg
+description: /assets/images/Griselda-Contreras.jpg
+image: /assets/images/Griselda-Contreras.jpg
 image-text: Griselda Contreras Corporación de Turismo de Nueva Esparta
 author: Dexcy Guédez
 categories:

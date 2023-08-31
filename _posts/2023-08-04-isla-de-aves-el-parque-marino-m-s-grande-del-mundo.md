@@ -4,14 +4,12 @@ date: '2023-08-04 16:27 -0400'
 featured: false
 published: true
 title: 'Isla de Aves, el parque marino más grande del mundo.'
-image: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Isla-de-Aves.jpg
+image: /assets/images/Isla-de-Aves.jpg
 image-text: 'Isla de Aves, Venezuela'
 author: Ana Iriza
 categories:
   - destinos
-description: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Isla-de-Aves.jpg
+description: /assets/images/Isla-de-Aves.jpg
 ---
 Isla de Aves un pequeño y remoto pedacito de tierra venezolana de origen volcánico de tan sólo 3,72 hectarias 375 mts de longitud y 50 mts de anchura, es un atalón hermoso, único y frágil digno de visitar, disfrutar y proteger.
 Es lugar de descanso y reproducción de aves marinas, más de 300 especies registradas, y anidación de la tortuga verde.

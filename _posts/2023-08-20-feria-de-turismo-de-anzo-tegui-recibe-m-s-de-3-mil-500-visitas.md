@@ -4,10 +4,8 @@ date: '2023-08-20 08:51 -0400'
 featured: false
 published: true
 title: Feria de Turismo de Anzoátegui recibe más de 3 mil 500 visitas
-description: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Feria-Anzoategui.jpg
-image: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Feria-Anzoategui.jpg
+description: /assets/images/Feria-Anzoategui.jpg
+image: /assets/images/Feria-Anzoategui.jpg
 image-text: 'Puerto La Cruz, Anzoategui'
 author: Prensa Mintur
 categories:
