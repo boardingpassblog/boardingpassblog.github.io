@@ -4,10 +4,8 @@ date: '2023-08-24 17:24 -0400'
 featured: false
 published: true
 title: Avavit crea nuevas oportunidades para la industria
-description: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/avavit_bp.jpg
-image: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/avavit_bp.jpg
+description: /assets/images/avavit_bp.jpg
+image: /assets/images/avavit_bp.jpg
 image-text: 'Eventos y Viajes Avavit '
 categories:
   - enterate

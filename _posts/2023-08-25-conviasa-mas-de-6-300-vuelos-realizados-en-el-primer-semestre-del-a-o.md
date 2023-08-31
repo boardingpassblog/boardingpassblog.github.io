@@ -4,10 +4,8 @@ date: '2023-08-25 21:46 -0400'
 featured: false
 published: true
 title: 'Conviasa:  Mas de 6.300 vuelos realizados en el primer semestre del año'
-description: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Conviasa-Aviones.jpg
-image: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Conviasa-Aviones.jpg
+description: /assets/images/Conviasa-Aviones.jpg
+image: /assets/images/Conviasa-Aviones.jpg
 image-text: Conviasa - SVMI
 categories:
   - enterate

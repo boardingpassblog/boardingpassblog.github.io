@@ -4,10 +4,8 @@ date: '2023-08-07 16:06 -0400'
 featured: false
 published: true
 title: Destino Venezuela es presentado al mercado turístico de Chile
-description: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Vzla-Paisajes.jpg
-image: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Vzla-Paisajes.jpg
+description: /assets/images/Vzla-Paisajes.jpg
+image: /assets/images/Vzla-Paisajes.jpg
 image-text: Venezuela Presente
 author: Prensa Mintur
 categories:

@@ -6,10 +6,8 @@ published: true
 title: >-
   Gremio turístico de Lara resaltó importancia del turismo cultural y
   patrimonial
-description: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Divina-Pastora.jpg
-image: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Divina-Pastora.jpg
+description: /assets/images/Divina-Pastora.jpg
+image: /assets/images/Divina-Pastora.jpg
 image-text: Monumento a la Divina Pastora
 categories:
   - enterate

@@ -4,10 +4,8 @@ date: '2023-08-25 15:35 -0400'
 featured: true
 published: true
 title: 'Yaracuy: desde el eje cafetalero hasta el Parque Flora Exótica'
-description: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/caf%C3%A9_bp.jpg
-image: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/caf%C3%A9_bp.jpg
+description: /assets/images/caf%C3%A9_bp.jpg
+image: /assets/images/caf%C3%A9_bp.jpg
 image-text: Ruta turística Aroma de café yaracuyano
 author: viajesboletin.com
 categories:

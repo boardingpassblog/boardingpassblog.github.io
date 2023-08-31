@@ -23,8 +23,46 @@ layout: default
 	<div class="container maxw">
 		<div class="row">
 			<div class="col-lg-9">
-				<ul class="list-inline d-flex justify-content-between py-3">
-					<li class="list-inline-item"><i class="ti-user mr-2"></i>Por {{ page.author }}</li>
+				<ul class="list-inline d-flex justify-content-between py-3 margin-left-date-share">
+					<div class="d-flex align-items-center">
+						<div class="margin-author-share">
+							<i class="ti-user mr-2"></i>Por {{ page.author }}
+						</div>
+						<botton class="share-button">
+							<i class="fas fa-share-alt share-margin-icon"></i>
+							<div class="share-options" id="shareOptions">
+								<ul>
+									<b>Compartir</b>
+									<br><br>
+									<li><a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | prepend: site.url }}" target="_blank">
+										<div class="circle-icon">
+											<i class="ti-facebook"></i>
+										</div>
+										Facebook</a>
+									</li>
+									<li><a href="https://twitter.com/intent/tweet?url={{ page.url | prepend: site.url }}" target="_blank">
+										<div class="circle-icon">
+											<i class="ti-twitter-alt"></i>
+										</div>
+										Twitter</a>
+									</li>
+									<li><a href="whatsapp://send?text={{ page.url | prepend: site.url }}" target="_blank">
+										<div class="circle-icon">
+											<i class="fab fa-whatsapp fa-4x"></i>
+										</div>
+										WhatsApp</a>
+									</li>
+									<li><a href="mailto:?body={{ page.url | prepend: site.url }}">
+										<div class="circle-icon">
+											<i class="ti-email"></i>
+										</div>
+										Email</a>
+									</li>
+								</ul>
+							</div>
+							Compartir
+						</botton>
+					</div>
 					<li class="list-inline-item"><i class="ti-calendar mr-2"></i>{{page.date | date: '%d %b, %Y'}}</li>
 				</ul>
 				{% if page.image %}
@@ -36,7 +74,7 @@ layout: default
 						{% endif %}
 					</div>
 				</div>
-			 {% endif %}
+			 	{% endif %}
 				<div class="content" id="id">
 					{{ content }}
 				</div>
@@ -64,3 +102,25 @@ layout: default
 	</div>
 </section>
 <!-- /blog single -->
+
+<script>
+	document.querySelector('.share-button').addEventListener('click', function() {
+	var shareOptions = document.querySelector('.share-options');
+	if (shareOptions.style.display === 'none' || shareOptions.style.display === '') {
+		shareOptions.style.display = 'block';
+	} else {
+		shareOptions.style.display = 'none';
+	}
+	});
+
+	document.addEventListener('click', function(event) {
+	var shareButton = document.querySelector('.share-button');
+	var shareOptions = document.querySelector('.share-options');
+	var isClickInsideShareButton = shareButton.contains(event.target);
+	var isClickInsideShareOptions = shareOptions.contains(event.target);
+	var isShareOptionsVisible = shareOptions.style.display === 'block';
+	if (!isClickInsideShareButton && !isClickInsideShareOptions && isShareOptionsVisible) {
+		shareOptions.style.display = 'none';
+	}
+	});
+</script>

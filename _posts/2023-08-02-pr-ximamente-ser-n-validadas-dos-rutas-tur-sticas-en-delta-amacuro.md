@@ -4,10 +4,8 @@ date: '2023-08-02 17:03 -0400'
 featured: false
 published: true
 title: Próximamente serán validadas dos rutas turísticas en Delta Amacuro
-description: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Delta-amacuro.jpg
-image: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Delta-amacuro.jpg
+description: /assets/images/Delta-amacuro.jpg
+image: /assets/images/Delta-amacuro.jpg
 image-text: Isla de Plata
 author: Mintur
 categories:

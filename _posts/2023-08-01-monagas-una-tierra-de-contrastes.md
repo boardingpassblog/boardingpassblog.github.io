@@ -9,8 +9,7 @@ description: Monagas una tierra de contrastes
 author: Edgar Rincón
 categories:
   - destinos
-image: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Cueva-del-Guacharo.jpg
+image: /assets/images/Cueva-del-Guacharo.jpg
 ---
 El estado Monagas es un estado con una gran riqueza natural, incluyendo bosques, montañas, ríos y playas, es también un estado con una rica historia y cultura. Localizado en la región nororiental del país, entre los estados Sucre y Anzoátegui. Su capital es Maturín.
 

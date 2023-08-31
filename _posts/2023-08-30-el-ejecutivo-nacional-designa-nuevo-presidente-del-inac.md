@@ -4,10 +4,8 @@ date: '2023-08-30 16:15 -0400'
 featured: false
 published: true
 title: El ejecutivo nacional designa nuevo presidente del Inac
-description: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/INAC.jpg
-image: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/INAC.jpg
+description: /assets/images/INAC.jpg
+image: /assets/images/INAC.jpg
 image-text: Instituto Nacional de Aeronáutica Civil (INAC)
 author: INAC
 categories:

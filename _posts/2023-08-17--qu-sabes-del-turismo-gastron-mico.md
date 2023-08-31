@@ -8,10 +8,8 @@ author: agenciadeviajestravelling.com
 categories:
   - enterate
   - opinion
-description: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/c0c05f446a559e99d01841051583bc8ea6633d1f/assets/images/fosforera-bp.jpg
-image: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/c0c05f446a559e99d01841051583bc8ea6633d1f/assets/images/fosforera-bp.jpg
+description: /assets/images/fosforera-bp.jpg
+image: /assets/images/fosforera-bp.jpg
 image-text: Fosforera Oriental
 ---
 

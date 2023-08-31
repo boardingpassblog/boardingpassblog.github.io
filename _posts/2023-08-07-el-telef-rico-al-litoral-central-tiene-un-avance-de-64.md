@@ -4,10 +4,8 @@ date: '2023-08-07 15:55 -0400'
 featured: false
 published: true
 title: El teleférico al litoral central tiene un avance de 64%
-description: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Teleferico.jpg
-image: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Teleferico.jpg
+description: /assets/images/Teleferico.jpg
+image: /assets/images/Teleferico.jpg
 image-text: Sistema Teleférico Caracas
 author: viajesboletin.com
 categories:

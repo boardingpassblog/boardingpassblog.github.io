@@ -4,10 +4,8 @@ date: '2023-08-04 17:05 -0400'
 featured: false
 published: true
 title: 'Miranda, un estado con mil opciones '
-description: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Monumento-al-Cacao.jpg
-image: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Monumento-al-Cacao.jpg
+description: /assets/images/Monumento-al-Cacao.jpg
+image: /assets/images/Monumento-al-Cacao.jpg
 image-text: Monumento al fruto del Cacao
 author: Edgar Rincón
 categories:

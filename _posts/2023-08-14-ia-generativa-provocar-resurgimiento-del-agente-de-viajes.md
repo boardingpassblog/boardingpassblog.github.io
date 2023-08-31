@@ -4,10 +4,8 @@ date: '2023-08-14 23:06 -0400'
 featured: false
 published: true
 title: IA generativa provocará resurgimiento del agente de viajes
-description: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/27335cc92987b516798b3a6babd2517514c3e548/assets/images/mastercardia.jpg
-image: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/27335cc92987b516798b3a6babd2517514c3e548/assets/images/mastercardia.jpg
+description: /assets/images/mastercardia.jpg
+image: /assets/images/mastercardia.jpg
 author: MasterCard / Grupo Plus
 categories:
   - enterate

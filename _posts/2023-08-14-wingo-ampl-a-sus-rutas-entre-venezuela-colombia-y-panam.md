@@ -4,10 +4,8 @@ date: '2023-08-14 23:37 -0400'
 featured: false
 published: true
 title: 'Wingo amplía sus rutas entre Venezuela, Colombia y Panamá'
-description: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/wingopanama.jpg
-image: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/wingopanama.jpg
+description: /assets/images/wingopanama.jpg
+image: /assets/images/wingopanama.jpg
 author: ViajesBoletin.com
 categories:
   - enterate

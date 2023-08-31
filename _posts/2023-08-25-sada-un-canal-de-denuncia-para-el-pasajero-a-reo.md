@@ -7,11 +7,9 @@ title: SADA un canal de denuncia para el pasajero aéreo
 author: AVAVIT
 categories:
   - enterate
-description: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Viajero
+description: /assets/images/Viajero
   Molesto.png
-image: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Viajero
+image: /assets/images/Viajero
   Molesto.png
 ---
 

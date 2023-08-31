@@ -4,10 +4,8 @@ date: '2023-08-04 19:03 -0400'
 featured: false
 published: true
 title: 'ALAV: Venezuela cuenta con 15 aerolíneas extranjeras y 9 venezolanas'
-description: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Aviones-Maiquetia.jpg
-image: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Aviones-Maiquetia.jpg
+description: /assets/images/Aviones-Maiquetia.jpg
+image: /assets/images/Aviones-Maiquetia.jpg
 author: ' Nurelyn Contreras - Hispanopost'
 categories:
   - enterate

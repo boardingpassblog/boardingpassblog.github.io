@@ -6,10 +6,8 @@ published: true
 title: >-
   DiezXUno: Da gusto ver lo preparada y lista que está la actividad del turismo
   en Venezuela.
-description: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Reynaldo-Pulido.jpg
-image: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Reynaldo-Pulido.jpg
+description: /assets/images/Reynaldo-Pulido.jpg
+image: /assets/images/Reynaldo-Pulido.jpg
 image-text: Reinaldo Pulido - Conseturismo
 author: Reinaldo Pulido
 categories:

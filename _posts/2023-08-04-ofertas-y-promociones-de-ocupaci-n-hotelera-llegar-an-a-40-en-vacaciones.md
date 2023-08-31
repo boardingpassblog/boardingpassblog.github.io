@@ -4,10 +4,8 @@ date: '2023-08-04 19:22 -0400'
 featured: false
 published: true
 title: Ofertas y promociones de ocupación hotelera llegarían a 40% en vacaciones
-description: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Leudo-Gonzalez.jpg
-image: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Leudo-Gonzalez.jpg
+description: /assets/images/Leudo-Gonzalez.jpg
+image: /assets/images/Leudo-Gonzalez.jpg
 image-text: 'Leudo González, presidente de Conseturismo'
 author: Gisell Quintana bancaynegocios.com
 categories:

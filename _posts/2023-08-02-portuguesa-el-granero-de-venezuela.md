@@ -4,8 +4,7 @@ date: '2023-08-02 16:11 -0400'
 featured: false
 published: true
 title: 'Portuguesa, El Granero de Venezuela'
-description: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Guanare.jpg
+description: /assets/images/Guanare.jpg
 image: /assets/images/Guanare.jpg
 image-text: Santuario Nacional Nuestra Señora de Coromoto
 author: Edgar Rincón
