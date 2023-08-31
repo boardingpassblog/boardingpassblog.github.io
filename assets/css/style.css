@@ -63,6 +63,90 @@ h1, .h1 {
   transition: .2s ease;
 }
 
+.share-button {
+  position: relative;
+  width: 130px;
+  height: 40px;
+  background-color: transparent; 
+  border-radius:  10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.share-button i {
+  font-size: 16px; 
+  color: #00ccb9;
+}
+.share-options {
+  position: absolute;
+  top: 60px;
+  left: -6px;
+  background-color: #fff;
+  border: 1px solid #00ccb9;
+  border-radius: 10px;
+  padding: 20px;
+  display: none;
+  min-width: 250px;
+  z-index: 1;
+}
+.share-options::before {
+  content: "";
+  position: absolute;
+  bottom: 96.5%;
+  left: 20%;
+  transform: translateX(-50%);
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border-left: 1px solid #00ccb9;
+  border-top: 1px solid #00ccb9;
+  transform: rotate(45deg);
+  z-index: -1;
+}
+.share-options ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.share-options li {
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+}
+.share-options li:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+.share-options li a {
+  color: #333;
+  text-decoration: none;
+}
+.share-list{
+  margin-right: 20px; 
+}
+.share-margin-icon{
+  margin-right: 10px; 
+}
+.circle-icon {
+  display: inline-block;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  background-color: transparent; 
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  text-align: center;
+  line-height: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.margin-author-share{
+  margin-right: 50px;
+}
+
 @media (max-width: 1680px) {
   h1, .h1 {
     font-size: 55px;
@@ -220,6 +304,95 @@ h1, .h1 {
     position: relative;
     z-index: 1;
     transition: .2s ease;
+  }
+  .share-button {
+    position: relative;
+    width: 80px;
+    height: 30px;
+    background-color: transparent; 
+    border-radius:  5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 12px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  .share-button i {
+    font-size: 12px; 
+    color: #00ccb9;
+  }
+  .share-options {
+    position: absolute;
+    top: 40px;
+    left: -80px;
+    background-color: #fff;
+    border: 1px solid #00ccb9;
+    border-radius: 5px;
+    padding: 10px;
+    display: none;
+    min-width: 140px;
+    z-index: 1;
+  }
+  .share-options::before {
+    content: "";
+    position: absolute;
+    bottom: 97.7%;
+    left: 80%;
+    transform: translateX(-50%);
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-left: 1px solid #00ccb9;
+    border-top: 1px solid #00ccb9;
+    transform: rotate(45deg);
+    z-index: -1;
+  }
+  .share-options ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  .share-options li {
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+  }
+  .share-options li:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+  .share-options li a {
+    color: #333;
+    text-decoration: none;
+  }
+  .share-list{
+    margin-right: 8px; 
+  }
+  .share-margin-icon{
+    margin-right: 3px; 
+  }
+  .circle-icon {
+    display: inline-block;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    background-color: transparent; 
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+    line-height: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  .margin-author-share{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .margin-left-date-share{
+    flex-direction: column !important; 
   }
 }
 
