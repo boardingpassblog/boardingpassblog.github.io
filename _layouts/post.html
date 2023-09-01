@@ -32,6 +32,7 @@ layout: default
 							<i class="fas fa-share-alt share-margin-icon"></i>
 							<div class="share-options" id="shareOptions">
 								<ul>
+									{% assign mensaje = "Publicado en boardingpass.network"%}
 									<b>Compartir</b>
 									<br><br>
 									<li><a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | prepend: site.url }}" target="_blank">
@@ -40,19 +41,19 @@ layout: default
 										</div>
 										Facebook</a>
 									</li>
-									<li><a href="https://twitter.com/intent/tweet?url={{ page.url | prepend: site.url }}" target="_blank">
+									<li><a href="https://twitter.com/intent/tweet?url={{ page.url | prepend: site.url }}&amp;text={{ mensaje }}" target="_blank">
 										<div class="circle-icon">
 											<i class="ti-twitter-alt"></i>
 										</div>
 										Twitter</a>
 									</li>
-									<li><a href="whatsapp://send?text={{ page.url | prepend: site.url }}" target="_blank">
+									<li><a href="whatsapp://send?text={{ page.url | prepend: site.url }}%0A%0A{{ mensaje }}" target="_blank">
 										<div class="circle-icon">
 											<i class="fab fa-whatsapp fa-4x"></i>
 										</div>
 										WhatsApp</a>
 									</li>
-									<li><a href="mailto:?body={{ page.url | prepend: site.url }}">
+									<li><a href="mailto:?body={{ mensaje }}%0A%0A{{ page.url | prepend: site.url }}">
 										<div class="circle-icon">
 											<i class="ti-email"></i>
 										</div>
