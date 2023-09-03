@@ -14,6 +14,8 @@ instagram_user: '@marriottplayag'
 twitter_user: MarriottPlayaG
 services:
   - Excursiones Locales
+  - Guía Turística
+  - Servicio de Reservación
   - Hospedaje
 image: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Marriott-Playa-Grande.jpg
