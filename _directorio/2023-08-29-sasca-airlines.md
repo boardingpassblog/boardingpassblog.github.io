@@ -3,7 +3,7 @@ date: '2023-08-29 17:12 -0400'
 published: true
 region: Nacional
 state: Amazonas
-featured: true
+featured: false
 title: SASCA Airlines
 website: 'https://www.sascaairlines.com/'
 instagram_user: sascaair
