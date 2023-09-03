@@ -2,7 +2,7 @@
 date: '2023-08-29 17:55 -0400'
 published: true
 region: Nacional
-state: Amazonas
+state: Distrito Capital
 featured: false
 title: COPA AIRLINES
 phone_number: +58 212 720 1450
@@ -14,7 +14,10 @@ image: >-
 types:
   - Líneas aéreas
 services:
+  - Asesoría Personalizada de Viajes
+  - Servicio de Reservación
   - Venta de Boletos Aéreos Internacionales
+  - Viajes Internacionales
 website: 'https://www.copaair.com/'
 facebook_user: copaairlines
 twitter_user: copaairlines
