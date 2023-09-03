@@ -2,7 +2,7 @@
 date: '2023-08-28 10:35 -0400'
 region: Nacional
 state: Amazonas
-featured: true
+featured: false
 published: true
 title: Avior Airlines
 website: 'https://aviorair.com/'
