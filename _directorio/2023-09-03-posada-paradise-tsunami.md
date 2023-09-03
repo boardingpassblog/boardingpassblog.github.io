@@ -3,7 +3,7 @@ date: '2023-09-03 18:16 -0400'
 published: true
 region: Centro-Norte
 state: Distrito Capital
-featured: true
+featured: false
 title: Posada Paradise Tsunami
 phone_number: +58-501-HOTEL-00
 address: 'Gran Roque, Los Roques'
