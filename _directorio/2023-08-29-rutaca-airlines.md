@@ -3,7 +3,7 @@ date: '2023-08-29 17:00 -0400'
 published: true
 region: Nacional
 state: Amazonas
-featured: true
+featured: false
 title: RUTACA Airlines
 phone_number: +58 0500-7882221
 address: >-
@@ -21,4 +21,3 @@ types:
 image: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Rutaca-Airlines-Logo.jpg
 ---
-
