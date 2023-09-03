@@ -3,7 +3,7 @@ date: '2023-09-03 18:02 -0400'
 published: true
 region: Centro-Norte
 state: Vargas
-featured: true
+featured: false
 title: Marriott Hotel Playa Grande
 phone_number: +58 212-3358700
 address: 'Avenida El Hotel. Playa Grande, Catia La Mar, Venezuela, 1162'
