@@ -3,7 +3,7 @@ date: '2023-08-29 18:20 -0400'
 published: true
 region: Nacional
 state: Amazonas
-featured: true
+featured: false
 title: PLUS ULTRA Líneas Aéreas
 address: >-
   Av. Andrés Bello con Avenida Francisco de Miranda, Torre Atlantic, piso 7,
@@ -19,4 +19,3 @@ services:
 types:
   - Líneas aéreas
 ---
-
