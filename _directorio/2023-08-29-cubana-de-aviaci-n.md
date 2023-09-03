@@ -3,7 +3,7 @@ date: '2023-08-29 18:26 -0400'
 published: true
 region: Nacional
 state: Amazonas
-featured: true
+featured: false
 title: Cubana de Aviación
 phone_number: +58 0212 793 5000
 address: >-
