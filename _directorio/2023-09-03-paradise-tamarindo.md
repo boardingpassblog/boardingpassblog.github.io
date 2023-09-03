@@ -3,7 +3,7 @@ date: '2023-09-03 18:09 -0400'
 published: true
 region: Nor-Oriental
 state: Nueva Esparta
-featured: true
+featured: false
 title: Paradise Tamarindo
 phone_number: +58 295 2698921 al 23
 instagram_user: ParadiseHotels
