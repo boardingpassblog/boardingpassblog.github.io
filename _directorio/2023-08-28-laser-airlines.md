@@ -1,7 +1,7 @@
 ---
 date: '2023-08-28 10:25 -0400'
 region: Nacional
-state: Amazonas
+state: Distrito Capital
 featured: false
 published: true
 title: 'Laser Airlines '
@@ -12,6 +12,8 @@ types:
 services:
   - Venta de Boletos Aéreos Internacionales
   - Venta de Boletos Aéreos Nacionales
+  - Viajes Internacionales
+  - Viajes Nacionales
 instagram_user: laserairlinesoficial
 facebook_user: laseraitlines
 twitter_user: laserairlines
