@@ -2,7 +2,7 @@
 date: '2023-08-29 17:00 -0400'
 published: true
 region: Nacional
-state: Amazonas
+state: Distrito Capital
 featured: false
 title: RUTACA Airlines
 phone_number: +58 0500-7882221
@@ -14,10 +14,14 @@ facebook_user: rutacaoficial
 twitter_user: rutacaairlines
 instagram_user: rutaca
 services:
+  - Servicio de Reservación
   - Venta de Boletos Aéreos Internacionales
   - Venta de Boletos Aéreos Nacionales
+  - Viajes Internacionales
+  - Viajes Nacionales
 types:
   - Líneas aéreas
 image: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Rutaca-Airlines-Logo.jpg
+services_extra: Organización de Viajes de Turismo
 ---
