@@ -3,7 +3,7 @@ date: '2023-08-29 17:55 -0400'
 published: true
 region: Nacional
 state: Amazonas
-featured: true
+featured: false
 title: COPA AIRLINES
 phone_number: +58 212 720 1450
 address: >-
