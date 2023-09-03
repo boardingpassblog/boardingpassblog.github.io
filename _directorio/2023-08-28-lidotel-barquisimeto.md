@@ -12,9 +12,13 @@ facebook_user: Lidotel
 twitter_user: Lidotel
 instagram_user: Lidotel
 services:
+  - Excursiones Locales
+  - Organización de Viajes
   - Servicio de Reservación
+  - Hospedaje
 types:
   - Hospedaje
 phone_number: +58 (212) 212 1157 (WA) +58 (414) 350 2651
 address: 'Av. Venezuela, Barquisimeto 3001, Lara'
+services_extra: Organización de Viajes de Turismo
 ---
