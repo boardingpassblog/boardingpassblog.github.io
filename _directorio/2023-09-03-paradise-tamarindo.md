@@ -14,7 +14,9 @@ types:
   - Hospedaje
 services:
   - Excursiones Locales
+  - Guía Turística
   - Servicio de Reservación
+  - Hospedaje
 services_extra: Organización de Viajes de Turismo
 address: 'Playa Guacuco, Isla de Margarita'
 website: 'https://paradisehoteles.com/es/tamarindo'
