@@ -14,10 +14,13 @@ facebook_user: Lidotel
 twitter_user: Lidotel
 instagram_user: Lidotel
 services:
+  - Asesoría Personalizada de Viajes
+  - Guía Turística
   - Servicio de Reservación
   - Hospedaje
 image: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/LIDO-VAL-LOGO.jpg
 types:
   - Hospedaje
+services_extra: Organización de Viajes de Turismo
 ---
