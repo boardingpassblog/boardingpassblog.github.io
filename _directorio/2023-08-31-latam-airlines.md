@@ -3,7 +3,7 @@ date: '2023-08-31 22:39 -0400'
 published: true
 region: Nacional
 state: Amazonas
-featured: true
+featured: false
 title: LATAM Airlines
 image: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/LATAM-AIRLINES-LOGO.jpg
