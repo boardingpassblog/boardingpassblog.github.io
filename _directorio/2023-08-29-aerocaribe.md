@@ -1,8 +1,8 @@
 ---
 date: '2023-08-29 17:34 -0400'
 published: true
-region: Los Andes
-state: Amazonas
+region: Centro-Norte
+state: Distrito Capital
 featured: false
 title: 'AEROCARIBE '
 website: 'https://aerocaribe.aero/'
