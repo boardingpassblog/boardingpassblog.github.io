@@ -12,9 +12,13 @@ facebook_user: estancialaveracruz
 twitter_user: est_laveracruz
 website: www.estancialaveracruz.com
 services:
+  - Excursiones Locales
+  - Guía Turística
   - Servicio de Reservación
+  - Hospedaje
 image: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Estancia-La-VeraCruz-Logo.jpg
 types:
   - Hospedaje
+services_extra: Organización de Viajes de Turismo
 ---
