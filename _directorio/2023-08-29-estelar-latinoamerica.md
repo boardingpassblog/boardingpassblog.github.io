@@ -3,7 +3,7 @@ date: '2023-08-29 10:48 -0400'
 published: true
 region: Nacional
 state: Amazonas
-featured: true
+featured: false
 title: ESTELAR LATINOAMERICA
 website: 'https://www.flyestelar.com/'
 instagram_user: aerolineasestelar
@@ -21,4 +21,3 @@ types:
 image: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Estelar-Airlines-Logo.jpg
 ---
-
