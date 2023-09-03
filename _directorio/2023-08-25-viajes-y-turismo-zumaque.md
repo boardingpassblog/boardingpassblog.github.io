@@ -14,7 +14,13 @@ types:
   - Agencias
 services:
   - Asesoría Personalizada de Viajes
+  - Organización de Viajes
+  - Organización de Viajes de Turismo
+  - Servicio de Reservación
+  - Venta de Boletos Aéreos Internacionales
+  - Venta de Boletos Aéreos Nacionales
 services_extra: Organización de Viajes de Turismo
 image: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Zumaque.jpg
+twitter_user: vytzumaque
 ---
