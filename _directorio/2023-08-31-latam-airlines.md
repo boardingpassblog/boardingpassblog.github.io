@@ -2,7 +2,7 @@
 date: '2023-08-31 22:39 -0400'
 published: true
 region: Nacional
-state: Amazonas
+state: Distrito Capital
 featured: false
 title: LATAM Airlines
 image: >-
@@ -18,6 +18,10 @@ instagram_user: latamairlines
 twitter_user: LATAMAirlines
 facebook_user: LATAMAirlines
 services:
+  - Servicio de Reservación
   - Venta de Boletos Aéreos Internacionales
   - Venta de Boletos Aéreos Nacionales
+  - Viajes Internacionales
+  - Viajes Nacionales
+services_extra: Organización de Viajes de Turismo
 ---
