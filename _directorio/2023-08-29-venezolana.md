@@ -2,7 +2,7 @@
 date: '2023-08-29 17:04 -0400'
 published: true
 region: Nacional
-state: Amazonas
+state: Distrito Capital
 featured: false
 title: Venezolana de Aviación
 phone_number: +58 212-8190600
@@ -16,8 +16,12 @@ twitter_user: Venezolanaofi
 image: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Venezolana-Airlines-Logo.jpg
 services:
+  - Servicio de Reservación
   - Venta de Boletos Aéreos Internacionales
   - Venta de Boletos Aéreos Nacionales
+  - Viajes Internacionales
+  - Viajes Nacionales
 types:
   - Líneas aéreas
+services_extra: Organización de Viajes de Turismo
 ---
