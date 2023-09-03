@@ -1,7 +1,7 @@
 ---
 date: '2023-08-28 10:35 -0400'
 region: Nacional
-state: Amazonas
+state: Distrito Capital
 featured: false
 published: true
 title: Avior Airlines
@@ -16,6 +16,8 @@ instagram_user: aviorair
 services:
   - Venta de Boletos Aéreos Internacionales
   - Venta de Boletos Aéreos Nacionales
+  - Viajes Internacionales
+  - Viajes Nacionales
 types:
   - Líneas aéreas
 image: >-
