@@ -2,7 +2,7 @@
 date: '2023-08-28 15:13 -0400'
 region: Centro-Norte
 state: Carabobo
-featured: true
+featured: false
 published: true
 title: Lidotel Valencia
 phone_number: +58 (212) 212 1157 (WA) +58 (424) 401 6281
@@ -15,6 +15,7 @@ twitter_user: Lidotel
 instagram_user: Lidotel
 services:
   - Servicio de Reservación
+  - Hospedaje
 image: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/LIDO-VAL-LOGO.jpg
 types:
