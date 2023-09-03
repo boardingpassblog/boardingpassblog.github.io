@@ -2,7 +2,7 @@
 date: '2023-08-29 17:26 -0400'
 published: true
 region: Nacional
-state: Amazonas
+state: Distrito Capital
 featured: false
 title: AIRWAYS AIRLINES
 image: >-
@@ -14,4 +14,6 @@ address: Virgen Del Carmen Con Santa Lucia Punta De Piedras
 phone_number: +58 295  2630017
 services:
   - Venta de Boletos Aéreos Nacionales
+  - Viajes Nacionales
+services_extra: Organización de Viajes de Turismo
 ---
