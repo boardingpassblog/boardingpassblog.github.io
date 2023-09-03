@@ -2,7 +2,7 @@
 date: '2023-08-28 14:49 -0400'
 region: Centro-Occidental
 state: Lara
-featured: true
+featured: false
 published: true
 title: Lidotel Barquisimeto
 image: >-
