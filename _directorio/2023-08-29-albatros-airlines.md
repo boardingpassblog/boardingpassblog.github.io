@@ -3,7 +3,7 @@ date: '2023-08-29 10:41 -0400'
 published: true
 region: Nacional
 state: Amazonas
-featured: true
+featured: false
 title: ALBATROS AIRLINES
 phone_number: +58 0-800-2522876
 address: 'Torre Sindoni, piso 1 oficina 12, Maracay, Aragua '
