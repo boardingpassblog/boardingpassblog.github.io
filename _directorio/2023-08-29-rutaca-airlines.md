@@ -4,7 +4,7 @@ published: true
 region: Nacional
 state: Distrito Capital
 featured: false
-title: RUTACA Airlines
+title: Rutaca Airlines
 phone_number: +58 0500-7882221
 address: >-
   Av. La Estancia, Edificio Torre Las Mercedes, piso 2, oficina 208, Chuao,
