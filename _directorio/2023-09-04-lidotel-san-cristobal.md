@@ -4,7 +4,7 @@ published: true
 region: Los Andes
 state: Táchira
 featured: true
-title: LIDOTEL San Cristobal
+title: Lidotel San Cristobal
 image: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/LIDOTEL-LOGO.jpg
 types:
