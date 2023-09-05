@@ -2,7 +2,7 @@
 date: '2023-09-03 18:02 -0400'
 published: true
 region: Centro-Norte
-state: Vargas
+state: La Guaira
 featured: false
 title: Marriott Hotel Playa Grande
 phone_number: +58 212-3358700
@@ -15,8 +15,8 @@ twitter_user: MarriottPlayaG
 services:
   - Excursiones Locales
   - Guía Turística
-  - Servicio de Reservación
   - Hospedaje
+  - Servicio de Reservación
 image: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Marriott-Playa-Grande.jpg
 services_extra: Organización de Viajes de Turismo
