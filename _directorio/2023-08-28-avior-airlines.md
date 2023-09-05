@@ -2,7 +2,7 @@
 date: '2023-08-28 10:35 -0400'
 region: Nacional
 state: Distrito Capital
-featured: false
+featured: true
 published: true
 title: Avior Airlines
 website: 'https://aviorair.com/'
@@ -14,6 +14,7 @@ facebook_user: AviorAirlines
 twitter_user: aviorairlines
 instagram_user: aviorair
 services:
+  - Servicio de Reservación
   - Venta de Boletos Aéreos Internacionales
   - Venta de Boletos Aéreos Nacionales
   - Viajes Internacionales
@@ -22,4 +23,5 @@ types:
   - Líneas aéreas
 image: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Avior-Airlines-Logo.jpg
+services_extra: Organización de Viajes de Turismo
 ---
