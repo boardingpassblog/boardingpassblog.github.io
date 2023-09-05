@@ -2,7 +2,7 @@
 date: '2023-08-29 18:41 -0400'
 published: true
 region: Nacional
-state: Vargas
+state: La Guaira
 featured: false
 title: Turpial Airlines
 address: Aeropuerto Internacional de Maiquetía Simón Bolívar
