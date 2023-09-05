@@ -4,7 +4,7 @@ published: true
 region: Nacional
 state: Distrito Capital
 featured: false
-title: ESTELAR LATINOAMERICA
+title: Estelar Latinoamericana
 website: 'https://www.flyestelar.com/'
 instagram_user: aerolineasestelar
 facebook_user: aerolineasestelar
