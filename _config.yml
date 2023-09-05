@@ -142,6 +142,7 @@ servicios_iconos:
   "Asesoría Personalizada de Viajes": "fas fa-comments"
   "Excursiones Locales": "fas fa-hiking"
   "Guía Turística": "fas fa-map"
+  "Hospedaje": "fas fa-bed"
   "Organización de Viajes": "fas fa-suitcase"
   "Organización de Viajes de Turismo": "fas fa-globe-americas"
   "Resolución de Incidencias": "fas fa-exclamation-circle"
@@ -151,7 +152,6 @@ servicios_iconos:
   "Venta de Boletos Aéreos Nacionales": "fas fa-plane"
   "Viajes Internacionales": "fas fa-globe"
   "Viajes Nacionales": "fas fa-flag"
-  "Hospedaje": "fas fa-bed"
 
 # Exclude from processing.
 exclude:
@@ -343,6 +343,8 @@ prose:
               value: 'Guárico'
             - name: 'Lara'
               value: 'Lara'
+            - name: 'La Guaira'
+              value: 'La Guaira'
             - name: 'Mérida'
               value: 'Mérida'
             - name: 'Miranda'
@@ -359,8 +361,6 @@ prose:
               value: 'Táchira'
             - name: 'Trujillo'
               value: 'Trujillo'
-            - name: 'Vargas'
-              value: 'Vargas'
             - name: 'Yaracuy'
               value: 'Yaracuy'
             - name: 'Zulia'
@@ -408,6 +408,8 @@ prose:
               value: 'Excursiones Locales'
             - name: 'Guía Turística'
               value: 'Guía Turística'
+            - name: 'Hospedaje'
+              value: 'Hospedaje'
             - name: 'Organización de Viajes'
               value: 'Organización de Viajes'
             - name: 'Organización de Viajes de Turismo'
@@ -426,14 +428,7 @@ prose:
               value: 'Viajes Internacionales'
             - name: 'Viajes Nacionales'
               value: 'Viajes Nacionales'
-            - name: 'Hospedaje'
-              value: 'Hospedaje'
           alterable: false
-      - name: services_extra
-        field:
-          element: text
-          label: Ingresa otros servicios
-          type: text
       - name: featured
         field:
           element: checkbox
