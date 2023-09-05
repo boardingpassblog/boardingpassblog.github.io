@@ -4,7 +4,7 @@ published: true
 region: Nacional
 state: Aragua
 featured: false
-title: ALBATROS AIRLINES
+title: Albatros Airlines
 phone_number: +58 0-800-2522876
 address: 'Torre Sindoni, piso 1 oficina 12, Maracay, Aragua '
 facebook_user: albatrosairlines
