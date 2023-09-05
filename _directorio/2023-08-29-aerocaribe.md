@@ -4,7 +4,7 @@ published: true
 region: Centro-Norte
 state: Distrito Capital
 featured: false
-title: 'AEROCARIBE '
+title: Aerocaribe
 website: 'https://aerocaribe.aero/'
 facebook_user: Aereocaribevzla
 twitter_user: Aereocaribevzla
