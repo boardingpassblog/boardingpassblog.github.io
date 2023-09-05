@@ -4,7 +4,7 @@ published: true
 region: Nacional
 state: Distrito Capital
 featured: false
-title: AIRWAYS AIRLINES
+title: Airways Airlines
 image: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/AIRWAYS-AIRLINES-LOGO.jpg
 types:
