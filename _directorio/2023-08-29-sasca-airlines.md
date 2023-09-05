@@ -4,7 +4,7 @@ published: true
 region: Nacional
 state: Vargas
 featured: false
-title: SASCA Airlines
+title: Sasca Airlines
 website: 'https://www.sascaairlines.com/'
 instagram_user: sascaair
 twitter_user: sascaair
