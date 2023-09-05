@@ -4,7 +4,7 @@ published: true
 region: Nacional
 state: Distrito Capital
 featured: false
-title: PLUS ULTRA Líneas Aéreas
+title: Plus Ultra Líneas Aéreas
 address: >-
   Av. Andrés Bello con Avenida Francisco de Miranda, Torre Atlantic, piso 7,
   oficinas 12 a 16, Los Palos Grandes, Municipio Chacao.
