@@ -4,7 +4,7 @@ published: true
 region: Nacional
 state: Distrito Capital
 featured: false
-title: AEROPOSTAL
+title: Aeropostal
 phone_number: +58 0-500-2846637
 twitter_user: aeropostalve
 instagram_user: aeropostalve
