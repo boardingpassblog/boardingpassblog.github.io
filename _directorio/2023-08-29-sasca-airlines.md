@@ -2,7 +2,7 @@
 date: '2023-08-29 17:12 -0400'
 published: true
 region: Nacional
-state: Vargas
+state: La Guaira
 featured: false
 title: Sasca Airlines
 website: 'https://www.sascaairlines.com/'
