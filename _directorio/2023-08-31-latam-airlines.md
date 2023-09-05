@@ -4,7 +4,7 @@ published: true
 region: Nacional
 state: Distrito Capital
 featured: false
-title: LATAM Airlines
+title: Latam Airlines
 image: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/LATAM-AIRLINES-LOGO.jpg
 types:
