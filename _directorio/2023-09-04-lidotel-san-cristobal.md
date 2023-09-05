@@ -3,7 +3,7 @@ date: '2023-09-04 16:37 -0400'
 published: true
 region: Los Andes
 state: Táchira
-featured: true
+featured: false
 title: Lidotel San Cristobal
 image: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/LIDOTEL-LOGO.jpg
