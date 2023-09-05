@@ -4,7 +4,7 @@ published: true
 region: Nacional
 state: Distrito Capital
 featured: false
-title: COPA AIRLINES
+title: Copa Airlines
 phone_number: +58 212 720 1450
 address: >-
   Av. Francisco de Miranda, Centro Lido, Torre E, piso 6, ofic. 63-E, Caracas,
