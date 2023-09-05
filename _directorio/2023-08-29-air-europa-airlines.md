@@ -4,7 +4,7 @@ published: true
 region: Nacional
 state: Distrito Capital
 featured: false
-title: AIR EUROPA AIRLINES
+title: Air Europa Airlines
 address: ' Avenida Principal de La Castellana, Centro Letonia, Piso 10, Oficina 104, Municipio Chacao, Caracas'
 phone_number: +58 212-2672141
 facebook_user: aireuropa
