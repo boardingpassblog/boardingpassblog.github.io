@@ -2,6 +2,9 @@
 layout: section
 title: Directorio
 permalink: /directorio/
+pagination:
+  enabled: true
+  collection: directorio
 ---
 
 {% 
@@ -67,9 +70,9 @@ permalink: /directorio/
 <section class="section">
   <div class="container maxw mb-4">
     <div class="row ">
-      <div class="col-lg-9" id="seccionDestacados">
-        <div class="row">
-          {% assign sorted_posts = site.directorio | sort_natural: 'title' | where: 'featured', true %}
+      <div class="col-lg-9">
+        <div class="row" id="seccionDestacados">
+          {% assign sorted_posts = paginator.posts | sort_natural: 'title' | where: 'featured', true %}
           {% assign current_letter = '' %}
           {% assign iterator = 0 %}
           {% for post in sorted_posts %}
@@ -177,10 +180,8 @@ permalink: /directorio/
             {% endif %}
           {% endfor %}
         </div>  
-      </div> 
-      <div class="col-lg-9" id="seccionNoDestacados">
-        <div class="row">
-          {% assign sorted_posts = site.directorio | sort_natural: 'title' | where: 'featured', false %}
+        <div class="row" id="seccionNoDestacados">
+          {% assign sorted_posts = paginator.posts | sort_natural: 'title' | where: 'featured', false %}
           {% assign current_letter = '' %}
           {% assign iterator = 0 %}
           {% for post in sorted_posts %}
@@ -234,10 +235,8 @@ permalink: /directorio/
             </div>
           {% endfor %}
         </div>  
-      </div> 
-      <div class="col-lg-9" id="seccionNoDestacadosRegion">
-        <div class="row">
-          {% assign sorted_posts = site.directorio | sort: 'region' | where: 'featured', false %}
+        <div class="row" id="seccionNoDestacadosRegion">
+          {% assign sorted_posts = paginator.posts | sort: 'region' | where: 'featured', false %}
           {% assign current_region = '' %}
           {% assign iterator = 0 %}
           {% for post in sorted_posts %}
@@ -291,10 +290,8 @@ permalink: /directorio/
             </div>
           {% endfor %}
         </div>  
-      </div> 
-      <div class="col-lg-9" id="seccionDestacadosRegion">
-        <div class="row">
-          {% assign sorted_posts = site.directorio | sort: 'region' | where: 'featured', true %}
+        <div class="row" id="seccionDestacadosRegion">
+          {% assign sorted_posts = paginator.posts | sort: 'region' | where: 'featured', true %}
           {% assign current_region = '' %}
           {% assign iterator = 0 %}
           {% for post in sorted_posts %}
@@ -437,10 +434,8 @@ permalink: /directorio/
             </div>
           {% endfor %}
         </div>  
-      </div> 
-      <div class="col-lg-9" id="seccionEntradasRegion">
-        <div class="row">
-          {% assign sorted_posts = site.directorio | sort: 'region' %}
+        <div class="row" id="seccionEntradasRegion">
+          {% assign sorted_posts = paginator.posts | sort: 'region' %}
           {% assign current_region = '' %}
           {% assign iterator = 0 %}
           {% for post in sorted_posts %}
@@ -583,10 +578,8 @@ permalink: /directorio/
             </div>
           {% endfor %}
         </div>  
-      </div> 
-      <div class="col-lg-9" id="seccionNoDestacadosEstados">
-        <div class="row">
-          {% assign sorted_posts = site.directorio | sort: 'state' | where: 'featured', false %}
+        <div class="row" id="seccionNoDestacadosEstados">
+          {% assign sorted_posts = paginator.posts | sort: 'state' | where: 'featured', false %}
           {% assign current_state = '' %}
           {% assign iterator = 0 %}
           {% for post in sorted_posts %}
@@ -640,10 +633,8 @@ permalink: /directorio/
             </div>
           {% endfor %}
         </div>  
-      </div> 
-      <div class="col-lg-9" id="seccionDestacadosEstados">
-        <div class="row">
-          {% assign sorted_posts = site.directorio | sort: 'state' | where: 'featured', true %}
+        <div class="row" id="seccionDestacadosEstados">
+          {% assign sorted_posts = paginator.posts | sort: 'state' | where: 'featured', true %}
           {% assign current_state = '' %}
           {% assign iterator = 0 %}
           {% for post in sorted_posts %}
@@ -786,10 +777,8 @@ permalink: /directorio/
             </div>
           {% endfor %}
         </div>  
-      </div> 
-      <div class="col-lg-9" id="seccionEntradasEstados">
-        <div class="row">
-          {% assign sorted_posts = site.directorio | sort: 'state' %}
+        <div class="row" id="seccionEntradasEstados">
+          {% assign sorted_posts = paginator.posts | sort: 'state' %}
           {% assign current_state = '' %}
           {% assign iterator = 0 %}
           {% for post in sorted_posts %}
@@ -932,10 +921,8 @@ permalink: /directorio/
             </div>
           {% endfor %}
         </div>  
-      </div> 
-      <div class="col-lg-9" id="seccionEntradas">
-        <div class="row">
-          {% assign sorted_posts = site.directorio | sort_natural: 'title' %}
+        <div class="row" id="seccionEntradas">
+          {% assign sorted_posts = paginator.posts | sort_natural: 'title' %}
           {% assign current_letter = '' %}
           {% assign iterator = 0 %}
           {% for post in sorted_posts %}
@@ -1078,6 +1065,27 @@ permalink: /directorio/
             </div>
           {% endfor %}
         </div>  
+        {% if paginator.total_pages > 1 %}
+          <nav class="pagination">
+            {% if paginator.previous_page %}
+              <a class="previous" href="{{ paginator.previous_page_path }}">Anterior</a>
+            {% endif %}
+            {% for page in (1..paginator.total_pages) %}
+              {% if page == paginator.page %}
+                <span class="current-page">{{ page }}</span>
+              {% else %}
+                  {% if page == 1 %}
+                    <a href="{{ site.baseurl }}/directorio">{{ page }}</a>
+                  {% else %}
+                    <a href="{{ site.baseurl }}/directorio/{{page}}">{{ page }}</a>
+                  {% endif %}
+              {% endif %}
+            {% endfor %}
+            {% if paginator.next_page %}
+              <a class="next" href="{{ paginator.next_page_path }}">Siguiente</a>
+            {% endif %}
+          </nav>
+        {% endif %}
       </div> 
       <div class="col-lg-3">
         {% 

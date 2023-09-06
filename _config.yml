@@ -102,13 +102,10 @@ google-analytics: G-3PLT3KJYNC
 markdown: kramdown
 permalink: pretty
 plugins:
-  - jekyll-paginate
 #  - jekyll-sitemap
   - jekyll/tagging
   - jekyll-archives
-
-paginate: 10
-paginate_path: "/page/:num"
+  - jekyll-paginate-v2
 
 # Pages Path
 defaults:
@@ -136,7 +133,22 @@ jekyll-archives:
 collections:
   directorio:
     output: true
+    permalink: /directorio/:path/
 
+pagination:
+  enabled: true
+  per_page: 30
+  permalink: '/:num/'
+  title: ':title | :num de :max'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+ # extension: htm
+ # indexpage: 'default'
+  trail: 
+    before: 2
+    after: 2
+    
 # iconos servicios directorio
 servicios_iconos:
   "Asesoría Personalizada de Viajes": "fas fa-comments"

@@ -307,7 +307,7 @@ h1, .h1 {
   }
   .share-button {
     position: relative;
-    width: 80px;
+    width: 100px;
     height: 30px;
     background-color: transparent; 
     border-radius:  5px;
@@ -1570,4 +1570,43 @@ blockquote {
   white-space: nowrap;
   font-weight: bold;
   color: white;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination a,
+.pagination span {
+  display: inline-block;
+  padding: 8px 12px;
+  margin: 0 5px;
+  color: #000;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.pagination a:hover {
+  background-color: #eee;
+}
+
+.pagination .current-page {
+  background-color: #00ccb9;
+  color: #fff;
+}
+
+.pagination .previous,
+.pagination .next {
+  font-weight: bold;
+}
+
+.pagination .previous {
+  margin-right: 10px;
+}
+
+.pagination .next {
+  margin-left: 10px;
 }
