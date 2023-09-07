@@ -186,7 +186,11 @@
     "19 de agosto": "Arte Bosque",
     "24 de agosto": "Inauguración del Puente sobre el Lago de Maracaibo",
     "30 de agosto": "Festividad de Santa Rosa de Lima.",  
-    "5 de septiembre": "Fiestas de Venezuela en honor de Nuestra Señora de Coromoto",
+    "5 de septiembre": [
+        "Fiestas de Venezuela en honor de Nuestra Señora de Coromoto",
+        "Día Mundial del Periodista Turístico 2023",
+        "Día de la Mujer Indígena"
+    ],
     "8 de septiembre": [
         "Aparición de la Virgen de Coromoto",
         "Día de la Virgen del Valle",
