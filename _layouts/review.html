@@ -2,10 +2,6 @@
 layout: default
 ---
 
-{% 
-	include ads/posts-banner.html 
-%}
-
 <!-- page-title -->
 <section class="section bg-secondary pad-title">
 	<div class="container maxw">
@@ -85,36 +81,36 @@ layout: default
 			</div>
 			<div class="col-lg-3">
 				{% 
-					include ads/banner.html 
-					content=site.data.ads.post-0
+				  include ads/banner.html 
+				  content=site.data.ads.review-0 
 				%}
 				{% assign contendorId = "destacados-container-1"%}
         		{% include destacado.html contendorId=contendorId %}
 				{% 
 				  include ads/banner.html 
-				  content=site.data.ads.post-1  
+				  content=site.data.ads.review-1  
 				%}
 				{% include recientes.html %}
 				{% 
 				  include ads/banner.html 
-				  content=site.data.ads.post-2
+				  content=site.data.ads.review-2
 				%}
 				{% assign contendorId = "destacados-container-2"%}
         		{% include destacado.html contendorId=contendorId %}
 				{% 
-					include ads/banner.html 
-					content=site.data.ads.post-3
+				  include ads/banner.html 
+				  content=site.data.ads.review-3
 				%}
 				{% include secciones.html %}
 				{% 
 				  include ads/banner.html 
-				  content=site.data.ads.post-4
+				  content=site.data.ads.review-4 
 				%}
 				{% assign contendorId = "destacados-container-3"%}
         		{% include destacado.html contendorId=contendorId %}
 				{% 
-					include ads/banner.html 
-					content=site.data.ads.post-5
+				  include ads/banner.html 
+				  content=site.data.ads.review-5
 				%}
 			  </div> 
 		</div>
