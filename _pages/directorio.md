@@ -77,6 +77,8 @@ pagination:
           {% assign iterator = 0 %}
           {% for post in sorted_posts %}
             {% assign post_title_first_letter = post.title | slice: 0, 1 | upcase %}
+            {% assign title-review = post.title %}
+            {% assign review = site.review | where: "title", title-review | first %}
             {% if post_title_first_letter != current_letter %}
               <div class="col-12">
                 <h4 class="letter-title">{{ post_title_first_letter }}</h4>
@@ -92,9 +94,11 @@ pagination:
                     <li class="nav-item">
                       <a class="nav-link active" data-toggle="tab" href="#tab1-{{iterator}}">General</a>
                     </li>
+                    {% if review %}
                     <li class="nav-item"> 
                       <a class="nav-link" data-toggle="tab" href="#tabr1-{{iterator}}">Reseña</a>
                     </li>
+                    {% endif %}
                     <li class="nav-item"> 
                       <a class="nav-link" data-toggle="tab" href="#tab2-{{iterator}}">Contacto</a>
                     </li>
@@ -139,28 +143,19 @@ pagination:
                         </div>
                       </div>
                     </div>
+                    {% if review %}
                     <div class="tab-pane fade" id="tabr1-{{iterator}}">
                       <div class="tab-card">
                         <div class="tab-card-1">
-                          {% assign titulo_deseado = post.title %}
-                          {% assign review = site.review | where: "title", titulo_deseado | first %}
-                          {% if review %}
                             <div>
-                              <h5 class="text-dark">
-                                <a href="{{ review.url }}">{{ review.title }}</a>
-                              </h5>
+                              <h5 class="text-dark">{{ review.title }}</h5>
                               <p>{{ review.content | truncatewords: 30 }}</p>
+                              <a href="{{ review.url }}">Ver reseña completa</a>
                             </div>
-                          {% else %}
-                            <div>
-                              <h5 class="text-dark">
-                                No hay reseña disponible.
-                              </h5>
-                            </div>
-                          {% endif %}
                         </div>
                       </div>
                     </div>
+                    {% endif %}
                     <div class="tab-pane fade" id="tab2-{{iterator}}">
                       <div class="tab-card">
                         <div class="tab-card-1">
@@ -336,6 +331,8 @@ pagination:
           {% assign iterator = 0 %}
           {% for post in sorted_posts %}
             {% assign post_region = post.region %}
+            {% assign title-review = post.title %}
+            {% assign review = site.review | where: "title", title-review | first %}
             {% if post_region != current_region %}
               <div class="col-12">
                 <h4 class="letter-title">{{ post_region }}</h4>
@@ -351,9 +348,11 @@ pagination:
                     <li class="nav-item">
                       <a class="nav-link active" data-toggle="tab" href="#tab9-{{iterator}}">General</a>
                     </li>
+                    {% if review %}
                     <li class="nav-item"> 
                       <a class="nav-link" data-toggle="tab" href="#tabr2-{{iterator}}">Reseña</a>
                     </li>
+                    {% endif %}
                     <li class="nav-item">
                       <a class="nav-link" data-toggle="tab" href="#tab10-{{iterator}}">Contacto</a>
                     </li>
@@ -398,28 +397,19 @@ pagination:
                         </div>
                       </div>
                     </div>
+                    {% if review %}
                     <div class="tab-pane fade" id="tabr2-{{iterator}}">
                       <div class="tab-card">
                         <div class="tab-card-1">
-                          {% assign titulo_deseado = post.title %}
-                          {% assign review = site.review | where: "title", titulo_deseado | first %}
-                          {% if review %}
                             <div>
-                              <h5 class="text-dark">
-                                <a href="{{ review.url }}">{{ review.title }}</a>
-                              </h5>
+                              <h5 class="text-dark">{{ review.title }}</h5>
                               <p>{{ review.content | truncatewords: 30 }}</p>
+                              <a href="{{ review.url }}">Ver reseña completa</a>
                             </div>
-                          {% else %}
-                            <div>
-                              <h5 class="text-dark">
-                                No hay reseña disponible.
-                              </h5>
-                            </div>
-                          {% endif %}
                         </div>
                       </div>
                     </div>
+                    {% endif %}
                     <div class="tab-pane fade" id="tab10-{{iterator}}">
                       <div class="tab-card">
                         <div class="tab-card-1">
@@ -512,6 +502,8 @@ pagination:
           {% assign iterator = 0 %}
           {% for post in sorted_posts %}
             {% assign post_region = post.region %}
+            {% assign title-review = post.title %}
+            {% assign review = site.review | where: "title", title-review | first %}
             {% if post_region != current_region %}
               <div class="col-12">
                 <h4 class="letter-title">{{ post_region }}</h4>
@@ -527,9 +519,11 @@ pagination:
                     <li class="nav-item">
                       <a class="nav-link active" data-toggle="tab" href="#tab3-{{iterator}}">General</a>
                     </li>
+                    {% if review %}
                     <li class="nav-item"> 
                       <a class="nav-link" data-toggle="tab" href="#tabr3-{{iterator}}">Reseña</a>
                     </li>
+                    {% endif %}
                     <li class="nav-item">
                       <a class="nav-link" data-toggle="tab" href="#tab4-{{iterator}}">Contacto</a>
                     </li>
@@ -574,28 +568,19 @@ pagination:
                         </div>
                       </div>
                     </div>
+                    {% if review %}
                     <div class="tab-pane fade" id="tabr3-{{iterator}}">
                       <div class="tab-card">
                         <div class="tab-card-1">
-                          {% assign titulo_deseado = post.title %}
-                          {% assign review = site.review | where: "title", titulo_deseado | first %}
-                          {% if review %}
                             <div>
-                              <h5 class="text-dark">
-                                <a href="{{ review.url }}">{{ review.title }}</a>
-                              </h5>
+                              <h5 class="text-dark">{{ review.title }}</h5>
                               <p>{{ review.content | truncatewords: 30 }}</p>
+                              <a href="{{ review.url }}">Ver reseña completa</a>
                             </div>
-                          {% else %}
-                            <div>
-                              <h5 class="text-dark">
-                                No hay reseña disponible.
-                              </h5>
-                            </div>
-                          {% endif %}
                         </div>
                       </div>
                     </div>
+                    {% endif %}
                     <div class="tab-pane fade" id="tab4-{{iterator}}">
                       <div class="tab-card">
                         <div class="tab-card-1">
@@ -748,6 +733,8 @@ pagination:
           {% assign iterator = 0 %}
           {% for post in sorted_posts %}
             {% assign post_state = post.state %}
+            {% assign title-review = post.title %}
+            {% assign review = site.review | where: "title", title-review | first %}
             {% if post_state != current_state %}
               <div class="col-12">
                 <h4 class="letter-title">{{ post_state }}</h4>
@@ -763,9 +750,11 @@ pagination:
                     <li class="nav-item">
                       <a class="nav-link active" data-toggle="tab" href="#tab11-{{iterator}}">General</a>
                     </li>
+                    {% if review %}
                     <li class="nav-item"> 
                       <a class="nav-link" data-toggle="tab" href="#tabr4-{{iterator}}">Reseña</a>
                     </li>
+                    {% endif %}
                     <li class="nav-item">
                       <a class="nav-link" data-toggle="tab" href="#tab12-{{iterator}}">Contacto</a>
                     </li>
@@ -810,28 +799,19 @@ pagination:
                         </div>
                       </div>
                     </div>
+                    {% if review %}
                     <div class="tab-pane fade" id="tabr4-{{iterator}}">
                       <div class="tab-card">
                         <div class="tab-card-1">
-                          {% assign titulo_deseado = post.title %}
-                          {% assign review = site.review | where: "title", titulo_deseado | first %}
-                          {% if review %}
                             <div>
-                              <h5 class="text-dark">
-                                <a href="{{ review.url }}">{{ review.title }}</a>
-                              </h5>
+                              <h5 class="text-dark">{{ review.title }}</h5>
                               <p>{{ review.content | truncatewords: 30 }}</p>
+                              <a href="{{ review.url }}">Ver reseña completa</a>
                             </div>
-                          {% else %}
-                            <div>
-                              <h5 class="text-dark">
-                                No hay reseña disponible.
-                              </h5>
-                            </div>
-                          {% endif %}
                         </div>
                       </div>
                     </div>
+                    {% endif %}
                     <div class="tab-pane fade" id="tab12-{{iterator}}">
                       <div class="tab-card">
                         <div class="tab-card-1">
@@ -924,6 +904,8 @@ pagination:
           {% assign iterator = 0 %}
           {% for post in sorted_posts %}
             {% assign post_state = post.state %}
+            {% assign title-review = post.title %}
+            {% assign review = site.review | where: "title", title-review | first %}
             {% if post_state != current_state %}
               <div class="col-12">
                 <h4 class="letter-title">{{ post_state }}</h4>
@@ -939,9 +921,11 @@ pagination:
                     <li class="nav-item">
                       <a class="nav-link active" data-toggle="tab" href="#tab5-{{iterator}}">General</a>
                     </li>
+                    {% if review %}
                     <li class="nav-item"> 
                       <a class="nav-link" data-toggle="tab" href="#tabr5-{{iterator}}">Reseña</a>
                     </li>
+                    {% endif %}
                     <li class="nav-item">
                       <a class="nav-link" data-toggle="tab" href="#tab6-{{iterator}}">Contacto</a>
                     </li>
@@ -986,28 +970,19 @@ pagination:
                         </div>
                       </div>
                     </div>
+                    {% if review %}
                     <div class="tab-pane fade" id="tabr5-{{iterator}}">
                       <div class="tab-card">
                         <div class="tab-card-1">
-                          {% assign titulo_deseado = post.title %}
-                          {% assign review = site.review | where: "title", titulo_deseado | first %}
-                          {% if review %}
                             <div>
-                              <h5 class="text-dark">
-                                <a href="{{ review.url }}">{{ review.title }}</a>
-                              </h5>
+                              <h5 class="text-dark">{{ review.title }}</h5>
                               <p>{{ review.content | truncatewords: 30 }}</p>
+                              <a href="{{ review.url }}">Ver reseña completa</a>
                             </div>
-                          {% else %}
-                            <div>
-                              <h5 class="text-dark">
-                                No hay reseña disponible.
-                              </h5>
-                            </div>
-                          {% endif %}
                         </div>
                       </div>
                     </div>
+                    {% endif %}
                     <div class="tab-pane fade" id="tab6-{{iterator}}">
                       <div class="tab-card">
                         <div class="tab-card-1">
@@ -1100,6 +1075,8 @@ pagination:
           {% assign iterator = 0 %}
           {% for post in sorted_posts %}
             {% assign post_title_first_letter = post.title | slice: 0, 1 | upcase %}
+            {% assign title-review = post.title %}
+            {% assign review = site.review | where: "title", title-review | first %}
             {% if post_title_first_letter != current_letter %}
               <div class="col-12">
                 <h4 class="letter-title">{{ post_title_first_letter }}</h4>
@@ -1115,9 +1092,11 @@ pagination:
                     <li class="nav-item">
                       <a class="nav-link active" data-toggle="tab" href="#tab7-{{iterator}}">General</a>
                     </li>
+                    {% if review %}
                     <li class="nav-item"> 
                       <a class="nav-link" data-toggle="tab" href="#tabr6-{{iterator}}">Reseña</a>
                     </li>
+                    {% endif %}
                     <li class="nav-item">
                       <a class="nav-link" data-toggle="tab" href="#tab8-{{iterator}}">Contacto</a>
                     </li>
@@ -1162,28 +1141,19 @@ pagination:
                         </div>
                       </div>
                     </div>
+                    {% if review %}
                     <div class="tab-pane fade" id="tabr6-{{iterator}}">
                       <div class="tab-card">
                         <div class="tab-card-1">
-                          {% assign titulo_deseado = post.title %}
-                          {% assign review = site.review | where: "title", titulo_deseado | first %}
-                          {% if review %}
                             <div>
-                              <h5 class="text-dark">
-                                <a href="{{ review.url }}">{{ review.title }}</a>
-                              </h5>
+                              <h5 class="text-dark">{{ review.title }}</h5>
                               <p>{{ review.content | truncatewords: 30 }}</p>
+                              <a href="{{ review.url }}">Ver reseña completa</a>
                             </div>
-                          {% else %}
-                            <div>
-                              <h5 class="text-dark">
-                                No hay reseña disponible.
-                              </h5>
-                            </div>
-                          {% endif %}
                         </div>
                       </div>
                     </div>
+                    {% endif %}
                     <div class="tab-pane fade" id="tab8-{{iterator}}">
                       <div class="tab-card">
                         <div class="tab-card-1">
