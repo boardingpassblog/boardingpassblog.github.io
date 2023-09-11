@@ -20,7 +20,7 @@
           },
           error: function(error){
             console.log('Error loading data from BCV'+JSON.stringify(error));
-            reject(error);
+            resolve();
           }
         });
       });
@@ -57,7 +57,7 @@
           },
           error: function(error) {
             console.error("Error al cargar el archivo JSON: ", error);
-            reject(error);
+            resolve();
           }
         });
       });
