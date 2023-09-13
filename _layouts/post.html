@@ -28,44 +28,50 @@ layout: default
 						<div class="margin-author-share">
 							<i class="ti-user mr-2"></i>Por {{ page.author }}
 						</div>
-						<botton class="share-button">
-							<i class="fas fa-share-alt share-margin-icon"></i>
-							<div class="share-options" id="shareOptions">
-								<ul>
-									{% assign mensaje = "Publicado en boardingpass.network"%}
-									<b>Compartir</b>
-									<br><br>
-									<li><a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | prepend: site.url }}" target="_blank">
-										<div class="circle-icon">
-											<i class="ti-facebook"></i>
-										</div>
-										Facebook</a>
-									</li>
-									<li><a href="https://twitter.com/intent/tweet?url={{ page.url | prepend: site.url }}&amp;text={{ mensaje }}" target="_blank">
-										<div class="circle-icon">
-											<i class="ti-twitter-alt"></i>
-										</div>
-										Twitter</a>
-									</li>
-									<li><a href="whatsapp://send?text={{ page.url | prepend: site.url }}%0A%0A{{ mensaje }}" target="_blank">
-										<div class="circle-icon">
-											<i class="fab fa-whatsapp fa-4x"></i>
-										</div>
-										WhatsApp</a>
-									</li>
-									<li><a href="mailto:?body={{ mensaje }}%0A%0A{{ page.url | prepend: site.url }}">
-										<div class="circle-icon">
-											<i class="ti-email"></i>
-										</div>
-										Email</a>
-									</li>
-								</ul>
-							</div>
-							Compartir
-						</botton>
 					</div>
 					<li class="list-inline-item"><i class="ti-calendar mr-2"></i>{{page.date | date: '%d %b, %Y'}}</li>
 				</ul>
+				<div class="d-flex align-items-center" style="margin-bottom: 10px">
+				<botton class="share-button">
+					<i class="fas fa-share-alt share-margin-icon"></i>
+					<div class="share-options" id="shareOptions">
+						<ul>
+							{% assign mensaje = "Publicado en boardingpass.network"%}
+							<b>Compartir</b>
+							<br><br>
+							<li><a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | prepend: site.url }}" target="_blank">
+								<div class="circle-icon">
+									<i class="ti-facebook"></i>
+								</div>
+								Facebook</a>
+							</li>
+							<li><a href="https://twitter.com/intent/tweet?url={{ page.url | prepend: site.url }}&amp;text={{ mensaje }}" target="_blank">
+								<div class="circle-icon">
+									<i class="ti-twitter-alt"></i>
+								</div>
+								Twitter</a>
+							</li>
+							<li><a href="whatsapp://send?text={{ page.url | prepend: site.url }}%0A%0A{{ mensaje }}" target="_blank">
+								<div class="circle-icon">
+									<i class="fab fa-whatsapp fa-4x"></i>
+								</div>
+								WhatsApp</a>
+							</li>
+							<li><a href="mailto:?body={{ mensaje }}%0A%0A{{ page.url | prepend: site.url }}">
+								<div class="circle-icon">
+									<i class="ti-email"></i>
+								</div>
+								Email</a>
+							</li>
+						</ul>
+					</div>
+					Compartir
+				</botton>
+				<li class="list-inline-item margin-left-date-share margin-volume-left">
+					<button onclick="toggleSpeech()" class="circle-button margin-circle">
+						<i id="speechIcon" class="fas fa-volume-mute"></i>
+					</button></li>
+				</div>
 				{% if page.image %}
 				<div class="image-holder">					
 					<div>
@@ -77,7 +83,9 @@ layout: default
 				</div>
 			 	{% endif %}
 				<div class="content" id="id">
-					{{ content }}
+					<article>
+						{{ content }}
+					</article>
 				</div>
 				<br><br><hr>
 				<div class="content pl-0">
@@ -155,4 +163,43 @@ layout: default
 		shareOptions.style.display = 'none';
 	}
 	});
+	
+	var isSpeaking = false;
+	var speechUtterance = null;
+
+	function toggleSpeech() {
+	if (isSpeaking) {
+		responsiveVoice.pause();
+		isSpeaking = false;
+	} else {
+		if (speechUtterance !== null) {
+		responsiveVoice.resume();
+		} else {
+		var articleElement = document.querySelector('article');
+		var textToSpeak = articleElement.innerText;
+		speechUtterance = responsiveVoice.speak(textToSpeak, 'Spanish Female', { rate: 1, onend: handleSpeechEnd });
+		}
+		isSpeaking = true;
+	}
+	
+	updateButtonState();
+	}
+
+	function handleSpeechEnd() {
+	speechUtterance = null;
+	isSpeaking = false;
+	updateButtonState();
+	}
+
+	function updateButtonState() {
+	var speechIcon = document.getElementById('speechIcon');
+	
+	if (isSpeaking) {
+		speechIcon.classList.remove('fa-volume-mute');
+		speechIcon.classList.add('fa-volume-up');
+	} else {
+		speechIcon.classList.remove('fa-volume-up');
+		speechIcon.classList.add('fa-volume-mute');
+	}
+	}
 </script>

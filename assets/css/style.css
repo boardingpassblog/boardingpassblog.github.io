@@ -147,6 +147,10 @@ h1, .h1 {
   margin-right: 50px;
 }
 
+.margin-volume-left{
+  margin-left: 50px;
+}
+
 @media (max-width: 1680px) {
   h1, .h1 {
     font-size: 55px;
@@ -317,6 +321,7 @@ h1, .h1 {
     cursor: pointer;
     font-size: 12px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 5px;
   }
   .share-button i {
     font-size: 12px; 
@@ -393,6 +398,12 @@ h1, .h1 {
   }
   .margin-left-date-share{
     flex-direction: column !important; 
+  }
+  .margin-columns-volume{
+    flex-direction: column !important; 
+  }
+  .margin-circle{
+    margin: 10px 10px !important;
   }
 }
 
@@ -1639,4 +1650,29 @@ blockquote {
 .round-button i {
   color: white;
   font-size: 24px;
+}
+
+.circle-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background-color: transparent;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle-button i{
+  color: #03b6a4;
+}
+
+.circle-button:focus {
+  outline: none;
+}
+
+.circle-button:hover {
+  background-color: #7debe0;
 }
