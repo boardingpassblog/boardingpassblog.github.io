@@ -56,11 +56,11 @@
         sound.pause();
         isPlaying = false;
         playIcon.classList.remove('fa-volume-up');
-        playIcon.classList.add('fa-volume-off');
+        playIcon.classList.add('fa-volume-mute');
       } else {
         sound.play();
         isPlaying = true;
-        playIcon.classList.remove('fa-volume-off');
+        playIcon.classList.remove('fa-volume-mute');
         playIcon.classList.add('fa-volume-up');
       }
     }
