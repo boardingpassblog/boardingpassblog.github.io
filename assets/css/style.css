@@ -1689,3 +1689,19 @@ blockquote {
   text-align: center;
   vertical-align: middle;
 }
+
+.custom-button {
+  background-color: #7debe0; 
+  color: #000; 
+}
+
+.bottom-modal {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.margin-bottom-share{
+  margin-bottom: 10px;
+}

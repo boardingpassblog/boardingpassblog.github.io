@@ -31,7 +31,7 @@ layout: default
 					</div>
 					<li class="list-inline-item"><i class="ti-calendar mr-2"></i>{{page.date | date: '%d %b, %Y'}}</li>
 				</ul>
-				<div class="d-flex align-items-center" style="margin-bottom: 10px">
+				<div class="d-flex align-items-center margin-bottom-share">
 				<botton class="share-button">
 					<i class="fas fa-share-alt share-margin-icon"></i>
 					<div class="share-options" id="shareOptions">
@@ -39,6 +39,12 @@ layout: default
 							{% assign mensaje = "Publicado en boardingpass.network"%}
 							<b>Compartir</b>
 							<br><br>
+							<li><a href="{{ page.url | prepend: site.url }}" id="linkText" onclick="copyLink(); return false;">
+								<div class="circle-icon">
+								  <i class="ti-link"></i>
+								</div>
+								Copiar Enlace</a>
+							  </li>
 							<li><a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | prepend: site.url }}" target="_blank">
 								<div class="circle-icon">
 									<i class="ti-facebook"></i>
@@ -141,65 +147,97 @@ layout: default
 		</div>
 	</div>
 </section>
+ <!-- Ventana modal -->
+ <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="modalTitle" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalTitle">Enlace Copiado</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>El enlace ha sido copiado al portapapeles.</p>
+        </div>
+      </div>
+    </div>
+  </div>
 <!-- /blog single -->
 
 <script>
 	document.querySelector('.share-button').addEventListener('click', function() {
-	var shareOptions = document.querySelector('.share-options');
-	if (shareOptions.style.display === 'none' || shareOptions.style.display === '') {
-		shareOptions.style.display = 'block';
-	} else {
-		shareOptions.style.display = 'none';
-	}
+		var shareOptions = document.querySelector('.share-options');
+		if (shareOptions.style.display === 'none' || shareOptions.style.display === '') {
+			shareOptions.style.display = 'block';
+		} else {
+			shareOptions.style.display = 'none';
+		}
 	});
 
 	document.addEventListener('click', function(event) {
-	var shareButton = document.querySelector('.share-button');
-	var shareOptions = document.querySelector('.share-options');
-	var isClickInsideShareButton = shareButton.contains(event.target);
-	var isClickInsideShareOptions = shareOptions.contains(event.target);
-	var isShareOptionsVisible = shareOptions.style.display === 'block';
-	if (!isClickInsideShareButton && !isClickInsideShareOptions && isShareOptionsVisible) {
-		shareOptions.style.display = 'none';
-	}
+		var shareButton = document.querySelector('.share-button');
+		var shareOptions = document.querySelector('.share-options');
+		var isClickInsideShareButton = shareButton.contains(event.target);
+		var isClickInsideShareOptions = shareOptions.contains(event.target);
+		var isShareOptionsVisible = shareOptions.style.display === 'block';
+		if (!isClickInsideShareButton && !isClickInsideShareOptions && isShareOptionsVisible) {
+			shareOptions.style.display = 'none';
+		}
 	});
 	
 	var isSpeaking = false;
 	var speechUtterance = null;
 
 	function toggleSpeech() {
-	if (isSpeaking) {
-		responsiveVoice.pause();
-		isSpeaking = false;
-	} else {
-		if (speechUtterance !== null) {
-		responsiveVoice.resume();
+		if (isSpeaking) {
+			responsiveVoice.pause();
+			isSpeaking = false;
 		} else {
-		var articleElement = document.querySelector('article');
-		var textToSpeak = articleElement.innerText;
-		speechUtterance = responsiveVoice.speak(textToSpeak, 'Spanish Female', { rate: 1, onend: handleSpeechEnd });
+			if (speechUtterance !== null) {
+			responsiveVoice.resume();
+			} else {
+			var articleElement = document.querySelector('article');
+			var textToSpeak = articleElement.innerText;
+			speechUtterance = responsiveVoice.speak(textToSpeak, 'Spanish Female', { rate: 1, onend: handleSpeechEnd });
+			}
+			isSpeaking = true;
 		}
-		isSpeaking = true;
-	}
-	
-	updateButtonState();
+		
+		updateButtonState();
 	}
 
 	function handleSpeechEnd() {
-	speechUtterance = null;
-	isSpeaking = false;
-	updateButtonState();
+		speechUtterance = null;
+		isSpeaking = false;
+		updateButtonState();
 	}
 
 	function updateButtonState() {
-	var speechIcon = document.getElementById('speechIcon');
-	
-	if (isSpeaking) {
-		speechIcon.classList.remove('fa-volume-mute');
-		speechIcon.classList.add('fa-volume-up');
-	} else {
-		speechIcon.classList.remove('fa-volume-up');
-		speechIcon.classList.add('fa-volume-mute');
+		var speechIcon = document.getElementById('speechIcon');
+		
+		if (isSpeaking) {
+			speechIcon.classList.remove('fa-volume-mute');
+			speechIcon.classList.add('fa-volume-up');
+		} else {
+			speechIcon.classList.remove('fa-volume-up');
+			speechIcon.classList.add('fa-volume-mute');
+		}
 	}
-	}
+	function copyLink() {
+      var linkText = document.getElementById("linkText");
+      var tempInput = document.createElement("input");
+      tempInput.value = linkText.href;
+      document.body.appendChild(tempInput);
+      tempInput.select();
+      document.execCommand("copy");
+      document.body.removeChild(tempInput);
+      var modal = $("#myModal");
+      modal.addClass("bottom-modal"); 
+      modal.modal("show");
+
+      setTimeout(function() {
+        modal.modal("hide"); 
+      }, 1000);
+    }
 </script>
