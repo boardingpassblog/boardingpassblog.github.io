@@ -2,9 +2,6 @@
 layout: section
 title: Directorio
 permalink: /directorio/
-pagination:
-  enabled: true
-  collection: directorio
 ---
 
 {% 
@@ -72,7 +69,7 @@ pagination:
     <div class="row ">
       <div class="col-lg-9" id="seccionDestacados">
         <div class="row">
-          {% assign sorted_posts = paginator.posts | sort_natural: 'title' | where: 'featured', true %}
+          {% assign sorted_posts = site.directorio | sort_natural: 'title' | where: 'featured', true %}
           {% assign current_letter = '' %}
           {% assign iterator = 0 %}
           {% for post in sorted_posts %}
@@ -147,11 +144,13 @@ pagination:
                     <div class="tab-pane fade" id="tabr1-{{iterator}}">
                       <div class="tab-card">
                         <div class="tab-card-1">
-                            <div>
-                              <h5 class="text-dark">{{ review.title }}</h5>
-                              <p>{{ review.content | truncatewords: 30 }}</p>
-                              <a href="{{ review.url }}">Ver reseña completa</a>
-                            </div>
+                          <div>
+                            <h5 class="text-dark">{{ review.title }}</h5>
+                            {% assign content_without_html = review.content | strip_html %}
+                            {% assign truncated_content = content_without_html | truncatewords: 50 %}
+                            <p>{{ truncated_content }}</p>
+                            <a href="{{ review.url }}">Ver reseña completa</a>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -201,12 +200,11 @@ pagination:
             </div>
             {% endif %}
           {% endfor %}
-        </div> 
-        {% include pagination-directorio.html %}
-      </div>
-      <div class="col-lg-9" id="seccionNoDestacados"> 
+        </div>  
+      </div> 
+      <div class="col-lg-9" id="seccionNoDestacados">
         <div class="row">
-          {% assign sorted_posts = paginator.posts | sort_natural: 'title' | where: 'featured', false %}
+          {% assign sorted_posts = site.directorio | sort_natural: 'title' | where: 'featured', false %}
           {% assign current_letter = '' %}
           {% assign iterator = 0 %}
           {% for post in sorted_posts %}
@@ -262,11 +260,10 @@ pagination:
             </div>
           {% endfor %}
         </div>  
-        {% include pagination-directorio.html %}
-      </div>
-      <div class="col-lg-9" id="seccionNoDestacadosRegion"> 
+      </div> 
+      <div class="col-lg-9" id="seccionNoDestacadosRegion">
         <div class="row">
-          {% assign sorted_posts = paginator.posts | sort: 'region' | where: 'featured', false %}
+          {% assign sorted_posts = site.directorio | sort: 'region' | where: 'featured', false %}
           {% assign current_region = '' %}
           {% assign iterator = 0 %}
           {% for post in sorted_posts %}
@@ -321,12 +318,11 @@ pagination:
               {% endif %}
             </div>
           {% endfor %}
-        </div>
-        {% include pagination-directorio.html %}  
-      </div>
-      <div class="col-lg-9" id="seccionDestacadosRegion"> 
+        </div>  
+      </div> 
+      <div class="col-lg-9" id="seccionDestacadosRegion">
         <div class="row">
-          {% assign sorted_posts = paginator.posts | sort: 'region' | where: 'featured', true %}
+          {% assign sorted_posts = site.directorio | sort: 'region' | where: 'featured', true %}
           {% assign current_region = '' %}
           {% assign iterator = 0 %}
           {% for post in sorted_posts %}
@@ -401,11 +397,13 @@ pagination:
                     <div class="tab-pane fade" id="tabr2-{{iterator}}">
                       <div class="tab-card">
                         <div class="tab-card-1">
-                            <div>
-                              <h5 class="text-dark">{{ review.title }}</h5>
-                              <p>{{ review.content | truncatewords: 30 }}</p>
-                              <a href="{{ review.url }}">Ver reseña completa</a>
-                            </div>
+                          <div>
+                            <h5 class="text-dark">{{ review.title }}</h5>
+                            {% assign content_without_html = review.content | strip_html %}
+                            {% assign truncated_content = content_without_html | truncatewords: 50 %}
+                            <p>{{ truncated_content }}</p>
+                            <a href="{{ review.url }}">Ver reseña completa</a>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -492,12 +490,11 @@ pagination:
               </div>
             </div>
           {% endfor %}
-        </div> 
-        {% include pagination-directorio.html %}
-      </div>
-      <div class="col-lg-9" id="seccionEntradasRegion">  
+        </div>  
+      </div> 
+      <div class="col-lg-9" id="seccionEntradasRegion">
         <div class="row">
-          {% assign sorted_posts = paginator.posts | sort: 'region' %}
+          {% assign sorted_posts = site.directorio | sort: 'region' %}
           {% assign current_region = '' %}
           {% assign iterator = 0 %}
           {% for post in sorted_posts %}
@@ -572,11 +569,13 @@ pagination:
                     <div class="tab-pane fade" id="tabr3-{{iterator}}">
                       <div class="tab-card">
                         <div class="tab-card-1">
-                            <div>
-                              <h5 class="text-dark">{{ review.title }}</h5>
-                              <p>{{ review.content | truncatewords: 30 }}</p>
-                              <a href="{{ review.url }}">Ver reseña completa</a>
-                            </div>
+                          <div>
+                            <h5 class="text-dark">{{ review.title }}</h5>
+                            {% assign content_without_html = review.content | strip_html %}
+                            {% assign truncated_content = content_without_html | truncatewords: 50 %}
+                            <p>{{ truncated_content }}</p>
+                            <a href="{{ review.url }}">Ver reseña completa</a>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -663,12 +662,11 @@ pagination:
               </div>
             </div>
           {% endfor %}
-        </div> 
-        {% include pagination-directorio.html %}
+        </div>  
       </div> 
-      <div class="col-lg-9" id="seccionNoDestacadosEstados">  
+      <div class="col-lg-9" id="seccionNoDestacadosEstados">
         <div class="row">
-          {% assign sorted_posts = paginator.posts | sort: 'state' | where: 'featured', false %}
+          {% assign sorted_posts = site.directorio | sort: 'state' | where: 'featured', false %}
           {% assign current_state = '' %}
           {% assign iterator = 0 %}
           {% for post in sorted_posts %}
@@ -723,12 +721,11 @@ pagination:
               {% endif %}
             </div>
           {% endfor %}
-        </div> 
-        {% include pagination-directorio.html %}
-      </div>
-      <div class="col-lg-9" id="seccionDestacadosEstados"> 
+        </div>  
+      </div> 
+      <div class="col-lg-9" id="seccionDestacadosEstados">
         <div class="row">
-          {% assign sorted_posts = paginator.posts | sort: 'state' | where: 'featured', true %}
+          {% assign sorted_posts = site.directorio | sort: 'state' | where: 'featured', true %}
           {% assign current_state = '' %}
           {% assign iterator = 0 %}
           {% for post in sorted_posts %}
@@ -803,11 +800,13 @@ pagination:
                     <div class="tab-pane fade" id="tabr4-{{iterator}}">
                       <div class="tab-card">
                         <div class="tab-card-1">
-                            <div>
-                              <h5 class="text-dark">{{ review.title }}</h5>
-                              <p>{{ review.content | truncatewords: 30 }}</p>
-                              <a href="{{ review.url }}">Ver reseña completa</a>
-                            </div>
+                          <div>
+                            <h5 class="text-dark">{{ review.title }}</h5>
+                            {% assign content_without_html = review.content | strip_html %}
+                            {% assign truncated_content = content_without_html | truncatewords: 50 %}
+                            <p>{{ truncated_content }}</p>
+                            <a href="{{ review.url }}">Ver reseña completa</a>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -894,12 +893,11 @@ pagination:
               </div>
             </div>
           {% endfor %}
-        </div> 
-        {% include pagination-directorio.html %} 
-      </div>
-      <div class="col-lg-9" id="seccionEntradasEstados"> 
+        </div>  
+      </div> 
+      <div class="col-lg-9" id="seccionEntradasEstados">
         <div class="row">
-          {% assign sorted_posts = paginator.posts | sort: 'state' %}
+          {% assign sorted_posts = site.directorio | sort: 'state' %}
           {% assign current_state = '' %}
           {% assign iterator = 0 %}
           {% for post in sorted_posts %}
@@ -974,11 +972,13 @@ pagination:
                     <div class="tab-pane fade" id="tabr5-{{iterator}}">
                       <div class="tab-card">
                         <div class="tab-card-1">
-                            <div>
-                              <h5 class="text-dark">{{ review.title }}</h5>
-                              <p>{{ review.content | truncatewords: 30 }}</p>
-                              <a href="{{ review.url }}">Ver reseña completa</a>
-                            </div>
+                          <div>
+                            <h5 class="text-dark">{{ review.title }}</h5>
+                            {% assign content_without_html = review.content | strip_html %}
+                            {% assign truncated_content = content_without_html | truncatewords: 50 %}
+                            <p>{{ truncated_content }}</p>
+                            <a href="{{ review.url }}">Ver reseña completa</a>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -1065,12 +1065,11 @@ pagination:
               </div>
             </div>
           {% endfor %}
-        </div> 
-        {% include pagination-directorio.html %} 
-      </div>
-      <div class="col-lg-9" id="seccionEntradas"> 
+        </div>  
+      </div> 
+      <div class="col-lg-9" id="seccionEntradas">
         <div class="row">
-          {% assign sorted_posts = paginator.posts | sort_natural: 'title' %}
+          {% assign sorted_posts = site.directorio | sort_natural: 'title' %}
           {% assign current_letter = '' %}
           {% assign iterator = 0 %}
           {% for post in sorted_posts %}
@@ -1145,11 +1144,13 @@ pagination:
                     <div class="tab-pane fade" id="tabr6-{{iterator}}">
                       <div class="tab-card">
                         <div class="tab-card-1">
-                            <div>
-                              <h5 class="text-dark">{{ review.title }}</h5>
-                              <p>{{ review.content | truncatewords: 30 }}</p>
-                              <a href="{{ review.url }}">Ver reseña completa</a>
-                            </div>
+                          <div>
+                            <h5 class="text-dark">{{ review.title }}</h5>
+                            {% assign content_without_html = review.content | strip_html %}
+                            {% assign truncated_content = content_without_html | truncatewords: 50 %}
+                            <p>{{ truncated_content }}</p>
+                            <a href="{{ review.url }}">Ver reseña completa</a>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -1236,8 +1237,7 @@ pagination:
               </div>
             </div>
           {% endfor %}
-        </div> 
-        {% include pagination-directorio.html %}
+        </div>  
       </div> 
       <div class="col-lg-3">
         {% 

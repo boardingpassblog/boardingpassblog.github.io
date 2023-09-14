@@ -106,10 +106,13 @@ google-analytics: G-3PLT3KJYNC
 markdown: kramdown
 permalink: pretty
 plugins:
+  - jekyll-paginate
 #  - jekyll-sitemap
   - jekyll/tagging
   - jekyll-archives
-  - jekyll-paginate-v2
+
+paginate: 10	
+paginate_path: "/page/:num"
 
 # Pages Path
 defaults:
@@ -141,20 +144,6 @@ collections:
   review:
     output: true
     permalink: /review/:path/
-
-pagination:
-  enabled: true
-  per_page: 30
-  permalink: '/:num/'
-  title: ':title | :num de :max'
-  limit: 0
-  sort_field: 'date'
-  sort_reverse: true
- # extension: htm
- # indexpage: 'default'
-  trail: 
-    before: 2
-    after: 2
     
 # iconos servicios directorio
 servicios_iconos:
