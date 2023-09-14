@@ -87,6 +87,7 @@
           }
           if(item.services){
             var servicios = JSON.parse(item.services.replace(/&quot;/g, '"'));
+            appendString +='<div class="margin-services">';
             appendString +='<ul class="horizontal-list">';
             for (var j = 0; j < servicios.length; j++) {
               if (servicios_icons[servicios[j]]){
@@ -96,6 +97,7 @@
               }
             }
             appendString +='</ul>';
+            appendString +='</div>';
           }
           appendString +='</div>';
           appendString +='</div>';

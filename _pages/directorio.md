@@ -74,6 +74,8 @@ permalink: /directorio/
           {% assign iterator = 0 %}
           {% for post in sorted_posts %}
             {% assign post_title_first_letter = post.title | slice: 0, 1 | upcase %}
+            {% assign title-review = post.title %}
+            {% assign review = site.review | where: "title", title-review | first %}
             {% if post_title_first_letter != current_letter %}
               <div class="col-12">
                 <h4 class="letter-title">{{ post_title_first_letter }}</h4>
@@ -89,6 +91,11 @@ permalink: /directorio/
                     <li class="nav-item">
                       <a class="nav-link active" data-toggle="tab" href="#tab1-{{iterator}}">General</a>
                     </li>
+                    {% if review %}
+                    <li class="nav-item"> 
+                      <a class="nav-link" data-toggle="tab" href="#tabr1-{{iterator}}">Reseña</a>
+                    </li>
+                    {% endif %}
                     <li class="nav-item"> 
                       <a class="nav-link" data-toggle="tab" href="#tab2-{{iterator}}">Contacto</a>
                     </li>
@@ -118,19 +125,36 @@ permalink: /directorio/
                             <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
                           {% endif %}
                           {% if post.services %}
-                            <ul class="horizontal-list">
-                              {% for servicio in post.services %}
-                                {% if site.servicios_iconos[servicio] %}
-                                  <li>
-                                    <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
-                                  </li>
-                                {% endif %}
-                              {% endfor %}
-                            </ul>
+                            <div class="margin-services">
+                              <ul class="horizontal-list">
+                                {% for servicio in post.services %}
+                                  {% if site.servicios_iconos[servicio] %}
+                                    <li>
+                                      <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
+                                    </li>
+                                  {% endif %}
+                                {% endfor %}
+                              </ul>
+                            </div>
                           {% endif %}
                         </div>
                       </div>
                     </div>
+                    {% if review %}
+                    <div class="tab-pane fade" id="tabr1-{{iterator}}">
+                      <div class="tab-card">
+                        <div class="tab-card-1">
+                          <div>
+                            <h5 class="text-dark">{{ review.title }}</h5>
+                            {% assign content_without_html = review.content | strip_html %}
+                            {% assign truncated_content = content_without_html | truncatewords: 50 %}
+                            <p>{{ truncated_content }}</p>
+                            <a href="{{ review.url }}">Ver reseña completa</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    {% endif %}
                     <div class="tab-pane fade" id="tab2-{{iterator}}">
                       <div class="tab-card">
                         <div class="tab-card-1">
@@ -216,15 +240,17 @@ permalink: /directorio/
                         <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
                       {% endif %}
                       {% if post.services %}
-                        <ul class="horizontal-list">
-                          {% for servicio in post.services %}
-                            {% if site.servicios_iconos[servicio] %}
-                              <li>
-                                <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
-                              </li>
-                            {% endif %}
-                          {% endfor %}
-                        </ul>
+                        <div class="margin-services">
+                          <ul class="horizontal-list">
+                            {% for servicio in post.services %}
+                              {% if site.servicios_iconos[servicio] %}
+                                <li>
+                                  <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
+                                </li>
+                              {% endif %}
+                            {% endfor %}
+                          </ul>
+                        </div>
                       {% endif %}
                     </div>
                   </div>
@@ -273,15 +299,17 @@ permalink: /directorio/
                         <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
                       {% endif %}
                       {% if post.services %}
-                        <ul class="horizontal-list">
-                          {% for servicio in post.services %}
-                            {% if site.servicios_iconos[servicio] %}
-                              <li>
-                                <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
-                              </li>
-                            {% endif %}
-                          {% endfor %}
-                        </ul>
+                        <div class="margin-services">
+                          <ul class="horizontal-list">
+                            {% for servicio in post.services %}
+                              {% if site.servicios_iconos[servicio] %}
+                                <li>
+                                  <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
+                                </li>
+                              {% endif %}
+                            {% endfor %}
+                          </ul>
+                        </div>
                       {% endif %}
                     </div>
                   </div>
@@ -299,6 +327,8 @@ permalink: /directorio/
           {% assign iterator = 0 %}
           {% for post in sorted_posts %}
             {% assign post_region = post.region %}
+            {% assign title-review = post.title %}
+            {% assign review = site.review | where: "title", title-review | first %}
             {% if post_region != current_region %}
               <div class="col-12">
                 <h4 class="letter-title">{{ post_region }}</h4>
@@ -314,6 +344,11 @@ permalink: /directorio/
                     <li class="nav-item">
                       <a class="nav-link active" data-toggle="tab" href="#tab9-{{iterator}}">General</a>
                     </li>
+                    {% if review %}
+                    <li class="nav-item"> 
+                      <a class="nav-link" data-toggle="tab" href="#tabr2-{{iterator}}">Reseña</a>
+                    </li>
+                    {% endif %}
                     <li class="nav-item">
                       <a class="nav-link" data-toggle="tab" href="#tab10-{{iterator}}">Contacto</a>
                     </li>
@@ -343,19 +378,36 @@ permalink: /directorio/
                             <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
                           {% endif %}
                           {% if post.services %}
-                            <ul class="horizontal-list">
-                              {% for servicio in post.services %}
-                                {% if site.servicios_iconos[servicio] %}
-                                  <li>
-                                    <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
-                                  </li>
-                                {% endif %}
-                              {% endfor %}
-                            </ul>
+                            <div class="margin-services">
+                              <ul class="horizontal-list">
+                                {% for servicio in post.services %}
+                                  {% if site.servicios_iconos[servicio] %}
+                                    <li>
+                                      <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
+                                    </li>
+                                  {% endif %}
+                                {% endfor %}
+                              </ul>
+                            </div>
                           {% endif %}
                         </div>
                       </div>
                     </div>
+                    {% if review %}
+                    <div class="tab-pane fade" id="tabr2-{{iterator}}">
+                      <div class="tab-card">
+                        <div class="tab-card-1">
+                          <div>
+                            <h5 class="text-dark">{{ review.title }}</h5>
+                            {% assign content_without_html = review.content | strip_html %}
+                            {% assign truncated_content = content_without_html | truncatewords: 50 %}
+                            <p>{{ truncated_content }}</p>
+                            <a href="{{ review.url }}">Ver reseña completa</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    {% endif %}
                     <div class="tab-pane fade" id="tab10-{{iterator}}">
                       <div class="tab-card">
                         <div class="tab-card-1">
@@ -419,15 +471,17 @@ permalink: /directorio/
                         <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
                       {% endif %}
                       {% if post.services %}
-                        <ul class="horizontal-list">
-                          {% for servicio in post.services %}
-                            {% if site.servicios_iconos[servicio] %}
-                              <li>
-                                <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
-                              </li>
-                            {% endif %}
-                          {% endfor %}
-                        </ul>
+                        <div class="margin-services">
+                          <ul class="horizontal-list">
+                            {% for servicio in post.services %}
+                              {% if site.servicios_iconos[servicio] %}
+                                <li>
+                                  <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
+                                </li>
+                              {% endif %}
+                            {% endfor %}
+                          </ul>
+                        </div>
                       {% endif %}
                     </div>
                   </div>
@@ -445,6 +499,8 @@ permalink: /directorio/
           {% assign iterator = 0 %}
           {% for post in sorted_posts %}
             {% assign post_region = post.region %}
+            {% assign title-review = post.title %}
+            {% assign review = site.review | where: "title", title-review | first %}
             {% if post_region != current_region %}
               <div class="col-12">
                 <h4 class="letter-title">{{ post_region }}</h4>
@@ -460,6 +516,11 @@ permalink: /directorio/
                     <li class="nav-item">
                       <a class="nav-link active" data-toggle="tab" href="#tab3-{{iterator}}">General</a>
                     </li>
+                    {% if review %}
+                    <li class="nav-item"> 
+                      <a class="nav-link" data-toggle="tab" href="#tabr3-{{iterator}}">Reseña</a>
+                    </li>
+                    {% endif %}
                     <li class="nav-item">
                       <a class="nav-link" data-toggle="tab" href="#tab4-{{iterator}}">Contacto</a>
                     </li>
@@ -489,19 +550,36 @@ permalink: /directorio/
                             <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
                           {% endif %}
                           {% if post.services %}
-                            <ul class="horizontal-list">
-                              {% for servicio in post.services %}
-                                {% if site.servicios_iconos[servicio] %}
-                                  <li>
-                                    <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
-                                  </li>
-                                {% endif %}
-                              {% endfor %}
-                            </ul>
+                            <div class="margin-services">
+                              <ul class="horizontal-list">
+                                {% for servicio in post.services %}
+                                  {% if site.servicios_iconos[servicio] %}
+                                    <li>
+                                      <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
+                                    </li>
+                                  {% endif %}
+                                {% endfor %}
+                              </ul>
+                            </div>
                           {% endif %}
                         </div>
                       </div>
                     </div>
+                    {% if review %}
+                    <div class="tab-pane fade" id="tabr3-{{iterator}}">
+                      <div class="tab-card">
+                        <div class="tab-card-1">
+                          <div>
+                            <h5 class="text-dark">{{ review.title }}</h5>
+                            {% assign content_without_html = review.content | strip_html %}
+                            {% assign truncated_content = content_without_html | truncatewords: 50 %}
+                            <p>{{ truncated_content }}</p>
+                            <a href="{{ review.url }}">Ver reseña completa</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    {% endif %}
                     <div class="tab-pane fade" id="tab4-{{iterator}}">
                       <div class="tab-card">
                         <div class="tab-card-1">
@@ -565,15 +643,17 @@ permalink: /directorio/
                         <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
                       {% endif %}
                       {% if post.services %}
-                        <ul class="horizontal-list">
-                          {% for servicio in post.services %}
-                            {% if site.servicios_iconos[servicio] %}
-                              <li>
-                                <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
-                              </li>
-                            {% endif %}
-                          {% endfor %}
-                        </ul>
+                        <div class="margin-services">
+                          <ul class="horizontal-list">
+                            {% for servicio in post.services %}
+                              {% if site.servicios_iconos[servicio] %}
+                                <li>
+                                  <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
+                                </li>
+                              {% endif %}
+                            {% endfor %}
+                          </ul>
+                        </div>
                       {% endif %}
                     </div>
                   </div>
@@ -622,15 +702,17 @@ permalink: /directorio/
                         <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
                       {% endif %}
                       {% if post.services %}
-                        <ul class="horizontal-list">
-                          {% for servicio in post.services %}
-                            {% if site.servicios_iconos[servicio] %}
-                              <li>
-                                <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
-                              </li>
-                            {% endif %}
-                          {% endfor %}
-                        </ul>
+                        <div class="margin-services">
+                          <ul class="horizontal-list">
+                            {% for servicio in post.services %}
+                              {% if site.servicios_iconos[servicio] %}
+                                <li>
+                                  <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
+                                </li>
+                              {% endif %}
+                            {% endfor %}
+                          </ul>
+                        </div>
                       {% endif %}
                     </div>
                   </div>
@@ -648,6 +730,8 @@ permalink: /directorio/
           {% assign iterator = 0 %}
           {% for post in sorted_posts %}
             {% assign post_state = post.state %}
+            {% assign title-review = post.title %}
+            {% assign review = site.review | where: "title", title-review | first %}
             {% if post_state != current_state %}
               <div class="col-12">
                 <h4 class="letter-title">{{ post_state }}</h4>
@@ -663,6 +747,11 @@ permalink: /directorio/
                     <li class="nav-item">
                       <a class="nav-link active" data-toggle="tab" href="#tab11-{{iterator}}">General</a>
                     </li>
+                    {% if review %}
+                    <li class="nav-item"> 
+                      <a class="nav-link" data-toggle="tab" href="#tabr4-{{iterator}}">Reseña</a>
+                    </li>
+                    {% endif %}
                     <li class="nav-item">
                       <a class="nav-link" data-toggle="tab" href="#tab12-{{iterator}}">Contacto</a>
                     </li>
@@ -692,19 +781,36 @@ permalink: /directorio/
                             <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
                           {% endif %}
                           {% if post.services %}
-                            <ul class="horizontal-list">
-                              {% for servicio in post.services %}
-                                {% if site.servicios_iconos[servicio] %}
-                                  <li>
-                                    <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
-                                  </li>
-                                {% endif %}
-                              {% endfor %}
-                            </ul>
+                            <div class="margin-services">
+                              <ul class="horizontal-list">
+                                {% for servicio in post.services %}
+                                  {% if site.servicios_iconos[servicio] %}
+                                    <li>
+                                      <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
+                                    </li>
+                                  {% endif %}
+                                {% endfor %}
+                              </ul>
+                            </div>
                           {% endif %}
                         </div>
                       </div>
                     </div>
+                    {% if review %}
+                    <div class="tab-pane fade" id="tabr4-{{iterator}}">
+                      <div class="tab-card">
+                        <div class="tab-card-1">
+                          <div>
+                            <h5 class="text-dark">{{ review.title }}</h5>
+                            {% assign content_without_html = review.content | strip_html %}
+                            {% assign truncated_content = content_without_html | truncatewords: 50 %}
+                            <p>{{ truncated_content }}</p>
+                            <a href="{{ review.url }}">Ver reseña completa</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    {% endif %}
                     <div class="tab-pane fade" id="tab12-{{iterator}}">
                       <div class="tab-card">
                         <div class="tab-card-1">
@@ -768,15 +874,17 @@ permalink: /directorio/
                         <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
                       {% endif %}
                       {% if post.services %}
-                        <ul class="horizontal-list">
-                          {% for servicio in post.services %}
-                            {% if site.servicios_iconos[servicio] %}
-                              <li>
-                                <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
-                              </li>
-                            {% endif %}
-                          {% endfor %}
-                        </ul>
+                        <div class="margin-services">
+                          <ul class="horizontal-list">
+                            {% for servicio in post.services %}
+                              {% if site.servicios_iconos[servicio] %}
+                                <li>
+                                  <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
+                                </li>
+                              {% endif %}
+                            {% endfor %}
+                          </ul>
+                        </div>
                       {% endif %}
                     </div>
                   </div>
@@ -794,6 +902,8 @@ permalink: /directorio/
           {% assign iterator = 0 %}
           {% for post in sorted_posts %}
             {% assign post_state = post.state %}
+            {% assign title-review = post.title %}
+            {% assign review = site.review | where: "title", title-review | first %}
             {% if post_state != current_state %}
               <div class="col-12">
                 <h4 class="letter-title">{{ post_state }}</h4>
@@ -809,6 +919,11 @@ permalink: /directorio/
                     <li class="nav-item">
                       <a class="nav-link active" data-toggle="tab" href="#tab5-{{iterator}}">General</a>
                     </li>
+                    {% if review %}
+                    <li class="nav-item"> 
+                      <a class="nav-link" data-toggle="tab" href="#tabr5-{{iterator}}">Reseña</a>
+                    </li>
+                    {% endif %}
                     <li class="nav-item">
                       <a class="nav-link" data-toggle="tab" href="#tab6-{{iterator}}">Contacto</a>
                     </li>
@@ -838,19 +953,36 @@ permalink: /directorio/
                             <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
                           {% endif %}
                           {% if post.services %}
-                            <ul class="horizontal-list">
-                              {% for servicio in post.services %}
-                                {% if site.servicios_iconos[servicio] %}
-                                  <li>
-                                    <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
-                                  </li>
-                                {% endif %}
-                              {% endfor %}
-                            </ul>
+                            <div class="margin-services">
+                              <ul class="horizontal-list">
+                                {% for servicio in post.services %}
+                                  {% if site.servicios_iconos[servicio] %}
+                                    <li>
+                                      <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
+                                    </li>
+                                  {% endif %}
+                                {% endfor %}
+                              </ul>
+                            </div>
                           {% endif %}
                         </div>
                       </div>
                     </div>
+                    {% if review %}
+                    <div class="tab-pane fade" id="tabr5-{{iterator}}">
+                      <div class="tab-card">
+                        <div class="tab-card-1">
+                          <div>
+                            <h5 class="text-dark">{{ review.title }}</h5>
+                            {% assign content_without_html = review.content | strip_html %}
+                            {% assign truncated_content = content_without_html | truncatewords: 50 %}
+                            <p>{{ truncated_content }}</p>
+                            <a href="{{ review.url }}">Ver reseña completa</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    {% endif %}
                     <div class="tab-pane fade" id="tab6-{{iterator}}">
                       <div class="tab-card">
                         <div class="tab-card-1">
@@ -914,15 +1046,17 @@ permalink: /directorio/
                         <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
                       {% endif %}
                       {% if post.services %}
-                        <ul class="horizontal-list">
-                          {% for servicio in post.services %}
-                            {% if site.servicios_iconos[servicio] %}
-                              <li>
-                                <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
-                              </li>
-                            {% endif %}
-                          {% endfor %}
-                        </ul>
+                        <div class="margin-services">
+                          <ul class="horizontal-list">
+                            {% for servicio in post.services %}
+                              {% if site.servicios_iconos[servicio] %}
+                                <li>
+                                  <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
+                                </li>
+                              {% endif %}
+                            {% endfor %}
+                          </ul>
+                        </div>
                       {% endif %}
                     </div>
                   </div>
@@ -940,6 +1074,8 @@ permalink: /directorio/
           {% assign iterator = 0 %}
           {% for post in sorted_posts %}
             {% assign post_title_first_letter = post.title | slice: 0, 1 | upcase %}
+            {% assign title-review = post.title %}
+            {% assign review = site.review | where: "title", title-review | first %}
             {% if post_title_first_letter != current_letter %}
               <div class="col-12">
                 <h4 class="letter-title">{{ post_title_first_letter }}</h4>
@@ -955,6 +1091,11 @@ permalink: /directorio/
                     <li class="nav-item">
                       <a class="nav-link active" data-toggle="tab" href="#tab7-{{iterator}}">General</a>
                     </li>
+                    {% if review %}
+                    <li class="nav-item"> 
+                      <a class="nav-link" data-toggle="tab" href="#tabr6-{{iterator}}">Reseña</a>
+                    </li>
+                    {% endif %}
                     <li class="nav-item">
                       <a class="nav-link" data-toggle="tab" href="#tab8-{{iterator}}">Contacto</a>
                     </li>
@@ -984,19 +1125,36 @@ permalink: /directorio/
                             <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
                           {% endif %}
                           {% if post.services %}
-                            <ul class="horizontal-list">
-                              {% for servicio in post.services %}
-                                {% if site.servicios_iconos[servicio] %}
-                                  <li>
-                                    <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
-                                  </li>
-                                {% endif %}
-                              {% endfor %}
-                            </ul>
+                            <div class="margin-services">
+                              <ul class="horizontal-list">
+                                {% for servicio in post.services %}
+                                  {% if site.servicios_iconos[servicio] %}
+                                    <li>
+                                      <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
+                                    </li>
+                                  {% endif %}
+                                {% endfor %}
+                              </ul>
+                            </div>
                           {% endif %}
                         </div>
                       </div>
                     </div>
+                    {% if review %}
+                    <div class="tab-pane fade" id="tabr6-{{iterator}}">
+                      <div class="tab-card">
+                        <div class="tab-card-1">
+                          <div>
+                            <h5 class="text-dark">{{ review.title }}</h5>
+                            {% assign content_without_html = review.content | strip_html %}
+                            {% assign truncated_content = content_without_html | truncatewords: 50 %}
+                            <p>{{ truncated_content }}</p>
+                            <a href="{{ review.url }}">Ver reseña completa</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    {% endif %}
                     <div class="tab-pane fade" id="tab8-{{iterator}}">
                       <div class="tab-card">
                         <div class="tab-card-1">
@@ -1060,15 +1218,17 @@ permalink: /directorio/
                         <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
                       {% endif %}
                       {% if post.services %}
-                        <ul class="horizontal-list">
-                          {% for servicio in post.services %}
-                            {% if site.servicios_iconos[servicio] %}
-                              <li>
-                                <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
-                              </li>
-                            {% endif %}
-                          {% endfor %}
-                        </ul>
+                        <div class="margin-services">
+                          <ul class="horizontal-list">
+                            {% for servicio in post.services %}
+                              {% if site.servicios_iconos[servicio] %}
+                                <li>
+                                  <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
+                                </li>
+                              {% endif %}
+                            {% endfor %}
+                          </ul>
+                        </div>
                       {% endif %}
                     </div>
                   </div>

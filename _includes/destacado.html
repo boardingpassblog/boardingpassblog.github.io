@@ -43,6 +43,7 @@
         }
         if (archivo.services) {
             html += ` 
+                <div class="margin-services">
                 <ul class="horizontal-list">
             `;
             for (var i = 0; i < archivo.services.length; i++) {
@@ -56,6 +57,7 @@
             }
             html += ` 
                 </ul>
+                </div>
             `;
         }
         html += ` 

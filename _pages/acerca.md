@@ -24,3 +24,8 @@ Para esto, además de reseñar artículos, noticias y notas más relevantes, est
 {%
  include carousel.html
 %}
+
+<h3 class="font-weight-light pt-3">Tarifario</h3>
+{%
+ include tarifario.html
+%}

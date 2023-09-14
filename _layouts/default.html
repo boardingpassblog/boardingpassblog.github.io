@@ -37,6 +37,34 @@
 
   {% include footer.html %}
 
+  <!-- responsivevoice -->
+  <script src="https://code.responsivevoice.org/responsivevoice.js?key=1hUK9VMX"></script>
+  <!-- howler -->
+  <script src="{{ site.baseurl }}/assets/plugins/howler/howler.min.js"></script>
+  <script>
+    var sound = new Howl({
+      src: ['{{ site.baseurl }}/assets/sounds/fondo_musical.mp3'],
+      loop: true
+    });
+
+    var isPlaying = false;
+
+    function togglePlayback() {
+      var playIcon = document.getElementById('playIcon');
+
+      if (isPlaying) {
+        sound.pause();
+        isPlaying = false;
+        playIcon.classList.remove('fa-volume-up');
+        playIcon.classList.add('fa-volume-mute');
+      } else {
+        sound.play();
+        isPlaying = true;
+        playIcon.classList.remove('fa-volume-mute');
+        playIcon.classList.add('fa-volume-up');
+      }
+    }
+  </script>
   <!-- jQuery -->
   <script src="{{ site.baseurl }}/assets/plugins/jQuery/jquery.min.js"></script>
   <!-- Bootstrap JS -->

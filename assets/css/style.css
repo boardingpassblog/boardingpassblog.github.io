@@ -147,6 +147,10 @@ h1, .h1 {
   margin-right: 50px;
 }
 
+.margin-volume-left{
+  margin-left: 50px;
+}
+
 @media (max-width: 1680px) {
   h1, .h1 {
     font-size: 55px;
@@ -307,7 +311,7 @@ h1, .h1 {
   }
   .share-button {
     position: relative;
-    width: 80px;
+    width: 100px;
     height: 30px;
     background-color: transparent; 
     border-radius:  5px;
@@ -317,6 +321,7 @@ h1, .h1 {
     cursor: pointer;
     font-size: 12px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 5px;
   }
   .share-button i {
     font-size: 12px; 
@@ -393,6 +398,15 @@ h1, .h1 {
   }
   .margin-left-date-share{
     flex-direction: column !important; 
+  }
+  .margin-columns-volume{
+    flex-direction: column !important; 
+  }
+  .margin-circle{
+    margin: 10px 10px !important;
+  }
+  .center-button-volume{
+    margin-bottom: 30px;
   }
 }
 
@@ -1396,6 +1410,10 @@ blockquote {
   font-size: 16px; 
 }
 
+.margin-services{
+  margin-top: 8px;
+}
+
 .margin-img-card{
   width: 100px; height: auto;
 }
@@ -1570,4 +1588,120 @@ blockquote {
   white-space: nowrap;
   font-weight: bold;
   color: white;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination a,
+.pagination span {
+  display: inline-block;
+  padding: 8px 12px;
+  margin: 0 5px;
+  color: #000;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.pagination a:hover {
+  background-color: #eee;
+}
+
+.pagination .current-page {
+  background-color: #00ccb9;
+  color: #fff;
+}
+
+.pagination .previous,
+.pagination .next {
+  font-weight: bold;
+}
+
+.pagination .previous {
+  margin-right: 10px;
+}
+
+.pagination .next {
+  margin-left: 10px;
+}
+
+.round-button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #00ccb9;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.round-button:hover {
+  background-color: #03b6a4;
+}
+
+.round-button:focus {
+  outline: none;
+}
+
+.round-button i {
+  color: white;
+  font-size: 12px;
+}
+
+.circle-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background-color: transparent;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle-button i{
+  color: #03b6a4;
+}
+
+.circle-button:focus {
+  outline: none;
+}
+
+.circle-button:hover {
+  background-color: #7debe0;
+}
+
+.custom-table{
+  background-color: #51ddcf;
+  font-size: 20px; 
+}
+
+.centered-cell {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.custom-button {
+  background-color: #7debe0; 
+  color: #000; 
+}
+
+.bottom-modal {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.margin-bottom-share{
+  margin-bottom: 10px;
 }

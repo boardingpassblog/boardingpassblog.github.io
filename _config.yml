@@ -84,6 +84,10 @@ contact:
 contact-form: f/xwkdoldl
 
 #-------------------------------
+# Whatsapp Group Code
+whatsapp-group-code: EaGIdHMQkqP07GSNdqdGgf
+
+#-------------------------------
 # Comment Section (Disqus)
 disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 
@@ -107,7 +111,7 @@ plugins:
   - jekyll/tagging
   - jekyll-archives
 
-paginate: 10
+paginate: 10	
 paginate_path: "/page/:num"
 
 # Pages Path
@@ -136,7 +140,11 @@ jekyll-archives:
 collections:
   directorio:
     output: true
-
+    permalink: /directorio/:path/
+  review:
+    output: true
+    permalink: /review/:path/
+    
 # iconos servicios directorio
 servicios_iconos:
   "Asesoría Personalizada de Viajes": "fas fa-comments"
@@ -459,3 +467,33 @@ prose:
             - name: 'Líneas aéreas'
               value: 'Líneas aéreas'
           alterable: false
+      - name: resumen
+        field:
+          element: text
+          label: Ingresa el resumen de la reseña
+          type: text
+    _review:
+      - name: layout
+        field:
+          element: hidden
+          value: review
+      - name: title
+        field:
+          element: text
+          label: Ingresa el nombre 
+          type: text
+      - name: date
+        field:
+          element: text
+          label: Fecha de creación
+          value: CURRENT_DATETIME
+      - name: author
+        field: 
+          element: text
+          label: Nombre del autor
+          value: ""
+      - name: image
+        field: 
+          element: text
+          label: Indica la ruta de la imagen de la publicación
+          value: ""

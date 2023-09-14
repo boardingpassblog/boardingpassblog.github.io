@@ -433,6 +433,11 @@ sidebar_search-5:
   alt: "Ad sidebar search 5"
   url: ""
 
+post-0:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad post 0"
+  url: ""
+
 post-1:
   image: /assets/images/BP-300x300.jpg
   alt: "Ad post 1"
@@ -445,7 +450,47 @@ post-2:
 
 post-3:
   image: /assets/images/BP-300x300.jpg
-  alt: "Ad post 2"
+  alt: "Ad post 3"
+  url: ""
+
+post-4:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad post 4"
+  url: ""
+
+post-5:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad post 5"
+  url: ""
+
+review-0:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad review 0"
+  url: ""
+
+review-1:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad review 1"
+  url: ""
+
+review-2:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad review 2"
+  url: ""
+
+review-3:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad review 3"
+  url: ""
+
+review-4:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad review 4"
+  url: ""
+
+review-5:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad review 5"
   url: ""
 
 sidebar_search-directorio-0:
