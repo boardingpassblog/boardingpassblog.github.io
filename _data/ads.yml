@@ -59,14 +59,14 @@ after-enterate:
   url: "https://www.aviorplus.com"
 
 after-opinion:
-  image: /assets/images/BP-900x100.jpg
-  alt: "Ad después de opinión"
-  url: ""
-
-after-rutas:
   image: /assets/images/LASER-Airlines---Banner-Miami-900x100.gif
   alt: "Laser Airlines"
   url: "https://www.laserairlines.com/"
+
+after-rutas:
+  image: /assets/images/BP-900x100.jpg
+  alt: "Ad después de opinión"
+  url: ""
 
 after-salte-del-radar:
   image: /assets/images/BP-900x100.jpg
