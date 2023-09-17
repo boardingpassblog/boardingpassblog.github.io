@@ -1,44 +1,69 @@
 {
-    "1 de Enero": "Celebración del Año Nuevo.",
+    "1 de Enero": [
+      "Celebración del Año Nuevo.",
+      "Se crea Línea Aeropostal de Venezuela",
+      "Fundación de Barcelona, estado Anzoategui"
+      ],
     "2 de Enero": "La Paradura del Niño",
     "3 de enero": "Ascenso de Alejandrde Humbolt y Aimé Bonpland al pico El Ávila.",
     "4 de enero": "Muerte de Rafael María Baralt.",
     "6 de enero": [
-        "Día de los Reyes magos.", 
-        "Día del Deporte."
+      "Día de los Reyes magos.",
+      "Se inaugura el puente Angostura",
+      "Día del Deporte."
     ],
     "10 de enero": "Muerte del General Ezequiel Zamora.",
     "14 de enero": "Día de la Virgen de la Divina Pastora.",
     "15 de enero": "Día del maestro.",
     "16 de enero": "Muerte de Juan Vicente Bolívar y Ponte (padre del Libertador).",
+    "19 de enero": [
+      "Día de la fundación de Ciudad Ojeda",
+      "Se inaugura el capitolio federal"
+     ], 
     "20 de enero": "Feria de San Sebastián",
     "21 de enero": "Santa Lucía",
     "23 de enero": [
         "Natalicio de José Francisco Bermúdez.", 
         "Caída de dictadura de Marcos Pérez Jiménez."
     ],
-    "24 de enero": "Nuestra Señora de la Paz",
+    "24 de enero": [
+        "Nuestra Señora de la Paz",
+        "Se nombra a Tucupita capital de estado"
+    ],  
     "27 de enero": "Natalicio de Juan Crisóstomo Falcón.",
     "28 de enero": "Día de la zulianidad.",
     "30 de enero": "Natalicio de de Juan Antonio Pérez Bonalde.",
     "31 de enero": "Muerte de José Félix Ribas.",
-    "1 de febrero": "Natalicio del General Ezequiel Zamora.",
+    "1 de febrero": [
+        "Natalicio del General Ezequiel Zamora.",
+        "Se funda la ciudad de Cumaná"
+     ],  
     "2 de febrero": "Día de la Virgen de La Candelaria.",
-    "3 de febrero": "Natalicio del Mariscal AntoniJosé de Sucre.",
+    "3 de febrero": "Natalicio del Mariscal Antonio José de Sucre.",
     "7 de febrero": "Muerte de General Agustín Codazzi.",
+    "9 de febrero": "Colocación primera piedra de Puerto Ordaz",
+    "10 de febrero": "Se crea el balneario de Macuto"
     "11 de febrero": [
-        "Nuestra Señora de la Corteza", 
+        "Nuestra Señora de la Corteza",
+        "
         "Muerte del General Carlos Soublette."
     ],
     "12 de febrero": [
         "Día de la Juventud.", 
         "Batalla de La Victoria."
     ],
+    "13 de febrero": "Se designa Los Teques, capital del estado Miranda",
     "14 de febrero": "Día de San Valentín (celebración de orígenes religiosos).",
-    "15 de febrero": "Discurso de Angostura.",
+    "15 de febrero": 
+         "Discurso de Angostura.",
+         "Día de la fundación de Valera"
+    ],
     "17 de febrero": "Feria del Sol",
     "18 de febrero": "Viernes Negro",
-    "20 de febrero": "Día de la Federación.",
+    "20 de febrero": [
+         "Día de la Federación.",
+         "Se inaugura el museo de Bellas Artes"
+    ],      
     "21 de febrero": "Día internacional de la lengua materna.",
     "23 de febrero": "Día Nacional de Guyana (zona en reclamación por Venezuela).",
     "24 de febrero": "Fallecimiento de Daniel Florencio O'Leary.",
@@ -228,7 +253,10 @@
     "26 de septiembre": "Se inaugura la Catedral de la Divina Pastora en Tucupita (1982)",
     "27 de septiembre": "Día Mundial del Turismo",
     "28 de septiembre": "Día Mundial del Acceso a la Información",
-    "29 de septiembre": "Se inaugura el Teleférico de Caracas (1955)",
+    "29 de septiembre": [
+         "Se inaugura el Teleférico de Caracas (1955)",
+         "Día de la Aviación Civil"
+     ],     
     "4 de octubre": "Muerte de Juan Antonio Pérez Bonalde",
     "5 de octubre": [
         "San Francisco de Asís",
@@ -237,6 +265,11 @@
     ],
     "6 de octubre": "Día Internacional del Agua",
     "7 de octubre": "Día de la Virgen Nuestra Señora del Rosario",
+    "9 de octubre": [
+        "Fundación de Trujillo",
+        "Fundación de Merida",
+        "Jimmy Angel aterriza en la meseta de Auyantepui"
+    ],      
     "10 de octubre": "Natalicio de Francisco Antonio Rísquez",
     "12 de octubre": [
         "Festividad del Día de los Espíritus",
@@ -254,10 +287,14 @@
         "Día de las Naciones Unidas"
     ],
     "26 de octubre": "Natalicio de José Gregorio Hernández",
-    "28 de octubre": "Natalicio de Simón Rodríguez",
+    "28 de octubre": [
+      "Natalicio de Simón Rodríguez",
+      "Se inaugura el Panteon Nacional"
+    ],      
     "31 de octubre": "Halloween 'Noche de Brujas'",
     "1 de noviembre": "Día de Todos Los Santos",
     "2 de noviembre": "Día de los Fieles Difuntos",
+    "3 de noviembre": "Día de la fundación de Guanare",
     "7 de noviembre": "Clásico Nacional de Pesca del Rey",
     "9 de noviembre": "Caída del Muro de Berlín",
     "14 de noviembre": [
