@@ -121,9 +121,6 @@ permalink: /directorio/
                               {% endfor %}
                             </div>
                           {% endif %}
-                          {% if post.services_extra %}
-                            <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
-                          {% endif %}
                           {% if post.services %}
                             <div class="margin-services">
                               <ul class="horizontal-list">
@@ -236,9 +233,6 @@ permalink: /directorio/
                           {% endfor %}
                         </div>
                       {% endif %}
-                      {% if post.services_extra %}
-                        <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
-                      {% endif %}
                       {% if post.services %}
                         <div class="margin-services">
                           <ul class="horizontal-list">
@@ -294,9 +288,6 @@ permalink: /directorio/
                             <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
                           {% endfor %}
                         </div>
-                      {% endif %}
-                      {% if post.services_extra %}
-                        <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
                       {% endif %}
                       {% if post.services %}
                         <div class="margin-services">
@@ -373,9 +364,6 @@ permalink: /directorio/
                                 <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
                               {% endfor %}
                             </div>
-                          {% endif %}
-                          {% if post.services_extra %}
-                            <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
                           {% endif %}
                           {% if post.services %}
                             <div class="margin-services">
@@ -467,9 +455,6 @@ permalink: /directorio/
                           {% endfor %}
                         </div>
                       {% endif %}
-                      {% if post.services_extra %}
-                        <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
-                      {% endif %}
                       {% if post.services %}
                         <div class="margin-services">
                           <ul class="horizontal-list">
@@ -545,9 +530,6 @@ permalink: /directorio/
                                 <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
                               {% endfor %}
                             </div>
-                          {% endif %}
-                          {% if post.services_extra %}
-                            <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
                           {% endif %}
                           {% if post.services %}
                             <div class="margin-services">
@@ -639,9 +621,6 @@ permalink: /directorio/
                           {% endfor %}
                         </div>
                       {% endif %}
-                      {% if post.services_extra %}
-                        <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
-                      {% endif %}
                       {% if post.services %}
                         <div class="margin-services">
                           <ul class="horizontal-list">
@@ -697,9 +676,6 @@ permalink: /directorio/
                             <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
                           {% endfor %}
                         </div>
-                      {% endif %}
-                      {% if post.services_extra %}
-                        <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
                       {% endif %}
                       {% if post.services %}
                         <div class="margin-services">
@@ -776,9 +752,6 @@ permalink: /directorio/
                                 <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
                               {% endfor %}
                             </div>
-                          {% endif %}
-                          {% if post.services_extra %}
-                            <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
                           {% endif %}
                           {% if post.services %}
                             <div class="margin-services">
@@ -870,9 +843,6 @@ permalink: /directorio/
                           {% endfor %}
                         </div>
                       {% endif %}
-                      {% if post.services_extra %}
-                        <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
-                      {% endif %}
                       {% if post.services %}
                         <div class="margin-services">
                           <ul class="horizontal-list">
@@ -948,9 +918,6 @@ permalink: /directorio/
                                 <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
                               {% endfor %}
                             </div>
-                          {% endif %}
-                          {% if post.services_extra %}
-                            <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
                           {% endif %}
                           {% if post.services %}
                             <div class="margin-services">
@@ -1042,9 +1009,6 @@ permalink: /directorio/
                           {% endfor %}
                         </div>
                       {% endif %}
-                      {% if post.services_extra %}
-                        <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
-                      {% endif %}
                       {% if post.services %}
                         <div class="margin-services">
                           <ul class="horizontal-list">
@@ -1120,9 +1084,6 @@ permalink: /directorio/
                                 <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
                               {% endfor %}
                             </div>
-                          {% endif %}
-                          {% if post.services_extra %}
-                            <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
                           {% endif %}
                           {% if post.services %}
                             <div class="margin-services">
@@ -1213,9 +1174,6 @@ permalink: /directorio/
                             <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
                           {% endfor %}
                         </div>
-                      {% endif %}
-                      {% if post.services_extra %}
-                        <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
                       {% endif %}
                       {% if post.services %}
                         <div class="margin-services">

@@ -64,9 +64,6 @@
               appendString +='<span class="margin-icon-search">'+types+' </span>';
               appendString +='</div>';
             }
-            if(item.services_extra){
-              appendString +='<div class="smaller-font"><i class="fas fa-list"></i> '+item.services_extra+'</div>';
-            }
             if(item.services){
               var servicios = JSON.parse(item.services.replace(/&quot;/g, '"'));
               appendString +='<div class="margin-services">';
@@ -141,9 +138,6 @@
               appendString +='<span class="margin-icon-search">'+types+' </span>';
               appendString +='</div>';
             }
-            if(item.services_extra){
-              appendString +='<div class="smaller-font"><i class="fas fa-list"></i> '+item.services_extra+'</div>';
-            }
             if(item.services){
               var servicios = JSON.parse(item.services.replace(/&quot;/g, '"'));
               appendString +='<div class="margin-services">';
@@ -204,7 +198,6 @@
         this.field('address');
         this.field('types');
         this.field('services');
-        this.field('services_extra');
         this.field('featured');
         this.field('image');
         this.field('phone_number');
@@ -223,7 +216,6 @@
           'address': window.store_directorio[key].address,
           'types': window.store_directorio[key].types,
           'services': window.store_directorio[key].services,
-          'services_extra': window.store_directorio[key].services_extra,
           'featured': window.store_directorio[key].featured,
           'image': window.store_directorio[key].image,
           'phone_number': window.store_directorio[key].phone_number,

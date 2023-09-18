@@ -82,9 +82,6 @@
             appendString +='<span class="margin-icon-search">'+types+' </span>';
             appendString +='</div>';
           }
-          if(item.services_extra){
-            appendString +='<div class="smaller-font"><i class="fas fa-list"></i> '+item.services_extra+'</div>';
-          }
           if(item.services){
             var servicios = JSON.parse(item.services.replace(/&quot;/g, '"'));
             appendString +='<div class="margin-services">';
