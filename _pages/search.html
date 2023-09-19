@@ -97,6 +97,19 @@ title: Resultados de la búsqueda
       {% endfor %}
     };
 
+    var reviews = {
+      {% for rev in site.review %}
+        "{{ rev.url | slugify }}": {
+          "date": "{{ rev.date | date: '%d %b, %Y'}}",
+          "title": "{{ rev.title }}",
+          "content": {{ rev.content | strip_html | strip_newlines | jsonify }}
+        }
+        {% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    };
+
+    var servicios_icons = {{ site.servicios_iconos | jsonify }};
+
     document.addEventListener('DOMContentLoaded', function() {
     // Verificar si el contenido de search-results está vacío
     var searchResultsElement = document.getElementById('search-results');

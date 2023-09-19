@@ -467,11 +467,6 @@ prose:
             - name: 'Líneas aéreas'
               value: 'Líneas aéreas'
           alterable: false
-      - name: resumen
-        field:
-          element: text
-          label: Ingresa el resumen de la reseña
-          type: text
     _review:
       - name: layout
         field:

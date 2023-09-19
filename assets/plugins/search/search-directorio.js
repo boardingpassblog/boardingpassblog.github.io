@@ -1,26 +1,40 @@
 (function() {
+    function quitarReview(cadena) {
+      return cadena.replace("/review/review-", "/review/");
+    }   
+
+    function ajustarContenido(content, maxPalabras) {
+      var palabras = content.split(" ");
+      var contenidoAjustado = palabras.slice(0, maxPalabras).join(" ");
+    
+      if (palabras.length > maxPalabras) {
+        contenidoAjustado += "...";
+      }
+    
+      return contenidoAjustado;
+    }
+
     function displaySearchDirectorio(results, store) {
       var searchDirectorio = document.getElementById('search-results-directorio');
-      var servicios_icons = {
-        "Asesoría Personalizada de Viajes": "fas fa-comments",
-        "Excursiones Locales": "fas fa-hiking",
-        "Guía Turística": "fas fa-map",
-        "Organización de Viajes": "fas fa-suitcase",
-        "Organización de Viajes de Turismo": "fas fa-globe-americas",
-        "Resolución de Incidencias": "fas fa-exclamation-circle",
-        "Servicio de Reservación": "fas fa-calendar-check",
-        "Traslados": "fas fa-car",
-        "Venta de Boletos Aéreos Internacionales": "fas fa-plane-departure",
-        "Venta de Boletos Aéreos Nacionales": "fas fa-plane",
-        "Viajes Internacionales": "fas fa-globe",
-        "Viajes Nacionales": "fas fa-flag",
-        "Hospedaje": "fas fa-bed"
-      };
       if (results.length) { // Are there any results?
         var appendString = '';
         var iterador = 0;
         for (var i = 0; i < results.length; i++) {  // Iterate over the results
           var item = store[results[i].ref]; 
+          var array_reviews = Object.entries(reviews);
+          var rev = false;
+          var titulo = '';
+          var contenido = '';
+          var url = '';
+          for (var k = 0; k < array_reviews.length; k++) {
+            if(array_reviews[k][1].title == item.title){
+              console.log(array_reviews[k][1]);
+              rev = true;
+              titulo = array_reviews[k][1].title;
+              contenido = ajustarContenido(array_reviews[k][1].content, 30);
+              url = quitarReview("/review/"+array_reviews[k][0]+"/");
+            }
+          }
           if(item.types){
             var types_clean = item.types.replace(/&quot;/g, '"'); 
             var types_array = types_clean.slice(1, -1).split(',').map(function(item) {
@@ -42,6 +56,11 @@
             appendString +='<li class="nav-item">';
             appendString +='<a class="nav-link active" data-toggle="tab" href="#tab1-directorio-'+iterador+'">'+"General"+'</a>';
             appendString +='</li>';
+            if(rev){
+              appendString +='<li class="nav-item">';
+              appendString +='<a class="nav-link" data-toggle="tab" href="#tabr1-directorio-'+iterador+'">'+"Reseña"+'</a>';
+              appendString +='</li>';
+            }
             appendString +='<li class="nav-item">';
             appendString +='<a class="nav-link" data-toggle="tab" href="#tab2-directorio-'+iterador+'">'+"Contacto"+'</a>';
             appendString +='</li>';
@@ -81,6 +100,19 @@
             appendString +='</div>';
             appendString +='</div>';
             appendString +='</div>';
+            if(rev){
+              appendString +='<div class="tab-pane fade" id="tabr1-directorio-'+iterador+'">';
+              appendString +='<div class="tab-card">';
+              appendString +='<div class="tab-card-1">';
+              appendString +='<div>';
+              appendString +='<h5 class="text-dark">'+titulo+'</h5>';
+              appendString +='<p>'+contenido+'</p>';
+              appendString +='<a href="'+url+'">Ver reseña completa</a>';
+              appendString +='</div>';
+              appendString +='</div>';
+              appendString +='</div>';
+              appendString +='</div>';
+            }
             appendString +='<div class="tab-pane fade" id="tab2-directorio-'+iterador+'">';
             appendString +='<div class="tab-card">';
             appendString +='<div class="tab-card-1">';
