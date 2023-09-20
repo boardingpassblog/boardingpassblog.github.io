@@ -4,7 +4,7 @@ date: '2023-09-15 19:23 -0400'
 featured: true
 published: true
 title: Impulso turístico al cierre de 2023
-author: Fedecàmaras Radio
+author: Fedecámaras Radio
 image-text: Hotel Humboldt
 description: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Humboltd.jpg
