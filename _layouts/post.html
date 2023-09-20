@@ -74,9 +74,15 @@ layout: default
 					Compartir
 				</botton>
 				<li class="list-inline-item margin-left-date-share margin-volume-left">
+					{% if page.audio %}
+					<button id="playButtonPost" class="circle-button margin-circle" onclick="togglePlaybackPost()">
+						<i id="playIconPost" class="fas fa-volume-mute"></i>
+					</button>
+					{% else %}
 					<button onclick="toggleSpeech()" class="circle-button margin-circle">
 						<i id="speechIcon" class="fas fa-volume-mute"></i>
 					</button></li>
+					{% endif %}
 				</div>
 				{% if page.image %}
 				<div class="image-holder">					
@@ -170,7 +176,7 @@ layout: default
     </div>
   </div>
 <!-- /blog single -->
-
+<script src="{{ site.baseurl }}/assets/plugins/howler/howler.min.js"></script>
 <script>
 	document.querySelector('.share-button').addEventListener('click', function() {
 		var shareOptions = document.querySelector('.share-options');
@@ -245,5 +251,28 @@ layout: default
       setTimeout(function() {
         modal.modal("hide"); 
       }, 1000);
+    }
+
+	var sound_post = new Howl({
+      src: ['{{ page.audio | prepend: site.url }}'],
+      loop: true
+    });
+
+    var isPlayingPost = false;
+
+    function togglePlaybackPost() {
+      var playIconPost = document.getElementById('playIconPost');
+
+      if (isPlayingPost) {
+        sound_post.pause();
+        isPlayingPost = false;
+        playIconPost.classList.remove('fa-volume-up');
+        playIconPost.classList.add('fa-volume-mute');
+      } else {
+        sound_post.play();
+        isPlayingPost = true;
+        playIconPost.classList.remove('fa-volume-mute');
+        playIconPost.classList.add('fa-volume-up');
+      }
     }
 </script>
