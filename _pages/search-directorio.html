@@ -69,7 +69,6 @@ title: Resultados de la búsqueda en el directorio
           "region": "{{ archivo.region | xml_escape }}",
           "state": "{{ archivo.state | xml_escape }}",
           "services": "{{ archivo.services | xml_escape }}",
-          "services_extra": "{{ archivo.services_extra | xml_escape }}",
           "address": "{{ archivo.address | xml_escape }}",
           "types": "{{ archivo.types | xml_escape }}",
           "featured": "{{ archivo.featured | xml_escape }}",
@@ -83,4 +82,17 @@ title: Resultados de la búsqueda en el directorio
         {% unless forloop.last %},{% endunless %}
       {% endfor %}
     };
+
+    var reviews = {
+      {% for rev in site.review %}
+        "{{ rev.url | slugify }}": {
+          "date": "{{ rev.date | date: '%d %b, %Y'}}",
+          "title": "{{ rev.title }}",
+          "content": {{ rev.content | strip_html | strip_newlines | jsonify }}
+        }
+        {% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    };
+
+    var servicios_icons = {{ site.servicios_iconos | jsonify }};
   </script>

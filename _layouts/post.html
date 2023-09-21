@@ -43,7 +43,7 @@ layout: default
 								<div class="circle-icon">
 								  <i class="ti-link"></i>
 								</div>
-								Copiar Enlace</a>
+								Copiar enlace</a>
 							  </li>
 							<li><a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | prepend: site.url }}" target="_blank">
 								<div class="circle-icon">
@@ -74,9 +74,15 @@ layout: default
 					Compartir
 				</botton>
 				<li class="list-inline-item margin-left-date-share margin-volume-left">
+					{% if page.audio %}
+					<button id="playButtonPost" class="circle-button margin-circle" onclick="togglePlaybackPost()">
+						<i id="playIconPost" class="fas fa-volume-mute"></i>
+					</button>
+					{% else %}
 					<button onclick="toggleSpeech()" class="circle-button margin-circle">
 						<i id="speechIcon" class="fas fa-volume-mute"></i>
 					</button></li>
+					{% endif %}
 				</div>
 				{% if page.image %}
 				<div class="image-holder">					
@@ -93,18 +99,24 @@ layout: default
 						{{ content }}
 					</article>
 				</div>
-				<br><br><hr>
-				<div class="content pl-0">
-					<p class="mb-5">
-						<h4>Únete a nuestro grupo de WhatsApp</h4>
-						<br>
-						En nuestro grupo exclusivo, recibirás información sobre destinos increíbles, consejos de viaje, recomendaciones de hoteles y restaurantes, historias de viajeros, promociones especiales y mucho más. Serás el primero en enterarte de nuestros próximos tours y actividades emocionantes.
-							Si eres un amante de los viajes y quieres estar al día con las últimas novedades y oportunidades, ¡no pierdas la oportunidad de unirte a nuestro grupo!
-							<br><br>
-							<a class="btn btn-primary" href="https://chat.whatsapp.com/{{ site.whatsapp-group-code }}" target="_blank">Quiero unirme</a>
-							<br><br>
-							Esperamos verte pronto en nuestro grupo de viajes y turismo. <span class="font-weight-bold">¡Explora el mundo con nosotros!</span>
-					</p>
+				<div class="row message-center">
+					<div class="col-lg-9 message-margin">
+						<div class="container maxw message-content">
+							<div class="content pl-0">
+								<p>
+									<h4>Únete a nuestro grupo de WhatsApp</h4>
+									<br>
+									En nuestro grupo exclusivo, recibirás información sobre destinos increíbles, consejos de viaje, recomendaciones de hoteles y restaurantes, historias de viajeros, promociones especiales y mucho más. Serás el primero en enterarte de nuestros próximos tours y actividades emocionantes.
+									Si eres un amante de los viajes y quieres estar al día con las últimas novedades y oportunidades, ¡no pierdas la oportunidad de unirte a nuestro grupo!
+									<br><br>
+									<div class="button-container">
+										<a class="btn btn-primary" href="https://chat.whatsapp.com/{{ site.whatsapp-group-code }}" target="_blank">Quiero unirme</a>
+									<br><br></div>
+									Esperamos verte pronto en nuestro grupo de viajes y turismo. <span class="font-weight-bold">¡Explora el mundo con nosotros!</span>
+								</p>
+							</div>
+						</div>
+					</div>
 				</div>
 				{% if site.disqus-identifier %}
 				{% include disqus-comments.html %}
@@ -164,7 +176,7 @@ layout: default
     </div>
   </div>
 <!-- /blog single -->
-
+<script src="{{ site.baseurl }}/assets/plugins/howler/howler.min.js"></script>
 <script>
 	document.querySelector('.share-button').addEventListener('click', function() {
 		var shareOptions = document.querySelector('.share-options');
@@ -239,5 +251,28 @@ layout: default
       setTimeout(function() {
         modal.modal("hide"); 
       }, 1000);
+    }
+
+	var sound_post = new Howl({
+      src: ['{{ page.audio | prepend: site.url }}'],
+      loop: true
+    });
+
+    var isPlayingPost = false;
+
+    function togglePlaybackPost() {
+      var playIconPost = document.getElementById('playIconPost');
+
+      if (isPlayingPost) {
+        sound_post.pause();
+        isPlayingPost = false;
+        playIconPost.classList.remove('fa-volume-up');
+        playIconPost.classList.add('fa-volume-mute');
+      } else {
+        sound_post.play();
+        isPlayingPost = true;
+        playIconPost.classList.remove('fa-volume-mute');
+        playIconPost.classList.add('fa-volume-up');
+      }
     }
 </script>

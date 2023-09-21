@@ -277,6 +277,11 @@ prose:
             - name: 'Salte del radar'
               value: 'salte-del-radar'
           alterable: false
+      - name: audio
+        field:
+          element: text
+          label: Indica la ruta del archivo de audio de la publicación
+          value: ""
     _directorio:
       - name: title
         field:
@@ -467,11 +472,6 @@ prose:
             - name: 'Líneas aéreas'
               value: 'Líneas aéreas'
           alterable: false
-      - name: resumen
-        field:
-          element: text
-          label: Ingresa el resumen de la reseña
-          type: text
     _review:
       - name: layout
         field:
@@ -487,6 +487,12 @@ prose:
           element: text
           label: Fecha de creación
           value: CURRENT_DATETIME
+      - name: published
+        field:
+          element: checkbox
+          label: ¿Publicar?
+          help: Puedes publicar directamente o dejar como borrador
+          value: true
       - name: author
         field: 
           element: text

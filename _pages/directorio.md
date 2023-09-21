@@ -57,7 +57,7 @@ permalink: /directorio/
       </li>
     </ul>
     <form class="form-inline position-relative ml-lg-4 custom-form custom-width-form" action="/search-directorio.html" method="get">
-      <input class="form-control px-0 w-100" type="search" id="search-directorio-box" name="query-directorio" placeholder="Búsqueda en el directorio ...">
+      <input class="form-control px-0 w-100" type="search" id="search-directorio-box" name="query-directorio" placeholder="Búsqueda en el directorio ..." pattern=".*\S+.*" required>
       <button class="search-icon" type="submit"><i class="ti-search text-dark"></i></button>
     </form>
   </div>
@@ -120,9 +120,6 @@ permalink: /directorio/
                                 <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
                               {% endfor %}
                             </div>
-                          {% endif %}
-                          {% if post.services_extra %}
-                            <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
                           {% endif %}
                           {% if post.services %}
                             <div class="margin-services">
@@ -236,9 +233,6 @@ permalink: /directorio/
                           {% endfor %}
                         </div>
                       {% endif %}
-                      {% if post.services_extra %}
-                        <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
-                      {% endif %}
                       {% if post.services %}
                         <div class="margin-services">
                           <ul class="horizontal-list">
@@ -294,9 +288,6 @@ permalink: /directorio/
                             <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
                           {% endfor %}
                         </div>
-                      {% endif %}
-                      {% if post.services_extra %}
-                        <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
                       {% endif %}
                       {% if post.services %}
                         <div class="margin-services">
@@ -373,9 +364,6 @@ permalink: /directorio/
                                 <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
                               {% endfor %}
                             </div>
-                          {% endif %}
-                          {% if post.services_extra %}
-                            <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
                           {% endif %}
                           {% if post.services %}
                             <div class="margin-services">
@@ -467,9 +455,6 @@ permalink: /directorio/
                           {% endfor %}
                         </div>
                       {% endif %}
-                      {% if post.services_extra %}
-                        <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
-                      {% endif %}
                       {% if post.services %}
                         <div class="margin-services">
                           <ul class="horizontal-list">
@@ -545,9 +530,6 @@ permalink: /directorio/
                                 <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
                               {% endfor %}
                             </div>
-                          {% endif %}
-                          {% if post.services_extra %}
-                            <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
                           {% endif %}
                           {% if post.services %}
                             <div class="margin-services">
@@ -639,9 +621,6 @@ permalink: /directorio/
                           {% endfor %}
                         </div>
                       {% endif %}
-                      {% if post.services_extra %}
-                        <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
-                      {% endif %}
                       {% if post.services %}
                         <div class="margin-services">
                           <ul class="horizontal-list">
@@ -697,9 +676,6 @@ permalink: /directorio/
                             <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
                           {% endfor %}
                         </div>
-                      {% endif %}
-                      {% if post.services_extra %}
-                        <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
                       {% endif %}
                       {% if post.services %}
                         <div class="margin-services">
@@ -776,9 +752,6 @@ permalink: /directorio/
                                 <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
                               {% endfor %}
                             </div>
-                          {% endif %}
-                          {% if post.services_extra %}
-                            <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
                           {% endif %}
                           {% if post.services %}
                             <div class="margin-services">
@@ -870,9 +843,6 @@ permalink: /directorio/
                           {% endfor %}
                         </div>
                       {% endif %}
-                      {% if post.services_extra %}
-                        <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
-                      {% endif %}
                       {% if post.services %}
                         <div class="margin-services">
                           <ul class="horizontal-list">
@@ -948,9 +918,6 @@ permalink: /directorio/
                                 <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
                               {% endfor %}
                             </div>
-                          {% endif %}
-                          {% if post.services_extra %}
-                            <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
                           {% endif %}
                           {% if post.services %}
                             <div class="margin-services">
@@ -1042,9 +1009,6 @@ permalink: /directorio/
                           {% endfor %}
                         </div>
                       {% endif %}
-                      {% if post.services_extra %}
-                        <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
-                      {% endif %}
                       {% if post.services %}
                         <div class="margin-services">
                           <ul class="horizontal-list">
@@ -1120,9 +1084,6 @@ permalink: /directorio/
                                 <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
                               {% endfor %}
                             </div>
-                          {% endif %}
-                          {% if post.services_extra %}
-                            <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
                           {% endif %}
                           {% if post.services %}
                             <div class="margin-services">
@@ -1213,9 +1174,6 @@ permalink: /directorio/
                             <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
                           {% endfor %}
                         </div>
-                      {% endif %}
-                      {% if post.services_extra %}
-                        <div class="smaller-font"><i class="fas fa-list"></i> {{post.services_extra}}</div>
                       {% endif %}
                       {% if post.services %}
                         <div class="margin-services">

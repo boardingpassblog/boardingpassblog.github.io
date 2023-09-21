@@ -1690,6 +1690,10 @@ blockquote {
   vertical-align: middle;
 }
 
+.derecha-cell {
+  text-align: right;
+}
+
 .custom-button {
   background-color: #7debe0; 
   color: #000; 
@@ -1704,4 +1708,29 @@ blockquote {
 
 .margin-bottom-share{
   margin-bottom: 10px;
+}
+
+th.descripcion {
+  width: 200px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.message-center {
+  display: flex; 
+  justify-content: center;
+}
+
+.message-margin {
+  padding: 30px;
+}
+
+.message-content {
+  background-color: #d5faf6; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
 }
