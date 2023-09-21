@@ -487,6 +487,12 @@ prose:
           element: text
           label: Fecha de creación
           value: CURRENT_DATETIME
+      - name: published
+        field:
+          element: checkbox
+          label: ¿Publicar?
+          help: Puedes publicar directamente o dejar como borrador
+          value: true
       - name: author
         field: 
           element: text
