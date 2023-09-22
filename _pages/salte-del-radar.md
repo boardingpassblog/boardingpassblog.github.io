@@ -61,6 +61,7 @@ permalink: /salte-del-radar/
           include ads/banner.html 
           content=site.data.ads.sidebar_salte-del-radar-5
         %}
+        {% include feed-twitter.html %}
       </div> 
     </div>
   </div>

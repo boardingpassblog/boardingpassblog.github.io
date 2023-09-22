@@ -61,6 +61,7 @@ permalink: /enterate/
           include ads/banner.html 
           content=site.data.ads.sidebar_enterate-5
         %}
+        {% include feed-twitter.html %}
       </div> 
     </div>
   </div>

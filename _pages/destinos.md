@@ -61,6 +61,7 @@ permalink: /destinos/
           include ads/banner.html 
           content=site.data.ads.sidebar_destino-5
         %}
+        {% include feed-twitter.html %}
       </div> 
     </div>
   </div>

@@ -61,6 +61,7 @@ permalink: /opinion/
           include ads/banner.html 
           content=site.data.ads.sidebar_opinion-5
         %}
+        {% include feed-twitter.html %}
       </div> 
     </div>
   </div>

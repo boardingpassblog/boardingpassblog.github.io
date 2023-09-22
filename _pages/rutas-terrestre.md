@@ -61,6 +61,7 @@ permalink: /rutas-terrestres/
           include ads/banner.html 
           content=site.data.ads.sidebar_terrestre-5
         %}
+        {% include feed-twitter.html %}
       </div> 
     </div>
   </div>

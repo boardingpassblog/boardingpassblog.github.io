@@ -61,6 +61,7 @@ permalink: /rutas-aereas/
           include ads/banner.html 
           content=site.data.ads.sidebar_aerea-5
         %}
+        {% include feed-twitter.html %}
       </div> 
     </div>
   </div>
