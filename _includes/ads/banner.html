@@ -4,7 +4,7 @@
    {% assign nombre_publicidad = {{include.content.nombre}} %}
    {% if nombre_publicidad %}
    <a href="{{include.content.url}}/"><img src="{{include.content.image | relative_url}}" alt="{{include.content.alt}}"
-    class="img-fluid center banner" onclick="ga('send', 'event', 'Publicidad', 'Clic', '{{ nombre_publicidad }}');"></a>
+    class="img-fluid center banner" onclick="contadorDeClics('{{ nombre_publicidad }}');"></a>
    {% else %}
    <a href="{{include.content.url}}/"><img src="{{include.content.image | relative_url}}" alt="{{include.content.alt}}"
      class="img-fluid center banner"></a>
@@ -12,3 +12,12 @@
   </div>
  </div>
 </div>
+
+<script>
+  function contadorDeClics(nombrePublicidad) {
+    gtag('event', 'clic', {
+      'event_category': 'Publicidad',
+      'event_label': nombrePublicidad
+    });
+  }
+</script>
