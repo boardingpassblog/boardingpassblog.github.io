@@ -8,6 +8,11 @@ default-posts-banner:
   alt: "Banner por omisión para publicaciones"
   url: ""
 
+reviews:
+  image: /assets/images/BP-1400x150.jpg
+  alt: "Ad en la sección de Reseñas"
+  url: ""
+
 section-enterate:
   image: /assets/images/BP-1400x150.jpg
   alt: "Ad en la sección de Entérate"
