@@ -503,3 +503,8 @@ prose:
           element: text
           label: Indica la ruta de la imagen de la publicación
           value: ""
+      - name: audio
+        field:
+          element: text
+          label: Indica la ruta del archivo de audio de la publicación
+          value: ""
