@@ -1,8 +1,14 @@
 <div class="container maxw">
  <div class="row">
   <div class="col-md-12 col-sm-12 my-4">
+   {% assign nombre_publicidad = {{include.content.nombre}} %}
+   {% if nombre_publicidad %}
+   <a href="{{include.content.url}}/"><img src="{{include.content.image | relative_url}}" alt="{{include.content.alt}}"
+    class="img-fluid center banner" onclick="ga('send', 'event', 'Publicidad', 'Click', '{{ nombre_publicidad }}');"></a>
+   {% else %}
    <a href="{{include.content.url}}/"><img src="{{include.content.image | relative_url}}" alt="{{include.content.alt}}"
      class="img-fluid center banner"></a>
+   {% endif %}
   </div>
  </div>
 </div>
