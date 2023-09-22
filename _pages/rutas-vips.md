@@ -61,6 +61,7 @@ permalink: /rutas-vips/
           include ads/banner.html 
           content=site.data.ads.sidebar_vips-5
         %}
+        {% include feed-twitter.html %}
       </div> 
     </div>
   </div>
