@@ -51,7 +51,7 @@ Sushi.
 **Mesa**
 Urb. Los Palos Grandes.
 Franco – caribeña.
-@Mesa¬_rest
+@Mesa_rest
 
 **Ostería**
 Mun. Chacao.
