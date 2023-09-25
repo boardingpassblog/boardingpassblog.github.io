@@ -13,7 +13,7 @@ categories:
   - salte-del-radar
 author: Edgar Rincón
 ---
-Una excelente escusa y oportunidad de "escaparse" es el llamado que hace la Colonia Tovar a celebrar durante el mes de octubre de su tradicional Oktoberfest, una foesta que se celebra entre los meses de septiembre y octubre en la capital bávara de Múnich desde 1810.
+Una excelente escusa y oportunidad de "escaparse" es el llamado que hace la Colonia Tovar a celebrar durante el mes de octubre de su tradicional Oktoberfest, una fiesta que se celebra entre los meses de septiembre y octubre en la capital bávara de Múnich desde 1810.
 Es la fiesta popular más grande de Alemania y una de las mayores del mundo, con visitas anuales medias superiores a los seis millones de visitantes. Se celebra en el campo conocido como Theresienwiese, en las inmediaciones del centro de Múnich, cerca de la Estación Central (Hauptbahnhof). 
 
 En La Colonia Tovar, se ha celebrado desde 1970, con un toque especial que le imprime la cultura alemana con esa mezcla del venezolano que lo hace tan especial. El encanto de la Colonia Tovar radica en sus costumbres asociadas a la gastronomía y los hermosos paisajes que adornas las montañas del estado Aragua. 
