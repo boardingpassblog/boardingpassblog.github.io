@@ -3,7 +3,7 @@ layout: post
 date: '2023-09-25 15:49 -0400'
 featured: true
 published: true
-title: '¡Venezuela, que bella eres!'
+title: '¡Venezuela, qué bella eres!'
 author: 'Venezuela, te extraño'
 image-text: Relámpago del Catatumbo
 description: >-
