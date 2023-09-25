@@ -15,7 +15,7 @@
 
 <script>
   function contadorDeClics(nombrePublicidad) {
-    gtag('event', 'clic', {
+    gtag('event', nombrePublicidad, {
       'event_category': 'Publicidad',
       'event_label': nombrePublicidad
     });
