@@ -539,12 +539,16 @@ prose:
           value: ""
       - name: links
         field:
-          element: repeater
+          element: list
           label: Enlaces
+          add_label: Agregar Enlace
           fields:
             - name: url
               label: URL
               type: text
             - name: description
               label: Descripción
+              type: text
+            - name: image
+              label: Imagen
               type: text
