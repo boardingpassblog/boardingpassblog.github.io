@@ -17,6 +17,8 @@ types:
 image: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/candes1.jpg
 phone_number: 04129551486
-address: 'Urb. El Recreo '
+address: >-
+  Av. México, Edificio Hotel Ccs Hilton, Nivel Pb, Local Lobby Ppal, Sector Los
+  Caobos, Caracas, Distrito Capital.
 ---
 
