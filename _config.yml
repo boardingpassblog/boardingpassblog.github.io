@@ -537,7 +537,7 @@ prose:
           element: text
           label: Nombre del autor
           value: ""
-     - name: link-1
+      - name: link-1
         fields:
           - name: url
             field:
