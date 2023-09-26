@@ -144,6 +144,9 @@ collections:
   review:
     output: true
     permalink: /review/:path/
+  boletines:
+    output: true
+    permalink: /boletines/:path/
     
 # iconos servicios directorio
 servicios_iconos:
@@ -508,3 +511,49 @@ prose:
           element: text
           label: Indica la ruta del archivo de audio de la publicación
           value: ""
+    _boletines:
+      - name: layout
+        field:
+          element: hidden
+          value: boletin
+      - name: title
+        field:
+          element: text
+          label: Ingresa el nombre del boletín
+          type: text
+      - name: date
+        field:
+          element: text
+          label: Fecha de creación
+          value: CURRENT_DATETIME
+      - name: published
+        field:
+          element: checkbox
+          label: ¿Publicar?
+          help: Puedes publicar directamente o dejar como borrador
+          value: true
+      - name: author
+        field: 
+          element: text
+          label: Nombre del autor
+          value: ""
+      - name: links
+        field:
+          element: repeater
+          label: Enlaces
+          fields:
+            - name: url
+              field: 
+                element: text
+                label: URL
+                type: text
+            - name: description
+              field: 
+                element: text
+                label: Descripción
+                type: text
+            - name: image
+              field: 
+                element: text
+                label: Indica la ruta de la imagen
+                value: ""
