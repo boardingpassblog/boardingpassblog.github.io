@@ -540,17 +540,14 @@ prose:
       - name: link-1
         fields:
           - name: url
-            field:
-              element: text
-              label: URL
-              value: ""
+            label: URL
+            type: text
+            value: ""
           - name: image
-            field:
-              element: text
-              label: URL de la imagen
-              value: ""
+            label: URL de la imagen
+            type: text
+            value: ""
           - name: description
-            field:
-              element: text
-              label: Descripción
-              value: ""
+            label: Descripción
+            type: text
+            value: ""
