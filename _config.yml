@@ -543,17 +543,21 @@ prose:
           label: Enlaces
           fields:
             - name: url
-              field: 
+              label: URL
+              field:
                 element: text
                 label: URL
                 type: text
             - name: description
-              field: 
+              label: Descripción
+              field:
                 element: text
                 label: Descripción
                 type: text
             - name: image
-              field: 
+              label: Imagen
+              field:
                 element: text
                 label: Indica la ruta de la imagen
+                type: text
                 value: ""
