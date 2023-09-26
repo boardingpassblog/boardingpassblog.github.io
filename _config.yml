@@ -539,17 +539,27 @@ prose:
           value: ""
       - name: links
         field:
-          element: textarea
+          element: list
           label: Enlaces
-          help: |
-            Ingresa los enlaces en formato YAML. Cada enlace debe tener las siguientes propiedades:
-            - url: URL del enlace
-              description: Descripción del enlace
-              image: Ruta de la imagen (opcional)
-          value: |
-            - url: https://www.ejemplo1.com
-              description: Descripción 1
-              image: ruta-imagen-1.jpg
-            - url: https://www.ejemplo2.com
-              description: Descripción 2
-              image: ruta-imagen-2.jpg
+          add_label: Agregar enlace
+          fields:
+            - name: link
+              element: textarea
+              label: Enlace
+              value: ""
+            - name: image_link
+              element: textarea
+              label: Enlace de imagen
+              value: ""
+            - name: description
+              element: textarea
+              label: Descripción
+              value: ""
+            - name: banner_field_1
+              element: textarea
+              label: Campo de texto para banner 1
+              value: ""
+            - name: banner_field_2
+              element: textarea
+              label: Campo de texto para banner 2
+              value: ""
