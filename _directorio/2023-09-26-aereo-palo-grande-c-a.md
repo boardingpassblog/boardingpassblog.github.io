@@ -3,7 +3,7 @@ date: '2023-09-26 12:58 -0400'
 published: true
 region: Centro-Norte
 state: Distrito Capital
-featured: true
+featured: false
 title: Aereo Palo Grande C.A
 address: ' Segunda Calle Real Nueva Caracas, entre México y Colombia. N26-29. Residencias Quinta Grande, Mezzanina, Caracas'
 instagram_user: viajes_aeropalogrande
