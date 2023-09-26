@@ -539,16 +539,17 @@ prose:
           value: ""
       - name: links
         field:
-          element: list
+          element: textarea
           label: Enlaces
-          add_label: Agregar Enlace
-          fields:
-            - name: url
-              label: URL
-              type: text
-            - name: description
-              label: Descripción
-              type: text
-            - name: image
-              label: Imagen
-              type: text
+          help: |
+            Ingresa los enlaces en formato YAML. Cada enlace debe tener las siguientes propiedades:
+            - url: URL del enlace
+              description: Descripción del enlace
+              image: Ruta de la imagen (opcional)
+          value: |
+            - url: https://www.ejemplo1.com
+              description: Descripción 1
+              image: ruta-imagen-1.jpg
+            - url: https://www.ejemplo2.com
+              description: Descripción 2
+              image: ruta-imagen-2.jpg
