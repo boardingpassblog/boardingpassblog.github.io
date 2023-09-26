@@ -544,20 +544,7 @@ prose:
           fields:
             - name: url
               label: URL
-              field:
-                element: text
-                label: URL
-                type: text
+              type: text
             - name: description
               label: Descripción
-              field:
-                element: text
-                label: Descripción
-                type: text
-            - name: image
-              label: Imagen
-              field:
-                element: text
-                label: Indica la ruta de la imagen
-                type: text
-                value: ""
+              type: text
