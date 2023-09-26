@@ -537,23 +537,3 @@ prose:
           element: text
           label: Nombre del autor
           value: ""
-     - name: link-1
-        field:
-          element: group
-          label: Enlace
-          fields:
-            - name: url
-              field:
-                element: text
-                label: URL
-                value: ""
-            - name: image
-              field:
-                element: text
-                label: URL de la imagen
-                value: ""
-            - name: description
-              field:
-                element: text
-                label: Descripción
-                value: ""
