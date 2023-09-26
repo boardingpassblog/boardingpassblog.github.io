@@ -537,28 +537,23 @@ prose:
           element: text
           label: Nombre del autor
           value: ""
-      - name: link-1
+     - name: link-1
         field:
           element: group
           label: Enlace
           fields:
-            - name: link
-              label: Enlace
-              element: text
-              value: ""
+            - name: url
+              field:
+                element: text
+                label: URL
+                value: ""
             - name: image
-              label: Indica la ruta de la imagen de la publicación
-              element: text
-              value: ""
+              field:
+                element: text
+                label: URL de la imagen
+                value: ""
             - name: description
-              label: Descripción
-              element: text
-              value: ""
-            - name: banner_1
-              label: Campo de texto para banner 1
-              element: text
-              value: ""
-            - name: banner_2
-              label: Campo de texto para banner 2
-              element: text
-              value: ""
+              field:
+                element: text
+                label: Descripción
+                value: ""
