@@ -3,7 +3,7 @@ date: '2023-09-26 14:24 -0400'
 published: true
 region: Centro-Norte
 state: Distrito Capital
-featured: true
+featured: false
 title: Agencia Candes Centro Plaza
 twitter_user: agenciacandesd1
 facebook_user: Candes Meliá Caracas Venezuela
@@ -21,4 +21,3 @@ address: >-
   Av. México, Edificio Hotel Ccs Hilton, Nivel Pb, Local Lobby Ppal, Sector Los
   Caobos, Caracas, Distrito Capital.
 ---
-
