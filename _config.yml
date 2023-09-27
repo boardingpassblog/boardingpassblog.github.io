@@ -539,26 +539,19 @@ prose:
           value: ""
       - name: enlace-1
         field:
-          element: text
-          label: Ingresa la ruta del enlace 1
-          type: text
-        - name: description-enlace-1
-          field: 
+          - name: description-enlace-1
             element: text
             label: Indica la descripción del enlace 1
             value: ""
-        - name: image-enlace-1
-          field: 
+          - name: image-enlace-1
             element: text
             label: Indica la ruta de la imagen del enlace 1
             value: ""
-        - name: banner1-enlace-1
-          field: 
+          - name: banner1-enlace-1
             element: text
             label: Indica la ruta del primer banner del enlace 1
             value: ""
-        - name: banner2-enlace-1
-          field: 
+          - name: banner2-enlace-1
             element: text
             label: Indica la ruta del segundo banner del enlace 1
             value: ""
