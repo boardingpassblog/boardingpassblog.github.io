@@ -667,24 +667,123 @@ prose:
           element: text
           label: Ingresa la ruta del enlace 6
           type: text
-          name: description-enlace-6
-          field:
-            element: text
-            label: Indica la descripción del enlace 6
-            value: ""
-          name: image-enlace-6
-          field:
-            element: text
-            label: Indica la ruta de la imagen del enlace 6
-            value: ""
-          name: banner1-enlace-6
-          field:
-            element: text
-            label: Indica la ruta del primer banner del enlace 6
-            value: ""
-          name: banner2-enlace-6
-          field:
-            element: text
-            label: Indica la ruta del segundo banner del enlace 6
-            value: ""
-        
+      - name: description-enlace-6
+        field: 
+          element: text
+          label: Indica la descripción del enlace 6
+          value: ""
+      - name: image-enlace-6
+        field: 
+          element: text
+          label: Indica la ruta de la imagen del enlace 6
+          value: ""
+      - name: banner1-enlace-6
+        field: 
+          element: text
+          label: Indica la ruta del primer banner del enlace 6
+          value: ""
+      - name: banner2-enlace-6
+        field: 
+          element: text
+          label: Indica la ruta del segundo banner del enlace 6
+          value: ""
+      - name: enlace-7
+        field:
+          element: text
+          label: Ingresa la ruta del enlace 7
+          type: text
+      - name: description-enlace-7
+        field: 
+          element: text
+          label: Indica la descripción del enlace 7
+          value: ""
+      - name: image-enlace-7
+        field: 
+          element: text
+          label: Indica la ruta de la imagen del enlace 7
+          value: ""
+      - name: banner1-enlace-7
+        field: 
+          element: text
+          label: Indica la ruta del primer banner del enlace 7
+          value: ""
+      - name: banner2-enlace-7
+        field: 
+          element: text
+          label: Indica la ruta del segundo banner del enlace 7
+          value: ""
+      - name: enlace-8
+        field:
+          element: text
+          label: Ingresa la ruta del enlace 8
+          type: text
+      - name: description-enlace-8
+        field: 
+          element: text
+          label: Indica la descripción del enlace 8
+          value: ""
+      - name: image-enlace-8
+        field: 
+          element: text
+          label: Indica la ruta de la imagen del enlace 8
+          value: ""
+      - name: banner1-enlace-8
+        field: 
+          element: text
+          label: Indica la ruta del primer banner del enlace 8
+          value: ""
+      - name: banner2-enlace-8
+        field: 
+          element: text
+          label: Indica la ruta del segundo banner del enlace 8
+          value: ""
+      - name: enlace-9
+        field:
+          element: text
+          label: Ingresa la ruta del enlace 9
+          type: text
+      - name: description-enlace-9
+        field: 
+          element: text
+          label: Indica la descripción del enlace 9
+          value: ""
+      - name: image-enlace-9
+        field: 
+          element: text
+          label: Indica la ruta de la imagen del enlace 9
+          value: ""
+      - name: banner1-enlace-9
+        field: 
+          element: text
+          label: Indica la ruta del primer banner del enlace 9
+          value: ""
+      - name: banner2-enlace-9
+        field: 
+          element: text
+          label: Indica la ruta del segundo banner del enlace 9
+          value: ""
+      - name: enlace-10
+        field:
+          element: text
+          label: Ingresa la ruta del enlace 10
+          type: text
+      - name: description-enlace-10
+        field: 
+          element: text
+          label: Indica la descripción del enlace 10
+          value: ""
+      - name: image-enlace-10
+        field: 
+          element: text
+          label: Indica la ruta de la imagen del enlace 10
+          value: ""
+      - name: banner1-enlace-10
+        field: 
+          element: text
+          label: Indica la ruta del primer banner del enlace 10
+          value: ""
+      - name: banner2-enlace-10
+        field: 
+          element: text
+          label: Indica la ruta del segundo banner del enlace 10
+          value: ""
