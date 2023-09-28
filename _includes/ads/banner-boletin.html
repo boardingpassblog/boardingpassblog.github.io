@@ -1,0 +1,23 @@
+<div class="container maxw">
+    <div class="row">
+      <div class="col-md-12 col-sm-8 my-5">
+        {% assign event = {{include.event}} %}
+        {% if event %}
+        <a href="{{include.url}}/"><img src="{{include.image | relative_url}}" alt="{{include.alt}}"
+          class="img-fluid center banner" onclick="registerEvent('{{ event }}');"></a>
+        {% else %}
+        <a href="{{include.url}}/"><img src="{{include.image | relative_url}}" alt="{{include.alt}}"
+          class="img-fluid center banner"></a>
+        {% endif %}
+      </div>
+    </div>
+</div>
+   
+<script>
+  function registerEvent(event) {
+    gtag('event', event, {
+      'event_category': 'Ads',
+      'event_label': event
+    });
+  }
+</script>

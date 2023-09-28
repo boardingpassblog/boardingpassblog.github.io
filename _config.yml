@@ -542,6 +542,17 @@ prose:
           element: text
           label: Ingresa la ruta del enlace 1
           type: text
+      - name: title-enlace-1
+        field:
+          element: text
+          label: Ingresa el titulo del enlace 1
+          type: text
+      - name: featured-enlace-1
+        field:
+          element: checkbox
+          label: Enlace 1 destacado
+          help: Puedes destacar el enlace en el boletín
+          value: true
       - name: description-enlace-1
         field: 
           element: text
@@ -552,21 +563,42 @@ prose:
           element: text
           label: Indica la ruta de la imagen del enlace 1
           value: ""
-      - name: banner1-enlace-1
+      - name: banner-enlace-1
         field: 
           element: text
           label: Indica la ruta del primer banner del enlace 1
           value: ""
-      - name: banner2-enlace-1
+      - name: banner-image-enlace-1
         field: 
           element: text
-          label: Indica la ruta del segundo banner del enlace 1
+          label: Indica la imagen del primer banner del enlace 1
+          value: "/assets/images/BP-900x100.jpg"
+      - name: banner-alt-enlace-1
+        field: 
+          element: text
+          label: Indica el alt del primer banner del enlace 1
+          value: "Ad antes de enlace 1"
+      - name: banner-event-enlace-1
+        field: 
+          element: text
+          label: Indica el nombre del evento del primer banner del enlace 1
           value: ""
       - name: enlace-2
         field:
           element: text
           label: Ingresa la ruta del enlace 2
           type: text
+      - name: title-enlace-2
+        field:
+          element: text
+          label: Ingresa el titulo del enlace 2
+          type: text
+      - name: featured-enlace-2
+        field:
+          element: checkbox
+          label: Enlace 2 destacado
+          help: Puedes destacar el enlace en el boletín
+          value: true
       - name: description-enlace-2
         field: 
           element: text
@@ -577,21 +609,42 @@ prose:
           element: text
           label: Indica la ruta de la imagen del enlace 2
           value: ""
-      - name: banner1-enlace-2
+      - name: banner-enlace-2
         field: 
           element: text
           label: Indica la ruta del primer banner del enlace 2
           value: ""
-      - name: banner2-enlace-2
+      - name: banner-image-enlace-2
         field: 
           element: text
-          label: Indica la ruta del segundo banner del enlace 2
+          label: Indica la imagen del primer banner del enlace 2
+          value: "/assets/images/BP-900x100.jpg"
+      - name: banner-alt-enlace-2
+        field: 
+          element: text
+          label: Indica el alt del primer banner del enlace 2
+          value: "Ad antes de enlace 2"
+      - name: banner-event-enlace-2
+        field: 
+          element: text
+          label: Indica el nombre del evento del primer banner del enlace 2
           value: ""
       - name: enlace-3
         field:
           element: text
           label: Ingresa la ruta del enlace 3
           type: text
+      - name: title-enlace-3
+        field:
+          element: text
+          label: Ingresa el titulo del enlace 3
+          type: text
+      - name: featured-enlace-3
+        field:
+          element: checkbox
+          label: Enlace 3 destacado
+          help: Puedes destacar el enlace en el boletín
+          value: true
       - name: description-enlace-3
         field: 
           element: text
@@ -602,21 +655,42 @@ prose:
           element: text
           label: Indica la ruta de la imagen del enlace 3
           value: ""
-      - name: banner1-enlace-3
+      - name: banner-enlace-3
         field: 
           element: text
           label: Indica la ruta del primer banner del enlace 3
           value: ""
-      - name: banner2-enlace-3
+      - name: banner-image-enlace-3
         field: 
           element: text
-          label: Indica la ruta del segundo banner del enlace 3
+          label: Indica la imagen del primer banner del enlace 3
+          value: "/assets/images/BP-900x100.jpg"
+      - name: banner-alt-enlace-3
+        field: 
+          element: text
+          label: Indica el alt del primer banner del enlace 3
+          value: "Ad antes de enlace 3"
+      - name: banner-event-enlace-3
+        field: 
+          element: text
+          label: Indica el nombre del evento del primer banner del enlace 3
           value: ""
       - name: enlace-4
         field:
           element: text
           label: Ingresa la ruta del enlace 4
           type: text
+      - name: title-enlace-4
+        field:
+          element: text
+          label: Ingresa el titulo del enlace 4
+          type: text
+      - name: featured-enlace-4
+        field:
+          element: checkbox
+          label: Enlace 4 destacado
+          help: Puedes destacar el enlace en el boletín
+          value: true
       - name: description-enlace-4
         field: 
           element: text
@@ -627,21 +701,42 @@ prose:
           element: text
           label: Indica la ruta de la imagen del enlace 4
           value: ""
-      - name: banner1-enlace-4
+      - name: banner-enlace-4
         field: 
           element: text
           label: Indica la ruta del primer banner del enlace 4
           value: ""
-      - name: banner2-enlace-4
+      - name: banner-image-enlace-4
         field: 
           element: text
-          label: Indica la ruta del segundo banner del enlace 4
+          label: Indica la imagen del primer banner del enlace 4
+          value: "/assets/images/BP-900x100.jpg"
+      - name: banner-alt-enlace-4
+        field: 
+          element: text
+          label: Indica el alt del primer banner del enlace 4
+          value: "Ad antes de enlace 4"
+      - name: banner-event-enlace-4
+        field: 
+          element: text
+          label: Indica el nombre del evento del primer banner del enlace 4
           value: ""
       - name: enlace-5
         field:
           element: text
           label: Ingresa la ruta del enlace 5
           type: text
+      - name: title-enlace-5
+        field:
+          element: text
+          label: Ingresa el titulo del enlace 5
+          type: text
+      - name: featured-enlace-5
+        field:
+          element: checkbox
+          label: Enlace 5 destacado
+          help: Puedes destacar el enlace en el boletín
+          value: true
       - name: description-enlace-5
         field: 
           element: text
@@ -652,21 +747,42 @@ prose:
           element: text
           label: Indica la ruta de la imagen del enlace 5
           value: ""
-      - name: banner1-enlace-5
+      - name: banner-enlace-5
         field: 
           element: text
           label: Indica la ruta del primer banner del enlace 5
           value: ""
-      - name: banner2-enlace-5
+      - name: banner-image-enlace-5
         field: 
           element: text
-          label: Indica la ruta del segundo banner del enlace 5
+          label: Indica la imagen del primer banner del enlace 5
+          value: "/assets/images/BP-900x100.jpg"
+      - name: banner-alt-enlace-5
+        field: 
+          element: text
+          label: Indica el alt del primer banner del enlace 5
+          value: "Ad antes de enlace 5"
+      - name: banner-event-enlace-5
+        field: 
+          element: text
+          label: Indica el nombre del evento del primer banner del enlace 5
           value: ""
       - name: enlace-6
         field:
           element: text
           label: Ingresa la ruta del enlace 6
           type: text
+      - name: title-enlace-6
+        field:
+          element: text
+          label: Ingresa el titulo del enlace 6
+          type: text
+      - name: featured-enlace-6
+        field:
+          element: checkbox
+          label: Enlace 6 destacado
+          help: Puedes destacar el enlace en el boletín
+          value: true
       - name: description-enlace-6
         field: 
           element: text
@@ -677,21 +793,42 @@ prose:
           element: text
           label: Indica la ruta de la imagen del enlace 6
           value: ""
-      - name: banner1-enlace-6
+      - name: banner-enlace-6
         field: 
           element: text
           label: Indica la ruta del primer banner del enlace 6
           value: ""
-      - name: banner2-enlace-6
+      - name: banner-image-enlace-6
         field: 
           element: text
-          label: Indica la ruta del segundo banner del enlace 6
+          label: Indica la imagen del primer banner del enlace 6
+          value: "/assets/images/BP-900x100.jpg"
+      - name: banner-alt-enlace-6
+        field: 
+          element: text
+          label: Indica el alt del primer banner del enlace 6
+          value: "Ad antes de enlace 6"
+      - name: banner-event-enlace-6
+        field: 
+          element: text
+          label: Indica el nombre del evento del primer banner del enlace 6
           value: ""
       - name: enlace-7
         field:
           element: text
           label: Ingresa la ruta del enlace 7
           type: text
+      - name: title-enlace-7
+        field:
+          element: text
+          label: Ingresa el titulo del enlace 7
+          type: text
+      - name: featured-enlace-7
+        field:
+          element: checkbox
+          label: Enlace 7 destacado
+          help: Puedes destacar el enlace en el boletín
+          value: true
       - name: description-enlace-7
         field: 
           element: text
@@ -702,21 +839,42 @@ prose:
           element: text
           label: Indica la ruta de la imagen del enlace 7
           value: ""
-      - name: banner1-enlace-7
+      - name: banner-enlace-7
         field: 
           element: text
           label: Indica la ruta del primer banner del enlace 7
           value: ""
-      - name: banner2-enlace-7
+      - name: banner-image-enlace-7
         field: 
           element: text
-          label: Indica la ruta del segundo banner del enlace 7
+          label: Indica la imagen del primer banner del enlace 7
+          value: "/assets/images/BP-900x100.jpg"
+      - name: banner-alt-enlace-7
+        field: 
+          element: text
+          label: Indica el alt del primer banner del enlace 7
+          value: "Ad antes de enlace 7"
+      - name: banner-event-enlace-7
+        field: 
+          element: text
+          label: Indica el nombre del evento del primer banner del enlace 7
           value: ""
       - name: enlace-8
         field:
           element: text
           label: Ingresa la ruta del enlace 8
           type: text
+      - name: title-enlace-8
+        field:
+          element: text
+          label: Ingresa el titulo del enlace 8
+          type: text
+      - name: featured-enlace-8
+        field:
+          element: checkbox
+          label: Enlace 8 destacado
+          help: Puedes destacar el enlace en el boletín
+          value: true
       - name: description-enlace-8
         field: 
           element: text
@@ -727,21 +885,42 @@ prose:
           element: text
           label: Indica la ruta de la imagen del enlace 8
           value: ""
-      - name: banner1-enlace-8
+      - name: banner-enlace-8
         field: 
           element: text
           label: Indica la ruta del primer banner del enlace 8
           value: ""
-      - name: banner2-enlace-8
+      - name: banner-image-enlace-8
         field: 
           element: text
-          label: Indica la ruta del segundo banner del enlace 8
+          label: Indica la imagen del primer banner del enlace 8
+          value: "/assets/images/BP-900x100.jpg"
+      - name: banner-alt-enlace-8
+        field: 
+          element: text
+          label: Indica el alt del primer banner del enlace 8
+          value: "Ad antes de enlace 8"
+      - name: banner-event-enlace-8
+        field: 
+          element: text
+          label: Indica el nombre del evento del primer banner del enlace 8
           value: ""
       - name: enlace-9
         field:
           element: text
           label: Ingresa la ruta del enlace 9
           type: text
+      - name: title-enlace-9
+        field:
+          element: text
+          label: Ingresa el titulo del enlace 9
+          type: text
+      - name: featured-enlace-9
+        field:
+          element: checkbox
+          label: Enlace 9 destacado
+          help: Puedes destacar el enlace en el boletín
+          value: true
       - name: description-enlace-9
         field: 
           element: text
@@ -752,21 +931,42 @@ prose:
           element: text
           label: Indica la ruta de la imagen del enlace 9
           value: ""
-      - name: banner1-enlace-9
+      - name: banner-enlace-9
         field: 
           element: text
           label: Indica la ruta del primer banner del enlace 9
           value: ""
-      - name: banner2-enlace-9
+      - name: banner-image-enlace-9
         field: 
           element: text
-          label: Indica la ruta del segundo banner del enlace 9
+          label: Indica la imagen del primer banner del enlace 9
+          value: "/assets/images/BP-900x100.jpg"
+      - name: banner-alt-enlace-9
+        field: 
+          element: text
+          label: Indica el alt del primer banner del enlace 9
+          value: "Ad antes de enlace 9"
+      - name: banner-event-enlace-9
+        field: 
+          element: text
+          label: Indica el nombre del evento del primer banner del enlace 9
           value: ""
       - name: enlace-10
         field:
           element: text
           label: Ingresa la ruta del enlace 10
           type: text
+      - name: title-enlace-10
+        field:
+          element: text
+          label: Ingresa el titulo del enlace 10
+          type: text
+      - name: featured-enlace-10
+        field:
+          element: checkbox
+          label: Enlace 10 destacado
+          help: Puedes destacar el enlace en el boletín
+          value: true
       - name: description-enlace-10
         field: 
           element: text
@@ -777,13 +977,23 @@ prose:
           element: text
           label: Indica la ruta de la imagen del enlace 10
           value: ""
-      - name: banner1-enlace-10
+      - name: banner-enlace-10
         field: 
           element: text
           label: Indica la ruta del primer banner del enlace 10
           value: ""
-      - name: banner2-enlace-10
+      - name: banner-image-enlace-10
         field: 
           element: text
-          label: Indica la ruta del segundo banner del enlace 10
+          label: Indica la imagen del primer banner del enlace 10
+          value: "/assets/images/BP-900x100.jpg"
+      - name: banner-alt-enlace-10
+        field: 
+          element: text
+          label: Indica el alt del primer banner del enlace 10
+          value: "Ad antes de enlace 10"
+      - name: banner-event-enlace-10
+        field: 
+          element: text
+          label: Indica el nombre del evento del primer banner del enlace 10
           value: ""

@@ -13,6 +13,11 @@ reviews:
   alt: "Ad en la sección de Reseñas"
   url: ""
 
+boletines:
+  image: /assets/images/BP-1400x150.jpg
+  alt: "Ad en la sección de Boletines"
+  url: ""
+
 section-enterate:
   image: /assets/images/BP-1400x150.jpg
   alt: "Ad en la sección de Entérate"
