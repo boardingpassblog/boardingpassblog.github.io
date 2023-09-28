@@ -57,12 +57,6 @@ layout: default
 						{% else %}
 							{% assign colClass = 'col-6' %}
 						{% endif %}
-						{% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-						{% if thecycle == 'odd' %}
-							{% assign class = '' %}
-						{% else %}
-							{% assign class = 'article-right' %}
-						{% endif %}
                         <div class="{{ colClass }} mb-30">
 							{% include ads/banner-boletin.html 
 								image=bimage
