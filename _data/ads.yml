@@ -61,13 +61,13 @@ section-salte-del-radar:
 after-enterate:
   image: /assets/images/Avior Banner.gif
   alt: "Ad después de entérate"
-  nombre: "AviorPlus"
+  event: "AviorPlus"
   url: "https://www.aviorplus.com"
 
 after-opinion:
   image: /assets/images/LASER-Airlines---Banner-Miami-900x100.gif
   alt: "Laser Airlines"
-  nombre: "Laser Airlines"
+  event: "Laser Airlines"
   url: "https://www.laserairlines.com/"
 
 after-rutas:
