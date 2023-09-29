@@ -1,10 +1,10 @@
 <div class="container maxw">
  <div class="row">
   <div class="col-md-12 col-sm-12 my-4">
-   {% assign nombre_publicidad = {{include.content.nombre}} %}
-   {% if nombre_publicidad %}
+   {% assign event = {{include.content.event}} %}
+   {% if event %}
    <a href="{{include.content.url}}/"><img src="{{include.content.image | relative_url}}" alt="{{include.content.alt}}"
-    class="img-fluid center banner" onclick="contadorDeClics('{{ nombre_publicidad }}');"></a>
+    class="img-fluid center banner" onclick="registerEvent('{{ event }}');" onload="registerView('{{include.content.view}}');"></a>
    {% else %}
    <a href="{{include.content.url}}/"><img src="{{include.content.image | relative_url}}" alt="{{include.content.alt}}"
      class="img-fluid center banner"></a>
@@ -14,10 +14,17 @@
 </div>
 
 <script>
-  function contadorDeClics(nombrePublicidad) {
-    gtag('event', nombrePublicidad, {
-      'event_category': 'Publicidad',
-      'event_label': nombrePublicidad
+  function registerEvent(event) {
+    gtag('event', event, {
+      'event_category': 'Ads',
+      'event_label': event
+    });
+  }
+
+  function registerView(view) {
+    gtag('event', view, {
+      'event_category': 'Ads_view',
+      'event_label': view
     });
   }
 </script>

@@ -13,6 +13,11 @@ reviews:
   alt: "Ad en la sección de Reseñas"
   url: ""
 
+boletines:
+  image: /assets/images/BP-1400x150.jpg
+  alt: "Ad en la sección de Boletines"
+  url: ""
+
 section-enterate:
   image: /assets/images/BP-1400x150.jpg
   alt: "Ad en la sección de Entérate"
@@ -61,13 +66,15 @@ section-salte-del-radar:
 after-enterate:
   image: /assets/images/Avior Banner.gif
   alt: "Ad después de entérate"
-  nombre: "AviorPlus"
+  event: "AviorPlus"
+  view: "Vistas a AviorPlus después de entérate"
   url: "https://www.aviorplus.com"
 
 after-opinion:
   image: /assets/images/LASER-Airlines---Banner-Miami-900x100.gif
   alt: "Laser Airlines"
-  nombre: "Laser Airlines"
+  event: "Laser Airlines"
+  view: "Vistas a Laser Airlines después de opinión"
   url: "https://www.laserairlines.com/"
 
 after-rutas:
