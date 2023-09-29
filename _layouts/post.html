@@ -121,9 +121,11 @@ layout: default
 					</div>
 				</div>
 				{% if page.image_carousel %}
-				<div class="d-flex">
+				<div class="d-flex justify-content-center">
 					<div class="col-lg-9">
-						<h3 class="font-weight-light pt-3">Carrusel</h3>
+						{% if page.title_carousel %}
+							<h4 class="pt-3">{{page.title_carousel}}</h4>
+						{% endif %}
 						<div class="text-left">
 							{% include carousel-posts.html content=page %}
 						</div>

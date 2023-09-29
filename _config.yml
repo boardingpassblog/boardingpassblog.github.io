@@ -250,6 +250,11 @@ prose:
           element: text
           label: Indica el link del banner
           value: ""
+      - name: title_carousel
+        field:
+          element: text
+          label: Agrega un título para el carrusel
+          value: ""
       - name: image_carousel
         field:
           element: textarea
@@ -514,6 +519,11 @@ prose:
         field:
           element: text
           label: Indica la ruta del archivo de audio de la publicación
+          value: ""
+      - name: title_carousel
+        field:
+          element: text
+          label: Agrega un título para el carrusel
           value: ""
       - name: image_carousel
         field:
