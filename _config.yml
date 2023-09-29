@@ -250,6 +250,10 @@ prose:
           element: text
           label: Indica el link del banner
           value: ""
+      - name: image_carousel
+        field:
+          element: textarea
+          label: Agrega las rutas de las imágenes para el carrusel (una por línea)
       - name: author
         field:
           element: text
