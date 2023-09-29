@@ -477,6 +477,36 @@ post-5:
   alt: "Ad post 5"
   url: ""
 
+boletin-0:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad boletin 0"
+  url: ""
+
+boletin-1:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad boletin 1"
+  url: ""
+
+boletin-2:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad boletin 2"
+  url: ""
+
+boletin-3:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad boletin 3"
+  url: ""
+
+boletin-4:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad boletin 4"
+  url: ""
+
+boletin-5:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad boletin 5"
+  url: ""
+
 review-0:
   image: /assets/images/BP-300x300.jpg
   alt: "Ad review 0"
