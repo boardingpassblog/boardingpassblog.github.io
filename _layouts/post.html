@@ -32,57 +32,58 @@ layout: default
 					<li class="list-inline-item"><i class="ti-calendar mr-2"></i>{{page.date | date: '%d %b, %Y'}}</li>
 				</ul>
 				<div class="d-flex align-items-center margin-bottom-share">
-				<botton class="share-button">
-					<i class="fas fa-share-alt share-margin-icon"></i>
-					<div class="share-options" id="shareOptions">
-						<ul>
-							{% assign mensaje = "Publicado en boardingpass.network"%}
-							<b>Compartir</b>
-							<br><br>
-							<li><a href="{{ page.url | prepend: site.url }}" id="linkText" onclick="copyLink(); return false;">
-								<div class="circle-icon">
-								  <i class="ti-link"></i>
-								</div>
-								Copiar enlace</a>
-							  </li>
-							<li><a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | prepend: site.url }}" target="_blank">
-								<div class="circle-icon">
-									<i class="ti-facebook"></i>
-								</div>
-								Facebook</a>
-							</li>
-							<li><a href="https://twitter.com/intent/tweet?url={{ page.url | prepend: site.url }}&amp;text={{ mensaje }}" target="_blank">
-								<div class="circle-icon">
-									<i class="ti-twitter-alt"></i>
-								</div>
-								Twitter</a>
-							</li>
-							<li><a href="whatsapp://send?text={{ page.url | prepend: site.url }}%0A%0A{{ mensaje }}" target="_blank">
-								<div class="circle-icon">
-									<i class="fab fa-whatsapp fa-4x"></i>
-								</div>
-								WhatsApp</a>
-							</li>
-							<li><a href="mailto:?body={{ mensaje }}%0A%0A{{ page.url | prepend: site.url }}">
-								<div class="circle-icon">
-									<i class="ti-email"></i>
-								</div>
-								Email</a>
-							</li>
-						</ul>
-					</div>
-					Compartir
-				</botton>
-				<li class="list-inline-item margin-left-date-share margin-volume-left">
-					{% if page.audio %}
-					<button id="playButtonPost" class="circle-button margin-circle" onclick="togglePlaybackPost()">
-						<i id="playIconPost" class="fas fa-volume-mute"></i>
-					</button>
-					{% else %}
-					<button onclick="toggleSpeech()" class="circle-button margin-circle">
-						<i id="speechIcon" class="fas fa-volume-mute"></i>
-					</button></li>
-					{% endif %}
+					<botton class="share-button">
+						<i class="fas fa-share-alt share-margin-icon"></i>
+						<div class="share-options" id="shareOptions">
+							<ul>
+								{% assign mensaje = "Publicado en boardingpass.network"%}
+								<b>Compartir</b>
+								<br><br>
+								<li><a href="{{ page.url | prepend: site.url }}" id="linkText" onclick="copyLink(); return false;">
+									<div class="circle-icon">
+									<i class="ti-link"></i>
+									</div>
+									Copiar enlace</a>
+								</li>
+								<li><a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | prepend: site.url }}" target="_blank">
+									<div class="circle-icon">
+										<i class="ti-facebook"></i>
+									</div>
+									Facebook</a>
+								</li>
+								<li><a href="https://twitter.com/intent/tweet?url={{ page.url | prepend: site.url }}&amp;text={{ mensaje }}" target="_blank">
+									<div class="circle-icon">
+										<i class="ti-twitter-alt"></i>
+									</div>
+									Twitter</a>
+								</li>
+								<li><a href="whatsapp://send?text={{ page.url | prepend: site.url }}%0A%0A{{ mensaje }}" target="_blank">
+									<div class="circle-icon">
+										<i class="fab fa-whatsapp fa-4x"></i>
+									</div>
+									WhatsApp</a>
+								</li>
+								<li><a href="mailto:?body={{ mensaje }}%0A%0A{{ page.url | prepend: site.url }}">
+									<div class="circle-icon">
+										<i class="ti-email"></i>
+									</div>
+									Email</a>
+								</li>
+							</ul>
+						</div>
+						Compartir
+					</botton>
+					<li class="list-inline-item margin-left-date-share margin-volume-left">
+						{% if page.audio %}
+						<button id="playButtonPost" class="circle-button margin-circle" onclick="togglePlaybackPost()">
+							<i id="playIconPost" class="fas fa-volume-mute"></i>
+						</button>
+						{% else %}
+						<button onclick="toggleSpeech()" class="circle-button margin-circle">
+							<i id="speechIcon" class="fas fa-volume-mute"></i>
+						</button>
+						{% endif %}
+					</li>
 				</div>
 				{% if page.image %}
 				<div class="image-holder">					
@@ -93,7 +94,7 @@ layout: default
 						{% endif %}
 					</div>
 				</div>
-			 	{% endif %}
+				{% endif %}
 				<div class="content" id="id">
 					<article>
 						{{ content }}
@@ -111,10 +112,19 @@ layout: default
 									<br><br>
 									<div class="button-container">
 										<a class="btn btn-primary" href="https://chat.whatsapp.com/{{ site.whatsapp-group-code }}" target="_blank">Quiero unirme</a>
-									<br><br></div>
+										<br><br>
+									</div>
 									Esperamos verte pronto en nuestro grupo de viajes y turismo. <span class="font-weight-bold">¡Explora el mundo con nosotros!</span>
 								</p>
 							</div>
+						</div>
+					</div>
+				</div>
+				<div class="d-flex">
+					<div class="col-lg-9">
+						<h3 class="font-weight-light pt-3">Carrusel</h3>
+						<div class="text-left">
+							{% include carousel-posts.html %}
 						</div>
 					</div>
 				</div>
