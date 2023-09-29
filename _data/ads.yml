@@ -67,12 +67,14 @@ after-enterate:
   image: /assets/images/Avior Banner.gif
   alt: "Ad después de entérate"
   event: "AviorPlus"
+  view: "Vistas a AviorPlus después de entérate"
   url: "https://www.aviorplus.com"
 
 after-opinion:
   image: /assets/images/LASER-Airlines---Banner-Miami-900x100.gif
   alt: "Laser Airlines"
   event: "Laser Airlines"
+  view: "Vistas a Laser Airlines después de opinión"
   url: "https://www.laserairlines.com/"
 
 after-rutas:
