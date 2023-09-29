@@ -151,7 +151,56 @@ h1, .h1 {
   margin-left: 50px;
 }
 
+.round-button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #00ccb9;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.round-button:hover {
+  background-color: #03b6a4;
+}
+
+.round-button:focus {
+  outline: none;
+}
+
+.round-button i {
+  color: white;
+  font-size: 12px;
+}
+
 @media (max-width: 1680px) {
+  .round-button {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #00ccb9;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+  }
+  .round-button i {
+    color: white;
+    font-size: 8px;
+  }
+  .small-text {
+    font-size: 12px; 
+  }
+  .small-input {
+    font-size: 12px; 
+    padding: 5px; 
+  }
   h1, .h1 {
     font-size: 55px;
   }
@@ -1664,32 +1713,6 @@ blockquote {
 
 .pagination .next {
   margin-left: 10px;
-}
-
-.round-button {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  background-color: #00ccb9;
-  border: none;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: background-color 0.3s ease;
-}
-
-.round-button:hover {
-  background-color: #03b6a4;
-}
-
-.round-button:focus {
-  outline: none;
-}
-
-.round-button i {
-  color: white;
-  font-size: 12px;
 }
 
 .circle-button {
