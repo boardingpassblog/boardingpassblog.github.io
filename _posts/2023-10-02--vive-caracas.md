@@ -5,7 +5,7 @@ featured: false
 published: true
 title: ¡Vive Caracas!
 author: 'Gastro-nomía / Foto de @lostemplospaganos / Bar El Torero '
-image-text: Detalle de del Bar el Torero
+image-text: Detalle del Bar el Torero
 description: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/2_templospaganos.jpg
 image: >-
