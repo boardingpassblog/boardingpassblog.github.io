@@ -6,7 +6,7 @@ permalink: /opinion/
 
 {% 
   include ads/banner.html 
-  content=site.data.ads.section-opinion 
+  content=site.data.ads.ads_opinion.section-opinion 
 %}
 
 {% include pages/title.html %}
@@ -31,35 +31,35 @@ permalink: /opinion/
       <div class="col-lg-3">
         {% 
           include ads/banner.html 
-          content=site.data.ads.sidebar_opinion-0
+          content=site.data.ads.ads_opinion.sidebar_opinion-0
         %}
         {% assign contendorId = "destacados-container-1"%}
         {% include destacado.html contendorId=contendorId %}
         {% 
           include ads/banner.html 
-          content=site.data.ads.sidebar_opinion-1  
+          content=site.data.ads.ads_opinion.sidebar_opinion-1  
         %}
         {% include recientes.html %}
         {% 
           include ads/banner.html 
-          content=site.data.ads.sidebar_opinion-2
+          content=site.data.ads.ads_opinion.sidebar_opinion-2
         %}
         {% assign contendorId = "destacados-container-2"%}
         {% include destacado.html contendorId=contendorId %}
         {% 
           include ads/banner.html 
-          content=site.data.ads.sidebar_opinion-3
+          content=site.data.ads.ads_opinion.sidebar_opinion-3
         %}
         {% include secciones.html %}
         {% 
           include ads/banner.html 
-          content=site.data.ads.sidebar_opinion-4
+          content=site.data.ads.ads_opinion.sidebar_opinion-4
         %}
         {% assign contendorId = "destacados-container-3"%}
         {% include destacado.html contendorId=contendorId %}
         {% 
           include ads/banner.html 
-          content=site.data.ads.sidebar_opinion-5
+          content=site.data.ads.ads_opinion.sidebar_opinion-5
         %}
         {% include feed-twitter.html %}
       </div> 

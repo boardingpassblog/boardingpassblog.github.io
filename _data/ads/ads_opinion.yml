@@ -1,0 +1,34 @@
+section-opinion:
+  image: /assets/images/BP-1400x150.jpg
+  alt: "Ad en la sección de Opinión"
+  url: ""
+
+sidebar_opinion-0:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar opinion 0"
+  url: ""
+
+sidebar_opinion-1:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar opinion 1"
+  url: ""
+
+sidebar_opinion-2:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar opinion 2"
+  url: ""
+
+sidebar_opinion-3:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar opinion 3"
+  url: ""
+
+sidebar_opinion-4:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar opinion 4"
+  url: ""
+
+sidebar_opinion-5:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar opinion 6"
+  url: ""

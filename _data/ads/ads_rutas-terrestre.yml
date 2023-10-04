@@ -1,0 +1,34 @@
+section-terrestre:
+  image: /assets/images/BP-1400x150.jpg
+  alt: "Ad en la sección de Terrestre"
+  url: ""
+
+sidebar_terrestre-0:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar terrestre 0"
+  url: ""
+
+sidebar_terrestre-1:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar terrestre 1"
+  url: ""
+
+sidebar_terrestre-2:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar terrestre 2"
+  url: ""
+
+sidebar_terrestre-3:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar terrestre 3"
+  url: ""
+
+sidebar_terrestre-4:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar terrestre 4"
+  url: ""
+
+sidebar_terrestre-5:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar terrestre 5"
+  url: ""

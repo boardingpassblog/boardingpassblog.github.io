@@ -6,7 +6,7 @@ permalink: /enterate/
 
 {% 
   include ads/banner.html 
-  content=site.data.ads.section-enterate  
+  content=site.data.ads.ads_enterate.section-enterate  
 %}
 
 {% include pages/title.html %}
@@ -31,35 +31,35 @@ permalink: /enterate/
       <div class="col-lg-3">
         {% 
           include ads/banner.html 
-          content=site.data.ads.sidebar_enterate-0 
+          content=site.data.ads.ads_enterate.sidebar_enterate-0 
         %}
         {% assign contendorId = "destacados-container-1"%}
         {% include destacado.html contendorId=contendorId %}
         {% 
           include ads/banner.html 
-          content=site.data.ads.sidebar_enterate-1  
+          content=site.data.ads.ads_enterate.sidebar_enterate-1  
         %}
         {% include recientes.html %}
         {% 
           include ads/banner.html 
-          content=site.data.ads.sidebar_enterate-2
+          content=site.data.ads.ads_enterate.sidebar_enterate-2
         %}
         {% assign contendorId = "destacados-container-2"%}
         {% include destacado.html contendorId=contendorId %}
         {% 
           include ads/banner.html 
-          content=site.data.ads.sidebar_enterate-3
+          content=site.data.ads.ads_enterate.sidebar_enterate-3
         %}
         {% include secciones.html %}
         {% 
           include ads/banner.html 
-          content=site.data.ads.sidebar_enterate-4
+          content=site.data.ads.ads_enterate.sidebar_enterate-4
         %}
         {% assign contendorId = "destacados-container-3"%}
         {% include destacado.html contendorId=contendorId %}
         {% 
           include ads/banner.html 
-          content=site.data.ads.sidebar_enterate-5
+          content=site.data.ads.ads_enterate.sidebar_enterate-5
         %}
         {% include feed-twitter.html %}
       </div> 

@@ -6,7 +6,7 @@ permalink: /directorio/
 
 {% 
   include ads/banner.html 
-  content=site.data.ads.section-directorio
+  content=site.data.ads.ads_directorio.section-directorio
 %}
 
 {% include pages/title.html %}
@@ -1200,35 +1200,35 @@ permalink: /directorio/
       <div class="col-lg-3">
         {% 
           include ads/banner.html 
-          content=site.data.ads.sidebar_directorio-0
+          content=site.data.ads.ads_directorio.sidebar_directorio-0
         %}
         {% assign contendorId = "destacados-container-1"%}
         {% include destacado.html contendorId=contendorId %}
         {% 
           include ads/banner.html 
-          content=site.data.ads.sidebar_directorio-1
+          content=site.data.ads.ads_directorio.sidebar_directorio-1
         %}
         {% include recientes.html %}
         {% 
           include ads/banner.html 
-          content=site.data.ads.sidebar_directorio-2
+          content=site.data.ads.ads_directorio.sidebar_directorio-2
         %}
         {% assign contendorId = "destacados-container-2"%}
         {% include destacado.html contendorId=contendorId %}
         {% 
           include ads/banner.html 
-          content=site.data.ads.sidebar_directorio-3
+          content=site.data.ads.ads_directorio.sidebar_directorio-3
         %}
         {% include secciones.html %}
         {% 
           include ads/banner.html 
-          content=site.data.ads.sidebar_directorio-4
+          content=site.data.ads.ads_directorio.sidebar_directorio-4
         %}
         {% assign contendorId = "destacados-container-3"%}
         {% include destacado.html contendorId=contendorId %}
         {% 
           include ads/banner.html 
-          content=site.data.ads.sidebar_directorio-5
+          content=site.data.ads.ads_directorio.sidebar_directorio-5
         %}
         {% include feed-twitter.html %}
       </div> 

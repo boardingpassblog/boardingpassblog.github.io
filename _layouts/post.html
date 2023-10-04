@@ -139,35 +139,35 @@ layout: default
 			<div class="col-lg-3">
 				{% 
 					include ads/banner.html 
-					content=site.data.ads.post-0
+					content=site.data.ads.ads_post.post-0
 				%}
 				{% assign contendorId = "destacados-container-1"%}
         		{% include destacado.html contendorId=contendorId %}
 				{% 
 				  include ads/banner.html 
-				  content=site.data.ads.post-1  
+				  content=site.data.ads.ads_post.post-1  
 				%}
 				{% include recientes.html %}
 				{% 
 				  include ads/banner.html 
-				  content=site.data.ads.post-2
+				  content=site.data.ads.ads_post.post-2
 				%}
 				{% assign contendorId = "destacados-container-2"%}
         		{% include destacado.html contendorId=contendorId %}
 				{% 
 					include ads/banner.html 
-					content=site.data.ads.post-3
+					content=site.data.ads.ads_post.post-3
 				%}
 				{% include secciones.html %}
 				{% 
 				  include ads/banner.html 
-				  content=site.data.ads.post-4
+				  content=site.data.ads.ads_post.post-4
 				%}
 				{% assign contendorId = "destacados-container-3"%}
         		{% include destacado.html contendorId=contendorId %}
 				{% 
 					include ads/banner.html 
-					content=site.data.ads.post-5
+					content=site.data.ads.ads_post.post-5
 				%}
 				{% include feed-twitter.html %}
 			  </div> 

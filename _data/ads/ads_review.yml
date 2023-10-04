@@ -1,0 +1,34 @@
+reviews:
+  image: /assets/images/BP-1400x150.jpg
+  alt: "Ad en la sección de Reseñas"
+  url: ""
+
+review-0:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad review 0"
+  url: ""
+
+review-1:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad review 1"
+  url: ""
+
+review-2:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad review 2"
+  url: ""
+
+review-3:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad review 3"
+  url: ""
+
+review-4:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad review 4"
+  url: ""
+
+review-5:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad review 5"
+  url: ""

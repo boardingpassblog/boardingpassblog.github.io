@@ -43,7 +43,7 @@ layout: default
 
 {% 
   include ads/banner.html 
-  content=site.data.ads.home  
+  content=site.data.ads.ads_home.home  
 %}
 
 <div class="container maxw">
@@ -59,7 +59,7 @@ layout: default
 
 {% 
   include ads/banner.html 
-  content=site.data.ads.after-enterate  
+  content=site.data.ads.ads_home.after-enterate  
 %}
 
       <!-- Opinión -->
@@ -71,7 +71,7 @@ layout: default
 
 {% 
   include ads/banner.html 
-  content=site.data.ads.after-opinion  
+  content=site.data.ads.ads_home.after-opinion  
 %}
 
       <!-- Rutas -->
@@ -83,7 +83,7 @@ layout: default
 
 {% 
   include ads/banner.html 
-  content=site.data.ads.after-rutas  
+  content=site.data.ads.ads_home.after-rutas  
 %}
 
       <!-- Salte del radar -->
@@ -95,7 +95,7 @@ layout: default
 
 {% 
   include ads/banner.html 
-  content=site.data.ads.after-salte-del-radar
+  content=site.data.ads.ads_home.after-salte-del-radar
 %}
 
       <!-- Destinos -->
@@ -112,35 +112,35 @@ layout: default
     <div class="col-lg-3">
       {% 
         include ads/banner.html 
-        content=site.data.ads.sidebar-0 
+        content=site.data.ads.ads_home.sidebar-0 
       %}
       {% assign contendorId = "destacados-container-1"%}
       {% include destacado.html contendorId=contendorId %}
       {% 
         include ads/banner.html 
-        content=site.data.ads.sidebar-1  
+        content=site.data.ads.ads_home.sidebar-1  
       %}
       {% include recientes.html %}
       {% 
         include ads/banner.html 
-        content=site.data.ads.sidebar-2
+        content=site.data.ads.ads_home.sidebar-2
       %}
       {% assign contendorId = "destacados-container-2"%}
       {% include destacado.html contendorId=contendorId %}
       {% 
         include ads/banner.html 
-        content=site.data.ads.sidebar-3
+        content=site.data.ads.ads_home.sidebar-3
       %}
       {% include secciones.html %}
       {% 
         include ads/banner.html 
-        content=site.data.ads.sidebar-4
+        content=site.data.ads.ads_home.sidebar-4
       %}
       {% assign contendorId = "destacados-container-3"%}
       {% include destacado.html contendorId=contendorId %}
       {% 
         include ads/banner.html 
-        content=site.data.ads.sidebar-5
+        content=site.data.ads.ads_home.sidebar-5
       %}
       {% include feed-twitter.html %}
     </div>

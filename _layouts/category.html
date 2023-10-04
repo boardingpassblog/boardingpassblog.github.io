@@ -38,35 +38,35 @@ layout: default
       <div class="col-lg-3">
         {% 
           include ads/banner.html 
-          content=site.data.ads.category-0 
+          content=site.data.ads.ads_category.category-0 
         %}
         {% assign contendorId = "destacados-container-1"%}
         {% include destacado.html contendorId=contendorId %}
         {% 
           include ads/banner.html 
-          content=site.data.ads.category-1  
+          content=site.data.ads.ads_category.category-1  
         %}
         {% include recientes.html %}
         {% 
           include ads/banner.html 
-          content=site.data.ads.category-2
+          content=site.data.ads.ads_category.category-2
         %}
         {% assign contendorId = "destacados-container-2"%}
         {% include destacado.html contendorId=contendorId %}
         {% 
           include ads/banner.html 
-          content=site.data.ads.category-3
+          content=site.data.ads.ads_category.category-3
         %}
         {% include secciones.html %}
         {% 
           include ads/banner.html 
-          content=site.data.ads.category-4
+          content=site.data.ads.ads_category.category-4
         %}
         {% assign contendorId = "destacados-container-3"%}
         {% include destacado.html contendorId=contendorId %}
         {% 
           include ads/banner.html 
-          content=site.data.ads.category-5
+          content=site.data.ads.ads_category.category-5
         %}
         {% include feed-twitter.html %}
       </div> 
