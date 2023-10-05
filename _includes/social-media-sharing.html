@@ -41,20 +41,40 @@
 </botton>
 
 <script>
-function copyLink() {
-    var linkText = document.getElementById("linkText");
-    var tempInput = document.createElement("input");
-    tempInput.value = linkText.href;
-    document.body.appendChild(tempInput);
-    tempInput.select();
-    document.execCommand("copy");
-    document.body.removeChild(tempInput);
-    var modal = $("#myModal");
-    modal.addClass("bottom-modal"); 
-    modal.modal("show");
+    function copyLink() {
+        var linkText = document.getElementById("linkText");
+        var tempInput = document.createElement("input");
+        tempInput.value = linkText.href;
+        document.body.appendChild(tempInput);
+        tempInput.select();
+        document.execCommand("copy");
+        document.body.removeChild(tempInput);
+        var modal = $("#myModal");
+        modal.addClass("bottom-modal"); 
+        modal.modal("show");
 
-    setTimeout(function() {
-      modal.modal("hide"); 
-    }, 1000);
-}
+        setTimeout(function() {
+        modal.modal("hide"); 
+        }, 1000);
+    }
+    
+	document.querySelector('.share-button').addEventListener('click', function() {
+		var shareOptions = document.querySelector('.share-options');
+		if (shareOptions.style.display === 'none' || shareOptions.style.display === '') {
+			shareOptions.style.display = 'block';
+		} else {
+			shareOptions.style.display = 'none';
+		}
+	});
+
+	document.addEventListener('click', function(event) {
+		var shareButton = document.querySelector('.share-button');
+		var shareOptions = document.querySelector('.share-options');
+		var isClickInsideShareButton = shareButton.contains(event.target);
+		var isClickInsideShareOptions = shareOptions.contains(event.target);
+		var isShareOptionsVisible = shareOptions.style.display === 'block';
+		if (!isClickInsideShareButton && !isClickInsideShareOptions && isShareOptionsVisible) {
+			shareOptions.style.display = 'none';
+		}
+	});
 </script>

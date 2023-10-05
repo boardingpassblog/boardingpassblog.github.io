@@ -34,17 +34,7 @@ layout: default
 				</ul>
 				<div class="d-flex align-items-center margin-bottom-share">
 					{% include social-media-sharing.html %}
-					<li class="list-inline-item margin-left-date-share margin-volume-left">
-						{% if page.audio %}
-						<button id="playButtonPost" class="circle-button margin-circle" onclick="togglePlaybackPost()">
-							<i id="playIconPost" class="fas fa-volume-mute"></i>
-						</button>
-						{% else %}
-						<button onclick="toggleSpeech()" class="circle-button margin-circle">
-							<i id="speechIcon" class="fas fa-volume-mute"></i>
-						</button>
-						{% endif %}
-					</li>
+					{% include audio.html %}
 				</div>
 				{% if page.image %}
 				<div class="image-holder">					
@@ -69,39 +59,6 @@ layout: default
 			</div>
 			<div class="col-lg-3">
 				{% 
-				  include ads/banner.html 
-				  content=site.data.ads.ads_review.review-0 
-				%}
-				{% assign contendorId = "destacados-container-1"%}
-        		{% include destacado.html contendorId=contendorId %}
-				{% 
-				  include ads/banner.html 
-				  content=site.data.ads.ads_review.review-1  
-				%}
-				{% include recientes.html %}
-				{% 
-				  include ads/banner.html 
-				  content=site.data.ads.ads_review.review-2
-				%}
-				{% assign contendorId = "destacados-container-2"%}
-        		{% include destacado.html contendorId=contendorId %}
-				{% 
-				  include ads/banner.html 
-				  content=site.data.ads.ads_review.review-3
-				%}
-				{% include secciones.html %}
-				{% 
-				  include ads/banner.html 
-				  content=site.data.ads.ads_review.review-4 
-				%}
-				{% assign contendorId = "destacados-container-3"%}
-        		{% include destacado.html contendorId=contendorId %}
-				{% 
-				  include ads/banner.html 
-				  content=site.data.ads.ads_review.review-5
-				%}
-				{% include feed-twitter.html %}
-				{% 
 					include sidebar.html 
 					banner0=site.data.ads.ads_review.review-0
 					banner1=site.data.ads.ads_review.review-1
@@ -117,87 +74,3 @@ layout: default
 {% include modal-window.html %}
 <!-- /blog single -->
 
-<script src="{{ site.baseurl }}/assets/plugins/howler/howler.min.js"></script>
-<script>
-	document.querySelector('.share-button').addEventListener('click', function() {
-		var shareOptions = document.querySelector('.share-options');
-		if (shareOptions.style.display === 'none' || shareOptions.style.display === '') {
-			shareOptions.style.display = 'block';
-		} else {
-			shareOptions.style.display = 'none';
-		}
-	});
-
-	document.addEventListener('click', function(event) {
-		var shareButton = document.querySelector('.share-button');
-		var shareOptions = document.querySelector('.share-options');
-		var isClickInsideShareButton = shareButton.contains(event.target);
-		var isClickInsideShareOptions = shareOptions.contains(event.target);
-		var isShareOptionsVisible = shareOptions.style.display === 'block';
-		if (!isClickInsideShareButton && !isClickInsideShareOptions && isShareOptionsVisible) {
-			shareOptions.style.display = 'none';
-		}
-	});
-	
-	var isSpeaking = false;
-	var speechUtterance = null;
-
-	function toggleSpeech() {
-		if (isSpeaking) {
-			responsiveVoice.pause();
-			isSpeaking = false;
-		} else {
-			if (speechUtterance !== null) {
-			responsiveVoice.resume();
-			} else {
-			var articleElement = document.querySelector('article');
-			var textToSpeak = articleElement.innerText;
-			speechUtterance = responsiveVoice.speak(textToSpeak, 'Spanish Latin American Male', { rate: 1, onend: handleSpeechEnd });
-			}
-			isSpeaking = true;
-		}
-		
-		updateButtonState();
-	}
-
-	function handleSpeechEnd() {
-		speechUtterance = null;
-		isSpeaking = false;
-		updateButtonState();
-	}
-
-	function updateButtonState() {
-		var speechIcon = document.getElementById('speechIcon');
-		
-		if (isSpeaking) {
-			speechIcon.classList.remove('fa-volume-mute');
-			speechIcon.classList.add('fa-volume-up');
-		} else {
-			speechIcon.classList.remove('fa-volume-up');
-			speechIcon.classList.add('fa-volume-mute');
-		}
-	}
-
-	var sound_post = new Howl({
-      src: ['{{ page.audio }}'],
-      loop: true
-    });
-
-    var isPlayingPost = false;
-
-    function togglePlaybackPost() {
-      var playIconPost = document.getElementById('playIconPost');
-
-      if (isPlayingPost) {
-        sound_post.pause();
-        isPlayingPost = false;
-        playIconPost.classList.remove('fa-volume-up');
-        playIconPost.classList.add('fa-volume-mute');
-      } else {
-        sound_post.play();
-        isPlayingPost = true;
-        playIconPost.classList.remove('fa-volume-mute');
-        playIconPost.classList.add('fa-volume-up');
-      }
-    }
-</script>
