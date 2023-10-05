@@ -1,0 +1,34 @@
+default-posts-banner:
+  image: /assets/images/BP-1400x150.jpg
+  alt: "Banner por omisión para publicaciones"
+  url: ""
+  
+post-0:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad post 0"
+  url: ""
+
+post-1:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad post 1"
+  url: ""
+
+post-2:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad post 2"
+  url: ""
+
+post-3:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad post 3"
+  url: ""
+
+post-4:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad post 4"
+  url: ""
+
+post-5:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad post 5"
+  url: ""

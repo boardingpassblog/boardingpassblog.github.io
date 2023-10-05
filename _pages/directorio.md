@@ -6,7 +6,7 @@ permalink: /directorio/
 
 {% 
   include ads/banner.html 
-  content=site.data.ads.section-directorio
+  content=site.data.ads.ads_directorio.section-directorio
 %}
 
 {% include pages/title.html %}
@@ -82,120 +82,15 @@ permalink: /directorio/
               </div>
               {% assign current_letter = post_title_first_letter %}
             {% endif %} 
-            {% if post.featured == true %}
-            <div class="col-lg-6 col-sm-10">
-              {% assign iterator = iterator | plus: 1 %}
-              <div class="card card-separation">
-                <div class="card-body position-card">
-                  <ul class="nav nav-tabs">
-                    <li class="nav-item">
-                      <a class="nav-link active" data-toggle="tab" href="#tab1-{{iterator}}">General</a>
-                    </li>
-                    {% if review %}
-                    <li class="nav-item"> 
-                      <a class="nav-link" data-toggle="tab" href="#tabr1-{{iterator}}">Reseña</a>
-                    </li>
-                    {% endif %}
-                    <li class="nav-item"> 
-                      <a class="nav-link" data-toggle="tab" href="#tab2-{{iterator}}">Contacto</a>
-                    </li>
-                  </ul>
-                  <div class="tab-content line-break">
-                    <div class="tab-pane fade show active" id="tab1-{{iterator}}">
-                      <div class="tab-card">
-                        <div class="tab-pane-card">
-                          <img src="{{post.image | relative_url}}" alt="{{post.title}}" class="img-card">
-                        </div>
-                        <div class="tab-card-1">
-                          <div> <h5 class="text-dark">{{post.title }}</h5></div>
-                          {% if post.address %}
-                            <div class="smaller-font margin-icon"><i class="fas fa-map-marker-alt"></i> 
-                              <span class="margin-icon">{{post.address}}</span>
-                            </div>
-                          {% endif %}
-                          {% if post.types %}
-                            <div class="smaller-font margin-icon"><i class="fas fa-building"></i>
-                              {% for type in post.types %}
-                                {% assign capitalized = type | capitalize %}
-                                <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
-                              {% endfor %}
-                            </div>
-                          {% endif %}
-                          {% if post.services %}
-                            <div class="margin-services">
-                              <ul class="horizontal-list">
-                                {% for servicio in post.services %}
-                                  {% if site.servicios_iconos[servicio] %}
-                                    <li>
-                                      <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
-                                    </li>
-                                  {% endif %}
-                                {% endfor %}
-                              </ul>
-                            </div>
-                          {% endif %}
-                        </div>
-                      </div>
-                    </div>
-                    {% if review %}
-                    <div class="tab-pane fade" id="tabr1-{{iterator}}">
-                      <div class="tab-card">
-                        <div class="tab-card-1">
-                          <div>
-                            <h5 class="text-dark">{{ review.title }}</h5>
-                            {% assign content_without_html = review.content | strip_html %}
-                            {% assign truncated_content = content_without_html | truncatewords: 50 %}
-                            <p>{{ truncated_content }}</p>
-                            <a href="{{ review.url }}">Ver reseña completa</a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    {% endif %}
-                    <div class="tab-pane fade" id="tab2-{{iterator}}">
-                      <div class="tab-card">
-                        <div class="tab-card-1">
-                          {% if post.phone_number %}
-                            <div>
-                              <i class="fas fa-phone fa-sm"></i> 
-                              <a href="tel:{{post.phone_number}}" class="font-phone-number"> {{post.phone_number}}</a>
-                            </div>
-                          {% endif %}
-                          {% if post.website %}
-                            <div class="smaller-font">
-                              <i class="fas fa-globe"></i> 
-                              <a href="https://{{post.website}}"> {{post.website}}</a>
-                            </div>
-                          {% endif %}
-                          {% if post.facebook_user %}
-                            <div class="smaller-font">
-                              <i class="fab fa-facebook-square"></i> 
-                              <a href="https://www.facebook.com/{{post.facebook_user}}"> {{post.facebook_user}}</a>
-                            </div>
-                          {% endif %}
-                          {% if post.instagram_user %}
-                            <div class="smaller-font">
-                              <i class="fab fa-instagram"></i> 
-                              <a href="https://instagram.com/{{post.instagram_user}}"> {{post.instagram_user}}</a>
-                            </div>
-                          {% endif %}
-                          {% if post.twitter_user %}
-                            <div class="smaller-font">
-                              <i class="fab fa-twitter"></i> 
-                              <a href="https://twitter.com/{{post.twitter_user}}"> {{post.twitter_user}}</a>
-                            </div>
-                          {% endif %}
-                        </div>
-                        <div>
-                          <img src="{{post.image | relative_url}}" alt="{{post.title}}" class="img-card-no-destacadas">
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {% endif %}
+            {% assign tab1 = "tab1" %}
+            {% assign tab2 = "tab2" %}
+            {% assign tabr1 = "tabr1" %}
+            {% 
+                include entradas-destacadas.html
+                t1=tab1
+                tr1=tabr1
+                t2=tab2
+            %}
           {% endfor %}
         </div>  
       </div> 
@@ -212,46 +107,7 @@ permalink: /directorio/
               </div>
               {% assign current_letter = post_title_first_letter %}
             {% endif %} 
-            <div class="col-lg-6 col-sm-10">
-              {% assign iterator = iterator | plus: 1 %}
-              {% if post.featured == false %}
-              <div class="card card-separation">
-                <div class="card-body position-card">
-                  <div class="tab-card">
-                    <div class="tab-card-1">
-                      <div> <h5 class="text-dark">{{post.title }}</h5></div>
-                      {% if post.address %}
-                        <div class="smaller-font margin-icon"><i class="fas fa-map-marker-alt"></i> 
-                          <span class="margin-icon">{{post.address}}</span>
-                        </div>
-                      {% endif %}
-                      {% if post.types %}
-                        <div class="smaller-font margin-icon"><i class="fas fa-building"></i>
-                          {% for type in post.types %}
-                            {% assign capitalized = type | capitalize %}
-                            <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
-                          {% endfor %}
-                        </div>
-                      {% endif %}
-                      {% if post.services %}
-                        <div class="margin-services">
-                          <ul class="horizontal-list">
-                            {% for servicio in post.services %}
-                              {% if site.servicios_iconos[servicio] %}
-                                <li>
-                                  <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
-                                </li>
-                              {% endif %}
-                            {% endfor %}
-                          </ul>
-                        </div>
-                      {% endif %}
-                    </div>
-                  </div>
-                </div>
-              </div>
-              {% endif %}
-            </div>
+            {% include entradas-no-destacadas.html %}
           {% endfor %}
         </div>  
       </div> 
@@ -268,46 +124,7 @@ permalink: /directorio/
               </div>
               {% assign current_region = post_region %}
             {% endif %}
-            <div class="col-lg-6 col-sm-10">
-              {% assign iterator = iterator | plus: 1 %}
-              {% if post.featured == false %}
-              <div class="card card-separation">
-                <div class="card-body position-card">
-                  <div class="tab-card">
-                    <div class="tab-card-1">
-                      <div> <h5 class="text-dark">{{post.title }}</h5></div>
-                      {% if post.address %}
-                        <div class="smaller-font margin-icon"><i class="fas fa-map-marker-alt"></i> 
-                          <span class="margin-icon">{{post.address}}</span>
-                        </div>
-                      {% endif %}
-                      {% if post.types %}
-                        <div class="smaller-font margin-icon"><i class="fas fa-building"></i>
-                          {% for type in post.types %}
-                            {% assign capitalized = type | capitalize %}
-                            <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
-                          {% endfor %}
-                        </div>
-                      {% endif %}
-                      {% if post.services %}
-                        <div class="margin-services">
-                          <ul class="horizontal-list">
-                            {% for servicio in post.services %}
-                              {% if site.servicios_iconos[servicio] %}
-                                <li>
-                                  <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
-                                </li>
-                              {% endif %}
-                            {% endfor %}
-                          </ul>
-                        </div>
-                      {% endif %}
-                    </div>
-                  </div>
-                </div>
-              </div>
-              {% endif %}
-            </div>
+            {% include entradas-no-destacadas.html %}
           {% endfor %}
         </div>  
       </div> 
@@ -326,154 +143,15 @@ permalink: /directorio/
               </div>
               {% assign current_region = post_region %}
             {% endif %}
-            <div class="col-lg-6 col-sm-10">
-              {% assign iterator = iterator | plus: 1 %}
-              <div class="card card-separation">
-                {% if post.featured == true %}
-                <div class="card-body position-card">
-                  <ul class="nav nav-tabs">
-                    <li class="nav-item">
-                      <a class="nav-link active" data-toggle="tab" href="#tab9-{{iterator}}">General</a>
-                    </li>
-                    {% if review %}
-                    <li class="nav-item"> 
-                      <a class="nav-link" data-toggle="tab" href="#tabr2-{{iterator}}">Reseña</a>
-                    </li>
-                    {% endif %}
-                    <li class="nav-item">
-                      <a class="nav-link" data-toggle="tab" href="#tab10-{{iterator}}">Contacto</a>
-                    </li>
-                  </ul>
-                  <div class="tab-content line-break">
-                    <div class="tab-pane fade show active" id="tab9-{{iterator}}">
-                      <div class="tab-card">
-                        <div class="tab-pane-card">
-                          <img src="{{post.image | relative_url}}" alt="{{post.title}}" class="img-card">
-                        </div>
-                        <div class="tab-card-1">
-                          <div> <h5 class="text-dark">{{post.title }}</h5></div>
-                          {% if post.address %}
-                            <div class="smaller-font margin-icon"><i class="fas fa-map-marker-alt"></i> 
-                              <span class="margin-icon">{{post.address}}</span>
-                            </div>
-                          {% endif %}
-                          {% if post.types %}
-                            <div class="smaller-font margin-icon"><i class="fas fa-building"></i>
-                              {% for type in post.types %}
-                                {% assign capitalized = type | capitalize %}
-                                <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
-                              {% endfor %}
-                            </div>
-                          {% endif %}
-                          {% if post.services %}
-                            <div class="margin-services">
-                              <ul class="horizontal-list">
-                                {% for servicio in post.services %}
-                                  {% if site.servicios_iconos[servicio] %}
-                                    <li>
-                                      <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
-                                    </li>
-                                  {% endif %}
-                                {% endfor %}
-                              </ul>
-                            </div>
-                          {% endif %}
-                        </div>
-                      </div>
-                    </div>
-                    {% if review %}
-                    <div class="tab-pane fade" id="tabr2-{{iterator}}">
-                      <div class="tab-card">
-                        <div class="tab-card-1">
-                          <div>
-                            <h5 class="text-dark">{{ review.title }}</h5>
-                            {% assign content_without_html = review.content | strip_html %}
-                            {% assign truncated_content = content_without_html | truncatewords: 50 %}
-                            <p>{{ truncated_content }}</p>
-                            <a href="{{ review.url }}">Ver reseña completa</a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    {% endif %}
-                    <div class="tab-pane fade" id="tab10-{{iterator}}">
-                      <div class="tab-card">
-                        <div class="tab-card-1">
-                          {% if post.phone_number %}
-                            <div>
-                              <i class="fas fa-phone fa-sm"></i> 
-                              <a href="tel:{{post.phone_number}}" class="font-phone-number"> {{post.phone_number}}</a>
-                            </div>
-                          {% endif %}
-                          {% if post.website %}
-                            <div class="smaller-font">
-                              <i class="fas fa-globe"></i> 
-                              <a href="https://{{post.website}}"> {{post.website}}</a>
-                            </div>
-                          {% endif %}
-                          {% if post.facebook_user %}
-                            <div class="smaller-font">
-                              <i class="fab fa-facebook-square"></i> 
-                              <a href="https://www.facebook.com/{{post.facebook_user}}"> {{post.facebook_user}}</a>
-                            </div>
-                          {% endif %}
-                          {% if post.instagram_user %}
-                            <div class="smaller-font">
-                              <i class="fab fa-instagram"></i> 
-                              <a href="https://instagram.com/{{post.instagram_user}}"> {{post.instagram_user}}</a>
-                            </div>
-                          {% endif %}
-                          {% if post.twitter_user %}
-                            <div class="smaller-font">
-                              <i class="fab fa-twitter"></i> 
-                              <a href="https://twitter.com/{{post.twitter_user}}"> {{post.twitter_user}}</a>
-                            </div>
-                          {% endif %}
-                        </div>
-                        <div>
-                          <img src="{{post.image | relative_url}}" alt="{{post.title}}">
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                {% else %}
-                <div class="card-body position-card">
-                  <div class="tab-card">
-                    <div class="tab-card-1">
-                      <div> <h5 class="text-dark">{{post.title }}</h5></div>
-                      {% if post.address %}
-                        <div class="smaller-font margin-icon"><i class="fas fa-map-marker-alt"></i> 
-                          <span class="margin-icon">{{post.address}}</span>
-                        </div>
-                      {% endif %}
-                      {% if post.types %}
-                        <div class="smaller-font margin-icon"><i class="fas fa-building"></i>
-                          {% for type in post.types %}
-                            {% assign capitalized = type | capitalize %}
-                            <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
-                          {% endfor %}
-                        </div>
-                      {% endif %}
-                      {% if post.services %}
-                        <div class="margin-services">
-                          <ul class="horizontal-list">
-                            {% for servicio in post.services %}
-                              {% if site.servicios_iconos[servicio] %}
-                                <li>
-                                  <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
-                                </li>
-                              {% endif %}
-                            {% endfor %}
-                          </ul>
-                        </div>
-                      {% endif %}
-                    </div>
-                  </div>
-                </div>
-                {% endif %}
-              </div>
-            </div>
+            {% assign tab1 = "tab9" %}
+            {% assign tab2 = "tab10" %}
+            {% assign tabr1 = "tabr2" %}
+            {% 
+                include entradas-destacadas.html
+                t1=tab1
+                tr1=tabr1
+                t2=tab2
+            %}
           {% endfor %}
         </div>  
       </div> 
@@ -491,155 +169,17 @@ permalink: /directorio/
                 <h4 class="letter-title">{{ post_region }}</h4>
               </div>
               {% assign current_region = post_region %}
-            {% endif %}  
-            <div class="col-lg-6 col-sm-10">
-              {% assign iterator = iterator | plus: 1 %}
-              <div class="card card-separation">
-                {% if post.featured == true %}
-                <div class="card-body position-card">
-                  <ul class="nav nav-tabs">
-                    <li class="nav-item">
-                      <a class="nav-link active" data-toggle="tab" href="#tab3-{{iterator}}">General</a>
-                    </li>
-                    {% if review %}
-                    <li class="nav-item"> 
-                      <a class="nav-link" data-toggle="tab" href="#tabr3-{{iterator}}">Reseña</a>
-                    </li>
-                    {% endif %}
-                    <li class="nav-item">
-                      <a class="nav-link" data-toggle="tab" href="#tab4-{{iterator}}">Contacto</a>
-                    </li>
-                  </ul>
-                  <div class="tab-content line-break">
-                    <div class="tab-pane fade show active" id="tab3-{{iterator}}">
-                      <div class="tab-card">
-                        <div class="tab-pane-card">
-                          <img src="{{post.image | relative_url}}" alt="{{post.title}}" class="img-card">
-                        </div>
-                        <div class="tab-card-1">
-                          <div> <h5 class="text-dark">{{post.title }}</h5></div>
-                          {% if post.address %}
-                            <div class="smaller-font margin-icon"><i class="fas fa-map-marker-alt"></i> 
-                              <span class="margin-icon">{{post.address}}</span>
-                            </div>
-                          {% endif %}
-                          {% if post.types %}
-                            <div class="smaller-font margin-icon"><i class="fas fa-building"></i>
-                              {% for type in post.types %}
-                                {% assign capitalized = type | capitalize %}
-                                <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
-                              {% endfor %}
-                            </div>
-                          {% endif %}
-                          {% if post.services %}
-                            <div class="margin-services">
-                              <ul class="horizontal-list">
-                                {% for servicio in post.services %}
-                                  {% if site.servicios_iconos[servicio] %}
-                                    <li>
-                                      <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
-                                    </li>
-                                  {% endif %}
-                                {% endfor %}
-                              </ul>
-                            </div>
-                          {% endif %}
-                        </div>
-                      </div>
-                    </div>
-                    {% if review %}
-                    <div class="tab-pane fade" id="tabr3-{{iterator}}">
-                      <div class="tab-card">
-                        <div class="tab-card-1">
-                          <div>
-                            <h5 class="text-dark">{{ review.title }}</h5>
-                            {% assign content_without_html = review.content | strip_html %}
-                            {% assign truncated_content = content_without_html | truncatewords: 50 %}
-                            <p>{{ truncated_content }}</p>
-                            <a href="{{ review.url }}">Ver reseña completa</a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    {% endif %}
-                    <div class="tab-pane fade" id="tab4-{{iterator}}">
-                      <div class="tab-card">
-                        <div class="tab-card-1">
-                          {% if post.phone_number %}
-                            <div>
-                              <i class="fas fa-phone fa-sm"></i> 
-                              <a href="tel:{{post.phone_number}}" class="font-phone-number"> {{post.phone_number}}</a>
-                            </div>
-                          {% endif %}
-                          {% if post.website %}
-                            <div class="smaller-font">
-                              <i class="fas fa-globe"></i> 
-                              <a href="https://{{post.website}}"> {{post.website}}</a>
-                            </div>
-                          {% endif %}
-                          {% if post.facebook_user %}
-                            <div class="smaller-font">
-                              <i class="fab fa-facebook-square"></i> 
-                              <a href="https://www.facebook.com/{{post.facebook_user}}"> {{post.facebook_user}}</a>
-                            </div>
-                          {% endif %}
-                          {% if post.instagram_user %}
-                            <div class="smaller-font">
-                              <i class="fab fa-instagram"></i> 
-                              <a href="https://instagram.com/{{post.instagram_user}}"> {{post.instagram_user}}</a>
-                            </div>
-                          {% endif %}
-                          {% if post.twitter_user %}
-                            <div class="smaller-font">
-                              <i class="fab fa-twitter"></i> 
-                              <a href="https://twitter.com/{{post.twitter_user}}"> {{post.twitter_user}}</a>
-                            </div>
-                          {% endif %}
-                        </div>
-                        <div>
-                          <img src="{{post.image | relative_url}}" alt="{{post.title}}" class="img-card-no-destacadas">
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                {% else %}
-                <div class="card-body position-card">
-                  <div class="tab-card">
-                    <div class="tab-card-1">
-                      <div> <h5 class="text-dark">{{post.title }}</h5></div>
-                      {% if post.address %}
-                        <div class="smaller-font margin-icon"><i class="fas fa-map-marker-alt"></i> 
-                          <span class="margin-icon">{{post.address}}</span>
-                        </div>
-                      {% endif %}
-                      {% if post.types %}
-                        <div class="smaller-font margin-icon"><i class="fas fa-building"></i>
-                          {% for type in post.types %}
-                            {% assign capitalized = type | capitalize %}
-                            <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
-                          {% endfor %}
-                        </div>
-                      {% endif %}
-                      {% if post.services %}
-                        <div class="margin-services">
-                          <ul class="horizontal-list">
-                            {% for servicio in post.services %}
-                              {% if site.servicios_iconos[servicio] %}
-                                <li>
-                                  <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
-                                </li>
-                              {% endif %}
-                            {% endfor %}
-                          </ul>
-                        </div>
-                      {% endif %}
-                    </div>
-                  </div>
-                </div>
-                {% endif %}
-              </div>
-            </div>
+            {% endif %} 
+            {% assign tab1 = "tab3" %}
+            {% assign tab2 = "tab4" %}
+            {% assign tabr1 = "tabr3" %}
+            {% 
+                include entradas-destacadas.html
+                t1=tab1
+                tr1=tabr1
+                t2=tab2
+            %} 
+            {% include entradas-no-destacadas.html %}
           {% endfor %}
         </div>  
       </div> 
@@ -656,46 +196,7 @@ permalink: /directorio/
               </div>
               {% assign current_state = post_state %}
             {% endif %}
-            <div class="col-lg-6 col-sm-10">
-              {% assign iterator = iterator | plus: 1 %}
-              {% if post.featured == false %}
-              <div class="card card-separation">
-                <div class="card-body position-card">
-                  <div class="tab-card">
-                    <div class="tab-card-1">
-                      <div> <h5 class="text-dark">{{post.title }}</h5></div>
-                      {% if post.address %}
-                        <div class="smaller-font margin-icon"><i class="fas fa-map-marker-alt"></i> 
-                          <span class="margin-icon">{{post.address}}</span>
-                        </div>
-                      {% endif %}
-                      {% if post.types %}
-                        <div class="smaller-font margin-icon"><i class="fas fa-building"></i>
-                          {% for type in post.types %}
-                            {% assign capitalized = type | capitalize %}
-                            <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
-                          {% endfor %}
-                        </div>
-                      {% endif %}
-                      {% if post.services %}
-                        <div class="margin-services">
-                          <ul class="horizontal-list">
-                            {% for servicio in post.services %}
-                              {% if site.servicios_iconos[servicio] %}
-                                <li>
-                                  <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
-                                </li>
-                              {% endif %}
-                            {% endfor %}
-                          </ul>
-                        </div>
-                      {% endif %}
-                    </div>
-                  </div>
-                </div>
-              </div>
-              {% endif %}
-            </div>
+            {% include entradas-no-destacadas.html %}
           {% endfor %}
         </div>  
       </div> 
@@ -714,154 +215,15 @@ permalink: /directorio/
               </div>
               {% assign current_state = post_state %}
             {% endif %}
-            <div class="col-lg-6 col-sm-10">
-              {% assign iterator = iterator | plus: 1 %}
-              <div class="card card-separation">
-                {% if post.featured == true %}
-                <div class="card-body position-card">
-                  <ul class="nav nav-tabs">
-                    <li class="nav-item">
-                      <a class="nav-link active" data-toggle="tab" href="#tab11-{{iterator}}">General</a>
-                    </li>
-                    {% if review %}
-                    <li class="nav-item"> 
-                      <a class="nav-link" data-toggle="tab" href="#tabr4-{{iterator}}">Reseña</a>
-                    </li>
-                    {% endif %}
-                    <li class="nav-item">
-                      <a class="nav-link" data-toggle="tab" href="#tab12-{{iterator}}">Contacto</a>
-                    </li>
-                  </ul>
-                  <div class="tab-content line-break">
-                    <div class="tab-pane fade show active" id="tab11-{{iterator}}">
-                      <div class="tab-card">
-                        <div class="tab-pane-card">
-                          <img src="{{post.image | relative_url}}" alt="{{post.title}}" class="img-card">
-                        </div>
-                        <div class="tab-card-1">
-                          <div> <h5 class="text-dark">{{post.title }}</h5></div>
-                          {% if post.address %}
-                            <div class="smaller-font margin-icon"><i class="fas fa-map-marker-alt"></i> 
-                              <span class="margin-icon">{{post.address}}</span>
-                            </div>
-                          {% endif %}
-                          {% if post.types %}
-                            <div class="smaller-font margin-icon"><i class="fas fa-building"></i>
-                              {% for type in post.types %}
-                                {% assign capitalized = type | capitalize %}
-                                <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
-                              {% endfor %}
-                            </div>
-                          {% endif %}
-                          {% if post.services %}
-                            <div class="margin-services">
-                              <ul class="horizontal-list">
-                                {% for servicio in post.services %}
-                                  {% if site.servicios_iconos[servicio] %}
-                                    <li>
-                                      <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
-                                    </li>
-                                  {% endif %}
-                                {% endfor %}
-                              </ul>
-                            </div>
-                          {% endif %}
-                        </div>
-                      </div>
-                    </div>
-                    {% if review %}
-                    <div class="tab-pane fade" id="tabr4-{{iterator}}">
-                      <div class="tab-card">
-                        <div class="tab-card-1">
-                          <div>
-                            <h5 class="text-dark">{{ review.title }}</h5>
-                            {% assign content_without_html = review.content | strip_html %}
-                            {% assign truncated_content = content_without_html | truncatewords: 50 %}
-                            <p>{{ truncated_content }}</p>
-                            <a href="{{ review.url }}">Ver reseña completa</a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    {% endif %}
-                    <div class="tab-pane fade" id="tab12-{{iterator}}">
-                      <div class="tab-card">
-                        <div class="tab-card-1">
-                          {% if post.phone_number %}
-                            <div>
-                              <i class="fas fa-phone fa-sm"></i> 
-                              <a href="tel:{{post.phone_number}}" class="font-phone-number"> {{post.phone_number}}</a>
-                            </div>
-                          {% endif %}
-                          {% if post.website %}
-                            <div class="smaller-font">
-                              <i class="fas fa-globe"></i> 
-                              <a href="https://{{post.website}}"> {{post.website}}</a>
-                            </div>
-                          {% endif %}
-                          {% if post.facebook_user %}
-                            <div class="smaller-font">
-                              <i class="fab fa-facebook-square"></i> 
-                              <a href="https://www.facebook.com/{{post.facebook_user}}"> {{post.facebook_user}}</a>
-                            </div>
-                          {% endif %}
-                          {% if post.instagram_user %}
-                            <div class="smaller-font">
-                              <i class="fab fa-instagram"></i> 
-                              <a href="https://instagram.com/{{post.instagram_user}}"> {{post.instagram_user}}</a>
-                            </div>
-                          {% endif %}
-                          {% if post.twitter_user %}
-                            <div class="smaller-font">
-                              <i class="fab fa-twitter"></i> 
-                              <a href="https://twitter.com/{{post.twitter_user}}"> {{post.twitter_user}}</a>
-                            </div>
-                          {% endif %}
-                        </div>
-                        <div>
-                          <img src="{{post.image | relative_url}}" alt="{{post.title}}" class="img-card-no-destacadas">
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                {% else %}
-                <div class="card-body position-card">
-                  <div class="tab-card">
-                    <div class="tab-card-1">
-                      <div> <h5 class="text-dark">{{post.title }}</h5></div>
-                      {% if post.address %}
-                        <div class="smaller-font margin-icon"><i class="fas fa-map-marker-alt"></i> 
-                          <span class="margin-icon">{{post.address}}</span>
-                        </div>
-                      {% endif %}
-                      {% if post.types %}
-                        <div class="smaller-font margin-icon"><i class="fas fa-building"></i>
-                          {% for type in post.types %}
-                            {% assign capitalized = type | capitalize %}
-                            <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
-                          {% endfor %}
-                        </div>
-                      {% endif %}
-                      {% if post.services %}
-                        <div class="margin-services">
-                          <ul class="horizontal-list">
-                            {% for servicio in post.services %}
-                              {% if site.servicios_iconos[servicio] %}
-                                <li>
-                                  <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
-                                </li>
-                              {% endif %}
-                            {% endfor %}
-                          </ul>
-                        </div>
-                      {% endif %}
-                    </div>
-                  </div>
-                </div>
-                {% endif %}
-              </div>
-            </div>
+            {% assign tab1 = "tab11" %}
+            {% assign tab2 = "tab12" %}
+            {% assign tabr1 = "tabr4" %}
+            {% 
+                include entradas-destacadas.html
+                t1=tab1
+                tr1=tabr1
+                t2=tab2
+            %}
           {% endfor %}
         </div>  
       </div> 
@@ -880,154 +242,16 @@ permalink: /directorio/
               </div>
               {% assign current_state = post_state %}
             {% endif %}
-            <div class="col-lg-6 col-sm-10">
-              {% assign iterator = iterator | plus: 1 %}
-              <div class="card card-separation">
-                {% if post.featured == true %}
-                <div class="card-body position-card">
-                  <ul class="nav nav-tabs">
-                    <li class="nav-item">
-                      <a class="nav-link active" data-toggle="tab" href="#tab5-{{iterator}}">General</a>
-                    </li>
-                    {% if review %}
-                    <li class="nav-item"> 
-                      <a class="nav-link" data-toggle="tab" href="#tabr5-{{iterator}}">Reseña</a>
-                    </li>
-                    {% endif %}
-                    <li class="nav-item">
-                      <a class="nav-link" data-toggle="tab" href="#tab6-{{iterator}}">Contacto</a>
-                    </li>
-                  </ul>
-                  <div class="tab-content line-break">
-                    <div class="tab-pane fade show active" id="tab5-{{iterator}}">
-                      <div class="tab-card">
-                        <div class="tab-pane-card">
-                          <img src="{{post.image | relative_url}}" alt="{{post.title}}" class="img-card">
-                        </div>
-                        <div class="tab-card-1">
-                          <div> <h5 class="text-dark">{{post.title }}</h5></div>
-                          {% if post.address %}
-                            <div class="smaller-font margin-icon"><i class="fas fa-map-marker-alt"></i> 
-                              <span class="margin-icon">{{post.address}}</span>
-                            </div>
-                          {% endif %}
-                          {% if post.types %}
-                            <div class="smaller-font margin-icon"><i class="fas fa-building"></i>
-                              {% for type in post.types %}
-                                {% assign capitalized = type | capitalize %}
-                                <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
-                              {% endfor %}
-                            </div>
-                          {% endif %}
-                          {% if post.services %}
-                            <div class="margin-services">
-                              <ul class="horizontal-list">
-                                {% for servicio in post.services %}
-                                  {% if site.servicios_iconos[servicio] %}
-                                    <li>
-                                      <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
-                                    </li>
-                                  {% endif %}
-                                {% endfor %}
-                              </ul>
-                            </div>
-                          {% endif %}
-                        </div>
-                      </div>
-                    </div>
-                    {% if review %}
-                    <div class="tab-pane fade" id="tabr5-{{iterator}}">
-                      <div class="tab-card">
-                        <div class="tab-card-1">
-                          <div>
-                            <h5 class="text-dark">{{ review.title }}</h5>
-                            {% assign content_without_html = review.content | strip_html %}
-                            {% assign truncated_content = content_without_html | truncatewords: 50 %}
-                            <p>{{ truncated_content }}</p>
-                            <a href="{{ review.url }}">Ver reseña completa</a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    {% endif %}
-                    <div class="tab-pane fade" id="tab6-{{iterator}}">
-                      <div class="tab-card">
-                        <div class="tab-card-1">
-                          {% if post.phone_number %}
-                            <div>
-                              <i class="fas fa-phone fa-sm"></i> 
-                              <a href="tel:{{post.phone_number}}" class="font-phone-number"> {{post.phone_number}}</a>
-                            </div>
-                          {% endif %}
-                          {% if post.website %}
-                            <div class="smaller-font">
-                              <i class="fas fa-globe"></i> 
-                              <a href="https://{{post.website}}"> {{post.website}}</a>
-                            </div>
-                          {% endif %}
-                          {% if post.facebook_user %}
-                            <div class="smaller-font">
-                              <i class="fab fa-facebook-square"></i> 
-                              <a href="https://www.facebook.com/{{post.facebook_user}}"> {{post.facebook_user}}</a>
-                            </div>
-                          {% endif %}
-                          {% if post.instagram_user %}
-                            <div class="smaller-font">
-                              <i class="fab fa-instagram"></i> 
-                              <a href="https://instagram.com/{{post.instagram_user}}"> {{post.instagram_user}}</a>
-                            </div>
-                          {% endif %}
-                          {% if post.twitter_user %}
-                            <div class="smaller-font">
-                              <i class="fab fa-twitter"></i> 
-                              <a href="https://twitter.com/{{post.twitter_user}}"> {{post.twitter_user}}</a>
-                            </div>
-                          {% endif %}
-                        </div>
-                        <div>
-                          <img src="{{post.image | relative_url}}" alt="{{post.title}}" class="img-card-no-destacadas">
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                {% else %}
-                <div class="card-body position-card">
-                  <div class="tab-card">
-                    <div class="tab-card-1">
-                      <div> <h5 class="text-dark">{{post.title }}</h5></div>
-                      {% if post.address %}
-                        <div class="smaller-font margin-icon"><i class="fas fa-map-marker-alt"></i> 
-                          <span class="margin-icon">{{post.address}}</span>
-                        </div>
-                      {% endif %}
-                      {% if post.types %}
-                        <div class="smaller-font margin-icon"><i class="fas fa-building"></i>
-                          {% for type in post.types %}
-                            {% assign capitalized = type | capitalize %}
-                            <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
-                          {% endfor %}
-                        </div>
-                      {% endif %}
-                      {% if post.services %}
-                        <div class="margin-services">
-                          <ul class="horizontal-list">
-                            {% for servicio in post.services %}
-                              {% if site.servicios_iconos[servicio] %}
-                                <li>
-                                  <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
-                                </li>
-                              {% endif %}
-                            {% endfor %}
-                          </ul>
-                        </div>
-                      {% endif %}
-                    </div>
-                  </div>
-                </div>
-                {% endif %}
-              </div>
-            </div>
+            {% assign tab1 = "tab5" %}
+            {% assign tab2 = "tab6" %}
+            {% assign tabr1 = "tabr5" %}
+            {% 
+                include entradas-destacadas.html
+                t1=tab1
+                tr1=tabr1
+                t2=tab2
+            %} 
+            {% include entradas-no-destacadas.html %}
           {% endfor %}
         </div>  
       </div> 
@@ -1046,191 +270,29 @@ permalink: /directorio/
               </div>
               {% assign current_letter = post_title_first_letter %}
             {% endif %} 
-            <div class="col-lg-6 col-sm-10">
-              {% assign iterator = iterator | plus: 1 %}
-              <div class="card card-separation">
-                {% if post.featured == true %}
-                <div class="card-body position-card" id="{{post.title}}-{{post.address}}">
-                  <ul class="nav nav-tabs">
-                    <li class="nav-item">
-                      <a class="nav-link active" data-toggle="tab" href="#tab7-{{iterator}}">General</a>
-                    </li>
-                    {% if review %}
-                    <li class="nav-item"> 
-                      <a class="nav-link" data-toggle="tab" href="#tabr6-{{iterator}}">Reseña</a>
-                    </li>
-                    {% endif %}
-                    <li class="nav-item">
-                      <a class="nav-link" data-toggle="tab" href="#tab8-{{iterator}}">Contacto</a>
-                    </li>
-                  </ul>
-                  <div class="tab-content line-break">
-                    <div class="tab-pane fade show active" id="tab7-{{iterator}}">
-                      <div class="tab-card">
-                        <div class="tab-pane-card">
-                          <img src="{{post.image | relative_url}}" alt="{{post.title}}" class="img-card">
-                        </div>
-                        <div class="tab-card-1">
-                          <div> <h5 class="text-dark">{{post.title }}</h5></div>
-                          {% if post.address %}
-                            <div class="smaller-font margin-icon"><i class="fas fa-map-marker-alt"></i> 
-                              <span class="margin-icon">{{post.address}}</span>
-                            </div>
-                          {% endif %}
-                          {% if post.types %}
-                            <div class="smaller-font margin-icon"><i class="fas fa-building"></i>
-                              {% for type in post.types %}
-                                {% assign capitalized = type | capitalize %}
-                                <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
-                              {% endfor %}
-                            </div>
-                          {% endif %}
-                          {% if post.services %}
-                            <div class="margin-services">
-                              <ul class="horizontal-list">
-                                {% for servicio in post.services %}
-                                  {% if site.servicios_iconos[servicio] %}
-                                    <li>
-                                      <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
-                                    </li>
-                                  {% endif %}
-                                {% endfor %}
-                              </ul>
-                            </div>
-                          {% endif %}
-                        </div>
-                      </div>
-                    </div>
-                    {% if review %}
-                    <div class="tab-pane fade" id="tabr6-{{iterator}}">
-                      <div class="tab-card">
-                        <div class="tab-card-1">
-                          <div>
-                            <h5 class="text-dark">{{ review.title }}</h5>
-                            {% assign content_without_html = review.content | strip_html %}
-                            {% assign truncated_content = content_without_html | truncatewords: 50 %}
-                            <p>{{ truncated_content }}</p>
-                            <a href="{{ review.url }}">Ver reseña completa</a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    {% endif %}
-                    <div class="tab-pane fade" id="tab8-{{iterator}}">
-                      <div class="tab-card">
-                        <div class="tab-card-1">
-                          {% if post.phone_number %}
-                            <div>
-                              <i class="fas fa-phone fa-sm"></i> 
-                              <a href="tel:{{post.phone_number}}" class="font-phone-number"> {{post.phone_number}}</a>
-                            </div>
-                          {% endif %}
-                          {% if post.website %}
-                            <div class="smaller-font">
-                              <i class="fas fa-globe"></i> 
-                              <a href="https://{{post.website}}"> {{post.website}}</a>
-                            </div>
-                          {% endif %}
-                          {% if post.facebook_user %}
-                            <div class="smaller-font">
-                              <i class="fab fa-facebook-square"></i> 
-                              <a href="https://www.facebook.com/{{post.facebook_user}}"> {{post.facebook_user}}</a>
-                            </div>
-                          {% endif %}
-                          {% if post.instagram_user %}
-                            <div class="smaller-font">
-                              <i class="fab fa-instagram"></i> 
-                              <a href="https://instagram.com/{{post.instagram_user}}"> {{post.instagram_user}}</a>
-                            </div>
-                          {% endif %}
-                          {% if post.twitter_user %}
-                            <div class="smaller-font">
-                              <i class="fab fa-twitter"></i> 
-                              <a href="https://twitter.com/{{post.twitter_user}}"> {{post.twitter_user}}</a>
-                            </div>
-                          {% endif %}
-                        </div>
-                        <div>
-                          <img src="{{post.image | relative_url}}" alt="{{post.title}}" class="img-card-no-destacadas">
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                {% else %}
-                <div class="card-body position-card">
-                  <div class="tab-card">
-                    <div class="tab-card-1">
-                      <div> <h5 class="text-dark">{{post.title }}</h5></div>
-                      {% if post.address %}
-                        <div class="smaller-font margin-icon"><i class="fas fa-map-marker-alt"></i> 
-                          <span class="margin-icon">{{post.address}}</span>
-                        </div>
-                      {% endif %}
-                      {% if post.types %}
-                        <div class="smaller-font margin-icon"><i class="fas fa-building"></i>
-                          {% for type in post.types %}
-                            {% assign capitalized = type | capitalize %}
-                            <span class="margin-icon">{{ capitalized }}{% unless forloop.last %} -{% endunless %} </span>
-                          {% endfor %}
-                        </div>
-                      {% endif %}
-                      {% if post.services %}
-                        <div class="margin-services">
-                          <ul class="horizontal-list">
-                            {% for servicio in post.services %}
-                              {% if site.servicios_iconos[servicio] %}
-                                <li>
-                                  <i class="{{ site.servicios_iconos[servicio] }}" data-toggle="tooltip" data-placement="top" title="{{ servicio }}"></i>
-                                </li>
-                              {% endif %}
-                            {% endfor %}
-                          </ul>
-                        </div>
-                      {% endif %}
-                    </div>
-                  </div>
-                </div>
-                {% endif %}
-              </div>
-            </div>
+            {% assign tab1 = "tab7" %}
+            {% assign tab2 = "tab8" %}
+            {% assign tabr1 = "tabr6" %}
+            {% 
+                include entradas-destacadas.html
+                t1=tab1
+                tr1=tabr1
+                t2=tab2
+            %} 
+            {% include entradas-no-destacadas.html %}
           {% endfor %}
         </div>  
       </div> 
       <div class="col-lg-3">
         {% 
-          include ads/banner.html 
-          content=site.data.ads.sidebar_directorio-0
-        %}
-        {% assign contendorId = "destacados-container-1"%}
-        {% include destacado.html contendorId=contendorId %}
-        {% 
-          include ads/banner.html 
-          content=site.data.ads.sidebar_directorio-1
-        %}
-        {% include recientes.html %}
-        {% 
-          include ads/banner.html 
-          content=site.data.ads.sidebar_directorio-2
-        %}
-        {% assign contendorId = "destacados-container-2"%}
-        {% include destacado.html contendorId=contendorId %}
-        {% 
-          include ads/banner.html 
-          content=site.data.ads.sidebar_directorio-3
-        %}
-        {% include secciones.html %}
-        {% 
-          include ads/banner.html 
-          content=site.data.ads.sidebar_directorio-4
-        %}
-        {% assign contendorId = "destacados-container-3"%}
-        {% include destacado.html contendorId=contendorId %}
-        {% 
-          include ads/banner.html 
-          content=site.data.ads.sidebar_directorio-5
-        %}
-        {% include feed-twitter.html %}
+					include sidebar.html 
+					banner0=site.data.ads.ads_directorio.sidebar_directorio-0
+					banner1=site.data.ads.ads_directorio.sidebar_directorio-1
+					banner2=site.data.ads.ads_directorio.sidebar_directorio-2
+					banner3=site.data.ads.ads_directorio.sidebar_directorio-3
+					banner4=site.data.ads.ads_directorio.sidebar_directorio-4
+					banner5=site.data.ads.ads_directorio.sidebar_directorio-5
+				%}
       </div> 
     </div>
   </div>

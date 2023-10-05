@@ -1,0 +1,34 @@
+section-destinos:
+  image: /assets/images/BP-1400x150.jpg
+  alt: "Ad en la sección de Destinos"
+  url: ""
+
+sidebar_destino-0:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar destino 0"
+  url: "" 
+
+sidebar_destino-1:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar destino 1"
+  url: ""
+
+sidebar_destino-2:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar destino 2"
+  url: ""
+
+sidebar_destino-3:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar destino 3"
+  url: ""
+
+sidebar_destino-4:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar destino 4"
+  url: ""
+
+sidebar_destino-5:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar destino 5"
+  url: ""

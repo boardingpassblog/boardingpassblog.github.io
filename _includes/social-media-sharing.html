@@ -1,0 +1,80 @@
+<botton class="share-button">
+    <i class="fas fa-share-alt share-margin-icon"></i>
+    <div class="share-options" id="shareOptions">
+        <ul>
+            {% assign mensaje = "Publicado en boardingpass.network"%}
+            <b>Compartir</b>
+            <br><br>
+            <li><a href="{{ page.url | prepend: site.url }}" id="linkText" onclick="copyLink(); return false;">
+                <div class="circle-icon">
+                <i class="ti-link"></i>
+                </div>
+                Copiar enlace</a>
+            </li>
+            <li><a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | prepend: site.url }}" target="_blank">
+                <div class="circle-icon">
+                    <i class="ti-facebook"></i>
+                </div>
+                Facebook</a>
+            </li>
+            <li><a href="https://twitter.com/intent/tweet?url={{ page.url | prepend: site.url }}&amp;text={{ mensaje }}" target="_blank">
+                <div class="circle-icon">
+                    <i class="ti-twitter-alt"></i>
+                </div>
+                Twitter</a>
+            </li>
+            <li><a href="whatsapp://send?text={{ page.url | prepend: site.url }}%0A%0A{{ mensaje }}" target="_blank">
+                <div class="circle-icon">
+                    <i class="fab fa-whatsapp fa-4x"></i>
+                </div>
+                WhatsApp</a>
+            </li>
+            <li><a href="mailto:?body={{ mensaje }}%0A%0A{{ page.url | prepend: site.url }}">
+                <div class="circle-icon">
+                    <i class="ti-email"></i>
+                </div>
+                Email</a>
+            </li>
+        </ul>
+    </div>
+    Compartir
+</botton>
+
+<script>
+    function copyLink() {
+        var linkText = document.getElementById("linkText");
+        var tempInput = document.createElement("input");
+        tempInput.value = linkText.href;
+        document.body.appendChild(tempInput);
+        tempInput.select();
+        document.execCommand("copy");
+        document.body.removeChild(tempInput);
+        var modal = $("#myModal");
+        modal.addClass("bottom-modal"); 
+        modal.modal("show");
+
+        setTimeout(function() {
+        modal.modal("hide"); 
+        }, 1000);
+    }
+    
+	document.querySelector('.share-button').addEventListener('click', function() {
+		var shareOptions = document.querySelector('.share-options');
+		if (shareOptions.style.display === 'none' || shareOptions.style.display === '') {
+			shareOptions.style.display = 'block';
+		} else {
+			shareOptions.style.display = 'none';
+		}
+	});
+
+	document.addEventListener('click', function(event) {
+		var shareButton = document.querySelector('.share-button');
+		var shareOptions = document.querySelector('.share-options');
+		var isClickInsideShareButton = shareButton.contains(event.target);
+		var isClickInsideShareOptions = shareOptions.contains(event.target);
+		var isShareOptionsVisible = shareOptions.style.display === 'block';
+		if (!isClickInsideShareButton && !isClickInsideShareOptions && isShareOptionsVisible) {
+			shareOptions.style.display = 'none';
+		}
+	});
+</script>

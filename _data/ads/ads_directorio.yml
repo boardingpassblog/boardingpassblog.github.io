@@ -1,0 +1,34 @@
+section-directorio:
+  image: /assets/images/BP-1400x150.jpg
+  alt: "Ad en la sección de Directorio"
+  url: ""
+
+sidebar_directorio-0:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar directorio 0"
+  url: ""
+
+sidebar_directorio-1:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar directorio 1"
+  url: ""
+
+sidebar_directorio-2:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar directorio 2"
+  url: ""
+
+sidebar_directorio-3:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar directorio 3"
+  url: ""
+
+sidebar_directorio-4:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar directorio 4"
+  url: ""
+
+sidebar_directorio-5:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar directorio 5"
+  url: ""

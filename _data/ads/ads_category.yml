@@ -1,0 +1,29 @@
+category-0:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad category 0"
+  url: ""
+
+category-1:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad category 1"
+  url: ""
+
+category-2:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad category 2"
+  url: ""
+
+category-3:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad category 2"
+  url: ""
+
+category-4:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad category 4"
+  url: ""
+
+category-5:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad category 5"
+  url: ""

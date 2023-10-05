@@ -1,0 +1,58 @@
+home:
+  image: /assets/images/BP-1400x150.jpg
+  alt: "Ad en el home"
+  url: ""
+
+after-enterate:
+  image: /assets/images/Avior Banner.gif
+  alt: "Ad después de entérate"
+  event: "AviorPlus"
+  view: "Vistas a AviorPlus después de entérate"
+  url: "https://www.aviorplus.com"
+
+after-opinion:
+  image: /assets/images/LASER-Airlines---Banner-Miami-900x100.gif
+  alt: "Laser Airlines"
+  event: "Laser Airlines"
+  view: "Vistas a Laser Airlines después de opinión"
+  url: "https://www.laserairlines.com/"
+
+after-rutas:
+  image: /assets/images/BP-900x100.jpg
+  alt: "Ad después de opinión"
+  url: ""
+
+after-salte-del-radar:
+  image: /assets/images/BP-900x100.jpg
+  alt: "Ad después de rutas"
+  url: ""
+
+sidebar-0:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar 0"
+  url: ""
+
+sidebar-1:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar 1"
+  url: ""
+
+sidebar-2:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar 2"
+  url: ""
+
+sidebar-3:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar 3"
+  url: ""
+
+sidebar-4:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar 4"
+  url: ""
+
+sidebar-5:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar 5"
+  url: ""

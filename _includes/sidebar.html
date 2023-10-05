@@ -1,9 +1,33 @@
-
-  <!--div class="widget search-box">
-    <form action="/page/search.html" method="get">
-      <i class="ti-search"></i>
-      <input type="search" id="search-box" class="form-control border-0 pl-5" name="query" placeholder="Búsqueda...">
-    </form>
-  </div-->
+{% 
+  include ads/banner.html 
+  content=include.banner0
+%}
+{% assign contendorId = "destacados-container-1"%}
+    {% include destacado.html contendorId=contendorId %}
+{% 
+  include ads/banner.html 
+  content=include.banner1
+%}
 {% include recientes.html %}
+{% 
+  include ads/banner.html 
+  content=include.banner2
+%}
+{% assign contendorId = "destacados-container-2"%}
+    {% include destacado.html contendorId=contendorId %}
+{% 
+  include ads/banner.html 
+  content=include.banner3
+%}
 {% include secciones.html %}
+{% 
+  include ads/banner.html 
+  content=include.banner4
+%}
+{% assign contendorId = "destacados-container-3"%}
+    {% include destacado.html contendorId=contendorId %}
+{% 
+  include ads/banner.html 
+  content=include.banner5
+%}
+{% include feed-twitter.html %}

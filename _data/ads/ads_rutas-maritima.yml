@@ -1,0 +1,34 @@
+section-maritima:
+  image: /assets/images/BP-1400x150.jpg
+  alt: "Ad en la sección de Marítica"
+  url: ""
+
+sidebar_maritima-0:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar maritima 0"
+  url: ""
+
+sidebar_maritima-1:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar maritima 1"
+  url: ""
+
+sidebar_maritima-2:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar maritima 2"
+  url: ""
+
+sidebar_maritima-3:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar maritima 3"
+  url: ""
+
+sidebar_maritima-4:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar maritima 4"
+  url: ""
+
+sidebar_maritima-5:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar maritima 5"
+  url: ""

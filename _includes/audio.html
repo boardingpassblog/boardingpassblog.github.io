@@ -1,0 +1,76 @@
+<li class="list-inline-item margin-left-date-share margin-volume-left">
+    {% if page.audio %}
+        <button id="playButtonPost" class="circle-button margin-circle" onclick="togglePlaybackPost()">
+            <i id="playIconPost" class="fas fa-volume-mute"></i>
+        </button>
+    {% else %}
+        <button onclick="toggleSpeech()" class="circle-button margin-circle">
+            <i id="speechIcon" class="fas fa-volume-mute"></i>
+        </button>
+    {% endif %}
+</li>
+
+<script src="{{ site.baseurl }}/assets/plugins/howler/howler.min.js"></script>
+<script>
+    var isSpeaking = false;
+	var speechUtterance = null;
+
+	function toggleSpeech() {
+		if (isSpeaking) {
+			responsiveVoice.pause();
+			isSpeaking = false;
+		} else {
+			if (speechUtterance !== null) {
+			responsiveVoice.resume();
+			} else {
+			var articleElement = document.querySelector('article');
+			var textToSpeak = articleElement.innerText;
+			speechUtterance = responsiveVoice.speak(textToSpeak, 'Spanish Latin American Male', { rate: 1, onend: handleSpeechEnd });
+			}
+			isSpeaking = true;
+		}
+		
+		updateButtonState();
+	}
+
+	function handleSpeechEnd() {
+		speechUtterance = null;
+		isSpeaking = false;
+		updateButtonState();
+	}
+
+	function updateButtonState() {
+		var speechIcon = document.getElementById('speechIcon');
+		
+		if (isSpeaking) {
+			speechIcon.classList.remove('fa-volume-mute');
+			speechIcon.classList.add('fa-volume-up');
+		} else {
+			speechIcon.classList.remove('fa-volume-up');
+			speechIcon.classList.add('fa-volume-mute');
+		}
+	}
+
+	var sound_post = new Howl({
+      src: ['{{ page.audio }}'],
+      loop: true
+    });
+
+    var isPlayingPost = false;
+
+    function togglePlaybackPost() {
+      var playIconPost = document.getElementById('playIconPost');
+
+      if (isPlayingPost) {
+        sound_post.pause();
+        isPlayingPost = false;
+        playIconPost.classList.remove('fa-volume-up');
+        playIconPost.classList.add('fa-volume-mute');
+      } else {
+        sound_post.play();
+        isPlayingPost = true;
+        playIconPost.classList.remove('fa-volume-mute');
+        playIconPost.classList.add('fa-volume-up');
+      }
+    }
+</script>
