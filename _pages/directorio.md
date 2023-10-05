@@ -1199,38 +1199,14 @@ permalink: /directorio/
       </div> 
       <div class="col-lg-3">
         {% 
-          include ads/banner.html 
-          content=site.data.ads.ads_directorio.sidebar_directorio-0
-        %}
-        {% assign contendorId = "destacados-container-1"%}
-        {% include destacado.html contendorId=contendorId %}
-        {% 
-          include ads/banner.html 
-          content=site.data.ads.ads_directorio.sidebar_directorio-1
-        %}
-        {% include recientes.html %}
-        {% 
-          include ads/banner.html 
-          content=site.data.ads.ads_directorio.sidebar_directorio-2
-        %}
-        {% assign contendorId = "destacados-container-2"%}
-        {% include destacado.html contendorId=contendorId %}
-        {% 
-          include ads/banner.html 
-          content=site.data.ads.ads_directorio.sidebar_directorio-3
-        %}
-        {% include secciones.html %}
-        {% 
-          include ads/banner.html 
-          content=site.data.ads.ads_directorio.sidebar_directorio-4
-        %}
-        {% assign contendorId = "destacados-container-3"%}
-        {% include destacado.html contendorId=contendorId %}
-        {% 
-          include ads/banner.html 
-          content=site.data.ads.ads_directorio.sidebar_directorio-5
-        %}
-        {% include feed-twitter.html %}
+					include sidebar.html 
+					banner0=site.data.ads.ads_directorio.sidebar_directorio-0
+					banner1=site.data.ads.ads_directorio.sidebar_directorio-1
+					banner2=site.data.ads.ads_directorio.sidebar_directorio-2
+					banner3=site.data.ads.ads_directorio.sidebar_directorio-3
+					banner4=site.data.ads.ads_directorio.sidebar_directorio-4
+					banner5=site.data.ads.ads_directorio.sidebar_directorio-5
+				%}
       </div> 
     </div>
   </div>
