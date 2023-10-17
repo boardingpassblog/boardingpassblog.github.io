@@ -2,7 +2,7 @@
 date: '2023-08-25 08:42 -0400'
 region: Centro-Norte
 state: Distrito Capital
-featured: false
+featured: true
 published: true
 title: Viajes y Turismo Zumaque
 phone_number: (0212) 955.7957
@@ -14,6 +14,8 @@ types:
   - Agencias
 services:
   - Asesoría Personalizada de Viajes
+  - Excursiones Locales
+  - Guía Turística
   - Organización de Viajes
   - Organización de Viajes de Turismo
   - Servicio de Reservación
