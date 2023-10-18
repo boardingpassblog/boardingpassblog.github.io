@@ -11,7 +11,7 @@ image: >-
 image-text: Vuelo inaugural
 author: Avior Airlines
 categories:
-  - destinos
+  - rutas-aereas
 ---
 
 
