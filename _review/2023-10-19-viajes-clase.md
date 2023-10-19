@@ -7,4 +7,4 @@ author: Alexandra Castillo
 image: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/1agenciaclase.jpg
 ---
-
+¡Mientras exista la ilusión de un viaje, Clase lo hará realidad!
