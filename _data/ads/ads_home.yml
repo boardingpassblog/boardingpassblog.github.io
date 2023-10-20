@@ -1,7 +1,7 @@
 home:
   image: /assets/images/BP-1400x150.jpg
   alt: "Ad en el home"
-  url: ""
+  url: "https://boardingpass.network/acerca/"
 
 after-enterate:
   image: /assets/images/Avior Banner.gif
@@ -20,7 +20,7 @@ after-opinion:
 after-rutas:
   image: /assets/images/BP-900x100.jpg
   alt: "Ad después de opinión"
-  url: ""
+  url: "https://boardingpass.network/acerca/"
 
 after-salte-del-radar:
   image: /assets/images/Banner_Directorio.jpg
@@ -30,29 +30,29 @@ after-salte-del-radar:
 sidebar-0:
   image: /assets/images/BP-300x300.jpg
   alt: "Ad sidebar 0"
-  url: ""
+  url: "https://boardingpass.network/acerca/"
 
 sidebar-1:
   image: /assets/images/BP-300x300.jpg
   alt: "Ad sidebar 1"
-  url: ""
+  url: "https://boardingpass.network/acerca/"
 
 sidebar-2:
   image: /assets/images/BP-300x300.jpg
   alt: "Ad sidebar 2"
-  url: ""
+  url: "https://boardingpass.network/acerca/"
 
 sidebar-3:
   image: /assets/images/BP-300x300.jpg
   alt: "Ad sidebar 3"
-  url: ""
+  url: "https://boardingpass.network/acerca/"
 
 sidebar-4:
   image: /assets/images/BP-300x300.jpg
   alt: "Ad sidebar 4"
-  url: ""
+  url: "https://boardingpass.network/acerca/"
 
 sidebar-5:
   image: /assets/images/BP-300x300.jpg
   alt: "Ad sidebar 5"
-  url: ""
+  url: "https://boardingpass.network/acerca/"
