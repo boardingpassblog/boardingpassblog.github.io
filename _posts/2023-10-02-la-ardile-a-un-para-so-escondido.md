@@ -13,6 +13,9 @@ author: Tendencia.com
 categories:
   - destinos
   - salte-del-radar
+banner-image: >-
+  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Banner_Directorio.jpg
+banner-url: 'https://boardingpass.network/directorio/'
 ---
 La Posada La Ardileña es tan hermosa que para disfrutarla  hay que reservar con varios meses de anticipación. Se ubica dentro del Parque Nacional Morrocoy y tiene un muelle hermoso desde donde salen las embarcaciones hacia los diferentes cayos. Su oferta gastronómica es variada y sabrosa y el spa un sitio delicioso para relajar mente y alma. Es un lugar ideal si lo que quieres es escapar de la rutina con amigos o pareja. 
 
