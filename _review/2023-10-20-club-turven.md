@@ -2,7 +2,7 @@
 layout: review
 date: '2023-10-20 10:43 -0400'
 published: true
-title: Club Turven
+title: Club TURVEN
 author: Club TURVEN
 image: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/CLUB-TURVEN-LOGO.jpg
