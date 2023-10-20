@@ -23,9 +23,9 @@ after-rutas:
   url: ""
 
 after-salte-del-radar:
-  image: /assets/images/BP-900x100.jpg
+  image: /assets/images/Banner_Directorio.jpg
   alt: "Ad después de rutas"
-  url: ""
+  url: "https://boardingpass.network/directorio/"
 
 sidebar-0:
   image: /assets/images/BP-300x300.jpg
