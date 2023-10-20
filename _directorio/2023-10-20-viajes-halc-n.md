@@ -3,7 +3,7 @@ date: '2023-10-20 14:26 -0400'
 published: true
 region: Centro-Norte
 state: Miranda
-featured: true
+featured: false
 title: Viajes Halcón
 address: >-
   Los Palos Grandes, Chacao.  1ra Av., Edif. Oriental, PB, Local B.  Caracas,
@@ -23,4 +23,3 @@ types:
 image: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/halcon.jpg
 ---
-
