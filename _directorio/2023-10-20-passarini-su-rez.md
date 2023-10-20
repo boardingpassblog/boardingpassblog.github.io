@@ -3,7 +3,7 @@ date: '2023-10-20 16:26 -0400'
 published: true
 region: Centro-Norte
 state: Miranda
-featured: true
+featured: false
 title: 'Passarini Suárez '
 address: Centro Lido Nivel Miranda Local M-21 El Rosal. Caracas. Venezuela
 phone_number: '212 905-3200 / '
@@ -22,4 +22,3 @@ types:
   - Agencias
   - Alquiler
 ---
-
