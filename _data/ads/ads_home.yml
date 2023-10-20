@@ -23,7 +23,7 @@ after-rutas:
   url: "https://boardingpass.network/acerca/"
 
 after-salte-del-radar:
-  image: /assets/images/Banner_Directorio.jpg
+  image: /assets/images/Banner-Directorio.gif
   alt: "Ad después de rutas"
   url: "https://boardingpass.network/directorio/"
 
