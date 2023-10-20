@@ -7,7 +7,7 @@ featured: true
 title: Club TURVEN
 phone_number: 0212 9557905 / 0412 8010205
 address: Calle Alameda c/c Libertador. Edif Folgana Piso 2 El Rosal. Caracas
-website: 'https://www.turven.club/'
+website: www.turven.club
 twitter_user: clubturven
 instagram_user: clubturven
 services:
