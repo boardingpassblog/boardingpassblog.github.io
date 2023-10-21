@@ -46,3 +46,7 @@ Así que, si planeas visitar el oriente de Venezuela, Puinare es un destino impr
 
 - Para más información visita: [7 Maravillas.org](https://7maravillas.org/)
 - Instagram: [@7_maravillas](https://www.instagram.com/7_maravillas/)
+
+
+
+![](https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Banner-Directorio.gif)
