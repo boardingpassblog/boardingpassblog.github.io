@@ -40,9 +40,9 @@ El lugar cuenta con chozas para alquilar y un restaurante con Wifi que ofrece lo
 
 Así que, si planeas visitar el oriente de Venezuela, Puinare es un destino imprescindible para los amantes de la naturaleza. Con su rica biodiversidad y sus impresionantes paisajes naturales, esta isla ofrece una experiencia inolvidable que la convierte en una Maravilla Natural de América.
 
-VIDEO:
+**VIDEO**:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4FHQh_0Gj9E?si=3iHE5x7jhaABrHhs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-Para más información visita: [7 Maravillas.org](https://7maravillas.org/)
-Instagram: @7_maravillas
+- Para más información visita: [7 Maravillas.org](https://7maravillas.org/)
+- Instagram: [@7_maravillas](https://www.instagram.com/7_maravillas/)
