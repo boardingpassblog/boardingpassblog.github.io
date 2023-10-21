@@ -4,6 +4,14 @@ date: '2023-10-21 11:21 -0400'
 featured: false
 published: true
 title: 'Puinare, paraíso y santuario'
+description: >-
+  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Puinare.jpg
+image: >-
+  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Puinare.jpg
+image-text: Foto cortesía Proyecto 7 Maravillas de América
+author: 7Maravillas.org
+categories:
+  - destinos
 ---
 
 El Parque Nacional Mochima, ubicado entre los estados Anzoátegui y Sucre es un tesoro natural de Venezuela. Con una superficie de 94.935 hectáreas, este archipiélago es un mosaico de bahías, acantilados, golfos, costas de aguas profundas, playas de arena blanca, arrecifes de coral, islas e islotes y ensenadas. Entre estas maravillas se encuentra la isla Chimana Grande, mejor conocida como Puinare, un destino que merece ser explorado.
