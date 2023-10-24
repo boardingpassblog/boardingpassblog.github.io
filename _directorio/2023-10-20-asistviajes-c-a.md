@@ -16,4 +16,5 @@ services:
   - Traslados
 types:
   - Operadores
+instagram_user: asistviajes
 ---
