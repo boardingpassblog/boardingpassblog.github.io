@@ -3,7 +3,7 @@ layout: post
 date: '2023-10-25 16:20 -0400'
 featured: true
 published: true
-title: ''
+title: Estelar reanuda ruta Caracas-Madrid
 author: ¡Aviación Online
 image-text: 'Airbus A350-900 '
 description: >-
