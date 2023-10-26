@@ -14,6 +14,7 @@ categories:
   - opinion
 banner-image: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Banner-Directorio.gif
+banner-url: 'https://boardingpass.network/directorio/'
 ---
 Estar en Caracas y no vivir la experiencia de recorrer el **Hotel Humboldt** es una verdadera pena.
 
