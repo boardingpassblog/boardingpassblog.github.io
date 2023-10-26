@@ -5,7 +5,7 @@ featured: true
 published: true
 title: 'Boarding Pass desde: el Hotel Humboldt'
 description: >-
-  https://github.com/boardingpassblog/boardingpassblog.github.io/blob/main/assets/images/Humboldt.jpg
+  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Torre%20Humboldt.jpg
 image: >-
   https://github.com/boardingpassblog/boardingpassblog.github.io/blob/main/assets/images/Humboldt.jpg
 author: 'Boarding Pass '
