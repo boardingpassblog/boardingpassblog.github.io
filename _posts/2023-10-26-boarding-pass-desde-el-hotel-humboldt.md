@@ -6,8 +6,6 @@ published: true
 title: 'Boarding Pass desde: el Hotel Humboldt'
 description: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Torre%20Humboldt.jpg
-image: >-
-  https://github.com/boardingpassblog/boardingpassblog.github.io/blob/main/assets/images/Humboldt.jpg
 author: 'Boarding Pass '
 categories:
   - enterate
@@ -15,6 +13,8 @@ categories:
 banner-image: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Banner-Directorio.gif
 banner-url: 'https://boardingpass.network/directorio/'
+image: >-
+  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Torre%20Humboldt.jpg
 ---
 Estar en Caracas y no vivir la experiencia de recorrer el **Hotel Humboldt** es una verdadera pena.
 
