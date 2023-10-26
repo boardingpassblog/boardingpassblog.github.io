@@ -18,7 +18,7 @@ image: >-
 ---
 Estar en Caracas y no vivir la experiencia de recorrer el **Hotel Humboldt** es una verdadera pena.
 
-En esta conversación con Gladys Zukinn, su directora de comercialización, te cuenta lo que puedes disfrutar si te animas tu a subir al Ávila.
+En esta conversación con su directora comercial, Gladys Zukinn, te cuenta lo que puedes disfrutar si te animas tu a subir al Ávila.
 
 **Las opciones para subir son**:
 
