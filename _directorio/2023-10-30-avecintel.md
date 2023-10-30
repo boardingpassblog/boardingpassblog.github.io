@@ -9,7 +9,7 @@ phone_number: +58 212 7502144
 address: >-
   Hotel Paseo Las Mercedes. Av. Principal de Las Mercedes, C. C. Paseo Las
   Mercedes, P. B. Urb. Las Mercedes. Caracas, Venezuela.
-website: 'https://www.avecintel.org/'
+website: www.avecintel.org
 twitter_user: AVECINTEL
 instagram_user: AVECINTEL
 image: >-
