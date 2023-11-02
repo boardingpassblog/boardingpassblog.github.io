@@ -7,10 +7,10 @@ title: Caracas ingresó oficialmente en la Red de Ciudades Creativas de la Unesc
 description: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/1caracasunesco.jpg
 image: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/1caracasunesco.jpg
+  https://github.com/boardingpassblog/boardingpassblog.github.io/blob/main/assets/images/Banner-Directorio.gif
 image-text: Caracas
 banner-image: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Banner_Directorio.jpg
+  https://github.com/boardingpassblog/boardingpassblog.github.io/blob/main/_includes/ads/banner-boletin.html
 banner-url: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Banner_Directorio.jpg
 author: Edgar Rincón
