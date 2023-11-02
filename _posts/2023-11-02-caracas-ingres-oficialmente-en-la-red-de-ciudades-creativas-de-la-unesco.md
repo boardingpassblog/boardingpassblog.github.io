@@ -6,16 +6,16 @@ published: true
 title: Caracas ingresó oficialmente en la Red de Ciudades Creativas de la Unesco
 description: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/1caracasunesco.jpg
-image: >-
-  https://github.com/boardingpassblog/boardingpassblog.github.io/blob/main/assets/images/Banner-Directorio.gif
 image-text: Caracas
-banner-image: >-
-  https://github.com/boardingpassblog/boardingpassblog.github.io/blob/main/_includes/ads/banner-boletin.html
-banner-url: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Banner_Directorio.jpg
 author: Edgar Rincón
 categories:
   - enterate
+banner-url: >-
+  https://github.com/boardingpassblog/boardingpassblog.github.io/blob/main/_includes/ads/banner-boletin.html
+banner-image: >-
+  https://github.com/boardingpassblog/boardingpassblog.github.io/blob/main/assets/images/Banner-Directorio.gif
+image: >-
+  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/1caracasunesco.jpg
 ---
 Este martes 31 de octubre, **Caracas ingresó oficialmente en la Red de Ciudades Creativas de la Organización de las Naciones Unidas para la Educación**, Ciencia y Cultura (Unesco).
 
