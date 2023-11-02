@@ -23,6 +23,10 @@ A través de un comunicado, la Unesco publicó el listado de las 55 ciudades sel
 
 Con estas incorporaciones, Caracas, junto a 350 ciudades de más de un centenar de países, forman parte de la Red de Ciudades Creativas de la Unesco. Para este proceso de selección, la organización de la ONU, toma en cuenta los siete ámbitos creativos:
 
+
+
+
+
 - Artesanía
 - Artes populares
 - Creación digital
@@ -41,4 +45,3 @@ Desde @Tuboarding queremos hacernos eco, de las felicitamos a todos los que de u
 Música:  Canto a Caracas , Los Cañoneros con Memo Morales
 
 
-https://www.instagram.com/reel/CzJTgdcu0e6/?igshid=MzRlODBiNWFlZA==
