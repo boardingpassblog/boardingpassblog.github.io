@@ -6,7 +6,7 @@ state: Miranda
 featured: false
 title: Quo Vadis Viajes
 image: >-
-  https://github.com/boardingpassblog/boardingpassblog.github.io/blob/main/assets/images/Quovadis%20Directorio.jpg?raw=true
+  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Quovadis%20Directorio.jpg
 types:
   - Agencias
 services:
@@ -19,4 +19,3 @@ website: 'https://www.quovadis.com.ve/'
 phone_number: +1 7867035079 +58 2122065242
 address: 'Piso 8, Torre Banco Lara, Trans. 1, Caracas 1060, Miranda'
 ---
-
