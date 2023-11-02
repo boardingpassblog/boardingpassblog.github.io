@@ -17,9 +17,9 @@ author: Edgar Rincón
 categories:
   - enterate
 ---
-Este martes 31 de octubre, Caracas ingresó oficialmente en la Red de Ciudades Creativas de la Organización de las Naciones Unidas para la Educación, Ciencia y Cultura (Unesco).
+Este martes 31 de octubre, **Caracas ingresó oficialmente en la Red de Ciudades Creativas de la Organización de las Naciones Unidas para la Educación**, Ciencia y Cultura (Unesco).
 
-A través de un comunicado, la Unesco publicó el listado de las 55 ciudades seleccionadas este año. Por ende, la capital de Venezuela es seleccionada por sus expresiones tradicionales, populares y urbanas, además de la creatividad y la cultura en sus estrategias de desarrollo.
+A través de un comunicado, la Unesco publicó el listado de las 55 ciudades seleccionadas este año. Por ende, **la capital de Venezuela es seleccionada por sus expresiones tradicionales, populares y urbanas, además de la creatividad y la cultura en sus estrategias de desarrollo.**
 
 Con estas incorporaciones, Caracas, junto a 350 ciudades de más de un centenar de países, forman parte de la Red de Ciudades Creativas de la Unesco. Para este proceso de selección, la organización de la ONU, toma en cuenta los siete ámbitos creativos:
 
@@ -40,4 +40,5 @@ Desde @Tuboarding queremos hacernos eco, de las felicitamos a todos los que de u
 
 Música:  Canto a Caracas , Los Cañoneros con Memo Morales
 
-#conseturismo #caracas #unesco #RedCiudadesCreativas #ciudades #musica #artesania #cultura #turismo
+
+https://www.instagram.com/reel/CzJTgdcu0e6/?igshid=MzRlODBiNWFlZA==
