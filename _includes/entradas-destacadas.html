@@ -83,6 +83,12 @@
                     <a href="https://{{post.website}}"> {{post.website}}</a>
                   </div>
                 {% endif %}
+                {% if post.email %}
+                <div class="smaller-font">
+                  <i class="fas fa-envelope"></i> 
+                  <a href="mailto:{{post.email}}"> {{post.email}}</a>
+                </div>
+              {% endif %}
                 {% if post.facebook_user %}
                   <div class="smaller-font">
                     <i class="fab fa-facebook-square"></i> 
