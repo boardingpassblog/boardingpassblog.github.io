@@ -26,4 +26,5 @@ image: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Zumaque.jpg
 twitter_user: vytzumaque
 website: www.zumaque.com
+email: test@email.com
 ---
