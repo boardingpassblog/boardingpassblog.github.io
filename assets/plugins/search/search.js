@@ -146,6 +146,12 @@
             appendString +='<a href="https://'+item.website+'"> '+item.website+'</a>';
             appendString +='</div>';
           }
+          if(item.email){
+            appendString +='<div class="smaller-font">';
+            appendString +='<i class="fas fa-envelope"></i> ';
+            appendString +='<a href="mailto:'+item.email+'"> '+item.email+'</a>';
+            appendString +='</div>';
+          }
           if(item.facebook_user){
             appendString +='<div class="smaller-font">';
             appendString +='<i class="fab fa-facebook-square"></i> ';
@@ -225,6 +231,7 @@
       this.field('image');
       this.field('phone_number');
       this.field('website');
+      this.field('email');
       this.field('facebook_user');
       this.field('twitter_user');
       this.field('instagram_user');
@@ -256,6 +263,7 @@
         'image': window.store_directorio[key2].image,
         'phone_number': window.store_directorio[key2].phone_number,
         'website': window.store_directorio[key2].website,
+        'email': window.store_directorio[key2].email,
         'facebook_user': window.store_directorio[key2].facebook_user,
         'twitter_user': window.store_directorio[key2].twitter_user,
         'instagram_user': window.store_directorio[key2].instagram_user,
@@ -264,6 +272,7 @@
       delete data.image; 
       delete data.phone_number; 
       delete data.website; 
+      delete data.email;
       delete data.facebook_user; 
       delete data.twitter_user; 
       delete data.instagram_user; 
