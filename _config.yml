@@ -39,8 +39,8 @@ menu:
     url: /destinos/
   - name: Directorio
     url: /directorio/
-  - name: Acerca
-    url: /acerca/
+  - name: Nosotros
+    url: /nosotros/
   - name: Contacto
     url: /contacto/
 

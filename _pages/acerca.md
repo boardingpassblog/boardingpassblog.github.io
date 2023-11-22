@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Acerca
-permalink: /acerca/
+title: Nosotros
+permalink: /nosotros/
 image: /assets/images/acerca.jpg
 ---
 
