@@ -406,6 +406,11 @@ prose:
           element: text
           label: Ingresa la dirección del sitio web
           type: text
+      - name: email
+        field:
+          element: text
+          label: Ingresa la dirección de correo electrónico
+          type: text
       - name: facebook_user
         field:
           element: text
