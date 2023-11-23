@@ -21,4 +21,5 @@ image: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/CLUB-TURVEN-LOGO.jpg
 types:
   - Operadores
+email: clubturven@gmail.com
 ---
