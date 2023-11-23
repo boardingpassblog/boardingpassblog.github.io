@@ -17,4 +17,5 @@ services:
 types:
   - Operadores
 instagram_user: asistviajes
+email: asistviajes@gmail.com
 ---
