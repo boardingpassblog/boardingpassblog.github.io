@@ -10,6 +10,9 @@ image: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/1margarita.jpg
 image-text: Isla de Margarita
 author: Viajes Boletín
+categories:
+  - destinos
+  - enterate
 ---
 El presidente del Consejo Superior de Turismo de Venezuela (Conseturismo), Leudo González, afirmó que el sector turístico espera cerrar el año con buenos resultados, especialmente en la isla de Margarita y el estado Táchira, que son los destinos más solicitados por los viajeros para la temporada decembrina.
 
