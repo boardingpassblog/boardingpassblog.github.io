@@ -12,7 +12,7 @@ author: Ana Iriza
 categories:
   - enterate
 ---
-En nustra página web reunimos lo más destacado del área turística venezolana: destinos locales únicos, agencias de viaje, operadoras, opciones hospedajes, líneas aéreas y vuelos disponibles, así como gastronomía local, noticias, lugares de entretenimiento y de escapadas especiales.
+En nuestra página web reunimos lo más destacado del área turística venezolana: destinos locales únicos, agencias de viaje, operadoras, opciones hospedajes, líneas aéreas y vuelos disponibles, así como gastronomía local, noticias, lugares de entretenimiento y de escapadas especiales.
 
 Para empezar, es importante destacar que somos una plataforma única en su tipo, ofrecemos una experiencia completa para los viajeros que buscan explorar lo mejor de Venezuela. 
 Con una interfaz intuitiva y fácil de usar, los usuarios pueden encontrar todo lo que necesitan para planificar su próximo viaje. Además contamos con audio para que nuestras notas se puedan escuchar como un audiolibro.
