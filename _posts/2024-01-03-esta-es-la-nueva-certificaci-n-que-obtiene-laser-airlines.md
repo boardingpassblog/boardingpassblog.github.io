@@ -1,11 +1,18 @@
 ---
 layout: post
 date: '2024-01-03 09:27 -0400'
-featured: false
-published: false
+featured: true
+published: true
 title: Esta es la nueva certificación que obtiene Laser Airlines
+description: >-
+  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Laser-IOSA.jpg
+image: >-
+  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Laser-IOSA.jpg
+author: Laser Airlines
+categories:
+  - enterate
 ---
-Laser Airlines obtiene certificación internacional de calidad IOSA
+**Laser Airlines obtiene certificación internacional de calidad IOSA**
 
 La Asociación de Transporte Aéreo Internacional (IATA) recientemente otorgó a Laser Airlines la certificación IOSA, convirtiéndola en la única aerolínea venezolana que en la actualidad cuenta con estas credenciales, lo cual la ubica dentro de un selecto grupo de 192 empresas del sector aeronáutico del mundo que cumplen con los más altos estándares de calidad en materia de gestión de control y seguridad operacional.
 
