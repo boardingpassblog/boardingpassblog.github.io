@@ -11,6 +11,7 @@ image: >-
 author: Sol de Margarita
 categories:
   - enterate
+image-text: 'Griselda Contreras, Presidente de Corpotur '
 ---
 La Corporación de Turismo del estado Nueva Esparta (Corpotur) tiene grandes planes para el 2024, con el fin de impulsar el turismo en la región insular. Así lo anunció su presidenta, Griselda Contreras, quien resaltó la importancia de trabajar en equipo con los sectores público y privado.
 
