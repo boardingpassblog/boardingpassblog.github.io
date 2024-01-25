@@ -10,7 +10,7 @@ image: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Habitacion-AIRBNB.jpg
 author: AIRBNB
 categories:
-  - destinos
+  - opinion
 ---
 Es imposible no haber escuchado en los últimos meses de herramientas de Inteligencia Artificial (IA) y todas sus funcionalidades. 
 
