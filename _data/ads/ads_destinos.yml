@@ -1,7 +1,6 @@
 section-destinos:
-  image: ![ffff](/assets/images/MOVE-C-1.png)
+  image: ![ffff]/assets/images/MOVE-C-1.png
   alt: "Conozca mas de nuestros servicios"
-
   url: "https://www.instagram.com/movewifi"
 
 sidebar_destino-0:
