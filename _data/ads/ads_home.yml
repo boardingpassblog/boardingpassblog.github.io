@@ -28,9 +28,9 @@ after-salte-del-radar:
   url: "https://boardingpass.network/directorio/"
 
 sidebar-0:
-  image: /assets/images/BP-300x300.jpg
-  alt: "Ad sidebar 0"
-  url: "https://boardingpass.network/acerca/"
+  image: assets/images/MOVE-C-1.png
+  alt: "Conozca mas de nuestros servicios"
+  url: "https://www.instagram.com/movewifi"
 
 sidebar-1:
   image: /assets/images/BP-300x300.jpg
