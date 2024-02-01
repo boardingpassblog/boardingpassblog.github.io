@@ -1,12 +1,12 @@
 section-destinos:
-  image: /assets/images/BP-1400x150.jpg
-  alt: "Ad en la sección de Destinos"
-  url: ""
+  image: assets/images/MOVE-2.png
+  alt: "Conozca mas de nuestros servicios"
+  url: "https://www.instagram.com/movewifi"
 
 sidebar_destino-0:
-  image: /assets/images/BP-300x300.jpg
-  alt: "Ad sidebar destino 0"
-  url: "" 
+  image: assets/images/MOVE-C-2.png
+  alt: "Conozca mas de nuestros servicios"
+  url: "https://www.instagram.com/movewifi" 
 
 sidebar_destino-1:
   image: /assets/images/BP-300x300.jpg
