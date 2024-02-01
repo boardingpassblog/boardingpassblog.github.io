@@ -1,7 +1,7 @@
 home:
   image: assets/images/MOVE-1.png
   alt: "Conozca mas de nuestros servicios"
-  url: "https://www.instagram.com/movewifi/"
+  url: "https://www.instagram.com/movewifi"
 
 after-enterate:
   image: /assets/images/Avior Banner.gif
