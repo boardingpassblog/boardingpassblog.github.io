@@ -19,10 +19,8 @@ categories:
   - enterate
 ---
 - Con la adición de **Raleigh-Durham**, la Aerolínea fortalece su oferta en Estados Unidos alcanzando un total de 16 destinos en ese mercado
-
 - La nueva ruta a **Tulum, México**, consolida la presencia de la Aerolínea en México con cinco destinos, y ofrece una alternativa más rápida y conveniente de viajar a este reconocido destino turístico del Caribe Mexicano.
-
-- Florianópolis, “Isla de la Magia”, se convierte en el destino #7 de Copa Airlines en Brasil, el principal mercado aéreo en Latino América
+- **Florianópolis, “Isla de la Magia”**, se convierte en el destino #7 de Copa Airlines en Brasil, el principal mercado aéreo en Latino América
 
 Copa Airlines {NYSE: CPA}, subsidiaria de Copa Holdings, S.A. y miembro de la red global de aerolíneas Star Alliance, anuncia el inicio de sus operaciones, en junio de este año, hacia tres nuevos destinos: Tulum, en México, Florianópolis en Brasil y Raleigh-Durham en Carolina del Norte, Estados Unidos. Con la incorporación de estas rutas, Copa Airlines amplía su red a 85 destinos en 32 países de Centro, Sur, Norte América y el Caribe.
 
@@ -30,9 +28,7 @@ Copa Airlines {NYSE: CPA}, subsidiaria de Copa Holdings, S.A. y miembro de la re
 
 Copa fortalece su oferta en los Estados Unidos de Norte América con la adición de Raleigh-Durham, puerta de entrada al “Triángulo de Investigación” de Carolina del Norte, una región reconocida por su proximidad a prestigiosos centros de estudio superior y su posición como Hub de innovación y tecnológico. Además, cuenta con una rica oferta gastronómica, acceso a la costa y a espacios culturales y jardines botánicos.
 
-Esta nueva ruta se une a los 15 destinos a los que sirve la Aerolínea en Estados Unidos e iniciará operaciones a partir del 21 de junio de 2024 con cuatro frecuencias semanales los lunes, miércoles, viernes y domingos, saliendo a las 08:56 a.m. de Panamá (hora local) y llegando al Aeropuerto Internacional de Raleigh-Durham (RDU) a las 02:28
-
-p.m. (hora local). El vuelo de regreso partirá los mismos días desde Raleigh-Durham a las 04:20 p.m., llegando a Ciudad de Panamá a las 07:46 p.m. (hora local).
+Esta nueva ruta se une a los 15 destinos a los que sirve la Aerolínea en Estados Unidos e iniciará operaciones a partir del 21 de junio de 2024 con cuatro frecuencias semanales los lunes, miércoles, viernes y domingos, saliendo a las 08:56 a.m. de Panamá (hora local) y llegando al Aeropuerto Internacional de Raleigh-Durham (RDU) a las 02:28 p.m. (hora local). El vuelo de regreso partirá los mismos días desde Raleigh-Durham a las 04:20 p.m., llegando a Ciudad de Panamá a las 07:46 p.m. (hora local).
 
 A partir del 26 de junio, Copa Airlines conectará la mágica ciudad de Tulum, ubicada en el estado mexicano de Quintana Roo, con el Hub de las Américas® en Panamá. Este destino turístico ubicado rumbo al sur de Quintana Roo entre la Riviera Maya y Bacalar, a orillas del Mar Caribe, es conocido por su diversidad de experiencias a disfrutar como de la vibrante oferta arqueológica, cultural y espiritual que este enigmático destino ofrece, parques ecoturísticos, cenotes, arte, gastronomía, reservas naturales y como valor agregado, los destinos de Mahaual, Bacalar y Chetumal llenos de atractivos y experiencias.
 
