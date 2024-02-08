@@ -8,7 +8,7 @@ description: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/ElinaLaser.png
 image: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/ElinaLaser.png
-image-text: 'Eliana Verkooke, Directora de Comercialización de Laser Airlines'
+image-text: 'Eliana Verkooke, Directora de Comercialización'
 author: Ana Iriza
 categories:
   - enterate
