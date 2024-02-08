@@ -37,4 +37,4 @@ Para más información pueden visitar https://www.laserairlines.com/
 
 El equipo de BoardingPass conversó con **Eliana Verkooke**, Directora de Comercialización de Laser Airlines y obtuvimos mas detalles de la nueva operación conjunta de estas compañías y como benefician al pasajero 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KdfINpWldpA?si=xfAajOroVtULYXUa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="315" height="560" src="https://www.youtube.com/embed/KdfINpWldpA?si=xfAajOroVtULYXUa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
