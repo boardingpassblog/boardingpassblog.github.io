@@ -16,11 +16,6 @@ image_carousel: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/LARE1.jpg
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/LARE2.jpg
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/LARE3.jpg
-title_carousel: 'Aspectos de la reunión (fotos https://socialite360.com/)'
-banner-image: ''
-banner-alt: ''
-banner-url: ''
-audio: ''
 ---
 La incorporación de un moderno Airbus A320, producto de la alianza comercial con la aerolínea RED Air, es el primer gran anuncio de Laser Airlines como parte de la estrategia de servicios y nuevos retos para el año 2024. 
 
@@ -38,7 +33,7 @@ Todos quienes escojan viajar en esta ruta en clase económica podrán llevar una
 
 Ahora cualquier empresa de servicio de envíos podrá llevar su carga a las diferentes oficinas de puntos de venta de Laser Airlines ubicadas en la ciudad de conexión posterior para su traslado a Caracas. El servicio también opera desde República Dominicana a diferentes destinos internacionales.
 
-Para más información pueden visitar https://www.laserairlines.com/lasercargo.php?id=14
+Para más información pueden visitar https://www.laserairlines.com/
 
 El equipo de BoardingPass conversó con **Eliana Verkooke**, Directora de Comercialización de Laser Airlines y obtuvimos mas detalles de la nueva operación conjunta de estas compañías y como benefician al pasajero 
 
