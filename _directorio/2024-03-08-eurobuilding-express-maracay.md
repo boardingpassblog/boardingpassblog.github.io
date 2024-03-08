@@ -3,7 +3,7 @@ date: '2024-03-08 14:58 -0400'
 published: true
 region: Centro-Norte
 state: Aragua
-featured: true
+featured: false
 title: EUROBUILDING EXPRESS MARACAY
 phone_number: 0243-2001111
 address: >-
@@ -18,5 +18,3 @@ services:
 types:
   - Hospedaje
 ---
-
-
