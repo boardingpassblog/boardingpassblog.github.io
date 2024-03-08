@@ -4,7 +4,7 @@ published: true
 region: Guayana
 state: Bolívar
 featured: false
-title: Ara Merú Lodge
+title: Ara Merú Lodge Canaima
 address: 'Caserío Tururiwaipa, Sector Canaima Comunidad Indígena Kanaimo, 8001, Bolívar'
 phone_number: 0414-2297695
 email: ' ventas@arameru.com'
@@ -16,4 +16,3 @@ services:
 types:
   - Hospedaje
 ---
-
