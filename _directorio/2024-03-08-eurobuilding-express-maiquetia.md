@@ -15,5 +15,6 @@ services:
   - Guía Turística
   - Hospedaje
   - Servicio de Reservación
+types:
+  - Hospedaje
 ---
-
