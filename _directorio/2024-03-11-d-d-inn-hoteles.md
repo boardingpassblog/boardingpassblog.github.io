@@ -4,7 +4,7 @@ published: true
 region: Guayana
 state: Apure
 featured: false
-title: D&D Inn Hoteles
+title: D&D Inn Hoteles Apure
 phone_number: 58 247-3423530 / 58 247-3423981 /
 address: ' Av. 01 de Mayo Sector Flecheras Hotel. Frente al Aeropuerto Flecheras.'
 website: 'http://ddinnhotels.com/#contacto'
@@ -15,4 +15,3 @@ services:
 types:
   - Hospedaje
 ---
-
