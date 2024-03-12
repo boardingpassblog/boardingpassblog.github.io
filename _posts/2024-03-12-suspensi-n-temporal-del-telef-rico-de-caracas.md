@@ -32,7 +32,7 @@ Durante esta suspensión el hotel seguirá prestando sus servicios con normalida
 
 "Estaremos organizando en grupos de subida, de máximo 10 personas por vehículo. Para visita guiada o restaurante y cuando son Huéspedes con maletas, depende del tamaño. Suben 4 a 6 personas por vehículo.
 
-También comentó Zukinn "También pueden subir en sus vehículos propios, el hotel estará activo, pero es importante hacer reservación"
+Agregó Gladys Zukinn "También pueden subir en sus vehículos propios, el hotel estará activo, pero es importante hacer reservación"
 
 Telefonos para reservaciones
 
