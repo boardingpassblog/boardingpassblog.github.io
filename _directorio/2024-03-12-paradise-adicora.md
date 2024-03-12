@@ -4,7 +4,7 @@ published: true
 region: Centro-Occidental
 state: Falcón
 featured: false
-title: PARADISE ADICORA
+title: Paradise Adicora
 address: ' Carr. del Viento, Adicora 4101, Falcón'
 phone_number: +58 412 3522950 +58 295 2698921
 website: 'https://paradisehoteles.com/es/paradise-hoteles'
@@ -16,4 +16,3 @@ services:
 types:
   - Hospedaje
 ---
-
