@@ -4,7 +4,7 @@ published: true
 region: Centro-Norte
 state: Distrito Capital
 featured: false
-title: JW MARRIOTT HOTEL CARACAS
+title: JW Marriott Hotel Caracas
 address: 'AVENIDA VENEZUELA CON CALLE MOHEDANO, EL ROSAL,  CARACAS, VENEZUELA, 1060'
 email: ' ventas@marriottve.com'
 phone_number: 0212-9572222
@@ -16,4 +16,3 @@ services:
 types:
   - Hospedaje
 ---
-
