@@ -8,7 +8,7 @@ title: Cacaoni Lodge
 email: reservaciones@cacaonilodge.com.
 website: 'https://cacaonihotel.com/'
 phone_number: 0412-6934460
-address: 'G92V+72V, C. Principal Choroni, Puerto Colombia 2110, Aragua'
+address: 'Av. Principal Choroni, Puerto Colombia 2110, Aragua'
 services:
   - Excursiones Locales
   - Guía Turística
@@ -18,4 +18,3 @@ facebook_user: 'https://www.facebook.com/CacaoniLodge/?locale=es_LA'
 types:
   - Hospedaje
 ---
-
