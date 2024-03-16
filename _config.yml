@@ -367,6 +367,8 @@ prose:
               value: 'Cojedes'
             - name: 'Delta Amacuro'
               value: 'Delta Amacuro'
+            - name: 'Dependencia Federal'
+              value: 'Dependencia Federal'
             - name: 'Distrito Capital'
               value: 'Distrito Capital'
             - name: 'Falcón'
