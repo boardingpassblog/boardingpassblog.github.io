@@ -6,8 +6,6 @@ featured-enlace-1: true
 featured-enlace-2: true
 featured-enlace-3: true
 featured-enlace-4: true
-banner-image-enlace-4: /assets/images/BP-900x100.jpg
-banner-alt-enlace-4: Ad antes de enlace 4
 featured-enlace-5: true
 featured-enlace-6: true
 featured-enlace-7: true
