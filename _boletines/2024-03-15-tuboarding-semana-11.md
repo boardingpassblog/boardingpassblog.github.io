@@ -12,7 +12,7 @@ featured-enlace-7: true
 featured-enlace-8: true
 featured-enlace-9: true
 featured-enlace-10: true
-title: '@TuBoarding 11-24'
+title: '@TuBoarding Boletin'
 author: BoardingPass
 title-enlace-1: Venezuela y Francia exploran posibilidades de una conexión aérea directa
 enlace-1: >-
