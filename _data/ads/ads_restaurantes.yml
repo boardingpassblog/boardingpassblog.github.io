@@ -1,0 +1,34 @@
+section-restaurantes:
+  image: /assets/images/BP-1400x150.jpg
+  alt: "Ad en la sección de Restaurantes"
+  url: ""
+
+sidebar_restaurantes-0:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar restaurantes 0"
+  url: ""
+
+sidebar_restaurantes-1:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar restaurantes 1"
+  url: ""
+
+sidebar_restaurantes-2:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar restaurantes 2"
+  url: ""
+
+sidebar_restaurantes-3:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar restaurantes 3"
+  url: ""
+
+sidebar_restaurantes-4:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar restaurantes 4"
+  url: ""
+
+sidebar_restaurantes-5:
+  image: /assets/images/BP-300x300.jpg
+  alt: "Ad sidebar restaurantes 5"
+  url: ""

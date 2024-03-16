@@ -37,12 +37,13 @@ menu:
     url: /salte-del-radar/
   - name: Destinos
     url: /destinos/
+  - name: Restaurantes
+    url: /restaurantes/
   - name: Directorio
     url: /directorio/
   - name: Nosotros
     url: /nosotros/
-  - name: Contacto
-    url: /contacto/
+
 
 # *** NOTE ***
 # You can add submenus. For example:
@@ -147,6 +148,10 @@ collections:
   boletines:
     output: true
     permalink: /boletines/:path/
+  restaurantes:
+    output: true 
+    permalink: /restaurantes/:path/
+  
     
 # iconos servicios directorio
 servicios_iconos:
@@ -333,6 +338,8 @@ prose:
               value: 'Los Llanos'
             - name: 'Llanura Deltaica'
               value: 'Llanura Deltaica'
+            - name: 'Insular'
+              value: 'Insular'
             - name: 'Nacional'
               value: 'Nacional'
           alterable: false
