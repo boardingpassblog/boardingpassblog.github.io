@@ -6,7 +6,7 @@ featured-enlace-1: true
 featured-enlace-2: true
 featured-enlace-3: true
 featured-enlace-4: true
-featured-enlace-5: true
+featured-enlace-5: false
 featured-enlace-6: true
 featured-enlace-7: true
 featured-enlace-8: true
