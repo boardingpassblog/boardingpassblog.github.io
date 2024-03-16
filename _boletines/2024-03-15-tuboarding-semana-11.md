@@ -6,27 +6,13 @@ featured-enlace-1: true
 featured-enlace-2: true
 featured-enlace-3: true
 featured-enlace-4: true
-banner-image-enlace-4: /assets/images/BP-900x100.jpg
-banner-alt-enlace-4: Ad antes de enlace 4
-featured-enlace-5: true
-banner-image-enlace-5: /assets/images/BP-900x100.jpg
-banner-alt-enlace-5: Ad antes de enlace 5
+featured-enlace-5: false
 featured-enlace-6: true
-banner-image-enlace-6: /assets/images/BP-900x100.jpg
-banner-alt-enlace-6: Ad antes de enlace 6
 featured-enlace-7: true
-banner-image-enlace-7: /assets/images/BP-900x100.jpg
-banner-alt-enlace-7: Ad antes de enlace 7
 featured-enlace-8: true
-banner-image-enlace-8: /assets/images/BP-900x100.jpg
-banner-alt-enlace-8: Ad antes de enlace 8
 featured-enlace-9: true
-banner-image-enlace-9: /assets/images/BP-900x100.jpg
-banner-alt-enlace-9: Ad antes de enlace 9
 featured-enlace-10: true
-banner-image-enlace-10: /assets/images/BP-900x100.jpg
-banner-alt-enlace-10: Ad antes de enlace 10
-title: TuBoarding semana 11
+title: '@TuBoarding Boletin'
 author: BoardingPass
 title-enlace-1: Venezuela y Francia exploran posibilidades de una conexión aérea directa
 enlace-1: >-
@@ -60,8 +46,6 @@ description-enlace-3: >-
   y Resiliente.
 image-enlace-3: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/onu.jpg
-banner-image-enlace-1: /assets/images/BP-900x100.jpg
-banner-alt-enlace-1: Ad antes de enlace 3
 title-enlace-4: LASER Airlines cumple 30 años de operaciones
 enlace-4: >-
   https://boardingpass.network/enterate/2024/03/14/laser-airlines-cumple-30-a-os-de-operaciones/
@@ -71,5 +55,45 @@ description-enlace-4: >-
   internacional con los mejores estándares de calidad.
 image-enlace-4: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Avion-Laser.jpg
+title-enlace-5: Margarita base para el turismo médico nacional e internacional
+enlace-5: >-
+  https://boardingpass.network/enterate/2024/03/15/margarita-base-para-el-turismo-m-dico-nacional-e-internacional/
+description-enlace-5: >-
+  Guillermo Borjas, médico bariátrico, metabólico y robótico, viaja
+  constantemente desde Caracas a Margarita para realizar cirugías para la
+  obesidad en todo el país, pero en esta oportunidad se encuentra participando
+  en el XXXVI Congreso Venezolano de Cirugía en un conocido hotel de la Isla.
+image-enlace-5: >-
+  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/1margarita.jpg
+title-enlace-6: Conoce la Isla de Coche
+enlace-6: >-
+  https://boardingpass.network/salte-del-radar/2024/03/13/conoce-la-isla-de-coche/
+description-enlace-6: >-
+  La isla de Coche, ubicada al sur de la Isla de Margarita en Venezuela, es un
+  destino turístico popular conocido por sus hermosas playas y aguas
+  cristalinas. Junto con las islas de Margarita y Cubagua, forma parte del
+  archipiélago y Estado Nueva Esparta.
+image-enlace-6: >-
+  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/IslaCoche.jpg
+title-enlace-7: Avior Airlines reinició operaciones desde y hacia Colombia
+enlace-7: >-
+  https://boardingpass.network/destinos/2024/03/14/avior-airlines-reinici-operaciones-desde-y-hacia-colombia/
+description-enlace-7: >-
+  El vuelo despegó de Caracas a las 04:30pm desde el Aeropuerto Internacional
+  Simón Bolívar, transportando 82 pasajeros (HL Caracas) y aterrizando una hora
+  y treinta minutos después en el Aeropuerto Internacional de El Dorado en la
+  Ciudad de Bogotá.
+image-enlace-7: >-
+  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Avion-AVIOR.jpg
+title-enlace-8: Nueva ruta de vuelo entre Surinam y Venezuela
+enlace-8: >-
+  https://boardingpass.network/destinos/2024/03/11/nueva-ruta-de-vuelo-entre-surinam-y-venezuela/
+description-enlace-8: >-
+  La aerolínea de Surinam, Allways Airlines, ha activado oficialmente su nueva
+  ruta que conectará a Paramaribo con Venezuela. Los vuelos directos entre
+  Surinam y Venezuela (Caracas) tendrán una frecuencia semanal, operando los
+  días viernes.
+image-enlace-8: >-
+  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Surinam.jpg
 ---
-
+Test
