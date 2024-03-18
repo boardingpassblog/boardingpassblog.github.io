@@ -27,7 +27,7 @@ Una de las mejores alternativas para celebrar la Semana Santa en Venezuela es vi
 	- Se trata del archipiélago Los Roques, conformado por un conjunto de 50 islas y cientos de cayos, entre los cuales alberga una de las mejores playas de Venezuela. Este sitio se caracteriza por la tranquilidad de sus aguas debido a las barreras de arrecifes que la protegen de corrientes fuertes.
 - **Playa Colorada**
 	- Este maravilloso punto forma parte de las playas del Parque Nacional Mochima, sitio de espacios donde se reúnen islas, bahías y hermosos paisajes
-.
+
 **¿Qué lugares visitar en Semana Santa en Venezuela 2024?**
 
 Con la Semana Santa a la vuelta de la esquina, es posible que te encuentres en la encrucijada de decidir entre explorar un nuevo destino en Venezuela o continuar ahorrando para un viaje más ambicioso en el futuro. Sin embargo, nuestra intención es ayudarte a disfrutar de unos días de relax descubriendo parajes increíbles. En las siguientes líneas, te ofrecemos una lista de los más destacados para visitar:
