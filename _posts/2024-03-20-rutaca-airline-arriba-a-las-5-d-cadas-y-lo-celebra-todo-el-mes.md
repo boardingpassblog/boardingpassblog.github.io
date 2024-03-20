@@ -28,18 +28,16 @@ Y para celebrar sus 5 décadas de trabajo arduo e innovaciones Rutaca Airlines r
 - San Antonio del Táchira
 - Barquisimeto
 
+**Indicaciones:**
 
-Indicaciones:
+- Debes seguir a la cuenta @rutaca
+- Dejar en los comentarios: cuál es el destino de tu elección y mencionar a tu acompañante.
+- Concurso a realizarse el 31 de Marzo
 
--Debes seguir a la cuenta @rutaca
--Dejar en los comentarios: cuál es el destino de tu elección y mencionar a tu acompañante.
--Concurso a realizarse el 31 de Marzo
+**Condiciones:**
 
-Condiciones:
-
--Obsequio solo aplica en temporada baja.
--El boleto no es transferible.
-
+- Obsequio solo aplica en temporada baja.
+- El boleto no es transferible.
 
 En Rutaca ¨Tu eliges el destino, nosotros creamos la ruta¨
 
