@@ -10,7 +10,7 @@ image: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Rutaca.png
 author: Prensa Rutaca
 categories:
-  - rutas-aereas
+  - enterate
 ---
 
 Oficialmente este 26 de marzo la aerolínea privada venezolana, pionera en la exploración y vuelos sobre el Macizo Guayanés con base en Ciudad Bolívar, cumplirá sus primeros 50 años de operaciones en Venezuela. 
