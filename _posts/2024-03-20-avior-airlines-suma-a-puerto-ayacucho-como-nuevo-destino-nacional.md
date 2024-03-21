@@ -11,7 +11,7 @@ image: >-
 image-text: Paisaje de Amazonas.
 author: Avior Airlines.
 categories:
-  - destinos
+  - rutas-aereas
 ---
 
 En el marco de autorización de operaciones nacionales comerciales por parte del Instituto Nacional de Aeronáutica Civil (INAC), despegó a las 13:30 desde el Aeropuerto Simón Bolívar en Maiquetía el vuelo 9V 1090 con destino a Puerto Ayacucho.
