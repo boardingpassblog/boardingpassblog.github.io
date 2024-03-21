@@ -11,7 +11,7 @@ image: >-
 image-text: Avión de AVIOR
 author: Prensa AVIOR
 categories:
-  - destinos
+  - rutas-aereas
 ---
 **Bogotá se suma como nuevo destino internacional**
  
