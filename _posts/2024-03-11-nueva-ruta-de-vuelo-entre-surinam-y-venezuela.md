@@ -11,7 +11,7 @@ image: >-
 image-text: Allways Airlines
 author: viajesboletin.com
 categories:
-  - destinos
+  - rutas-aereas
 ---
 La aerolínea de Surinam, Allways Airlines, ha activado oficialmente su nueva ruta que conectará a Paramaribo con Venezuela. Los vuelos directos entre Surinam y Venezuela (Caracas) tendrán una frecuencia semanal, operando los días viernes.
 
