@@ -10,7 +10,13 @@ image: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Avion-Copa.jpg
 image-text: Copa Airlines
 image_carousel: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Copa-1---F.jpg
+  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Copa-1
+categories:
+  - destinos
+  - rutas-aereas
+author: Copa Airlines
+---
+F.jpg
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Copa-1---R.jpg
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Copa-1---T.jpg
 author: Copa Airlines
