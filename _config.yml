@@ -163,6 +163,7 @@ servicios_iconos:
   "Venta de Boletos Aéreos Nacionales": "fas fa-plane"
   "Viajes Internacionales": "fas fa-globe"
   "Viajes Nacionales": "fas fa-flag"
+  "Restaurante": "fas fa-utensils"
 
 # Exclude from processing.
 exclude:
@@ -462,6 +463,8 @@ prose:
               value: 'Viajes Internacionales'
             - name: 'Viajes Nacionales'
               value: 'Viajes Nacionales'
+            - name: 'Restaurante'
+              value: 'Restaurante'
           alterable: false
       - name: featured
         field:
@@ -492,6 +495,8 @@ prose:
               value: 'Alquiler'
             - name: 'Líneas aéreas'
               value: 'Líneas aéreas'
+            - name: 'Restaurante'
+              value: 'Restaurante'
           alterable: false
     _review:
       - name: layout
