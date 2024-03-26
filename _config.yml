@@ -37,8 +37,6 @@ menu:
     url: /salte-del-radar/
   - name: Destinos
     url: /destinos/
-  - name: Restaurantes
-    url: /restaurantes/
   - name: Directorio
     url: /directorio/
   - name: Nosotros
@@ -148,9 +146,6 @@ collections:
   boletines:
     output: true
     permalink: /boletines/:path/
-  restaurantes:
-    output: true 
-    permalink: /restaurantes/:path/
   
     
 # iconos servicios directorio
