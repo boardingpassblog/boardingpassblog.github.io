@@ -14,9 +14,9 @@ categories:
   - rutas-aereas
 author: Copa Airlines
 image_carousel: >-
-  https://github.com/boardingpassblog/boardingpassblog.github.io/blob/main/assets/images/Copa-1---F.jpg
-  https://github.com/boardingpassblog/boardingpassblog.github.io/blob/main/assets/images/Copa-1---R.jpg
-  https://github.com/boardingpassblog/boardingpassblog.github.io/blob/main/assets/images/Copa-1---T.jpg
+  /assets/images/Copa-1---F.jpg
+  /assets/images/Copa-1---R.jpg
+  /assets/images/Copa-1---T.jpg
 title_carousel: Lugares
 ---
 - Con la adición de **Raleigh-Durham**, la Aerolínea fortalece su oferta en Estados Unidos alcanzando un total de 16 destinos en ese mercado
