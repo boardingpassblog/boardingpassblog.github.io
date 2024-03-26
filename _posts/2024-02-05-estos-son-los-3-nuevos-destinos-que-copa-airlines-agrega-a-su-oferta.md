@@ -5,9 +5,9 @@ featured: false
 published: true
 title: Los 3 nuevos destinos que Copa Airlines agrega a su oferta
 description: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Avion-Copa.jpg
+  /assets/images/Avion-Copa.jpg
 image: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Avion-Copa.jpg
+  /assets/images/Avion-Copa.jpg
 image-text: Copa Airlines
 categories:
   - destinos
