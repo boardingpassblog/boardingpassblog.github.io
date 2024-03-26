@@ -29,17 +29,15 @@ Cayo Sombrero, Mérida, Parque nacional Médanos de Coro, Mochima entre los esta
 
 **Recomendaciones para la Semana Santa**
 
-**Evite fogatas**: Las fogatas en parques nacionales pueden tener graves consecuencias
-**Planifique su visita**: Consulte la disponibilidad de acceso a los parques y elija destinos con menor afluencia.
-**Viaje responsable**: Minimice su impacto ambiental utilizando transporte sostenible y empaques biodegradables.
-**Respete las normas**: Siga las indicaciones de los guardaparques y las normas del parque.
-**Eduque a los niños**: Enséneles a respetar la naturaleza y las normas de los parques.
-**Apoye a los operadores turísticos responsables**: Elija empresas que implementan prácticas sostenibles.
+- **Evite fogatas**: Las fogatas en parques nacionales pueden tener graves consecuencias
+- **Planifique su visita**: Consulte la disponibilidad de acceso a los parques y elija destinos con menor afluencia.
+- **Viaje responsable**: Minimice su impacto ambiental utilizando transporte sostenible y empaques biodegradables.
+- **Respete las normas**: Siga las indicaciones de los guardaparques y las normas del parque.
+- **Eduque a los niños**: Enséneles a respetar la naturaleza y las normas de los parques.
+- **Apoye a los operadores turísticos responsables**: Elija empresas que implementan prácticas sostenibles.
 
 **Respetar la capacidad de carga un compromiso de todos**
 
 La Semana Santa es una oportunidad para disfrutar de la belleza natural de los Parques Nacionales de Venezuela de forma responsable. 
 
 Asumiendo el compromiso de respetar la capacidad de carga, podemos convertir el turismo en una herramienta para la conservación del patrimonio natural y cultural del país, garantizando un futuro sostenible para las generaciones venideras.
-
-
