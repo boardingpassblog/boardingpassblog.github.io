@@ -9,26 +9,21 @@ description: >-
 image: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Avion-Copa.jpg
 image-text: Copa Airlines
-image_carousel: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Copa-1
 categories:
   - destinos
   - rutas-aereas
 author: Copa Airlines
----
-F.jpg
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Copa-1---R.jpg
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Copa-1---T.jpg
-author: Copa Airlines
-categories:
-  - destinos
-  - enterate
+image_carousel: >-
+  https://github.com/boardingpassblog/boardingpassblog.github.io/blob/main/assets/images/Copa-1---F.jpg
+  https://github.com/boardingpassblog/boardingpassblog.github.io/blob/main/assets/images/Copa-1---R.jpg
+  https://github.com/boardingpassblog/boardingpassblog.github.io/blob/main/assets/images/Copa-1---T.jpg
+title_carousel: Lugares
 ---
 - Con la adición de **Raleigh-Durham**, la Aerolínea fortalece su oferta en Estados Unidos alcanzando un total de 16 destinos en ese mercado
 - La nueva ruta a **Tulum, México**, consolida la presencia de la Aerolínea en México con cinco destinos, y ofrece una alternativa más rápida y conveniente de viajar a este reconocido destino turístico del Caribe Mexicano.
 - **Florianópolis, “Isla de la Magia”**, se convierte en el destino #7 de Copa Airlines en Brasil, el principal mercado aéreo en Latino América
 
-Copa Airlines {NYSE: CPA}, subsidiaria de Copa Holdings, S.A. y miembro de la red global de aerolíneas Star Alliance, anuncia el inicio de sus operaciones, en junio de este año, hacia tres nuevos destinos: Tulum, en México, Florianópolis en Brasil y Raleigh-Durham en Carolina del Norte, Estados Unidos. Con la incorporación de estas rutas, Copa Airlines amplía su red a 85 destinos en 32 países de Centro, Sur, Norte América y el Caribe.
+Copa Airlines, subsidiaria de Copa Holdings, S.A. y miembro de la red global de aerolíneas Star Alliance, anuncia el inicio de sus operaciones, en junio de este año, hacia tres nuevos destinos: Tulum, en México, Florianópolis en Brasil y Raleigh-Durham en Carolina del Norte, Estados Unidos. Con la incorporación de estas rutas, Copa Airlines amplía su red a 85 destinos en 32 países de Centro, Sur, Norte América y el Caribe.
 
 “Seguimos firmes nuestro propósito de acortar distancias y facilitar conexiones, permitiendo que Panamá siga siendo el puente que une a miles de personas en todo el continente, al tiempo que contribuimos con el desarrollo económico de las comunidades en donde operamos. Esta expansión estratégica no solo promueve el intercambio cultural de la región, sino también promueve y profundiza el turismo y los negocios en Estados Unidos, México y Brasil, así como abre la oportunidad a que más turistas disfruten de las maravillas de Panamá gracias al programa Panamá Stopover", expresó Pedro Heilbron, presidente ejecutivo de Copa Airlines.
 
