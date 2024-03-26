@@ -3,7 +3,7 @@ layout: post
 date: '2024-02-05 14:32 -0400'
 featured: false
 published: true
-title: Estos son los 3 nuevos destinos que Copa Airlines agrega a su oferta
+title: Los 3 nuevos destinos que Copa Airlines agrega a su oferta
 description: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Avion-Copa.jpg
 image: >-
