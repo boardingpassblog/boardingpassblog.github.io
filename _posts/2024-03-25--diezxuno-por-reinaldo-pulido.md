@@ -3,7 +3,7 @@ layout: post
 date: '2024-03-25 16:12 -0400'
 featured: false
 published: true
-title: '"DiezXuno" por Reinaldo Pulido'
+title: DiezXuno por Reinaldo Pulido
 description: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Reynaldo-Pulido.jpg
 image: >-
