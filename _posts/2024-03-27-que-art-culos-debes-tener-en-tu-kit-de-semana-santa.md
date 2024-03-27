@@ -11,7 +11,7 @@ author: Edgar Rincón
 categories:
   - opinion
 ---
-**Algunas de las categorías con mayor crecimiento para los viajeros son Zapatillas (130%), Cámaras y Drones (50%) y Smartphones (30%)**
+**Algunas de las categorías con mayor crecimiento para los viajeros son Zapatos de Goma (130%), Cámaras y Drones (50%) y Smartphones (30%)**
 **Mercado Libre cuenta con una gran variedad de productos en sus más de 450 tiendas oficiales para equiparte con todo lo necesario.**
 
 Semana Santa está cada vez más cerca, es por ello que cientos de personas se encuentran planificando diversas actividades para sacarle el máximo provecho al feriado largo. En esta fecha, la mayoría aprovecha para viajar o acampar y así desconectarse de Lima por unos días. Ante ello, es importante que se abastezcan con todo lo necesario para disfrutar sin complicaciones.
