@@ -4,14 +4,12 @@ date: '2024-03-28 14:48 -0400'
 featured: false
 published: true
 title: Pasajes a económicos a Margarita
-description: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Aviones-Maiquetia.jpg
-image: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Aviones-Maiquetia.jpg
+description: 'https://boardingpass.network/assets/images/Aviones-Maiquetia.jpg'
+image: 'https://boardingpass.network/assets/images/Aviones-Maiquetia.jpg'
 image-text: Líneas Nacionales
 categories:
   - enterate
-author: Dexcy Guédez - viajesboletin.com
+author: Dexcy Guédez - ViajesBoletin.com
 ---
 Los gremios turísticos y hoteleros de Nueva Esparta han venido conversando con las líneas aéreas a través del Ministerio para el Turismo, buscando fórmulas que permitan mejorar los precios de las tarifas aéreas, entendiendo que las aerolíneas tienen sus costos, así como también cargas impositivas y de operatividad en cada uno de los destinos hacía donde viajan.
 
