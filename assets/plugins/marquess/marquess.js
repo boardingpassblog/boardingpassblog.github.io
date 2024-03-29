@@ -15,7 +15,7 @@
           success: function(result){
             var tasa = result['tasa'];
             var tasa_final = parseFloat(tasa.replace(",", ".")).toFixed(2);
-            dolarBCVText = 'Dólar BCV ' + tasa_final;
+            dolarBCVText = 'Dólar BCV ' + tasa_final + ' Bs/USD';
             resolve();
           },
           error: function(error){
