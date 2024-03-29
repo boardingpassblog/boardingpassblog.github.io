@@ -52,5 +52,5 @@ Copyright (c) 2016 - Present, Designed & Developed by [Themefisher](https://them
 
 # Github add credentials
 
-- `eval "$(ssh-agent -s)"``
-- `ssh-add --apple-use-keychain ~/.ssh/id_boardingpass``
+- `eval "$(ssh-agent -s)"`
+- `ssh-add --apple-use-keychain ~/.ssh/id_boardingpass`
