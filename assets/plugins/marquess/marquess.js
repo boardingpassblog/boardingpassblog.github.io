@@ -8,14 +8,14 @@
 
     function getBCVRate() {
       return new Promise(function(resolve, reject) {
-        var serverUrl = 'https://untitled-r0qbaqcziew6.runkit.sh/';
+        var serverUrl = 'https://bcv-dolar-main-gxg12sibzgih.runkit.sh/';
 
         $.ajax({
           url: serverUrl,
           success: function(result){
             var tasa = result['tasa'];
             var tasa_final = parseFloat(tasa.replace(",", ".")).toFixed(2);
-            dolarBCVText = 'Dólar BCV ' + tasa_final + ' Bs/USD';
+            dolarBCVText = 'Dólar BCV ' + tasa_final;
             resolve();
           },
           error: function(error){
