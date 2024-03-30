@@ -45,18 +45,15 @@ layout: default
                     {% assign bimage = page[banner-image] %}
                     {% assign bevent = page[banner-event] %}
                     {% if page[enlace] %}
-						{% if bimage contains "assets" %}
-							{% assign colClass = 'col-12' %}
-						{% else %}
-							{% assign colClass = 'col-6' %}
-						{% endif %}
-                        <div class="{{ colClass }} mb-30">
+                        <div class="col-12 mb-30">
+							{% if bimage contains "assets" %}
 							{% include ads/banner-boletin.html 
 								image=bimage
 								url=burl
 								alt=balt
 								event=bevent
 							%}
+							{% endif %}
                             <article data-file="{{ page[enlace] | prepend: site.baseurl }}" data-target="article" class="article-full-width {{class}}">
                               <div class="post-image-boletin">
                                 <img class="img-fluid" src="{{page[image] | relative_url}}" alt="{{page[title]}}">
