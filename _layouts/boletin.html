@@ -28,9 +28,6 @@ layout: default
 		<div class="row">
 			<div class="col-lg-9">
 				<div class="custom-container">
-				{% for i in (1..10) %}
-					{% assign enlace = 'enlace-' | append: i %}
-                {% endfor %}
                 {% for i in (1..10) %}
                     {% assign enlace = 'enlace-' | append: i %}
                     {% assign title = 'title-' | append: enlace %}
