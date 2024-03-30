@@ -28,17 +28,10 @@ layout: default
 		<div class="row">
 			<div class="col-lg-9">
 				<div class="custom-container">
-				{% assign counter = 0 %}
-				{% assign counter_for = 0 %}
-				{% assign counter_total = 0 %}
 				{% for i in (1..10) %}
 					{% assign enlace = 'enlace-' | append: i %}
-                    {% if page[enlace] %}
-						{% assign counter_total = counter_total | plus: 1 %}
-                    {% endif %}
                 {% endfor %}
                 {% for i in (1..10) %}
-					{% assign counter_for = counter_for | plus: 1 %}
                     {% assign enlace = 'enlace-' | append: i %}
                     {% assign title = 'title-' | append: enlace %}
                     {% assign image = 'image-' | append: enlace %}
@@ -52,7 +45,7 @@ layout: default
                     {% assign bimage = page[banner-image] %}
                     {% assign bevent = page[banner-event] %}
                     {% if page[enlace] %}
-						{% if counter == 0 or counter_for == counter_total %}
+						{% if bimage contains "assets" %}
 							{% assign colClass = 'col-12' %}
 						{% else %}
 							{% assign colClass = 'col-6' %}
@@ -75,10 +68,6 @@ layout: default
                               </div>
                             </article>
                         </div>
-						{% assign counter = counter | plus: 1 %}
-						{% if counter == 3 %}
-							{% assign counter = 0 %}
-						{% endif %}
                     {% endif %}
                 {% endfor %}
 				</div>
