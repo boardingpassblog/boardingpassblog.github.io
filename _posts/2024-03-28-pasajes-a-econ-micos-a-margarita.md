@@ -3,7 +3,7 @@ layout: post
 date: '2024-03-28 14:48 -0400'
 featured: false
 published: true
-title: Pasajes a económicos a Margarita
+title: Pasajes más económicos a Margarita
 description: 'https://boardingpass.network/assets/images/Aviones-Maiquetia.jpg'
 image: 'https://boardingpass.network/assets/images/Aviones-Maiquetia.jpg'
 image-text: Líneas Nacionales
