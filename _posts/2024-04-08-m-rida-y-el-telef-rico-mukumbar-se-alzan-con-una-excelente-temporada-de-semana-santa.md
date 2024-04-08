@@ -7,9 +7,9 @@ title: >-
   Mérida y el Teleférico Mukumbarí se alzan con una excelente temporada de
   Semana Santa. 
 image: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/merida%20ss.png
+  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Merida-SS.jpg
 description: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/merida%20ss.png
+  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Merida-SS.jpg
 categories:
   - enterate
 author: '@conseturismo @camaradeturismomerida  viajesboletin.com'
