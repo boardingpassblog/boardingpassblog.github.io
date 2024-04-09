@@ -13,11 +13,11 @@ categories:
   - rutas-aereas
 author: Avior Airlines - Noticias Anzoategui
 ---
-**Avior Airlines anunció la reanudación de sus vuelos entre Caracas y Medellín a partir del 9 de mayo.**
+Avior Airlines anunció la reanudación de sus vuelos entre Caracas y Medellín a partir del 9 de mayo.
 
-- Luego de cuatro años de ausencia en el mercado aéreo colombiano post pandemia, la aerolínea venezolana este año inicia su segunda ruta al país cafetero.
+Luego de cuatro años de ausencia en el mercado aéreo colombiano post pandemia, la aerolínea venezolana este año inicia su segunda ruta al país cafetero.
 
-Medellín tendrá dos vuelos por semana, los días lunes y jueves, con salida desde el Aeropuerto Internacional Simón Bolívar a las 05:45 de la tarde y retorno desde el Aeropuerto Internacional José María Córdova en Medellín a las 07:25 pm. 
+Caracas - Medellín tendrá dos vuelos por semana, los días lunes y jueves, con salida desde el Aeropuerto Internacional Simón Bolívar a las 05:45 de la tarde y retorno desde el Aeropuerto Internacional José María Córdova en Medellín a las 07:25 pm. 
 
 Cuentan con una Tarifa Flex  desde $260. Ida y vuelta, adquiriendo los boletos en aviorair.com antes del 30/04
 
