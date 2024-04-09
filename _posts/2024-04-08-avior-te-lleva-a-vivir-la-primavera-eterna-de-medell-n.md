@@ -11,7 +11,7 @@ image: >-
 image-text: Avior a Medellin
 categories:
   - rutas-aereas
-author: Avior Airlines
+author: Avior Airlines - Noticias Anzoategui
 ---
 **Avior Airlines anunció la reanudación de sus vuelos entre Caracas y Medellín a partir del 9 de mayo.**
 
