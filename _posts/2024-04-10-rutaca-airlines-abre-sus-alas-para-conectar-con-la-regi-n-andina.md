@@ -2,7 +2,7 @@
 layout: post
 date: '2024-04-10 21:10 -0400'
 featured: false
-published: false
+published: true
 title: 'Rutaca Airlines abre sus alas para conectar con la región andina. '
 description: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Rutaca-PZO.jpg
