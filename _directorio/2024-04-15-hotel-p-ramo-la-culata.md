@@ -1,7 +1,7 @@
 ---
 date: '2024-04-15 13:48 -0400'
 published: true
-region: Centro-Norte
+region: Los Andes
 state: Mérida
 featured: false
 title: Hotel Páramo La Culata
@@ -17,4 +17,3 @@ services:
 types:
   - Hospedaje
 ---
-
