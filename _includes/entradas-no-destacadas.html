@@ -1,7 +1,19 @@
 {% if post.featured == false %}
 <div class="col-lg-6 col-sm-10">
     {% assign iterator = iterator | plus: 1 %}
+    {% if post.types contains "Hospedaje" %}
+    <div class="card card-separation hotel-band">
+    {% elsif post.types contains "Líneas aéreas" %}
+    <div class="card card-separation airline-band">
+    {% elsif post.types contains "Agencias" %}
+    <div class="card card-separation agencies-band">
+    {% elsif post.types contains "Operadores" %}
+    <div class="card card-separation operators-band">
+    {% elsif post.types contains "Mayoristas" %}
+    <div class="card card-separation wholesale-band">
+    {% else %}
     <div class="card card-separation">
+    {% endif %}
       <div class="card-body position-card">
         <div class="tab-card">
           <div class="tab-card-1">
