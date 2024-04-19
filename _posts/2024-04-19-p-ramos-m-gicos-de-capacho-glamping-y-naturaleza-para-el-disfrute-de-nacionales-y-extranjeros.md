@@ -37,4 +37,4 @@ Las instalaciones del Hotel Aguamiel, a 20 min de San Cristóbal o 40 min de Cú
 
 Cuentan con planes para huéspedes todo incluido, glampingspa y otras modalidades.
 
-Para más información contacta el Hotel & Club de Montaña Aguamiel,<a href="mailto:Clubdemontana.aguamiel@gmail.com?Subject=Solicitud">Contactar por correo</a>
+Para más información contacta el Hotel & Club de Montaña Aguamiel,<a href="mailto:Clubdemontana.aguamiel@gmail.com?Subject=Solicitud"> Contactar por correo</a>
