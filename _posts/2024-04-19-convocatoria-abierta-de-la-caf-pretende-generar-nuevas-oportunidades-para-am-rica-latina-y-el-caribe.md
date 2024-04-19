@@ -1,8 +1,8 @@
 ---
 layout: post
 date: '2024-04-19 11:26 -0400'
-featured: true
-published: false
+featured: false
+published: true
 title: >-
   Convocatoria abierta de la CAF pretende generar nuevas oportunidades para
   América Latina y el Caribe. 
