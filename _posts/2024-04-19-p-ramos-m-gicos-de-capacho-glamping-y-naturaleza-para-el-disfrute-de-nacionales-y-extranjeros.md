@@ -13,7 +13,7 @@ description: >-
 image: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Aguamiel.jpg
 author: 'Boarding Pass '
-image-text: Estructura tipo esfera de 50Mts2
+image-text: Estructura tipo esfera de 50 mts2
 ---
 Una escapada que no deje un recuerdo memorable y unas ganas locas de volverla hacer no merece ser llamada escapada y mucho menos vale la pena el esfuerzo. 
 
@@ -23,7 +23,9 @@ Los glamping del Hotel & Club de Montaña Aguamiel, en el páramo de la Laja en 
 
 **Comencemos por explicar el término.**
 
-'Glamping' es la unión de dos conceptos que llaman al lujo y a la experiencia de acampar al aire libre al mismo tiempo: glamour y camping,Se trata de confortables habitaciones, tipo domo o carpa, que brindan el contacto con la naturaleza a través de una estructura transparente y segura.
+'Glamping' es la unión de dos conceptos que llaman al lujo y a la experiencia de acampar al aire libre al mismo tiempo: glamour y camping.
+
+Se trata de confortables habitaciones, tipo domo o carpa, que brindan el contacto con la naturaleza a través de una estructura transparente y segura.
 
 Esta creciente tendencia global de acampar bajo las estrellas no renuncia al confort y a las ventajas del hogar. Son burbujas privadas en forma de esfera que han cautivado la atención de muchos viajeros y operadores turísticos. Venezuela no escapa del fenómeno.
 
