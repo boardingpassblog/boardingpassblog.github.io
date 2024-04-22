@@ -1,8 +1,8 @@
 ---
 layout: post
 date: '2024-04-22 08:37 -0400'
-featured: false
-published: false
+featured: true
+published: true
 title: Venezuela y el día mundial de la Tierra
 description: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Dia-Tierra.jpg
