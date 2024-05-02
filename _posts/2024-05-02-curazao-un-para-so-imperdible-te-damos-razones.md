@@ -5,7 +5,12 @@ featured: false
 published: false
 title: 'Curazao, un paraíso imperdible. ¡Te damos razones!'
 description: >-
-  https://github.com/boardingpassblog/boardingpassblog.github.io/commit/b8d85477dd9d94cb9b458dd27e8c874a5402f18e
+  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/b8d85477dd9d94cb9b458dd27e8c874a5402f18e/Willemstad%20Curacao.jpg
+image: >-
+  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/b8d85477dd9d94cb9b458dd27e8c874a5402f18e/Willemstad%20Curacao.jpg
+categories:
+  - destinos
+author: 'Boarding Pass '
 ---
 La arquitectura colonial costera de Willemstad, capital de Curazao, fue declarada por la UNESCO Patrimonio de la humanidad. Sus colores pasteles la hacen una ciudad cautivadora, increíblemente deliciosa para pasear, hacer compras y turismo, pues alberga museos de clase mundial y hoteles únicos, así como las maravillas: el puente flotante Reina Emma y la Sinagoga Mikve Israel-Emanuel del siglo XVII, una obra de arte impecable con un piso de arena. Como dato adicional te podemos decir que ésta fue la primera en llegar a américa latina. 
 
