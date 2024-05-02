@@ -12,13 +12,13 @@ categories:
   - destinos
 author: 'Boarding Pass '
 ---
-La arquitectura colonial costera de Willemstad, capital de Curazao, fue declarada por la UNESCO Patrimonio de la humanidad. Sus colores pasteles la hacen una ciudad cautivadora, increíblemente deliciosa para pasear, hacer compras y turismo, pues alberga museos de clase mundial y hoteles únicos, así como las maravillas: el puente flotante Reina Emma y la Sinagoga Mikve Israel-Emanuel del siglo XVII, una obra de arte impecable con un piso de arena. Como dato adicional te podemos decir que ésta fue la primera en llegar a américa latina. 
+La arquitectura colonial costera de Willemstad, capital de Curazao, fue declarada por la UNESCO Patrimonio de la Humanidad. Sus colores pasteles la hacen una ciudad increíblemente cautivadora, deliciosa para pasear, hacer compras y turismo, pues alberga museos de clase mundial, magníficos hoteles e interesantes atracciones turísticas: el puente flotante Reina Emma y la Sinagoga Mikve Israel-Emanuel del siglo XVII, una obra de arte impecable con un piso de arena y la primera en llegar a américa latina. 
 
-¡Quédate con nosotros unas líneas más... aquí te contaremos qué puedes hacer en esta isla neerlandesa del caribe! 
+¡Quédate con nosotros unas líneas más... te contaremos algunas de las experiencias que puedes vivir en esta isla neerlandesa del caribe! 
 
-Lo primero que debes saber es que Curazao es el destino internacional más cercano del Aeropuerto Internacional Simón Bolívar, que sirve a la ciudad de Caracas. En solo 52 minutos los venezolanos pueden disfrutar de sus playas y extensos arrecifes de corales, entre otras actividades que bien merecen la pena bajo un clima hermosamente soleado casi todo el año.
+Lo primero que debes saber es que Curazao es el destino internacional más cercano del Aeropuerto Internacional Simón Bolívar, que sirve a la ciudad de Caracas. En solo 52 minutos los venezolanos pueden disfrutar de sus playas y extensos arrecifes de corales, entre otras actividades que bien merecen la pena realizar bajo un clima hermosamente soleado casi todo el año.
 
-Ahora, ¿qué tipo de viajero eres?
+Ahora bien, ¿qué tipo de viajero eres?
 
 Porque si buscas aventura, el Parque Nacional Shete Boka debe ser un sí-sí en tu lista de visitas para conectar al aire libre y ser testigo de la fuerza del mar. 
 
@@ -30,9 +30,9 @@ Tanto la geografía como la temperatura de la isla son amables con los caminante
 
 Si no temes sumergirte, debes llegar hasta The Blue Boom, una cueva oculta ligeramente por debajo del nivel del mar. Adentro el agua es azul y refleja la luz del sol en sus paredes y techo causando un efecto mágico.
 
-Pero, si más bien te atrae la naturaleza marina, encontrarás en Curazao una oportunidad verdaderamente única de compartir con la abundante fauna y aprender sobre ésta a través de los programas del Curacao Sea Aquarium. También es posible nadar con delfines en Dolphin Academy Curacao, bien sea en la naturaleza (para quienes tienen certificado) o en la laguna natural con la compañía de supervisores y entrenadores profesionales. 
+Pero, si más bien te atrae la naturaleza marina, en Curazao encontrarás una oportunidad verdaderamente única de compartir con la abundante fauna y aprender sobre ésta a través de los programas del Curacao Sea Aquarium. También tendrás la posibilidad de nadar con delfines en Dolphin Academy Curacao, en la naturaleza (para quienes tienen certificado) o en la laguna natural con la compañía de supervisores y entrenadores profesionales. 
 
-La arquitectura es otro de los atractivos de la isla. 
+La arquitectura es uno de los atractivos más importantes de la isla. 
 
 El Puente Queen Emma Pontoon, distintivo de la ciudad, ofrece una oportunidad única. El puente flotante de pontones conecta dos distritos: Punda y Otrabanda. Abre varias veces al día para dejar pasar barcos y lo hace de una forma muy peculiar para los turistas, se mueve completamente a un lado del canal permitiendo ver y utilizar un ferry gratuito para cruzar el agua.
 
