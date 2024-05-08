@@ -16,6 +16,10 @@ La compañía aérea nacional anunció a través de la red social "X" el pasado 
 
 **¡Seguimos de Promoción! Celebramos el mes de las Madres con un 30% de descuento en nuestros boletos a destinos nacionales.**
 
-Más información en http://conviasa.aero o vía WhatsApp por el **04143991245** Los precios de los pasajes de Conviasa para vuelos nacionales varían dependiendo del destino, desde los 99,58 dólares hasta los 200 dólares ida y vuelta.
+**Más información en http://conviasa.aero o vía WhatsApp por el 04143991245.**
 
-Hasta el momento, Conviasa es la única aerolínea nacional que ofrece descuentos para viajar en mayo por el Día de la Madre. La compañía en su página web tiene recomendaciones sobre viajes para personas de tercera edad, mujeres embarazadas y niños menores.
+Los precios de los pasajes de Conviasa para vuelos nacionales varían dependiendo del destino, desde los 99,58 dólares hasta los 200 dólares ida y vuelta.
+
+Hasta el momento, Conviasa es la única aerolínea nacional que ofrece descuentos para viajar en mayo por el Día de la Madre.
+
+La compañía en su página web tiene recomendaciones sobre viajes para personas de tercera edad, mujeres embarazadas y niños menores.
