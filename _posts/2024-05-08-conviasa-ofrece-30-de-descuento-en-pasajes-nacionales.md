@@ -10,6 +10,7 @@ image: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Conviasa-Aviones.jpg
 categories:
   - enterate
+author: Edgar Rincón
 ---
 La compañía aérea nacional anunció a través de la red social "X" el pasado lunes 06 de mayo la oferta de descuentos en la compra de pasajes en rutas nacionales.
 
