@@ -51,8 +51,8 @@ Choroní es un destino ideal para aquellos que buscan una experiencia de viaje a
 
 **Recomendaciones**:
 
-**Cómo llegar**: Choroní no tiene acceso por carretera, por lo que se debe llegar en barco desde Puerto Colombia o Chuao. El viaje en barco dura aproximadamente 30 minutos.
-**Cuándo ir**: El mejor momento para visitar Choroní es durante la estación seca, que va desde diciembre hasta abril.
-**Qué llevar**: Ropa cómoda y ligera, zapatos adecuados para caminar, traje de baño, protector solar, repelente de mosquitos y dinero en efectivo.
+- **Cómo llegar**: Choroní no tiene acceso por carretera, por lo que se debe llegar en barco desde Puerto Colombia o Chuao. El viaje en barco dura aproximadamente 30 minutos.
+- **Cuándo ir**: El mejor momento para visitar Choroní es durante la estación seca, que va desde diciembre hasta abril.
+- **Qué llevar**: Ropa cómoda y ligera, zapatos adecuados para caminar, traje de baño, protector solar, repelente de mosquitos y dinero en efectivo.
 
 **Choroní te espera para que descubras sus encantos y vivas una experiencia inolvidable.**
