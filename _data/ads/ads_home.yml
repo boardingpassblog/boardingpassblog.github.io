@@ -4,11 +4,11 @@ home:
   url: "https://www.instagram.com/movewifi"
 
 after-enterate:
-  image: /assets/images/Avior Banner.gif
+  image: /assets/images/Banner-Directorio.gif
   alt: "Ad después de entérate"
-  event: "AviorPlus"
-  view: "Vistas a AviorPlus después de entérate"
-  url: "https://www.aviorplus.com"
+  event: " "
+  view: "Vistas al Directorio"
+  url: "https://boardingpass.network/directorio/"
 
 after-opinion:
   image: /assets/images/LASER-Airlines---Banner-Miami-900x100.gif
