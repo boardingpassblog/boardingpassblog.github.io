@@ -18,14 +18,14 @@ categories:
 
 [BoardingPass.Network](https://boardingpass.network/) celebra su primer aniversario como la plataforma digital líder para el turismo nacional en Venezuela. Durante este año, se ha dedicado a construir un ecosistema completo que reúne información, experiencias y oportunidades para que los venezolanos redescubran las bellezas de su país y disfruten de una experiencia turística única.
 
-[BoardingPass.Network](https://boardingpass.network/), un portal ofrece a los amantes del turismo en Venezuela una ventana a un mundo de posibilidades. A través de su plataforma, pueden encontrar:
+[BoardingPass.Network](https://boardingpass.network/), un portal que ofrece a los amantes del turismo en Venezuela una ventana a un mundo de posibilidades. A través de su plataforma, pueden encontrar:
 
 - **Información detallada sobre destinos paradisiacos**: Playas, montañas, ciudades coloniales, parques nacionales y mucho más.
 - **Historias y experiencias de viajeros**: Relatos inspiradores que motivan a explorar nuevos rincones del país.
 - **Noticias del sector turístico**: Tendencias, eventos y novedades para estar a la vanguardia del turismo nacional.
 - **Un completo directorio**: Agencias de viajes, operadores turísticos, líneas aéreas, hoteles y posadas, todo en un solo lugar.
 
-Con un compromiso con el desarrollo del turismo nacional, BoardingPass.Network no solo es una plataforma informativa, sino también un agente activo en el desarrollo del turismo nacional. A través de alianzas estratégicas con diferentes actores del sector, trabaja para:
+Con un compromiso con el desarrollo del turismo nacional, [BoardingPass.Network](https://boardingpass.network/) no solo es una plataforma informativa, sino también un agente activo en el desarrollo del turismo nacional. A través de alianzas estratégicas con diferentes actores del sector, trabaja para:
 
 - **Promover el turismo interno**: Incentivando a los venezolanos a viajar por su propio país y descubrir sus encantos.
 - **Fortalecer la oferta turística**: Apoyando a las empresas del sector para que ofrezcan productos y servicios de calidad.
@@ -38,4 +38,3 @@ Confiando en el futuro brillante para el turismo en Venezuela, [BoardingPass.Net
 ¡Descubre las maravillas de tu país y enamórate de Venezuela!
 
 Para más información, visita [BoardingPass.Network](https://boardingpass.network/)
-
