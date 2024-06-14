@@ -20,4 +20,5 @@ image: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Viajespereira.jpg
 types:
   - Agencias
+email: apereiraop@gmail.com⁣
 ---
