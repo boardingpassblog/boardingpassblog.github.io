@@ -4,7 +4,7 @@ published: true
 region: Centro-Occidental
 state: Distrito Capital
 featured: false
-title: Lidotel Cacaras
+title: Lidotel Caracas
 phone_number: +58 (212) 212 1177 / 740 0200
 address: ' Avenida Tamanaco, Urbanización El Rosal, Chacao, Caracas,   Distrito Capital.'
 email: ' reservas@lidotel.com.ve'
@@ -17,4 +17,3 @@ services:
 types:
   - Hospedaje
 ---
-
