@@ -4,7 +4,7 @@ published: true
 region: Los Andes
 state: Mérida
 featured: false
-title: ' Estancia La Cañada Escaguey'
+title: Estancia La Cañada Escaguey
 phone_number: '+58-4121614706 '
 email: escagueyelc@gmail.com
 facebook_user: 'https://www.facebook.com/profile.php?id=100037076662522'
@@ -18,4 +18,3 @@ services:
 types:
   - Hospedaje
 ---
-
