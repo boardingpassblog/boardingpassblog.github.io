@@ -1,7 +1,7 @@
 ---
 layout: post
 date: '2024-03-12 15:25 -0400'
-featured: true
+featured: false
 published: true
 title: Suspensión temporal del Teleférico de Caracas
 description: >-
