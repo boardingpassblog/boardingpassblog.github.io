@@ -4,7 +4,7 @@ published: true
 region: Centro-Norte
 state: Distrito Capital
 featured: false
-title: ' Agencia de Viaje Mafi Tours'
+title: Agencia de Viaje Mafi Tours
 phone_number: (0212)564.0235 +58 424-2489422
 address: >-
   Av. Urdaneta, Esquina Ibarras a Pelota, Edif. Caoma, Piso 2, Ofic. 504,
@@ -19,4 +19,3 @@ services:
 types:
   - Agencias
 ---
-
