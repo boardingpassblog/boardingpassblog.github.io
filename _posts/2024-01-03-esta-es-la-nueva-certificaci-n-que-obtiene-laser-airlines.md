@@ -1,7 +1,7 @@
 ---
 layout: post
 date: '2024-01-03 09:27 -0400'
-featured: true
+featured: false
 published: true
 title: Esta es la nueva certificación que obtiene Laser Airlines
 description: >-
