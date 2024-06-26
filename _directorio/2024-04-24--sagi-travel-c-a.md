@@ -4,7 +4,7 @@ published: true
 region: Centro-Norte
 state: Distrito Capital
 featured: false
-title: ' SAGI TRAVEL, C.A.'
+title: 'Sagi Travel, c.a.'
 phone_number: +58 412 336-1206
 address: >-
   Av. Eugenio Mendoza. Edificio Banco Lara. Piso 10, Of. N-9 La Castellana,
@@ -20,4 +20,3 @@ services:
 types:
   - Agencias
 ---
-
