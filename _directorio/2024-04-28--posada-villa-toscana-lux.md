@@ -4,7 +4,7 @@ published: true
 region: Nor-Oriental
 state: Monagas
 featured: false
-title: ' Posada Villa Toscana Lux '
+title: 'Posada Villa Toscana Lux '
 instagram_user: 'https://www.instagram.com/villatoscana_lux/?hl=es'
 phone_number: 0414 892 75 06 0412 089 74 40  0412-3644712
 address: Maturin. Agropecuaria Padre Pío | San Jaime Zona Industrial
@@ -18,4 +18,3 @@ services:
 types:
   - Hospedaje
 ---
-
