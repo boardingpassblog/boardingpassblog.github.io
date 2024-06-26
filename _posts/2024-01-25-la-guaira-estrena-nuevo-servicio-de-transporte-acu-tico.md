@@ -1,7 +1,7 @@
 ---
 layout: post
 date: '2024-01-25 15:52 -0400'
-featured: true
+featured: false
 published: true
 title: La Guaira estrena nuevo servicio de transporte acuático
 description: >-
