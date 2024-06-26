@@ -4,7 +4,7 @@ published: true
 region: Centro-Norte
 state: Aragua
 featured: false
-title: ' Posada Eco Lodge'
+title: Posada Eco Lodge
 twitter_user: 'https://twitter.com/i/flow/login?redirect_after_login=%2Fposadaecolodge'
 facebook_user: 'https://www.facebook.com/PosadaEcoLodge/?locale=es_LA'
 instagram_user: 'https://www.instagram.com/posadaecolodgeoficial/'
@@ -19,4 +19,3 @@ services:
 types:
   - Hospedaje
 ---
-
