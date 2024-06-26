@@ -14,11 +14,12 @@ website: www.estancialaveracruz.com
 services:
   - Excursiones Locales
   - Guía Turística
-  - Servicio de Reservación
   - Hospedaje
+  - Servicio de Reservación
 image: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Estancia-La-VeraCruz-Logo.jpg
 types:
   - Hospedaje
 services_extra: Organización de Viajes de Turismo
+email: reservas@estancialaveracruz.com
 ---
