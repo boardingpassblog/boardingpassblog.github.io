@@ -15,7 +15,7 @@ categories:
 banner-image: 'https://boardingpass.network/assets/images/Banner-Directorio.gif'
 banner-alt: Te esperamos
 ---
-Macuro, has estado presente en diferentes medios de comunicación y conversaciones en redes sociales, pero,¿Conoces Macuro? ese tesoro histórico en el corazón de Sucre. 
+Macuro, ha estado presente en diferentes medios de comunicación y conversaciones en redes sociales, pero,¿Conoces Macuro? ese tesoro histórico en el corazón de Sucre. 
 
 Macuro es un pueblo costero en el estado Sucre de Venezuela, que se presenta como un destino ideal para aquellos que buscan una escapada tranquila con un toque histórico y cultural. Se encuentra ubicado en la Península de Paria y presume de playas vírgenes, exuberantes paisajes montañosos y un pasado fascinante que se remonta a la época de Cristóbal Colón.
 
