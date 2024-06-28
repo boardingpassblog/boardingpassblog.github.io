@@ -25,6 +25,10 @@ Se encuentra ubicado en la Península de Paria y presume de playas vírgenes, ex
 
 Para muchos Macuro, no tiene nada que disfrutar, por eso aqui te dejamos algunos sitios que recomendamos visitar.
 
+**Parque Nacional Península de Paria:** Un parque nacional con una rica biodiversidad, ideal para senderismo y observación de aves.
+
+**Playa Rosada Macuro**: Ubicada en la peninsula de Paria, muy cerca del pueblo. Es una playa poco conocida, pero de las mas espectaculares y exótica del país
+
 **Playa El Morro**: Un paraíso de arena blanca y aguas cristalinas, perfecto para nadar, tomar el sol o practicar deportes acuáticos.
 
 **Fuerte El Morro**: Una fortaleza colonial del siglo XVII que ofrece impresionantes vistas panorámicas de la costa.
@@ -32,8 +36,6 @@ Para muchos Macuro, no tiene nada que disfrutar, por eso aqui te dejamos algunos
 **Museo Cristóbal Colón**: Un museo dedicado a la llegada de Colón a Macuro en 1498.
 
 **Iglesia San Carlos Borromeo**: Una iglesia colonial del siglo XVIII con una arquitectura única.
-
-**Parque Nacional Península de Paria:** Un parque nacional con una rica biodiversidad, ideal para senderismo y observación de aves.
 
 **Gastronomía** 
 
@@ -43,7 +45,7 @@ Lo mas seguro que hambre no vas a pasar, porque la gastronomía de Macuro se bas
 
 **Sancocho**: Un caldo sustancioso con carne, verduras y yuca.
 
-**Arepas**: Nuestra emblematica arepa que tiene sus orígenes por esas tierra orientales y son servidas  rellenas de diversos ingredientes.
+**Arepas**: Nuestra emblemática arepa que tiene sus orígenes por esas tierra orientales y son servidas  rellenas de diversos ingredientes.
 
 **Empanadas**: Otro plato que no falta rellenos de carne, queso o pescado.
 
