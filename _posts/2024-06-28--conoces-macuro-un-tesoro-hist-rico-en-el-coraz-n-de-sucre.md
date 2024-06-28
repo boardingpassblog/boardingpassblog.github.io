@@ -71,4 +71,4 @@ Te recomendamos 3 posadas disponibles en Macuro
 - Posada Los Amigos 14
 - Posada Cacao Macuro
 
-Para otras opciones en Venezuela, te invitamos a consultar **[nuestro directorio](https://boardingpass.network/directorio/](https://boardingpass.network/directorio/)** 
+Para otras opciones en Venezuela, te invitamos a consultar [Nuestro Directorio](https://boardingpass.network/directorio/](https://boardingpass.network/directorio)
