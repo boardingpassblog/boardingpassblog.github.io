@@ -15,11 +15,15 @@ categories:
 banner-image: 'https://boardingpass.network/assets/images/Banner-Directorio.gif'
 banner-alt: Te esperamos
 ---
-Macuro, ha estado presente en diferentes medios de comunicación y conversaciones en redes sociales, pero,¿Conoces Macuro? ese tesoro histórico en el corazón de Sucre. 
+Macuro, ha estado presente en diferentes medios de comunicación y conversaciones en redes sociales, pero,¿conoces Macuro? un tesoro histórico en el corazón de Sucre. 
 
-Macuro es un pueblo costero en el estado Sucre de Venezuela, que se presenta como un destino ideal para aquellos que buscan una escapada tranquila con un toque histórico y cultural. Se encuentra ubicado en la Península de Paria y presume de playas vírgenes, exuberantes paisajes montañosos y un pasado fascinante que se remonta a la época de Cristóbal Colón.
+Macuro es un pueblo costero en Venezuela, que se presenta como un destino ideal para aquellos que buscan una escapada tranquila con un toque histórico y cultural. 
 
-**Atracciones turísticas**: Para muchos Macuro, no tiene nada que disfrutar, por eso aqui te dejamos algunos sitios que recomendamos visitar.
+Se encuentra ubicado en la Península de Paria y presume de playas vírgenes, exuberantes paisajes montañosos y un pasado fascinante que se remonta a la época de Cristóbal Colón.
+
+**Atracciones turísticas** 
+
+Para muchos Macuro, no tiene nada que disfrutar, por eso aqui te dejamos algunos sitios que recomendamos visitar.
 
 **Playa El Morro**: Un paraíso de arena blanca y aguas cristalinas, perfecto para nadar, tomar el sol o practicar deportes acuáticos.
 
@@ -31,7 +35,9 @@ Macuro es un pueblo costero en el estado Sucre de Venezuela, que se presenta com
 
 **Parque Nacional Península de Paria:** Un parque nacional con una rica biodiversidad, ideal para senderismo y observación de aves.
 
-Gastronomía: Lo mas seguro que hambre no vas a pasar, porque la gastronomía de Macuro se basa en productos frescos del mar y la tierra. Los platos típicos incluyen:
+**Gastronomía** 
+
+Lo mas seguro que hambre no vas a pasar, porque la gastronomía de Macuro se basa en productos frescos del mar y la tierra. Los platos típicos incluyen:
 
 **Cayuclina**: Un guiso de pescado o camarones con leche de coco y plátano verde.
 
@@ -43,7 +49,7 @@ Gastronomía: Lo mas seguro que hambre no vas a pasar, porque la gastronomía de
 
 **Dulces de coco**: Una variedad de postres elaborados con coco, como el dulce de coco rallado y el cocada.
 
-**Historia**:
+**Historia**
 
 Macuro tiene una rica historia que se remonta a la época precolombina. El pueblo fue visitado por Cristóbal Colón en 1498, convirtiéndolo en el primer lugar en tierra firme que pisó en América del Sur. Durante la época colonial, Macuro fue un importante puerto comercial y un centro de producción de cacao.
 
