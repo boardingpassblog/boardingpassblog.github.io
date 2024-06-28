@@ -34,9 +34,13 @@ Macuero es un pueblo costero en el estado Sucre de Venezuela, que se presenta co
 Gastronomía: Lo mas seguro que hambre no vas a pasar, porque la gastronomía de Macuro se basa en productos frescos del mar y la tierra. Los platos típicos incluyen:
 
 **Cayuclina**: Un guiso de pescado o camarones con leche de coco y plátano verde.
+
 **Sancocho**: Un caldo sustancioso con carne, verduras y yuca.
+
 **Arepas**: Nuestra emblematica arepa que tiene sus orígenes por esas tierra orientales y son servidas  rellenas de diversos ingredientes.
+
 **Empanadas**: Otro plato que no falta rellenos de carne, queso o pescado.
+
 **Dulces de coco**: Una variedad de postres elaborados con coco, como el dulce de coco rallado y el cocada.
 
 **Historia**:
