@@ -20,4 +20,6 @@ phone_number: 04129551486
 address: >-
   Av. México, Edificio Hotel Ccs Hilton, Nivel Pb, Local Lobby Ppal, Sector Los
   Caobos, Caracas, Distrito Capital.
+latitude: '10.49759969910352'
+longitude: '-66.84572696226458'
 ---
