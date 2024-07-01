@@ -436,6 +436,16 @@ prose:
           element: text
           label: Ingresa la dirección de correo electrónico
           type: text
+      - name: latitude
+        field:
+          element: text
+          label: Escribe la latitud
+          type: text
+      - name: longitude
+        field:
+          element: text
+          label: Escribe la longitud
+          type: text      
       - name: facebook_user
         field:
           element: text
