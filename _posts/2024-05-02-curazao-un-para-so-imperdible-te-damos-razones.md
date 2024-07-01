@@ -8,6 +8,8 @@ description: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Willemstad-Curacao.jpg
 image: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Willemstad-Curacao.jpg
+pagedescription: 'La arquitectura colonial costera de Willemstad, capital de Curazao, fue declarada por la UNESCO Patrimonio de la Humanidad.'
+keywords: curazao, curacao, Curazao, Curacao, Willemstad
 categories:
   - destinos
 author: 'Boarding Pass '

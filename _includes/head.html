@@ -1,6 +1,11 @@
 <head>
   <meta charset="utf-8">
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <!-- Page Info -->
+  <meta name="description" content="{{ page.pagedescription | strip_html | xml_escape }}">
+  <meta name="keywords" content="{{ page.keywords | strip_html | xml_escape }}">
+
+<!-- Meta Tags Generated via https://opengraph.dev -->
   {% if site.google-analytics %}
   {% if jekyll.environment == 'production' %}
   {% include ads/head-tag-manager.html %}
@@ -28,14 +33,17 @@
   <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
   <meta property="og:image" content="{% if page.image %}{{ page.image | prepend: site.images_url | prepend: site.baseurl | prepend: site.url }}{% else %}{{ site.logo | prepend: site.images_url | prepend: site.baseurl | prepend: site.url }}{% endif %}" />
   <meta property="og:site_name" content="{{ site.title }}" />
+  <meta property="og:type" content="article">
 
   <!--Twitter Meta Tags-->
   <meta name="twitter:card" content="summary">
+  <meta property="twitter:domain" content="boardingpass.network">
   <meta name="twitter:title" content="{% if page.course-title %}{{ page.course-title }}{% elsif page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}">
   <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% elsif page.abstract %}{{ page.abstract }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <meta name="twitter:image" content="{% if page.image %}{{ page.image | prepend: site.images_url | prepend: site.baseurl | prepend: site.url }}{% else %}{{ site.logo | prepend: site.images_url | prepend: site.baseurl | prepend: site.url }}{% endif %}">
   <meta name="twitter:site_name" content="{{ site.title }}" />
-
+  <meta property="twitter:url" content="{{ page.url | absolute_url }}">
+  
   <!--Google+ Meta Tags-->
   <meta itemprop="name" content="{% if page.course-title %}{{ page.course-title }}{% elsif page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}">
   <meta itemprop="description" content="{% if page.description %}{{ page.description }}{% elsif page.abstract %}{{ page.abstract }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">

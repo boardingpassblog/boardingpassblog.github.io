@@ -214,6 +214,16 @@ prose:
           element: text
           label: Ingresa la descripción de la publicación
           type: text
+      - name: pagedescription
+        field:
+          element: text
+          label: Ingresa la descripción de la publicación
+          type: text
+      - name: keywords
+        field:
+          element: text
+          label: Ingresa las palabras claves para que aparezca en Google
+          type: text
       - name: featured
         field:
           element: checkbox
@@ -306,6 +316,16 @@ prose:
           element: text
           label: Fecha de creación
           value: CURRENT_DATETIME
+      - name: pagedescription
+        field:
+          element: text
+          label: Ingresa la descripción de la publicación
+          type: text
+      - name: keywords
+        field:
+          element: text
+          label: Ingresa las palabras claves para que aparezca en Google
+          type: text
       - name: published
         field:
           element: checkbox
@@ -508,6 +528,16 @@ prose:
           element: text
           label: Ingresa el nombre 
           type: text
+      - name: pagedescription
+        field:
+          element: text
+          label: Ingresa la descripción de la publicación
+          type: text
+      - name: keywords
+        field:
+          element: text
+          label: Ingresa las palabras claves para que aparezca en Google
+          type: text
       - name: date
         field:
           element: text
@@ -552,6 +582,16 @@ prose:
         field:
           element: text
           label: Ingresa el nombre del boletín
+          type: text
+      - name: pagedescription
+        field:
+          element: text
+          label: Ingresa la descripción de la publicación
+          type: text
+      - name: keywords
+        field:
+          element: text
+          label: Ingresa las palabras claves para que aparezca en Google
           type: text
       - name: date
         field:
