@@ -1810,21 +1810,21 @@ th.descripcion {
 }
 
 .airline-band {
-  border-right: 2px solid #3498db !important;
+  border-right: 4px solid #3498db !important;
 }
 
 .hotel-band {
-  border-right: 2px solid #e74c3c !important;
+  border-right: 4px solid #e74c3c !important;
 }
 
 .operators-band {
-  border-right: 2px solid #2ecc71 !important;
+  border-right: 4px solid #2ecc71 !important;
 }
 
 .wholesale-band {
-  border-right: 2px solid #2ecc71 !important;
+  border-right: 4px solid #2ecc71 !important;
 }
 
 .agencies-band {
-  border-right: 2px solid #f39c12 !important;
+  border-right: 4px solid #f39c12 !important;
 }
