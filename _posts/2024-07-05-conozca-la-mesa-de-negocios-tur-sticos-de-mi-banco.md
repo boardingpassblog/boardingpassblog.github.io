@@ -27,7 +27,7 @@ categories:
 ---
 **Que viene a reconciliar el sector del turismo con la banca venezolana.**
 
-Recientemente tuvimos la oportunidad de conversar con, gran amigo de Boarding Pass y el director de la **Mesa de Negocios Turísticos de Mi Banco**. En pocos minutos él nos explicó qué fue lo que identificó la institución financiera y cuál es su propuesta para los operadores turísticos que hacen vida en Venezuela.
+Recientemente tuvimos la oportunidad de conversar con **Reinaldo Pulido**, gran amigo de Boarding Pass y el director de la **Mesa de Negocios Turísticos de Mi Banco**. En pocos minutos él nos explicó qué fue lo que identificó la institución financiera y cuál es su propuesta para los operadores turísticos que hacen vida en Venezuela.
 
 **Existen dos realidades en el país que no se pueden negar.** 
 
