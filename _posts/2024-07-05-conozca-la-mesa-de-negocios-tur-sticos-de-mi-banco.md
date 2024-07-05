@@ -27,9 +27,9 @@ categories:
 ---
 **Que viene a reconciliar el sector del turismo con la banca venezolana.**
 
-Recientemente tuvimos la oportunidad de conversar con, gran amigo de Boarding Pass y el director de la**Mesa de Negocios Turísticos de Mi Banco**. En pocos minutos él nos explicó qué fue lo que identificó la institución financiera y cuál es su propuesta para los operadores turísticos que hacen vida en Venezuela.
+Recientemente tuvimos la oportunidad de conversar con, gran amigo de Boarding Pass y el director de la **Mesa de Negocios Turísticos de Mi Banco**. En pocos minutos él nos explicó qué fue lo que identificó la institución financiera y cuál es su propuesta para los operadores turísticos que hacen vida en Venezuela.
 
-Existen dos realidades en el país que no se pueden negar. 
+**Existen dos realidades en el país que no se pueden negar.** 
 
 La primera es que la banca en general se desconectó de la comunidad. 
 
@@ -43,7 +43,7 @@ Antes de entrar en materia hay que destacar que desde el año pasado se ha visto
 
 Identificando que existe esa tendencia de parte del gobierno central hacia el turismo, Pulido conversa con Ricardo IV Montilla, presidente de Mi Banco, juntos realizan un focus group con gente del turismo nacional, y detectan cuál es el principal común denominador: la falta de atención y servicios adaptados a las necesidades del sector.
 
-A partir de allí crean un área especial para atenderlos en el banco, la Mesa de Negocios Turísticos, con el objetivo principal de ofrecer herramientas para que cobren y paguen en bolívares, como un complemento a la forma con la que vienen operando.
+A partir de allí crean un área especial para atenderlos en el banco, la **Mesa de Negocios Turísticos**, con el objetivo principal de ofrecer herramientas para que cobren y paguen en bolívares, como un complemento a la forma con la que vienen operando.
 
 "Las empresas que han tomado las herramientas, como el caso del motor de pago móvil conciliado, uno de nuestros cobros, ha mantenido su usabilidad de dólares y han creado ellos todo un mercado nuevo en bolívares”. 
 
