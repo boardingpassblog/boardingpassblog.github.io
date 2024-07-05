@@ -17,7 +17,7 @@ keywords: >-
 image: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Reinaldo-Pulido-1.jpg
 image-text: Reinaldo Pulido
-title_carousel: Aspeco de la conversación con Reinaldo Pulido
+title_carousel: Conversando con Reinaldo Pulido
 image_carousel: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Reinaldo-Pulido-1.jpg
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Reinaldo-Pulido.jpg
