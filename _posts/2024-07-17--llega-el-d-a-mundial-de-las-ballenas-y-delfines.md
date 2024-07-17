@@ -24,7 +24,7 @@ categories:
 - Un canto a la conservación en las costas venezolanas
 - Un llamado a la acción desde las profundidades
 
-Como amantes de las aventuras y  de la vida salvaje, así como ferviente admirador de las ballenas, nos unimos desde BoardingPass al coro global que celebra el Día Mundial de las Ballenas y Delfines, que se conmemora cada 23 de julio. Esta fecha, establecida en 1986 por la Comisión Ballenera Internacional, tiene como objetivo principal crear conciencia sobre la importancia de estas criaturas majestuosas para nuestros ecosistemas marinos y las graves amenazas que enfrentan a causa de la actividad humana.
+Como amantes de las aventuras y  de la vida salvaje, así como ferviente admirador de las ballenas, nos unimos desde **BoardingPass** al coro global que celebra el Día Mundial de las Ballenas y Delfines, que se conmemora cada 23 de julio. Esta fecha, establecida en 1986 por la Comisión Ballenera Internacional, tiene como objetivo principal crear conciencia sobre la importancia de estas criaturas majestuosas para nuestros ecosistemas marinos y las graves amenazas que enfrentan a causa de la actividad humana.
 
 **Venezuela, un paraíso para los cetáceos**
 
@@ -55,7 +55,7 @@ Algunos de los mejores sitios para la observación de cetáceos en Venezuela:
 - **Siga las instrucciones de los guías**: Los guías están capacitados para garantizar una experiencia segura y respetuosa para todos.
 - **Mantenga la distancia**: Evite acercarse demasiado a los cetáceos para no perturbar su comportamiento natural.
 - **No arroje basura al mar**: La basura marina es una gran amenaza para los cetáceos y otros animales marinos.
-- Eduque a otros: Comparta su conocimiento y experiencia sobre la importancia de la conservación de los cetáceos con amigos, familiares y otras personas.
+- **Eduque a otros**: Comparta su conocimiento y experiencia sobre la importancia de la conservación de los cetáceos con amigos, familiares y otras personas.
 - **Celebrando a los gigantes del mar**: Un futuro esperanzador
 
 El Día Mundial de las Ballenas y Delfines es un recordatorio de que estas criaturas majestuosas son parte integral de nuestros ecosistemas marinos y que su supervivencia depende de nuestras acciones.
