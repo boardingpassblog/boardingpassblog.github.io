@@ -5,13 +5,13 @@ featured: false
 published: true
 title: Laser Airlines incorpora nuevas frecuencias en rutas internacionales
 description: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Avion-Laser.jpg
+  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/laser-new.jpg
 pagedescription: Nuevas frecuencias anuncia laser airlines en sus rutas internacionales
 keywords: >-
   Laser Airlines, Laser, Frecuencias, Rutas, Venezuela, Tuboarding, turismo,
   viajes, destinos
 image: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Avion-Laser.jpg
+  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/laser-new.jpg
 image-text: Nuevas Rutas
 banner-image: 'https://boardingpass.network/assets/images/Banner-Directorio.gif'
 banner-url: 'https://boardingpass.network/directorio//'
