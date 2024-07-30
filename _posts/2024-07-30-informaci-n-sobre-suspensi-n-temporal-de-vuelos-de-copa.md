@@ -19,7 +19,7 @@ categories:
   - enterate
 author: Copa Airlines
 ---
-Copa Airlines informa que, el Ministerio de Transporte de la República Bolivariana de Venezuela anunció la suspensión temporal detodos los vuelos aerocomerciales entre Panamá y Venezuela a partir de las 8:00pm (hora local de Venezuela) del miércoles 31 de Julio de 2024.
+Copa Airlines informa que, el Ministerio de Transporte de la República Bolivariana de Venezuela anunció la suspensión temporal de todos los vuelos aerocomerciales entre Panamá y Venezuela a partir de las 8:00pm (hora local de Venezuela) del miércoles 31 de Julio de 2024.
 
 Copa Airlines lamenta los inconvenientes que esta medida, fuera del control de la Empresa, 
 pueda causar en los planes de viaje de sus pasajeros y hará todo lo posible para disminuir su impacto. Con el objetivo de brindar atención a quienes tienen vuelos programados hacia y desde Venezuela en fecha posterior al 31 de julio, la aerolínea ofrece las siguientes alternativas: 
