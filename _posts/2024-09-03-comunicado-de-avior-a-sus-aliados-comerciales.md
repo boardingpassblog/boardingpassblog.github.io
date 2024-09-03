@@ -6,8 +6,20 @@ published: false
 title: Comunicado de AVIOR a sus aliados comerciales
 image: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Avion-AVIOR.jpg
+description: >-
+  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Avion-AVIOR.jpg
+pagedescription: >-
+  anunciar la estrategia comercial entre SKYhigh y Avior con el objetivo de
+  mejorar la experiencia de viaje de nuestros pasajeros y ofrecerles una mayor
+  flexibilidad en sus conexiones aéreas. 
+keywords: >-
+  AVIOR, SKYHIGH, Sky High, Avior, Curazao, conexion, CCS ,CUR ,DO ,SDQ
+  ,MIA,Miami,Venezuela
+author: Avior Airlines
+categories:
+  - enterate
 ---
-Estimados aliados comerciales,
+**Estimados aliados comerciales**,
 
 Nos complace anunciar la estrategia comercial entre SKYhigh y Avior con el objetivo de mejorar la experiencia de viaje de nuestros pasajeros y ofrecerles una mayor flexibilidad en sus conexiones aéreas. Esta estrategia permitirá a los viajeros planificar sus itinerarios, aprovechando la red de destinos de ambas aerolíneas. 
  
@@ -37,5 +49,4 @@ Se suspende de manera temporal el traslado de mascotas procedentes de Venezuela 
 
 Sin embargo, si su viaje es de Miami a Venezuela, sí es posible llevar a su mascota, ya que en este caso no se requiere pasar por aduana.
 
-Agradecemos su comprensión y esperamos que esta estrategia comercial les ofrezca más opciones y flexibilidad en sus viajes. 
-
+Agradecemos su comprensión y esperamos que esta estrategia comercial les ofrezca más opciones y flexibilidad en sus viajes.
