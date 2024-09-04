@@ -2,8 +2,8 @@
 layout: post
 date: '2024-09-03 19:10 -0400'
 featured: false
-published: false
-title: Comunicado de AVIOR a sus aliados comerciales
+published: true
+title: Esta es la estrategia comercial de AVIOR y SKYHigh
 image: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/main/assets/images/Avion-AVIOR.jpg
 description: >-
