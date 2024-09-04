@@ -36,14 +36,14 @@ Los pasajeros afectados por la suspensión temporal de los vuelos a República D
 - Los pasajeros contarán con acompañamiento por parte del personal de Skyhigh en CUR para agilizar el proceso de migración. En cuanto al equipaje deben solicitar asistencia al personal de Avior. 
 - Skyhigh permitirá el traslado de pasajeros en condición PAROLE HUMANITARIO considerando que la aprobación o negación del embarque la indica el ente migratorio de EE. UU. (CBP). 
 - Los pasajeros que viajen sin visa de turismo y realicen tránsito en Curazao, deben presentar obligatoriamente el boleto de conexión a su destino y el mismo no puede exceder las doce (12) horas de espera.
--Pasajeros con destino final conexión posterior no requieren tarjeta de vacunación de la fiebre amarilla. 
--Los Pasajeros en conexión también deben realizar el llenado del formulario (ED CARD) que exige CUR.
--Los Pasajeros en conexión también deben realizar el llenado del formulario (ED CARD) que exige CUR. Tienen la opción de hacerlo al momento de comprar el boleto, pero es importante destacar que no debe ser llenado con más de un mes de antelación. 
--Pasajeros en conexión con destino final a Republica Dominicana deben realizar el llenado del formulario (ET TICKET) que exige el país. 
--Se estará permitiendo el embarque a pasajeros con pasaporte vencido, no cédulas ni salvo conducto. 
--Los servicios especiales deben ser pagados y validarlo de forma independiente, considerando las políticas comerciales de cada línea aérea. 
--La estructura tarifaria corresponde a la habitualmente comercializada (desde la clase L a la C). 
--Los UMNR deberán ser recibidos por un representante designado en la carta de autorización (padre, madre, familiar, etc) en CUR para poder continuar con su tránsito hacia su destino final. Es importante señalar que los padres o tutores son responsables de asegurarse de que el menor cuenta con toda la documentación necesaria y cumple con los requisitos migratorios de cada país. 
+- Pasajeros con destino final conexión posterior no requieren tarjeta de vacunación de la fiebre amarilla. 
+- Los Pasajeros en conexión también deben realizar el llenado del formulario (ED CARD) que exige CUR.
+- Los Pasajeros en conexión también deben realizar el llenado del formulario (ED CARD) que exige CUR. Tienen la opción de hacerlo al momento de comprar el boleto, pero es importante destacar que no debe ser llenado con más de un mes de antelación. 
+- Pasajeros en conexión con destino final a Republica Dominicana deben realizar el llenado del formulario (ET TICKET) que exige el país. 
+- Se estará permitiendo el embarque a pasajeros con pasaporte vencido, no cédulas ni salvo conducto. 
+- Los servicios especiales deben ser pagados y validarlo de forma independiente, considerando las políticas comerciales de cada línea aérea. 
+- La estructura tarifaria corresponde a la habitualmente comercializada (desde la clase L a la C). 
+- Los UMNR deberán ser recibidos por un representante designado en la carta de autorización (padre, madre, familiar, etc) en CUR para poder continuar con su tránsito hacia su destino final. Es importante señalar que los padres o tutores son responsables de asegurarse de que el menor cuenta con toda la documentación necesaria y cumple con los requisitos migratorios de cada país. 
 
 Se suspende de manera temporal el traslado de mascotas procedentes de Venezuela porque no pueden viajar a Curazao, incluso si se hace conexión a otro destino, ya que deben pasar por aduana en la isla, y actualmente no está permitido su ingreso. 
 
