@@ -20,7 +20,9 @@ author: Edgar Rincón
 categories:
   - enterate
 ---
-Desde su creación mediante resolución ministerial publicada en gaceta oficial de la República Bolivariana de Venezuela N°42.387, del 30 de mayo de 2022, con el objetivo de reconocer a los prestadores de servicios turísticos y demás actores de este sector que fomenten la calidad, innovación, inclusión y democratización en la prestación de los servicios asociados con el turismo en Venezuela.  
+En un esfuerzo por impulsar la calidad y la innovación en el sector turístico venezolano, el Gobierno Bolivariano creó los Premios Nacionales de Turismo a través de la Gaceta Oficial de la República Bolivariana de Venezuela N°42.387, del 30 de mayo de 2022. Este reconocimiento se erige como el máximo galardón otorgado a los prestadores de servicios turísticos y demás actores involucrados en esta industria, que se destacan por su excelencia, compromiso y contribución al desarrollo del sector.
+
+Los Premios Nacionales de Turismo representan un hito importante en el desarrollo del sector turístico venezolano, al reconocer y premiar la excelencia, la innovación y el compromiso de quienes trabajan en esta industria. Estos premios contribuyen a fortalecer la imagen de Venezuela como un destino turístico de calidad y a impulsar el crecimiento económico y social del país.
 
 Este año un total de 235 postulaciones se disputarán la III edición del Premio Nacional de Turismo 2024, fueron admitidas por el Ministerio del Poder Popular para el Turismo (Mintur), un galardón que enaltece la calidad, productividad y el compromiso de la labor realizada por los prestadores de servicios turísticos y demás actores de este sector.
 
