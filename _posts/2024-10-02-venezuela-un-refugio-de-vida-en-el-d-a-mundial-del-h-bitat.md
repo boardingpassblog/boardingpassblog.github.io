@@ -8,6 +8,15 @@ description: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/refs/heads/main/assets/images/Habitat.jpg
 image: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/refs/heads/main/assets/images/Habitat.jpg
+keywords: >-
+  Día Mundial del Hábitat, Venezuela, biodiversidad, aves, conservación,
+  hábitats, deforestación, cambio climático.
+pagedescription: >-
+  El Día Mundial del Hábitat nos invita a reflexionar sobre el lugar que
+  llamamos hogar y su importancia para todas las formas de vida.
+author: Edgar Rincón
+categories:
+  - enterate
 ---
 La celebración mundial del Día Mundial del Hábitat, que se celebra el 7 de octubre de 2024, tiene por lema "Involucrar a los jóvenes para crear un futuro urbano mejor". El objetivo del evento es abordar los retos y oportunidades de la rápida urbanización. Se centrará en la participación activa de los jóvenes en la configuración de ciudades y comunidades sostenibles. Esta celebración hace hincapié en cómo podemos involucrar a las nuevas generaciones en la planificación de su presente y futuro urbanos mediante procesos participativos y oportunidades de liderazgo local.
 
