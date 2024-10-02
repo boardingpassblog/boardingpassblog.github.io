@@ -20,7 +20,7 @@ author: Edgar Rincón
 categories:
   - enterate
 ---
-**Celebramos el Día Mundial de las Aves Migratorias**
+**Hoy, Celebramos el Día Mundial de las Aves Migratorias (12/10/2024) **
 
 Cada año, millones de aves emprenden viajes asombrosos a través de continentes enteros. Estos intrépidos viajeros aéreos dependen de una red de hábitats saludables para sobrevivir y reproducirse. Venezuela, gracias a su diversa geografía, juega un papel crucial en estas rutas migratorias, sirviendo como un oasis para muchas especies.
 
