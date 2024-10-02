@@ -11,14 +11,14 @@ keywords: >-
 image: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/refs/heads/main/assets/images/Migracion.jpg
 pagedescription: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/refs/heads/main/assets/images/Migracion.jpg
-description: >-
   Día Mundial de la Migración de Aves, Venezuela es un hogar vital para millones
   de aves que viajan entre Norte y Sudamérica
 image-text: El puente aéreo de Venezuela
 author: Edgar Rincón
 categories:
   - enterate
+description: >-
+  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/refs/heads/main/assets/images/Migracion.jpg
 ---
 **Hoy, Celebramos el Día Mundial de las Aves Migratorias (12/10/2024) **
 
