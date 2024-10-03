@@ -1,8 +1,8 @@
 ---
 layout: post
-date: '2024-10-02 11:02 -0400'
+date: '2024-10-07 08:00 -0400'
 featured: false
-published: false
+published: true
 title: 'Venezuela: Un Refugio de Vida en el Día Mundial del Hábitat'
 description: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/refs/heads/main/assets/images/Habitat.jpg
