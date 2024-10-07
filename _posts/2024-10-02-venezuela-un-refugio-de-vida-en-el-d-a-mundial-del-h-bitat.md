@@ -40,7 +40,7 @@ En este Día Mundial del Hábitat, renovemos nuestro compromiso con la protecci�
 
 **¿Cómo proteger nuestros hábitats y la vida silvestre que albergan?**
 
-**Crear y ampliar áreas protegidas**: Los parques nacionales y reservas naturales son esenciales para conservar la biodiversidad.
-**Promover prácticas agrícolas sostenible**s: La agricultura debe realizarse de manera que minimice su impacto en los ecosistemas naturales.
-**Combatir la deforestación**: Es necesario detener la pérdida de nuestros bosques y restaurar aquellos que han sido degradados.
-**Concientizar a la población**: La educación ambiental es clave para fomentar una cultura de respeto y cuidado por la naturaleza.
+- **Crear y ampliar áreas protegidas**: Los parques nacionales y reservas naturales son esenciales para conservar la biodiversidad.
+- **Promover prácticas agrícolas sostenible**s: La agricultura debe realizarse de manera que minimice su impacto en los ecosistemas naturales.
+- **Combatir la deforestación**: Es necesario detener la pérdida de nuestros bosques y restaurar aquellos que han sido degradados.
+- **Concientizar a la población**: La educación ambiental es clave para fomentar una cultura de respeto y cuidado por la naturaleza.
