@@ -23,11 +23,15 @@ author: 'Boarding Pass '
 ---
 ¿Estás cansado de los mismos destinos turísticos? Mérida tiene mucho más que ofrecer. Alejandra Luna, experta en turismo, nos invita a explorar nuevas rutas y descubrir los tesoros escondidos de los pueblos andinos.
 
-Uno de los ejemplos más destacados es el pueblo de Jají, donde la belleza arquitectónica colonial y la hospitalidad de sus habitantes se combinan para ofrecer una experiencia única. Luna enfatizó las tarifas accesibles de las posadas locales, lo que convierte a Jají en un destino atractivo para todo tipo de viajeros.
+Uno de los ejemplos más destacados es el pueblo de Jají, donde la belleza arquitectónica colonial y la hospitalidad de sus habitantes se combinan para ofrecer una experiencia única. 
 
-Pero Jají no es el único tesoro escondido. La ruta del café y el pueblo de Mesa Bolívar, con su impresionante vista al Lago de Maracaibo y el fenómeno del relámpago del Catatumbo, se presentan como alternativas emocionantes para los amantes de la naturaleza y la aventura.
+Las tarifas accesibles de las posadas locales, Luna enfatizó, lo que convierte a Jají en un destino atractivo para todo tipo de viajeros.
 
-Esta visión de Luna se alinea con la necesidad de impulsar el turismo en los pueblos más pequeños de Mérida, permitiendo a los visitantes descubrir la diversidad cultural y natural de la región. Al diversificar la oferta turística, se busca atraer a un público más amplio y generar un mayor impacto económico en las comunidades locales.
+Jají no es el único tesoro escondido. La ruta del café y el pueblo de Mesa Bolívar, con su impresionante vista al Lago de Maracaibo y el fenómeno del relámpago del Catatumbo, se presentan como alternativas emocionantes para los amantes de la naturaleza y la aventura.
+
+Esta visión de Luna se alinea con la necesidad de impulsar el turismo en los pueblos más pequeños de Mérida, permitiendo a los visitantes descubrir la diversidad cultural y natural de la región. 
+
+Al diversificar la oferta turística, se busca atraer a un público más amplio y generar un mayor impacto económico en las comunidades locales.
 
 Imagina pasear por las calles empedradas de Jají, admirar su arquitectura colonial y disfrutar de la tranquilidad de sus posadas. O bien, aventurarte por la ruta del café y llegar a Mesa Bolívar, donde podrás contemplar el majestuoso Lago de Maracaibo y el espectáculo natural del relámpago del Catatumbo.
 
