@@ -16,6 +16,8 @@ pagedescription: >-
   Los connacionales que deseen entrar al territorio nacional sin un pasaporte
   venezolano válido deben solicitar el salvoconducto al menos 72 horas antes del
   vuel
+categories:
+  - opinion
 ---
 Desde el pasado 27 de septiembre, los venezolanos en el exterior que tengan pasaportes vencidos no podrán ingresar al país por vía aérea. Esta medida afecta a aquellos que no puedan renovar sus documentos a tiempo, por hurto o pérdida del pasaporte, obligándolos a solicitar un salvoconducto de viaje. Este documento es esencial para poder regresar a Venezuela.
 
