@@ -3,7 +3,7 @@ layout: post
 date: '2024-10-11 10:18 -0400'
 featured: false
 published: true
-title: Samsung redefine la experiencia visual e interacción en hoteles
+title: Samsung redefine tu experiencia visual e interacción en hoteles
 description: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/refs/heads/main/assets/images/Samsung-Hotel.jpg
 keywords: >-
