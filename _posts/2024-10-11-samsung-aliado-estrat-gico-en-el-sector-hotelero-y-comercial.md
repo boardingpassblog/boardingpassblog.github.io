@@ -7,9 +7,10 @@ title: Samsung redefine tu experiencia visual e interacción en hoteles
 description: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/refs/heads/main/assets/images/Samsung-Hotel.jpg
 keywords: >-
-  Televisores,hoteles, The Wall Magic Info, Certificación ISO 27001,
+  Televisores, hoteles, The Wall Magic Info, Certificación ISO 27001,
   Certificación ISO 27701, Knox, Q-Symphony Lite Crystal, UHD 4K, UHD, InfoComm
-  2024, Tinta digital Papel electrónico
+  2024, Tinta digital Papel electrónico, turismo, turismo de lujo, tecnología,
+  hotel, hoteles modernos, habitación confortable, samsung electronic
 image: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/refs/heads/main/assets/images/Samsung-Hotel.jpg
 pagedescription: >-
