@@ -22,7 +22,7 @@ author: Ana Iriza
 categories:
   - enterate
 ---
-**Las soluciones de Samsung están estableciendo nuevos estándares en seguridad, eficiencia y comodidad para la atención huéspedes**
+**Las soluciones de Samsung están estableciendo nuevos estándares en seguridad, eficiencia y comodidad para la atención de huéspedes**
  
 La multinacional coreana participó en la **Expo Comercial Asonahores 2024** de República Dominicana donde presentó sus más novedosas soluciones diseñadas para el sector turístico y comercial, algo muy esperado por la industria de la hospitality. 
 
