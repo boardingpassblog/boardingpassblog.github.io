@@ -1,7 +1,7 @@
 ---
 layout: post
 date: '2024-09-23 17:02 -0400'
-featured: true
+featured: false
 published: true
 title: Nominados a los Premio Nacional de Turismo 2024
 description: >-
