@@ -12,7 +12,8 @@ image-text: Reconocimiento facial en aeropuerto
 author: 'Boarding Pass '
 keywords: >-
   Aeropuerto, Latinoamérica, reconocimiento facial, tecnología biométrica,
-  turismo, viajes, hid global, seguridad hid
+  turismo, viajes, hid global, seguridad hid, control de seguridad, embarque,
+  boarding pass
 description: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/refs/heads/main/assets/images/Reconocimiento%20Facial%20Aeropuerto.png
 categories:
