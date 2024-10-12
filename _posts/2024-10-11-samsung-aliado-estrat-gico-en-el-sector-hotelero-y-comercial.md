@@ -25,7 +25,7 @@ categories:
 ---
 **Las nuevas soluciones de Samsung para la industria hotelera revolucionaron los estándares en seguridad, eficiencia y comodidad para la atención de huéspedes en el mundo.**
  
-La multinacional coreana participó en la **Expo Comercial Asonahores 2024** de República Dominicana donde presentó sus más novedosas soluciones diseñadas para el sector turístico y comercial, algo que la industria de hotelera estaba esperando hace mucho. 
+La multinacional coreana participó en la **Expo Comercial Asonahores 2024** de República Dominicana donde presentó sus más novedosas soluciones diseñadas para el sector turístico y comercial, algo que la industria hotelera estaba esperando hace mucho. 
 
 Durante el evento realizado en Punta Cana, uno de los destinos más deseados de Latinoamérica y el mundo, el fabricante expuso una serie de productos y aplicativos como los televisores Hospitality con LYNK Cloud en gran formato con The Wall que permiten la gestión de contenidos de dispositivos e inteligencia empresarial exclusiva para hoteles, así como certificación de seguridad de información y privacidad, señalización digital Magic Info, kioskos digitales informativos y de autogestión, televisores para exteriores y el novedoso Samsung Color E-Paper, una pantalla de papel digital liviana, delgada y de consumo ultra bajo. 
 
