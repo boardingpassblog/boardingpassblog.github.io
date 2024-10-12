@@ -24,7 +24,7 @@ pagedescription: >-
 ---
 **¿Puede ser el recorrido por el aeropuerto más fluido, eficiente y sin complicaciones para los pasajeros? La respuesta es sí y viene de la mano de Vinícius Ferreira, Ingeniero de Soluciones en HID.** 
 
-En una reciente publicación el ingeniero de la cadena de seguros ha explicado que el aumento en el tráfico aéreo en la región de Latinoamérica ha hecho necesario buscar innovaciones tecnológicas para optimizar la experiencia de los viajeros. 
+En una reciente publicación el ingeniero ha explicado que el aumento en el tráfico aéreo en la región de Latinoamérica ha hecho necesario buscar innovaciones tecnológicas para optimizar la experiencia de los viajeros. 
 En este sentido, los sistemas de autenticación como los biométricos destacan por su capacidad para agilizar los procesos de controles de seguridad y embarque.  
 
 En los aeropuertos se viven situaciones estresantes como largas filas en el check-in, complejos procesos de entrega de equipaje y repetidas verificaciones de identidad que ralentizan su tránsito; además, las esperas en los controles de seguridad, la complejidad de los procesos de inmigración y la confusión en las áreas de recogida de equipaje no ayudan.
