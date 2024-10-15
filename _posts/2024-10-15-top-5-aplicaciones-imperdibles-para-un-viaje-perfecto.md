@@ -14,6 +14,13 @@ keywords: >-
   Viajes, planificación de viajes, aplicaciones de viajes, app para viajeros,
   tours, app tours, airbnb, trivago, klook, hospedaje, yango, hooper,
   skyscanner, vuelos
+pagedescription: >-
+  La conectividad y desarrollo tecnológico cambió la manera en que las personas
+  planifican sus viajes. Y es que cada vez son más quienes optan por organizar
+  sus recorridos de manera independiente
+categories:
+  - enterate
+  - opinion
 ---
 **La conectividad y desarrollo tecnológico cambió la manera en que las personas planifican sus viajes. Y es que cada vez son más quienes optan por organizar sus recorridos de manera independiente**, ahorrando tiempo y dinero, con la libertad de explorar a su propio ritmo, bien sea un viaje familiar o en grupos de amigos.  
 
