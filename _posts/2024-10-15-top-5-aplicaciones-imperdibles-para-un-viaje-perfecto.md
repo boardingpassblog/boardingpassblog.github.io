@@ -22,9 +22,9 @@ categories:
   - enterate
   - opinion
 ---
-**La conectividad y desarrollo tecnológico cambió la manera en que las personas planifican sus viajes. Y es que cada vez son más quienes optan por organizar sus recorridos de manera independiente**, ahorrando tiempo y dinero, con la libertad de explorar a su propio ritmo, bien sea un viaje familiar o en grupos de amigos.  
+**La conectividad y desarrollo tecnológico cambiaron la manera en la que las personas planifican sus viajes. Y es que cada vez son más quienes optan por organizar sus recorridos de forma independiente**, ahorrando tiempo y dinero, con la libertad de explorar a su propio ritmo, bien sea un viaje familiar o en grupos de amigos.  
 
-El **Grupo Yango**, una empresa tecnológica colombiana de servicios cotidianos de movilidad y soluciones de envíos que ofrece realizar trayectos al alcance de clic en ciudades como Cali, Medellín, Barranquilla, Bucaramanga y Cúcuta, realizó una lista de las 5 mejores aplicaciones para viajeros que deseen aventurarse sin la ayuda de una agencia de viajes; van desde reserva de hoteles hasta transporte. 
+El **Grupo Yango**, empresa tecnológica colombiana de servicios cotidianos de movilidad y soluciones de envíos que ofrece realizar trayectos al alcance de clic en ciudades como Cali, Medellín, Barranquilla, Bucaramanga y Cúcuta, realizó una lista de las 5 mejores aplicaciones para viajeros que desean aventurarse sin la ayuda de una agencia de viajes; ésta va desde reserva de hoteles hasta transporte. 
 
 **Vuelos**
 
