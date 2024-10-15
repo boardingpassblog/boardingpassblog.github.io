@@ -22,9 +22,9 @@ categories:
   - enterate
   - opinion
 ---
-**La conectividad y desarrollo tecnológico cambiaron la manera en la que las personas planifican sus viajes. Y es que cada vez son más quienes optan por organizar sus recorridos de forma independiente**, ahorrando tiempo y dinero, con la libertad de explorar a su propio ritmo, bien sea un viaje familiar o en grupos de amigos.  
+**La conectividad y desarrollos tecnológicos cambiaron la manera en la que las personas planifican sus viajes. Y es que cada vez son más quienes optan por organizar sus recorridos de forma independiente**, ahorrando tiempo y dinero, con la libertad de explorar a su propio ritmo, bien sea un viaje familiar o en grupos de amigos.  
 
-El **Grupo Yango**, empresa tecnológica colombiana de servicios cotidianos de movilidad y soluciones de envíos que ofrece realizar trayectos al alcance de clic en ciudades como Cali, Medellín, Barranquilla, Bucaramanga y Cúcuta, realizó una lista de las 5 mejores aplicaciones para viajeros que desean aventurarse sin la ayuda de una agencia de viajes; ésta va desde reserva de hoteles hasta transporte. 
+El **Grupo Yango**, empresa tecnológica colombiana de servicios cotidianos de movilidad y soluciones de envíos que ofrece realizar trayectos al alcance de clic en ciudades como Cali, Medellín, Barranquilla, Bucaramanga y Cúcuta, realizó la lista de las 5 mejores aplicaciones para viajeros que desean aventurarse sin ayuda de agencia de viajes; ésta va desde reserva de hoteles hasta transporte. 
 
 **Vuelos**
 
@@ -32,7 +32,7 @@ Cuando se trata de reservar y gestionar vuelos, las apps especializadas pueden s
 
 **Movilidad** 
 
-Si están en Colombia puedes contar su app de movilidad, 'Yango', pero si estan en otros países puedes optar por Uber, Ridery, Yummy, etc. 
+Si están en Colombia puedes contar la app de movilidad 'Yango'. Sin necesidad de incurrir en un conductor privado o depender del transporte público, la aplicación está disponible en diferentes categorías como moto desde 2.700 pesos y carros desde 4.200 pesos.
 
 **Hospedaje**
 
