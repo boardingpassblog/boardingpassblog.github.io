@@ -27,12 +27,15 @@ categories:
 El **Grupo Yango**, una empresa tecnológica colombiana de servicios cotidianos de movilidad y soluciones de envíos que ofrece realizar trayectos al alcance de clic en ciudades como Cali, Medellín, Barranquilla, Bucaramanga y Cúcuta, realizó una lista de las 5 mejores aplicaciones para viajeros que deseen aventurarse sin la ayuda de una agencia de viajes; van desde reserva de hoteles hasta transporte. 
 
 **Vuelos**
+
 Cuando se trata de reservar y gestionar vuelos, las apps especializadas pueden ser grandes aliadas para asegurar el mejor itinerario al mejor precio. **Skyscanner** es una opción popular que permite comparar tarifas de cientos de aerolíneas y agencias de viajes en un solo lugar. **Hopper**, utiliza inteligencia artificial para predecir las fluctuaciones de precios de los vuelos y recomendarte el mejor momento para comprar. Ambas aplicaciones facilitan el seguimiento de tu vuelo en tiempo real y te mantienen informado de cualquier cambio en su itinerario. 
 
 **Movilidad** 
+
 Si están en Colombia puedes contar su app de movilidad, 'Yango', pero si estan en otros países puedes optar por Uber, Ridery, Yummy, etc. 
 
 **Hospedaje**
+
 Cuando se trata de encontrar el lugar perfecto para hospedarse, las aplicaciones pueden ahorrarte tiempo y dinero. **Airbnb**, una de las más populares, ofrece una amplia variedad de opciones de alojamiento, desde apartamentos en el centro de la ciudad hasta cabañas en destinos alejados. Con esta app, puedes acceder a experiencias únicas al reservar espacios ofrecidos por anfitriones locales, permitiéndote sentirse como en casa sin importar dónde te encuentres. 
 Por otro lado, **Trivago** es una excelente herramienta para comparar precios de hoteles en distintas plataformas, garantizando las mejores tarifas disponibles. 
 
