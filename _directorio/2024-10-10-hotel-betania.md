@@ -11,4 +11,6 @@ pagedescription: Hotel Betania
 services:
   - Hospedaje
   - Restaurante
+types:
+  - Hospedaje
 ---
