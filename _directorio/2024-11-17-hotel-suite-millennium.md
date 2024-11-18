@@ -5,15 +5,13 @@ region: Centro-Occidental
 state: Zulia
 featured: false
 title: Hotel Suite Millennium
-phone_number: 0261-7572811 0412-7750583
-address: >-
-  Av. 16 Guajira, Local Nº. 29-300 (al Lado de Casa Italia, Frente al C.C. Ferre
-  Mall), San Jacinto, Maracaibo
-instagram_user: 'https://www.instagram.com/hotelmillenium_'
+phone_number: 0414-5394597  04246331048
+address: 'Av La Limpia a 100 metros de autopista No. 1, Maracaibo, Venezuela 4005'
 email: ' info@hotelmaracaibosuites.com.ve. '
 services:
   - Hospedaje
   - Servicio de Reservación
 types:
   - Hospedaje
+instagram_user: 'https://www.instagram.com/maracaibosuites/'
 ---
