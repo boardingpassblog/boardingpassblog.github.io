@@ -4,7 +4,7 @@ published: true
 region: Centro-Occidental
 state: Zulia
 featured: false
-title: Hotel Suite Millennium
+title: Hotel Maracaibo Suites
 phone_number: 0414-5394597  04246331048
 address: 'Av La Limpia a 100 metros de autopista No. 1, Maracaibo, Venezuela 4005'
 email: ' info@hotelmaracaibosuites.com.ve. '
