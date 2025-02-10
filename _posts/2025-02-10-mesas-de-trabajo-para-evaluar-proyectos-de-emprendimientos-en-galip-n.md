@@ -1,7 +1,7 @@
 ---
 layout: post
 date: '2025-02-10 08:08 -0400'
-featured: false
+featured: true
 published: true
 title: 'Mesas de trabajo para evaluar proyectos de emprendimientos en Galipán '
 description: >-
@@ -14,6 +14,8 @@ keywords: >-
   venezuela, caracas
 image-text: Paisaje de Galipán
 author: Mintur -  Giselle Torres
+categories:
+  - enterate
 ---
 A propósito de la reactivación del ST Macuto- Warairarepano, este jueves 7 de febrero, un equipo multidisplinario del viceministerio de Proyectos y Obras Turísticas y Destinos Turísticos de Mintur, Ventel, Inparques y la empresa  Alfamaq, visitaron la comunidad de Galipán para conocer los emprendimientos sostenibles que se desarrollan en la zona.
 
