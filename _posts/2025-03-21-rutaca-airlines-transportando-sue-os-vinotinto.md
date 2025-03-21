@@ -26,7 +26,7 @@ Como símbolo de la pasión y el amor por la Vinotinto Rutaca Airlines, en alian
 
 Gracias a un grupo de profesionales dedicados se hizo posible dar al nuevo avión una pintura especial color alusivo a nuestra oncena y adornar su fuselaje delantero con franjas doradas. 
 Adicional la nave lleva el escudo de la selección venezolana de futbol en la cola. 
-El interior también fue personalizado con fundas en los respaldos de los asientos donde se exhiben la frase "Volamos juntos un sueño" para reafirmar el espíritu de apoyo y unidad. 
+El interior también fue personalizado con fundas en los respaldos de los asientos donde se exhiben la frase "Volamos juntos por un sueño" para reafirmar el espíritu de apoyo y unidad. 
 
 La sele nacional presentó el avión en el aeropuerto Manuel Carlos Piar, en el estado Bolívar. 
 Como parte de la alianza con la FVF el Boeing, que cuenta con tres filas VIP y una capacidad de 124 puestos, será el chárte oficial para movilizar a las 17 selecciones de fútbol del país y transportará al conjunto en las dobles fechas de marzo por las Eliminatorias Suramericanas.
