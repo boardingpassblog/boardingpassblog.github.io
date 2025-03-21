@@ -19,6 +19,7 @@ image-text: Cortesía Voz Digital
 categories:
   - enterate
   - rutas-vips
+author: Ana Iriza
 ---
 La aerolínea venezolana personalizó su Boeing 737-300, matrícula YV3063, en homenaje a la selección de fútbol nacional. 
 Como símbolo de la pasión y el amor por la Vinotinto Rutaca Airlines, en alianzan a la Federación Venezolana de Fútbol, celebra la identidad nacional y fortalece el vínculo entre los aficionados y la cultura futbolística en el país. 
