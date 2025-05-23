@@ -4,6 +4,17 @@ date: '2025-05-23 09:53 -0400'
 featured: false
 published: true
 title: Copa Airlines anuncia sus frecuencias para Venezuela
+author: Copa Airlines
+categories:
+  - enterate
+description: >-
+  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/refs/heads/main/assets/images/Avion-Copa-MIQ.jpg
+image: >-
+  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/refs/heads/main/assets/images/Avion-Copa-MIQ.jpg
+pagedescription: ' A partir del martes 27 de mayo de 2025,  Copa Airlines reiniciará sus operaciones aéreas entre Panamá y Venezuela, luego de  recibir la autorización del Instituto Nacional de Aeronáutica Civil (INAC) de la República  Bolivariana de Venezuela. '
+keywords: >-
+  Copa Airlines, Panama, Suspension, Vuelos, Venezuela, Lineas Aereas,
+  TuBoarding, Reinicio, frecuencias
 ---
 A partir del martes 27 de mayo de 2025, Copa Airlines reiniciará sus operaciones aéreas entre Panamá y Venezuela, luego de recibir la autorización del Instituto Nacional de Aeronáutica Civil (INAC) de la República 
 Bolivariana de Venezuela. 
