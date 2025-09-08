@@ -45,8 +45,9 @@ La Virgen de Coromoto es la Patrona de Venezuela, venerada en el país desde su 
 - Se celebra el 8 de septiembre, día de su Natividad y aparición. 
 - También se festeja el 11 de septiembre, el día de la coronación canónica de la Virgen como Patrona de Venezuela por el Papa Pío XII en 1952.
 
-En Guanare, Venezuela, puedes encontrar varias opciones de hoteles. Aquí te presento algunos de ellos:
+En Guanare, Venezuela, puedes encontrar varias opciones de hoteles. 
+Aquí les presentamos algunos de ellos:
 
 - **Nuevo Hotel Coromoto**: Este hotel cuenta con una calificación de 4.3 estrellas basada en 1116 reseñas.
-- **Hotel Princesa Suites**: Con una calificación de 4.2 estrellas y 362 reseñas, este hotel ofrece un precio por noche de aproximadamente 9.310 VES.
+- **Hotel Princesa Suites**: Con una calificación de 4.2 estrellas y 362 reseña.
 - **Motel Victoria**: Este motel tiene una calificación de 3.6 estrellas a partir de 79 reseñas
