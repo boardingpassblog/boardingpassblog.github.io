@@ -15,12 +15,7 @@ pagedescription: >-
   corriente
 keywords: 'Virgen, Coromoto, Indio, Casique, Coste, Venezuela, Patrona,Guanare'
 image: >-
-  el Cacique de los indios Coromoto de las Tribus de los Cospes, en compañía de
-  su mujer, se dirigía a una parte de la montaña donde tenía una tierra de
-  labranza. Al llegar a una quebrada una hermosísima Señora de belleza
-  incomparable, que sostenía en sus brazos un radiante y preciosísimo niño, se
-  presenta a los dos indios caminando sobre las cristalinas aguas de la
-  corriente
+  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/refs/heads/main/assets/images/Coromoto.jpg
 author: 'Boarding Pass '
 categories:
   - enterate
