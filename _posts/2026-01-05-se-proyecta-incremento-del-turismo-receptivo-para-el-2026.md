@@ -27,5 +27,3 @@ Asimismo, se estima que para el primer semestre de 2026, el intercambio comercia
 Venezuela  se posicionó en 2025 como líder en crecimiento económico de América Latina, de acuerdo con cifras de la Comisión Económica para América Latina y el Caribe (Cepal). El país resalta por mantener un ritmo sostenido de crecimiento pese a las restricciones externas, consolidando su posición como referente de resiliencia y proyección económica en América Latina.
 
 La vicepresidenta Ejecutiva de la República Bolivariana de Venezuela, Delcy Rodríguez Gómez, destacó  que este logro es resultado del esfuerzo colectivo: “Detrás de estos números está el esfuerzo de millones de venezolanos trabajadores, empresarios, emprendedores, campesinos, pescadores, comuneros, todos como uno solo decididos con una determinación inquebrantable a no sucumbir frente al bloqueo económico salvaje de Estados Unidos (EE.UU.) y sus satélites”.
-
- 
