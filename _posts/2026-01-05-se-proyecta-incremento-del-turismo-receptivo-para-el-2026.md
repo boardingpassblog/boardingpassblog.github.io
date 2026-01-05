@@ -5,11 +5,11 @@ featured: false
 published: true
 title: Se proyecta incremento del turismo receptivo para el 2026
 description: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/refs/heads/main/assets/images/Playa.jpeg
+  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/refs/heads/main/assets/images/Playa.jpg
 pagedescription: Se proyecta incremento del turismo receptivo para el 2026
 keywords: 'Turismo, Venezuela, 2026,'
 image: >-
-  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/refs/heads/main/assets/images/Playa.jpeg
+  https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/refs/heads/main/assets/images/Playa.jpg
 author: Mintur -  Giselle Torres
 categories:
   - enterate
