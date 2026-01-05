@@ -11,14 +11,8 @@ keywords: 'Turismo, Venezuela, 2026,'
 image: >-
   https://raw.githubusercontent.com/boardingpassblog/boardingpassblog.github.io/refs/heads/main/assets/images/Playa.jpeg
 author: Mintur -  Giselle Torres
-image-text: ''
-banner-image: ''
-banner-alt: ''
-banner-url: ''
-title_carousel: ''
-image_carousel: ''
-categories: ''
-audio: ''
+categories:
+  - enterate
 ---
 Con el arribo de más de 6 mil viajeros provenientes de la Federación de Rusia, se prevé un significativo aumento en el flujo de visitantes para el venidero 2026. Estos resultados son posibles gracias a los convenios que ejecuta la oficina de Venetur Rusia con las operadoras Hover Tour y Pegas Touristik. Estas acciones, lideradas por la ministra de Turismo, Leticia Gómez, fortalecen el posicionamiento de Venezuela como un destino megadiverso, seguro y de oportunidades de inversión  para el mercado euroasiático.
 
