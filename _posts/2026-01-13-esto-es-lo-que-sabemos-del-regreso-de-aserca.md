@@ -26,6 +26,6 @@ El nombre de Aserca Airlines está profundamente ligado a la época dorada de la
 2. **El proceso legal: El Certificado de Explotador (AOC)**
 En mayo de 2018, Aserca Airlines entregó formalmente su Certificado de Explotador de Servicio Público de Transporte Aéreo al INAC. En términos aeronáuticos, esto es como devolver una licencia de conducir profesional que ya expiró. Así que para que Aserca "regrese", no basta con abrir el Instagram; el proceso técnico incluiría:
 
-- Obtención de un nuevo AOC: Un proceso largo que implica demostrar solvencia financiera y técnica.
-- Renovación de flota: Los antiguos McDonnell Douglas (MD-80) que usaba Aserca están, en su mayoría, desincorporados o requieren una inversión masiva para volver a ser aeronavegables bajo estándares actuales.
-- Inspecciones de seguridad: Cumplir con las fases de certificación que exige la regulación venezolana (RAV).
+- **Obtención de un nuevo AOC**: Un proceso largo que implica demostrar solvencia financiera y técnica.
+- **Renovación de flota:** Los antiguos McDonnell Douglas (MD-80) que usaba Aserca están, en su mayoría, desincorporados o requieren una inversión masiva para volver a ser aeronavegables bajo estándares actuales.
+- **Inspecciones de seguridad**: Cumplir con las fases de certificación que exige la regulación venezolana (RAV).
